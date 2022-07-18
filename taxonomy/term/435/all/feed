@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/435/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>drupal8</title>
+    <link>http://www.saigonist.com/taxonomy/term/435/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Backbone.js and Underscore.js JavaScript Frameworks in Drupal 8 Core</title>
+    <link>http://www.saigonist.com/tech/drupal/backbonejs-and-underscorejs-javascript-frameworks-drupal-8-core</link>
+    <description>&lt;h2&gt;JavaScript as a serious programming language?&lt;/h2&gt;
+&lt;p&gt;Unbeknownst to many folks, even those developing websites, JavaScript libraries are hot right now. One reason is that they&#039;re being used on both the frontend (browser) as well as the server via Node.js. And so Drupal 8 includes two new JavaScript libraries, beyond the mainstay of jQuery, which are popular because they rewrite how we use JavaScript, much like Drupal changes how we develop PHP software. They are the Backbone.js and Underscore.js JavaScript frameworks. Since they&#039;re in core, Drupal itself can use them in its own JavaScript code. However, as far as I can tell nothing in core, besides Backbone, is using Underscore yet.&lt;/p&gt;
+&lt;p&gt;Backbone.js (http://backbonejs.org/) gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface.&lt;/p&gt;
+&lt;p&gt;The cool thing about Backbone is it splits the abstract representation from DOM events and HTML rendering in your JavaScript code. This is especially applicable to web apps which constantly get new data via AJAX from a REST server and then update the browser in-page rather than reloading a new URL and rendering the page&#039;s html on the server - for example via Drupal and it&#039;s normal theme/template system. &lt;/p&gt;
+&lt;p&gt;If you think of modern web applications like GMail or Trello (which is built on Backbone) they work mostly by not reloading the page but rather with each click of the mouse pulling in data from the server then rendering it somehow in the current page. Backbone is how Rdio, Hulu, and Pitchfork play music and videos continuously across &quot;page loads&quot;. This can also be happening in the background independent of user activity to update content or display status messages or maybe show new email.&lt;/p&gt;
+&lt;h2&gt;AJAX vs AHAH&lt;/h2&gt;
+&lt;p&gt;In Drupal, you&#039;ll see a lot of references to AHAH. AHAH is basically AJAX except that it&#039;s honest about the X, which in AJAX stands for XML, but in Drupal using AHAH it&#039;s actual HTML which can be inserted into a page. Or it could be JavaScriptON that&#039;s parsed and, using some custom JavaScript logic, turned into HTML by manipulating the DOM. &lt;/p&gt;
+&lt;p&gt;Without something like Backbone, this is how AJAXy applications are written in Drupal. We add in #ahah hooks that form elements and their widgets can use (when JavaScript is available.) But the login on the frontend is completely custom and usually is jQuery $.ajax callbacks that use jQuery selectors to find and replace DOM elements manually.&lt;/p&gt;
+&lt;p&gt;Backbone.js gives us a framework to represent things we want to update on the frontend in a structured way, with clear separation between the model and rendering. The model language directly maps to the MVC of Ruby on Rails. Then by updating the model, which is all the logic we really want, the visual representation is updated for us. Backbone can call Underscore templates, Mustache.js, or directly insert into the DOM server-side rendered (the old way we just mentioned) HTML.&lt;/p&gt;
+&lt;p&gt;So now our AHAH callbacks can return JSON that&#039;s pure data, and allow Backbone to handle rendering the HTML.&lt;/p&gt;
+&lt;h2&gt;So what about Underscore.js?&lt;/h2&gt;
+&lt;p&gt;Backbone itself depends on Underscore, but Underscore by itself is also useful. For example, see how Conway&#039;s Game of Life can be implemented in JavaScript without if-statements or loops (for, for-in, while) by using Underscore.js and by programming in a more functional style, with functionality similar to Ruby or Python. jQuery, long since included in Drupal core, also offers some functions like $.map or $.each but Underscore is much more complete. Underscore is a JavaScript utility library, not for writing any specific kinds of apps but for making all of your JavaScript code potentially cleaner, simpler, shorter.&lt;/p&gt;
+&lt;p&gt;Some _ functions:&lt;br /&gt;
+_.each&lt;br /&gt;
+map&lt;br /&gt;
+reduce&lt;br /&gt;
+find&lt;br /&gt;
+filter&lt;br /&gt;
+every&lt;br /&gt;
+pluck&lt;/p&gt;
+&lt;p&gt;Underscore also has some array and object helper functions, deep === comparison (isEqual), etc. See it all at http://documentcloud.github.com/underscore/&lt;/p&gt;
+&lt;p&gt;You can play around with Underscore.js right now by writing up some code at http://jsfiddle.net/&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/backbonejs-and-underscorejs-javascript-frameworks-drupal-8-core#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/backbonejs">backbone.js</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal8">drupal8</category>
+ <category domain="http://www.saigonist.com/category/tags/javascript">javascript</category>
+ <category domain="http://www.saigonist.com/category/tags/underscorejs">underscore.js</category>
+ <pubDate>Thu, 20 Dec 2012 10:22:44 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">584 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Views in Drupal 8 Core</title>
+    <link>http://www.saigonist.com/tech/drupal/views-drupal-8-core</link>
+    <description>&lt;p&gt;With Views now in Drupal core as of D8 the two most common basic contrib modules from previous versions of Drupal, CCK and Views, are now both part of core.&lt;/p&gt;
+&lt;p&gt;CCK, now called Entities, from one perspective is what allows us to create arbitrary database tables through a web interface where we can hold arbitrary data yet work with it through a common interface, and use Drupal goodies like widgets, theming, content creation forms and pages, etc. on them. Views is the complement to this way of creating custom content. Views in core means we can now retrieve or query that arbitrary, custom content in arbitrary and custom ways.&lt;/p&gt;
+&lt;p&gt;Views is basically a web UI for an SQL query builder. The fields are the SELECTed database columns and the filters are your WHERE clause. &lt;/p&gt;
+&lt;p&gt;This isn&#039;t just a feature for non-technical dudes and non-developers. Just because you can write SQL queries doesn&#039;t mean you should write all of them. Views gives you an interface into various Drupal core and contributed modules and the content they manage, if those modules integrate with Views via hooks. Entities (or CCK) can create a mess of database tables. Sometimes these tables will change structure from under your feet due to some changes via the admin interface. You might not know until your code is broken. But using Views, the query will always be up to date.&lt;/p&gt;
+&lt;p&gt;Now that Views is in core, other parts of core could possibly depend on and build on Views, just like many other parts of Drupal core use concepts that came from Entities (CCK). So Drupal core can do a lot more out of the box. And contributed modules can be written to depend on only Entity and Views, which are part of core, and so these new modules won&#039;t have any other 3rd party dependencies. That&#039;s a win for module developers.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/views-drupal-8-core#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal8">drupal8</category>
+ <category domain="http://www.saigonist.com/category/tags/views">views</category>
+ <pubDate>Mon, 17 Dec 2012 04:30:57 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">582 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

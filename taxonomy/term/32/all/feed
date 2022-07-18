@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/32/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>vpn</title>
+    <link>http://www.saigonist.com/taxonomy/term/32/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Facebook block in Vietnam May 2016</title>
+    <link>http://www.saigonist.com/vietnam/facebook-block-vietnam-may-2016</link>
+    <description>&lt;p&gt;Is Facebook blocked in Vietnam right now? Over the past few years, the main ISPs and mobile operators in Vietnam either stopped blocking Facebook or only lightly blocked it (with easy workarounds). Earlier in the rise of Facebook maybe some officials thought it was feasible that the Facebook social network could be prevented from taking hold. Today it&#039;s quite clear that it already has.&lt;/p&gt;
+&lt;p&gt;The Facebook block happening in May 2016 also affects other Facebook properties/apps like Facebook Messenger and Instagram. This also breaks any websites which require Facebook to login.&lt;/p&gt;
+&lt;p&gt;I&#039;m not in Vietnam currently, but I&#039;ve had many friends there talk to me about the situation over the past few days. A lot of people on both Facebook and other social networks (like Zalo in Vietnam) are complaining about not being able to access Facebook but most of them are not talking about or questioning the reasons why it might be blocked now.&lt;/p&gt;
+&lt;p&gt;Since I&#039;m not able to test the network conditions of Vietnam myself, I&#039;ve heard from some friends in tech in Vietnam. At first, mobile operators VNPT and Viettel started blocking Facebook, but now other major ISPs such as FPT have joined the internet blockade. Whereas in the past a ban on Facebook simply meant that DNS requests for the facebook.com domain would fail, which could be easily circumvented using a non-broken DNS server such as Google&#039;s public DNS servers (8.8.8.8 and 8.8.4.4), this is no longer the case in Vietnam now.&lt;/p&gt;
+&lt;p&gt;Like in China, where not only Facebook but hundreds of American news and social media sites are blocked, the solution to a &quot;firewall&quot; blocking a particular website from your location is to use a VPN or a proxy server.&lt;/p&gt;
+&lt;p&gt;VPNs and proxies allow you to &quot;masqueride&quot; your originating IP address and to bounce around the firewall. You connect to the VPN or proxy server, which isn&#039;t banned (yet), and then from there you can freely connect to any other site as usual. The censors just think you&#039;re connecting to a normal website and let the traffic through.&lt;/p&gt;
+&lt;p&gt;Which VPN to use? Fortunately, there are a lot of VPN options, both free and paid. On your phone, you can find VPN apps listed in the app store or Google Play store. Some work on desktop as well, such as Betternet.co (google it).&lt;/p&gt;
+&lt;p&gt;The alternative to VPNs is web proxies (SOCKS or web). You can find lists of web proxies or use this one from HideMyAss. With these, you configure your browser&#039;s network settings to use a proxy and set the IP address and port which you found in a list.&lt;/p&gt;
+&lt;p&gt;You can also search the Chrome Web Store for proxy and VPN Chrome extensions which will simplify the process as well.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/vietnam/facebook-block-vietnam-may-2016#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/tags/block">block</category>
+ <category domain="http://www.saigonist.com/category/tags/facebook">facebook</category>
+ <category domain="http://www.saigonist.com/category/tags/proxy">proxy</category>
+ <category domain="http://www.saigonist.com/category/tags/vpn">vpn</category>
+ <pubDate>Sun, 15 May 2016 14:23:30 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">6489 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Bypass Vietnam&#039;s Block on FaceBook - or China&#039;s Block on YouTube</title>
+    <link>http://www.saigonist.com/content/bypass-vietnams-block-facebook-or-chinas-block-youtube</link>
+    <description>&lt;p&gt;For some time now, ISPs in Vietnam have been blocking a small number of websites, particularly Facebook.  Fortunately, the number of blocked sites was really small (in China hundreds of sites are blocked) and the method of blocking traffic to Facebook was very weak.  The Vietnamese ISPs simply stopped returning DNS queries for the Facebook domain.  So everyone soon figured out they could simply change their computer&#039;s DNS settings to use a non-blocking DNS server, such as Google&#039;s (8.8.8.8).&lt;/p&gt;
+&lt;p&gt;I&#039;m hearing rumors now, while I&#039;m traveling in Europe, that Vietnamese ISPs have really cracked down on access to Facebook and that the DNS trick no longer works.&lt;/p&gt;
+&lt;p&gt;So here are some more foolproof ways to get around the Facebook block in Vietnam which will also work for any website that is blocked in any country.  For example, the Great Firewall of China blocks access to an ever-changing list of sites by more than just DNS.  But these methods should work there too.&lt;/p&gt;
+&lt;p&gt;An added advantage is that you may also be able to access US sites that block all non-US computers like Hulu and certain YouTube videos.&lt;/p&gt;
+&lt;p&gt;1. Pay for VPN access outside of Vietnam.  This is essentially what I do by renting a server in the US, but I only tunnel my web traffic over an ssh connection.  If anyone wants a shell on my server for tunneling purposes (and not downloading porn) contact me.&lt;/p&gt;
+&lt;p&gt;Setting up SSH is a bit quirky so most people are better off with a true VPN solution.&lt;/p&gt;
+&lt;p&gt;One that comes recommended is &lt;strong&gt;StrongVPN&lt;/strong&gt;.  By going with them you&#039;ll get full support and they show you how to set it all up.  &lt;/p&gt;
+&lt;p&gt;2. Install free but ad-supported Hotspot Shield&lt;/p&gt;
+&lt;p&gt;From their site:&lt;br /&gt;
+&lt;cite&gt;&lt;br /&gt;
+Secure your web session, data, online shopping, and personal information online with HTTPS encryption.&lt;br /&gt;
+Protect yourself from identity theft online.&lt;br /&gt;
+Hide your IP address for your privacy online.&lt;br /&gt;
+Access all content privately without censorship; bypass firewalls.&lt;br /&gt;
+Protect yourself from snoopers at Wi-Fi hotspots, hotels, airports, corporate offices.&lt;br /&gt;
+&lt;/cite&gt;&lt;/p&gt;
+&lt;p&gt;You may want to install ad blockers if you go this route.  They will also track information about you to sell to advertisers.&lt;/p&gt;
+&lt;p&gt;3. Proxy servers.&lt;/p&gt;
+&lt;p&gt;Pick a proxy server from http://www.xroxy.com/ and set your browser to use it without needing to buy or install anything.  You don&#039;t need to use a proxy server in Vietnam, in fact it&#039;s probably better not to.&lt;/p&gt;
+&lt;p&gt;In a pinch you can browse through a &quot;CGI proxy&quot; like http://12345proxy.com/ without having to set up anything.&lt;/p&gt;
+&lt;p&gt;Using a proxy server could slow down access to some websites, especially ones in Vietnam.  You can install some browser add-ons so that you only go through a proxy for the sites that are blocked, like Facebook.&lt;/p&gt;
+&lt;p&gt;For Google Chrome:&lt;br /&gt;
+Proxy Switchy: https://chrome.google.com/extensions/detail/caehdcpeofiiigpdhbabniblemipncjj&lt;/p&gt;
+&lt;p&gt;For FireFox:&lt;br /&gt;
+FoxyProxy: https://addons.mozilla.org/en-US/firefox/addon/2464/&lt;/p&gt;
+&lt;p&gt;4. Just for watching videos on sites like Hulu, Amazon Video on Demand, Pandora, or YouTube, you can try http://www.usvideo.ca/ although it costs $5.25/month.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/content/bypass-vietnams-block-facebook-or-chinas-block-youtube#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/censorship">censorship</category>
+ <category domain="http://www.saigonist.com/category/tags/facebook">facebook</category>
+ <category domain="http://www.saigonist.com/category/tags/vpn">vpn</category>
+ <category domain="http://www.saigonist.com/category/tags/youtube">youtube</category>
+ <pubDate>Tue, 04 Jan 2011 12:54:28 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">23 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

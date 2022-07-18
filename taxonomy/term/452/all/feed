@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/452/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>realtime</title>
+    <link>http://www.saigonist.com/taxonomy/term/452/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Drupal vs Node.js or Drupal + Node.js</title>
+    <link>http://www.saigonist.com/tech/drupal/drupal-vs-nodejs-or-drupal-nodejs</link>
+    <description>&lt;p&gt;What do Drupal and Node.js have in common? Besides the word &quot;node&quot; not much. They are both ways to do web development. Drupal is for building websites centered around managing, creating, and viewing mixed types of content. Node.js is optimized for near real-time updates in browsers connected for long periods of time to a website. &lt;/p&gt;
+&lt;p&gt;Drupal is software that runs PHP on top of a web server. It can run on Apache or nginx or other web servers. But it needs a web server to handle listening on a TCP connection and communicating with connected clients (browsers). Node.js, on the other hand, doesn&#039;t need an underlying web server because you can easily write a fast, basic web server using Node. Drupal is limited by the speed of PHP and the (most likely MySQL) database that is returning hundreds of queries per page load, and then limited further by the speed at which the web server can serve the data Drupal returns. Node.js can serve a page as quickly as it takes to run any JavaScript function. &lt;/p&gt;
+&lt;p&gt;Node.js is therefore much lower level than Drupal. Node.js can be the basis for writing scalable, responsive, real-time, single-page web apps. But it won&#039;t help you rapidly build any features used on the website. It won&#039;t serve as very expressive or patterned scaffolding for any advanced site structure, or help manage more (Drupal) nodes than you can count on your hands. Node doesn&#039;t have the breadth of third party web features that makes modern websites social, play nicely with thousands of APIs, or conduct e-commerce. Node.js isn&#039;t a web framework, nor a CMS. It&#039;s something very different. &lt;/p&gt;
+&lt;p&gt;Node.js is a framework for programming network servers. Node.js is also the only remaining mainstream way to run server-side JavaScript (others exist but never gained any following, perhaps because without V8 they were too slow or the idea was too ahead of its time). That may not be reason enough for most people to switch to Node, but for some people who perhaps want to share client-side and server-side code or really like JavaScript (because, well, PHP sucks!) then you might still want to use Node even without using it for its networking/events libraries. Those coming from a Python or Ruby on Rails background will see some similar ideas related to event-driven programming.&lt;/p&gt;
+&lt;h2&gt;Why would you want to integrate some Node.js into your Drupal site? Here are some possible use cases&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Dashboard&lt;/strong&gt;: View realtime stats about your site, maybe from hits to your web server&#039;s access log. Think Google Analytics realtime view. The benefits increase the more people you have concurrently viewing the dashboard, and multiply when you allow changes to the dashboard that need to propagate out to all viewers with the dashboard open.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Chat&lt;/strong&gt;: This is the most common example for Node.js. Chat servers need to support many open connections from different users and then update a lot of them when a message is received from one client. And these updates should happen quickly. Some chat protocols even show what the other person is typing as they&#039;re typing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Multiplayer games&lt;/strong&gt;: Think MMORPG. Games that are played on a server need to be as realtime as possible otherwise you get problems where different players see different versions of the game world. The server needs to be able to serve many simultaneous connections without taking up ever more server resources, CPU or RAM.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Group buying platforms&lt;/strong&gt; where buyers need to be updated when the number of other buyers goes up. This also applies when resources are limited and shoppers need to know when inventory or availability decreases.&lt;/p&gt;
+&lt;p&gt;Why do those kinds of projects make sense with Node? They all benefit from high performance despite massive concurrency, realtime or really fast feedback, and the paradigm of event-driven programming on the backend with JavaScript just like in the browser. At least partly it has to do with Websocket in HTML5. Before Websocket, we had to use the hack-ish Comet or long-polling with ajax, but Websocket is the solution that was expressly designed for bidirectional network connections between browser and server. Of course it also has to do with the speed of the V8 JavaScript engine.&lt;/p&gt;
+&lt;p&gt;So how might we integrate our Node project into our Drupal site? Fortunately there&#039;s a module for that: https://drupal.org/project/nodejs&lt;/p&gt;
+&lt;p&gt;The module uses an independently installed Node.js server that you configure the module to use. Then you have some secret keys set up for the Node server and Drupal to securely communicate with each other. The module comes with some sub-modules with Node servers that can do things like Node-based notifications to Drupal sites and the browsers connected to them. Whatever message you want to broadcast to browsers can be done this way and the browsers can receive them instantly. This could be an actual text message or prices or scores to be updated or whatever data you might want to change in an existing session. And of course the Node server can listen for updates sent from browsers.&lt;/p&gt;
+&lt;p&gt;In conclusion, Node.js and Drupal are both web technologies with extremely different use cases but which can also work together for both content-ful and massively interactive websites/web apps. Drupal alone has no chance of doing realtime. By itself, Node.js for a blog or ecommerce site would be like programming games in assembly.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/drupal-vs-nodejs-or-drupal-nodejs#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/javascript">javascript</category>
+ <category domain="http://www.saigonist.com/category/tags/nodejs">node.js</category>
+ <category domain="http://www.saigonist.com/category/tags/realtime">realtime</category>
+ <pubDate>Tue, 25 Dec 2012 09:01:22 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">587 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

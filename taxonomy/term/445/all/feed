@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/445/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>configuration</title>
+    <link>http://www.saigonist.com/taxonomy/term/445/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Drupal 8: New File-Based Configuration Management System </title>
+    <link>http://www.saigonist.com/tech/drupal/drupal-8-new-file-based-configuration-management-system</link>
+    <description>&lt;h2&gt;Before Drupal 8: Background&lt;/h2&gt;
+&lt;p&gt;In older versions of Drupal, a lot of &quot;developing&quot; a Drupal site was more clicking around in admin pages rather than writing PHP code in files. This was also Drupal&#039;s strength in that non-developers could and developers alike could create powerful and expressive features through a web interface. The downside of this is that changes weren&#039;t tracked and there was no way to revert changes - something common and easy to do with any code in a source control system.&lt;/p&gt;
+&lt;p&gt;Drupalists came up with various solutions. For some major contributed modules like Views and CCK it was possible to export and import views and content types. It was also later possible to package up some changes in some more modules into Features using the Features module and API. But many modules didn&#039;t use any API and just haphazardly wrote their configurations to various database tables. To track these and be able to push changes out to other Drupal installations one had to write code in hook_update steps to upgrade the database. This was prone to error as it was being written manually.&lt;/p&gt;
+&lt;p&gt;And so most Drupal sites were staged and then pushed out to production via database dumps and restorations. Unfortunately, there&#039;s no clear separation between configuration and content in a Drupal database. And there&#039;s no common way to export, push, and import nodes or any other content from a development site to a production site or vice versa.&lt;/p&gt;
+&lt;p&gt;With Drupal 8 there is now a solution. Now all configuration that goes through the core configuration API will be written to the database but also to regularly named configuration files in YAML format (not XML as some documentation still mentions). So you can now put the directory containing your configuration into git or svn or whatever. Then you can use your version control to revert configuration changes! And pushing Drupal&#039;s configuration changes is simply a matter of committing the automatically generated config files and then updating on the receiving end. Once updated config files are in the right directory they can be synced via the admin interface which shows you a list of changed config files.&lt;/p&gt;
+&lt;h2&gt;How does the new Drupal 8 configuration API work?&lt;/h2&gt;
+&lt;p&gt;Some pertinent background files:&lt;/p&gt;
+&lt;p&gt;core/includes/config.inc: This is the API for configuration storage.&lt;/p&gt;
+&lt;p&gt;sites/default/default.settings.php: (from the comments)&lt;br /&gt;
++ * By default, Drupal configuration files are stored in a randomly named&lt;br /&gt;
++ * directory under the default public files path. On install the&lt;br /&gt;
++ * named directory is created in the default files directory. For enhanced&lt;br /&gt;
++ * security, you may set this variable to a location outside your docroot.&lt;/p&gt;
+&lt;p&gt;The following is the directory that was automatically created by installation but you can (and probably should) move it to another location, above the web root, and set it in settings.php.&lt;/p&gt;
+&lt;p&gt;sites/default/files/config_dd-NwbWruIxwygcszFOmRMZgufouo9QDGaG9UufzfxU/staging: (This is in the secret, private, randomly-named directory created by installation whose name is stored in your settings file which should not be readable by anyone else. The directory name there will not be the same on your own installation.)&lt;/p&gt;
+&lt;p&gt;This directory contains configuration to be imported into your Drupal site. To make this configuration active, see admin/config/development/sync. For information about deploying configuration between servers, see &lt;a href=&quot;http://drupal.org/documentation/administer/config&quot; title=&quot;http://drupal.org/documentation/administer/config&quot;&gt;http://drupal.org/documentation/administer/config&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;sites/default/files/config_dd-NwbWruIxwygcszFOmRMZgufouo9QDGaG9UufzfxU/active/book.settings.yml (same as the file in core/modules/book/config):&lt;/p&gt;
+&lt;p&gt;Here&#039;s what the YAML looks like:&lt;br /&gt;
+&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;javascript geshifilter-javascript&quot; style=&quot;font-family:monospace;&quot;&gt;allowed_types&lt;span style=&quot;color: #339933;&quot;&gt;:&lt;/span&gt;
+  &lt;span style=&quot;color: #339933;&quot;&gt;-&lt;/span&gt; book
+block&lt;span style=&quot;color: #339933;&quot;&gt;:&lt;/span&gt;
+  navigation&lt;span style=&quot;color: #339933;&quot;&gt;:&lt;/span&gt;
+    mode&lt;span style=&quot;color: #339933;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;all pages&#039;&lt;/span&gt;
+child_type&lt;span style=&quot;color: #339933;&quot;&gt;:&lt;/span&gt; book&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;And then this file:&lt;br /&gt;
+&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;javascript geshifilter-javascript&quot; style=&quot;font-family:monospace;&quot;&gt;sites&lt;span style=&quot;color: #339933;&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;default&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;/&lt;/span&gt;files&lt;span style=&quot;color: #339933;&quot;&gt;/&lt;/span&gt;php&lt;span style=&quot;color: #339933;&quot;&gt;/&lt;/span&gt;service_container&lt;span style=&quot;color: #339933;&quot;&gt;/&lt;/span&gt;cca23ded514a7eee056b17f0533030d74889c56f42a34ff3ac35597553e2726cf.&lt;span style=&quot;color: #660066;&quot;&gt;php&lt;/span&gt;
+                    &lt;span style=&quot;color: #339933;&quot;&gt;^^^&lt;/span&gt; unreadable          &lt;span style=&quot;color: #339933;&quot;&gt;^^&lt;/span&gt; random&lt;span style=&quot;color: #339933;&quot;&gt;,&lt;/span&gt; with randomly named PHP &lt;span style=&quot;color: #FF0000;&quot;&gt;class&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;As noted, &quot;sites/default/files/php/&quot; is not readable. &lt;/p&gt;
+&lt;h2&gt;Instructions on using the configuration API&lt;/h2&gt;
+&lt;blockquote&gt;&lt;p&gt;
+On your development server, perform whatever configuration changes are needed through the UI. Create Views, check checkboxes, etc. These changes will get written to *both* the database table *and* the file system so the two are in sync (it will also re-generate the digital signatures of the underlying files).&lt;/p&gt;
+&lt;p&gt;When finished with your edits, review the changes in the config directory with $vcs diff (or your tool of choice) to confirm they look as expected.&lt;/p&gt;
+&lt;p&gt;If everything looks good, move the changed files to your production server in the usual way (SFTP, $vcs add/commit/push, $vcs update/pull). Nothing will immediately change, as your site will still be reading from the active store.&lt;/p&gt;
+&lt;p&gt;Finally, go to admin/configuration/system/config or run drush config-update (note: final location/command likely different; making these up right now). This will outline the files that have changed. If the changes seem good, go ahead and confirm to overwrite the content of the active store with the on-disk configuration. The admin tool will offer to regenerate the file signatures if necessary.
+&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;So you use the web interface to make configuration changes as you always did. But now those changes will also be written out to disk where you can keep track of changes using git or subversion or whatever VCS you use. Every Drupal 8 module should load and save configuration through the new API and so we get these YAML-format human-readable configuration files for free.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/drupal-8-new-file-based-configuration-management-system#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/configuration">configuration</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal-8">drupal 8</category>
+ <category domain="http://www.saigonist.com/category/tags/version-control">version control</category>
+ <category domain="http://www.saigonist.com/category/tags/yaml">yaml</category>
+ <pubDate>Tue, 11 Dec 2012 04:20:24 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">578 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

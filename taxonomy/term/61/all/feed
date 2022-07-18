@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/61/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>jquery</title>
+    <link>http://www.saigonist.com/taxonomy/term/61/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>jQuery bug with FireFox: z.indexOf is not a function</title>
+    <link>http://www.saigonist.com/content/jquery-bug-firefox-zindexof-not-function</link>
+    <description>&lt;p&gt;I&#039;ve tracked down a source of the bug which breaks jquery (1.2.6) in FireFox (Chrome is fine) where you&#039;ll see a debug message of &quot;z.indexOf is not a function&quot;.  If you&#039;re running a minified jquery then the line number won&#039;t help locate the bug, but in this case it was around line 1715:&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;javascript geshifilter-javascript&quot; style=&quot;font-family:monospace;&quot;&gt;type &lt;span style=&quot;color: #339933;&quot;&gt;==&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&amp;quot;^=&amp;quot;&lt;/span&gt; &lt;span style=&quot;color: #339933;&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; z &lt;span style=&quot;color: #339933;&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span style=&quot;color: #339933;&quot;&gt;!&lt;/span&gt;z.&lt;span style=&quot;color: #660066;&quot;&gt;indexOf&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;m&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;&lt;span style=&quot;color: #CC0000;&quot;&gt;5&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;This code is triggered by jquery attribute filters like ^= (starts with) or *= or ~= and in this case I found that if z had been 0 then the code which checks &quot;&amp;amp;&amp;amp; z&quot; would short circuit and not try to reference indexOf of z.&lt;/p&gt;
+&lt;p&gt;Looking deeper, I found that z == -1 (not a string) and that this was because I was filtering on the &#039;value&#039; attribute, and that in FireFox, the &#039;li&#039; node was being given some value of -1.  You can check this by running &quot;$(&#039;li&#039;)&quot; and checking out the returned values.  In Chrome, there is no value.  This difference causes a bug in FireFox.&lt;/p&gt;
+&lt;p&gt;One workaround is to use only use attribute filters when using selectors that select for specific tags which exclude &#039;li&#039;, at least for filtering on &#039;value&#039;.  For example, use &#039;input[value^=whatever]&#039; instead of just &#039;[value^=whatever]&#039;.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/content/jquery-bug-firefox-zindexof-not-function#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/firefox">firefox</category>
+ <category domain="http://www.saigonist.com/category/tags/hide-submit">hide submit</category>
+ <category domain="http://www.saigonist.com/category/tags/javascript">javascript</category>
+ <category domain="http://www.saigonist.com/category/tags/jquery">jquery</category>
+ <category domain="http://www.saigonist.com/category/tags/maxlength">maxlength</category>
+ <category domain="http://www.saigonist.com/category/tags/selector">selector</category>
+ <pubDate>Wed, 02 Feb 2011 12:05:43 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">36 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

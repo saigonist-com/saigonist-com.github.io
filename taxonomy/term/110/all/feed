@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/110/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>language</title>
+    <link>http://www.saigonist.com/taxonomy/term/110/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Learning Spanish in Ho Chi Minh City</title>
+    <link>http://www.saigonist.com/vietnam/learning-spanish-ho-chi-minh-city</link>
+    <description>&lt;p&gt;I&#039;ve had several friends ask me where they can learn Spanish in Ho Chi Minh City, especially since the University of Social Sciences and Humanities canceled their Spanish language course. There aren&#039;t that many people who want to learn or speak Spanish in Vietnam since there is less trade between Vietnam and Spanish-speaking countries (compared to Japanese, Korean, Chinese) but it&#039;s a hobby for some.&lt;/p&gt;
+&lt;p&gt;My friend let me know about an open course at her Spanish school:&lt;/p&gt;
+&lt;p&gt;The school is called Jaleo (Escuela de Espanol) in Phu Nhuan district at 38 Hoa Su Street, Ward 12, Phu Nhuan - near Phan Xich Long street. Telephone: 08 3517 1288 or you can call 01649922169.&lt;/p&gt;
+&lt;p&gt;They have a basic class starting September 5th on Mondays and Wednesdays from 6:30-8:00PM. The 8 week course is 2.4 million. Other courses are listed on their website.&lt;/p&gt;
+&lt;p&gt;The teachers are native Spanish speakers.&lt;/p&gt;
+&lt;p&gt;Besides Spanish language they also have courses on Spanish/Latin American culture and also do private tutoring. Basically, it&#039;s a small operation from people who want to make Spanish teaching possible in Vietnam, not a big corporate language center. Open to both Vietnamese and expats.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/vietnam/learning-spanish-ho-chi-minh-city#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/tags/education">education</category>
+ <category domain="http://www.saigonist.com/category/tags/language">language</category>
+ <category domain="http://www.saigonist.com/category/tags/latin">latin</category>
+ <category domain="http://www.saigonist.com/category/tags/spanish">spanish</category>
+ <pubDate>Wed, 28 Aug 2013 04:23:40 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">1546 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Multi-lingual / Localized / Translated Taxonomy in Drupal </title>
+    <link>http://www.saigonist.com/tech/drupal/multi-lingual-localized-translated-taxonomy-drupal</link>
+    <description>&lt;p&gt;Taxonomy is normally pretty simple by default except that it&#039;s also called vocabulary (but never terminology although the tags are called terms) and that it can be attached to nodes as fields (using Content Taxonomy Fields to make CCK fields which gives you a bit more control) or not, or both. &lt;/p&gt;
+&lt;p&gt;Adding language makes it complicated though. Drupal can be said to support languages other than English, multiple-language sites, internationalization and translation. But it&#039;s not always user friendly or clear even to developers. Such is the case with taxonomies.&lt;/p&gt;
+&lt;p&gt;Let&#039;s say you have a site that&#039;s in two languages, English and Vietnamese. You have translated the interface of the site as well as nodes so that URLs are consistent. To switch language you just add the language code to the front of the URL. So you have a taxonomy with terms in your site&#039;s primary or default language. But you want to use the same terms by ID rather than a different set of terms.&lt;/p&gt;
+&lt;p&gt;1) Edit the vocabulary. Set &quot;Localize&quot;. This doesn&#039;t set a language to any terms or anything, they are just assumed to be in the default language already. &lt;/p&gt;
+&lt;p&gt;[Look in term_data and confirm the language column is still empty.]&lt;/p&gt;
+&lt;p&gt;2) Refresh strings in Translate Interface. Now if you search taxonomy for a term it should appear.&lt;/p&gt;
+&lt;p&gt;[Look in locales_source for location = &quot;term:$termid:name&quot; where $termid is the tid of a term in your vocabulary. This means it&#039;s ready to be translated. After translating, it should be in localtes_target with the same lid. But the translation column is a blob so you won&#039;t be able to see the translation directly depending on your mysql client.]&lt;/p&gt;
+&lt;p&gt;3) I recommend installing the Translation Table module instead of searching for each new term in the regular translate interface. Translation table shows up as a new tab in the translate interface and you can select a vocabulary to see all of its terms in one place.&lt;/p&gt;
+&lt;p&gt;4) If you use terms in arguments in URLs you&#039;ll need something further. Otherwise, all URLs will use the term in the site&#039;s default language.&lt;/p&gt;
+&lt;p&gt;5) One last thing: Don&#039;t use t() to translate a term. Use i18ntaxonomy_translate_term_name on a term object (like if you get a vocabulary object from taxonomy_get_tree).&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/multi-lingual-localized-translated-taxonomy-drupal#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/language">language</category>
+ <category domain="http://www.saigonist.com/category/tags/localization">localization</category>
+ <category domain="http://www.saigonist.com/category/tags/taxonomy">taxonomy</category>
+ <category domain="http://www.saigonist.com/category/tags/translation">translation</category>
+ <pubDate>Fri, 19 Oct 2012 13:08:28 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">552 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Substitute English Teaching Jobs in Ho Chi Minh City</title>
+    <link>http://www.saigonist.com/b/substitute-english-teaching-jobs-ho-chi-minh-city</link>
+    <description>&lt;p&gt;Attention English teachers living in Saigon: My friend has an English center on Tu Xuong Street in District 3 and is in urgent need of a substitute English teacher, and more permanent staff for the future. Please read the following then either call 848. 39326594 or &lt;a href=&quot;http://www.saigonist.com/node/add/teacher&quot;&gt;Create a Teacher Listing&lt;/a&gt; to be notified about other open English (or Vietnamese) teaching or tutoring jobs around Vietnam:&lt;/p&gt;
+&lt;div style=&quot;font-family: monospace;&quot;&gt;
+I am looking for a substitute teacher at my center for a couple weeks for 2 advance classes (students, working adults) (Until August 23rd with option to continue long terms and a lot more hours). I asking around and guess it is good to ask within the circle of people I know.
+&lt;p&gt;I will need a teacher as early as next week for:&lt;br /&gt;
+Thurseday evening 5.45 - 7.15pm&lt;br /&gt;
+Thurseday morning - 8.45 - 10.15am&lt;/p&gt;
+&lt;p&gt;These are communication english classes (only focus on speaking activities in class for students)&lt;br /&gt;
+Advance 1 is 15usd/hr&lt;/p&gt;
+&lt;p&gt;The topics from week 1 to week 10 are:&lt;/p&gt;
+&lt;p&gt;1) Intro&lt;br /&gt;
+2) Travel&lt;br /&gt;
+3) Describing People – Comparisons&lt;br /&gt;
+4) Worry Advice&lt;br /&gt;
+5) Advertising&lt;br /&gt;
+a)      Project: Design a totally new imaginary product and create a 3-minute commercial&lt;br /&gt;
+6) Romance&lt;br /&gt;
+7) Future&lt;br /&gt;
+8) Crime&lt;br /&gt;
+9) Technology&lt;br /&gt;
+10)  Telling a Story&lt;/p&gt;
+&lt;p&gt;But you can improvise.&lt;/p&gt;
+&lt;p&gt;Thanks and look forward to hearing from you.&lt;/p&gt;
+&lt;p&gt;Hieu M. Hoang&lt;br /&gt;
+US Study Advising Center - Nivaco Ltd.&lt;br /&gt;
+63 Tu Xuong District 3&lt;br /&gt;
+ Ho Chi Minh City, Viet Nam&lt;br /&gt;
+Tel: 848. 39326594, Fax: 848.39326590&lt;br /&gt;
+Website: &lt;a href=&quot;http://www.nivacovn.com&quot; title=&quot;www.nivacovn.com&quot;&gt;www.nivacovn.com&lt;/a&gt;
+&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Again, if you want to be notified of other odd teaching jobs or school openings or tutoring requests, &lt;a href=&quot;http://www.saigonist.com/node/add/teacher&quot;&gt;enlist in the free Saigonist Vietnam teacher directory service&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This simply service is dedicated to both Vietnamese and English teachers. I hope that it can help some friends.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/substitute-english-teaching-jobs-ho-chi-minh-city#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam/hcmc">HCMC</category>
+ <category domain="http://www.saigonist.com/category/tags/english">english</category>
+ <category domain="http://www.saigonist.com/category/tags/esl">esl</category>
+ <category domain="http://www.saigonist.com/category/tags/jobs">jobs</category>
+ <category domain="http://www.saigonist.com/category/tags/language">language</category>
+ <category domain="http://www.saigonist.com/category/tags/school">school</category>
+ <category domain="http://www.saigonist.com/category/tags/teaching">teaching</category>
+ <pubDate>Thu, 02 Aug 2012 14:50:39 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">448 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Writing Vietnamese - Automatically write accent marks </title>
+    <link>http://www.saigonist.com/vietnam/writing-vietnamese-automatically-write-accent-marks</link>
+    <description>&lt;p&gt;Writing Vietnamese is a pain. You have several different input systems to choose from (VNI, Telex, VIQR, etc.) and they all require some effort to memorize and get used to. But as it turns out most Vietnamese text can be understood without those accent (diacritic) marks at all. Vietnamese people are accustomed to texting (sms) each other using Vietnamese words written without marks - because their phones often don&#039;t support Vietnamese characters. But it&#039;s better to have the marks and emails and posts on forums often do. GMail even supports a Vietnamese software keyboard built into the interface now.&lt;/p&gt;
+&lt;p&gt;But if Vietnamese people can understand Vietnamese without diacritics, can computers? Turns out there is software that can take unaccented Vietnamese text and ADD the diacritics!&lt;/p&gt;
+&lt;p&gt;Let&#039;s take some text:&lt;/p&gt;
+&lt;pre&gt;
+Chuyến phiêu lưu khám phá bỏ nhà ra đi đầu tiên của bạn vào năm bao nhiêu tuổi? 
+- Nghĩ lại thì thấy hồi xưa mỗi lần mà bị mẹ la là hay giận, bỏ nhà đi lắm, vì lúc nào cũng nghĩ mình đúng hết. Giận thì giận nhưng mà đi lang thang rồi lại về, hoặc về trong tình trạng được tìm thấy và lại tiếp tục bị mắng :D
+&lt;/pre&gt;&lt;p&gt;
+Then we strip the accents and put it into a few websites to see the results.&lt;/p&gt;
+&lt;h2&gt;http://vietnameseaccent.com/&lt;/h2&gt;
+&lt;p&gt;Chuyến phiêu lưu khám phá bỏ nhà ra đi đầu tiên của bạn vào năm bao nhiêu tuổi?&lt;br /&gt;
+- Nghĩ lại thì thấy hồi xưa mỗi lần mà bị mẹ là lạ hay gián, bỏ nhà đi làm, vì lúc nào cũng nghĩ mình dùng hết. Gian thi giản nhưng mà đi lang thang rồi lại về, hoặc vê tròn&lt;/p&gt;
+&lt;h2&gt;http://vietlabs.com/vietizer.html&lt;/h2&gt;
+&lt;p&gt;chuyến phiêu lưu khám phá bỏ nhà ra đi đầu tiên của bạn vào năm bao nhiêu tuổi?&lt;br /&gt;
+- nghĩ lại thì thấy hồi xưa mỗi lần mà bị mẹ là là hay gian, bộ nhà đi làm, vì lúc nào cũng nghĩ mình đứng hết.&lt;br /&gt;
+gian thì giản nhưng mà đi lang thang rồi lại về, hoặc về trọn&lt;/p&gt;
+&lt;h2&gt;http://www.easyvn.com/tiengviet/index.php&lt;/h2&gt;
+&lt;p&gt;Chuyến phiêu lưu khám phá bỏ nhà ra đi đầu tiên của bạn vào năm bao nhiêu tuổi?&lt;br /&gt;
+- Nghĩ lại thì thấy hồi xưa mỗi lần mà bị mẹ là là hay giận, bỏ nhà đi lắm, vì lúc nào cũng nghĩ mình đúng het. Gian thì giận nhưng mà đi lang thang rồi lại về, hoặc về tron&lt;/p&gt;
+&lt;p&gt;The results are nearly the same except for the last word: &#039;tron&#039;. This is because the real word is &quot;trong&quot; but it got cut off in the de-accenting process! So each different software took a different guess as to what the word was, but it was the wrong word to begin with. &lt;/p&gt;
+&lt;p&gt;All in all, they do a pretty good job and probably better than even some native Vietnamese speakers due to the fact that some tones are mixed up!&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/vietnam/writing-vietnamese-automatically-write-accent-marks#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/computational-linguistics">computational linguistics</category>
+ <category domain="http://www.saigonist.com/category/tags/diacritics">diacritics</category>
+ <category domain="http://www.saigonist.com/category/tags/language">language</category>
+ <category domain="http://www.saigonist.com/category/tags/vietnamese">vietnamese</category>
+ <category domain="http://www.saigonist.com/category/tags/vni">vni</category>
+ <pubDate>Wed, 16 May 2012 10:13:27 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">340 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Correct Horse Battery Staple: The Google Chrome Password Generator Extension</title>
+    <link>http://www.saigonist.com/b/correct-horse-battery-staple-google-chrome-password-generator-extension</link>
+    <description>&lt;p&gt;I have turned the&amp;nbsp;&lt;a href=&quot;http://www.saigonist.com/b/correct-horse-battery-staple-better-passwords-vietnamese&quot;&gt;Correct Horse Battery Staple post&amp;#39;s Foreign Language Random Password/&lt;span data-scayt_word=&quot;Passphrase&quot; data-scaytid=&quot;1&quot;&gt;Passphrase&lt;/span&gt; Generator&lt;/a&gt; into a &lt;a href=&quot;https://chrome.google.com/webstore/detail/mppopcldmfbiecahpbhccgicchbjdcli&quot;&gt;Google Chrome extension&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Here is what it looks like:&lt;/p&gt;&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://www.saigonist.com/sites/saigonist.com/files/foreignpass_screenshot.png&quot; /&gt;&lt;/p&gt;&lt;p&gt;And in the Chrome web store:&lt;/p&gt;&lt;p&gt;&lt;img alt=&quot;Chrome App Store screenshot of Multi-Lingual Password Generator&quot; src=&quot;http://www.saigonist.com/sites/saigonist.com/files/chromestoress.png&quot; style=&quot;width: 500px; height: 243px; &quot; /&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/mppopcldmfbiecahpbhccgicchbjdcli&quot;&gt;Go install it&lt;/a&gt; and easily generate a secure and memorable &lt;span data-scayt_word=&quot;passphrase&quot; data-scaytid=&quot;2&quot;&gt;passphrase&lt;/span&gt;&amp;nbsp;anytime you need it!&lt;/p&gt;&lt;div class=&quot;field field-type-filefield field-field-blogattachments&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Attachments:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file clear-block&quot;&gt;&lt;div class=&quot;filefield-icon field-icon-image-png&quot;&gt;&lt;img class=&quot;field-icon-image-png&quot;  alt=&quot;image/png icon&quot; src=&quot;http://www.saigonist.com/sites/all/modules/3rdparty/filefield/icons/protocons/16x16/mimetypes/image-x-generic.png&quot; /&gt;&lt;/div&gt;&lt;a href=&quot;http://www.saigonist.com/sites/saigonist.com/files/chromestoress.png&quot; type=&quot;image/png; length=169319&quot;&gt;chromestoress.png&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+              &lt;div class=&quot;field-item even&quot;&gt;
+                    &lt;div class=&quot;filefield-file clear-block&quot;&gt;&lt;div class=&quot;filefield-icon field-icon-image-png&quot;&gt;&lt;img class=&quot;field-icon-image-png&quot;  alt=&quot;image/png icon&quot; src=&quot;http://www.saigonist.com/sites/all/modules/3rdparty/filefield/icons/protocons/16x16/mimetypes/image-x-generic.png&quot; /&gt;&lt;/div&gt;&lt;a href=&quot;http://www.saigonist.com/sites/saigonist.com/files/foreignpass_screenshot.png&quot; type=&quot;image/png; length=72494&quot;&gt;foreignpass_screenshot.png&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+     <comments>http://www.saigonist.com/b/correct-horse-battery-staple-google-chrome-password-generator-extension#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/addon">addon</category>
+ <category domain="http://www.saigonist.com/category/tags/chrome">chrome</category>
+ <category domain="http://www.saigonist.com/category/tags/extension">extension</category>
+ <category domain="http://www.saigonist.com/category/tags/language">language</category>
+ <category domain="http://www.saigonist.com/category/tags/password">password</category>
+ <category domain="http://www.saigonist.com/category/tags/plugin">plugin</category>
+ <category domain="http://www.saigonist.com/category/tags/security">security</category>
+ <category domain="http://www.saigonist.com/category/tags/software">software</category>
+ <pubDate>Tue, 23 Aug 2011 11:36:01 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">246 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Muong language</title>
+    <link>http://www.saigonist.com/b/muong-language</link>
+    <description>&lt;p&gt;Thanks to all the responses from people who listened to the short audio I posted the other day of a man &lt;a href=&quot;http://www.saigonist.com/content/if-you-are-vietnamese-speaker-please-play-following-audio-what-man-saying&quot;&gt;&quot;speaking strange Vietnamese&quot;&lt;/a&gt;. &amp;nbsp;I got all kinds of answers from &quot;it&#039;s Vietnamese&quot; to &quot;it sounds like Thai mixed with Vietnamese&quot; to &quot;it sounds like a Thai or Cambodian man speaking Vietnamese&quot;. &amp;nbsp;Some people actually understood the content quite clearly, which talks about Jesus, while others couldn&#039;t understand it at all.&lt;/p&gt;
+&lt;p&gt;In fact, the segment was neither a man speaking Vietnamese nor a foreigner speaking Vietnamese with an accent. &amp;nbsp;This man was speaking his native language, which is Mường, a language closely related to Vietnamese, and perhaps closer to the origins of the Vietnamese language. &amp;nbsp;The&amp;nbsp;Mường people are basically ethnically Vietnamese but live in the mountainous areas of North-Central provinces such as Hoa Binh and Thanh Hoa.&lt;/p&gt;
+&lt;p&gt;Although considered a separate language from Vietnamese, many Vietnamese speakers will find they can understand much of the&amp;nbsp;Mường language without studying it.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/muong-language#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/tags/dialect">dialect</category>
+ <category domain="http://www.saigonist.com/category/tags/ethnic-minority">ethnic minority</category>
+ <category domain="http://www.saigonist.com/category/tags/language">language</category>
+ <pubDate>Wed, 25 May 2011 20:45:54 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">134 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

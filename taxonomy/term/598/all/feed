@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/598/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>proxy</title>
+    <link>http://www.saigonist.com/taxonomy/term/598/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Facebook block in Vietnam May 2016</title>
+    <link>http://www.saigonist.com/vietnam/facebook-block-vietnam-may-2016</link>
+    <description>&lt;p&gt;Is Facebook blocked in Vietnam right now? Over the past few years, the main ISPs and mobile operators in Vietnam either stopped blocking Facebook or only lightly blocked it (with easy workarounds). Earlier in the rise of Facebook maybe some officials thought it was feasible that the Facebook social network could be prevented from taking hold. Today it&#039;s quite clear that it already has.&lt;/p&gt;
+&lt;p&gt;The Facebook block happening in May 2016 also affects other Facebook properties/apps like Facebook Messenger and Instagram. This also breaks any websites which require Facebook to login.&lt;/p&gt;
+&lt;p&gt;I&#039;m not in Vietnam currently, but I&#039;ve had many friends there talk to me about the situation over the past few days. A lot of people on both Facebook and other social networks (like Zalo in Vietnam) are complaining about not being able to access Facebook but most of them are not talking about or questioning the reasons why it might be blocked now.&lt;/p&gt;
+&lt;p&gt;Since I&#039;m not able to test the network conditions of Vietnam myself, I&#039;ve heard from some friends in tech in Vietnam. At first, mobile operators VNPT and Viettel started blocking Facebook, but now other major ISPs such as FPT have joined the internet blockade. Whereas in the past a ban on Facebook simply meant that DNS requests for the facebook.com domain would fail, which could be easily circumvented using a non-broken DNS server such as Google&#039;s public DNS servers (8.8.8.8 and 8.8.4.4), this is no longer the case in Vietnam now.&lt;/p&gt;
+&lt;p&gt;Like in China, where not only Facebook but hundreds of American news and social media sites are blocked, the solution to a &quot;firewall&quot; blocking a particular website from your location is to use a VPN or a proxy server.&lt;/p&gt;
+&lt;p&gt;VPNs and proxies allow you to &quot;masqueride&quot; your originating IP address and to bounce around the firewall. You connect to the VPN or proxy server, which isn&#039;t banned (yet), and then from there you can freely connect to any other site as usual. The censors just think you&#039;re connecting to a normal website and let the traffic through.&lt;/p&gt;
+&lt;p&gt;Which VPN to use? Fortunately, there are a lot of VPN options, both free and paid. On your phone, you can find VPN apps listed in the app store or Google Play store. Some work on desktop as well, such as Betternet.co (google it).&lt;/p&gt;
+&lt;p&gt;The alternative to VPNs is web proxies (SOCKS or web). You can find lists of web proxies or use this one from HideMyAss. With these, you configure your browser&#039;s network settings to use a proxy and set the IP address and port which you found in a list.&lt;/p&gt;
+&lt;p&gt;You can also search the Chrome Web Store for proxy and VPN Chrome extensions which will simplify the process as well.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/vietnam/facebook-block-vietnam-may-2016#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/tags/block">block</category>
+ <category domain="http://www.saigonist.com/category/tags/facebook">facebook</category>
+ <category domain="http://www.saigonist.com/category/tags/proxy">proxy</category>
+ <category domain="http://www.saigonist.com/category/tags/vpn">vpn</category>
+ <pubDate>Sun, 15 May 2016 14:23:30 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">6489 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

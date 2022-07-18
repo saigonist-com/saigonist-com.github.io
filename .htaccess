@@ -1,0 +1,13 @@
+RewriteEngine On
+#RewriteRule ^/?forum/ http://www.saigonist.com/forum.html? [R=301,L]
+RewriteRule ^/?blog/ http://www.saigonist.com/blog.html? [R=301,L]
+RewriteRule ^/?directory/swimming-pools/ http://www.saigonist.com/directory/swimming-pools.html? [R=301,L]
+RewriteRule ^/?directory/movie-theaters/ http://www.saigonist.com/directory/movie-theaters.html? [R=301,L]
+
+#Redirect 301 /forum/ /forum.html
+Redirect 301 /forum.html/ /forum.html
+
+
+RewriteCond %{HTTP_HOST} !^www\.
+
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/388/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>phnom penh</title>
+    <link>http://www.saigonist.com/taxonomy/term/388/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>FOSSASIA: Free software and why you should care</title>
+    <link>http://www.saigonist.com/tech/fossasia-free-software-and-why-you-should-care</link>
+    <description>&lt;p&gt;&lt;a href=&quot;#fossasia&quot;&gt;What is FOSSASIA?&lt;/a&gt; | &lt;a href=&quot;#noaf&quot;&gt;Nerds of a feather flock together&lt;/a&gt; | &lt;a href=&quot;#where&quot;&gt;Where is FOSS found?&lt;/a&gt; | &lt;a href=&quot;#why&quot;&gt;Why you should go to FOSSASIA&lt;/a&gt; | &lt;a href=&quot;#freesoftware&quot;&gt;Why you should care about Free Software&lt;/a&gt; | &lt;a href=&quot;#southeastasia&quot;&gt;Why open source matters to Southeast Asia&lt;/a&gt; | &lt;a href=&quot;#morethansoftware&quot;&gt;Open Source is more than just software. Open Source Everything!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I&#039;ve been doing a lot of traveling for nerdy reasons lately. A month ago it was BarCamp Yangon. This past weekend it was FOSSASIA in Phnom Penh, Cambodia. I&#039;ll get back to writing about living in Vietnam soon, since I&#039;ll be traveling around the country.&lt;/p&gt;
+&lt;p&gt;&lt;strong id=&quot;fossasia&quot;&gt;What is FOSSASIA?&lt;/strong&gt;&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/fossasia-free-software-and-why-you-should-care#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/cambodia">cambodia</category>
+ <category domain="http://www.saigonist.com/category/tags/open-source">open source</category>
+ <category domain="http://www.saigonist.com/category/tags/phnom-penh">phnom penh</category>
+ <category domain="http://www.saigonist.com/category/tags/software">software</category>
+ <pubDate>Tue, 04 Mar 2014 09:53:36 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">5869 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Using 3G Internet in Cambodia</title>
+    <link>http://www.saigonist.com/b/using-3g-internet-cambodia</link>
+    <description>&lt;p&gt;On my most recent trip to Cambodia I bought a Cambodian SIM card so that I could both make calls and use the Internet on my smartphone. At the Moc Bai/Bavet border are a number of Khmer people (who speak Vietnamese) hanging around offering to change money into Cambodian Riel from Vietnam Dong (or US dollars). They also sell sim cards for around 60k VND ($3) which gives you a few dollars worth of calls. They can also cut the SIMs into microsims for iPhones. &lt;/p&gt;
+&lt;p&gt;I got a MetFone sim but my Vietnamese Mobifone sim actually worked while in Bavet and didn&#039;t lose signal until we were a few kilometers from the border. When I eventually lost signal and switched in the new MetFone sim, however, I wasn&#039;t able to get on the internet with either GPRS or 3G. And even when I arrived in Phnom Penh I couldn&#039;t find anyone who knew how to activate 3G and MetFone&#039;s website was not accessible.&lt;/p&gt;
+&lt;p&gt;Here are the instructions for anyone who wants to activate 3G on their MetFone sim card.&lt;/p&gt;
+&lt;p&gt;1) Send &quot;3G ON&quot; or just &quot;ON&quot; as a sms to the number 133. This enables 3G for your account. But you still need to set up your phone to use their APN.&lt;/p&gt;
+&lt;p&gt;2) You can have MetFone configure your smartphone by sending a special configuration file but you need to know the name of your handset according to MetFone. You can guess it but if you guess wrong you won&#039;t receive anything or you&#039;ll receive a configuration file for the wrong phone.&lt;/p&gt;
+&lt;p&gt;Send &quot;MI &quot; to the number 111. For a Sony Ericsson P900 the handset code is P900. For an LG Optimus Black the code is P970. It is the code name your manufacturer uses for your phone.&lt;/p&gt;
+&lt;p&gt;3) If you can&#039;t figure out the right handset code or MetFone doesn&#039;t know about your phone then you can configure it manually.&lt;/p&gt;
+&lt;p&gt;Go into your connection settings and set up an APN.&lt;br /&gt;
+&lt;code&gt;&lt;br /&gt;
+           Input information APN: Metfone&lt;br /&gt;
+           Username:        Metfone&lt;br /&gt;
+           Password:        No&lt;br /&gt;
+           Input code 1111 ( if handset request) and reset again.&lt;br /&gt;
+&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;0) When you need to check your balance to see how many phone credits or how many kilobytes of data you can transfer, dial the code &quot;*097#&quot;. This will send a command to your carrier and you&#039;ll get a message back immediately.&lt;/p&gt;
+&lt;p&gt;You may also need to reset your phone after enabling 3G or setting up your APN.&lt;/p&gt;
+&lt;p&gt;Note that 3G coverage in Cambodia is very spotty compared to Vietnam (even though MetFone is from Vietnamese military company Viettel). Speed can be decent but you may lose connection even without moving. This applies to Phnom Penh. Like Vietnam, most hotels have free wifi although many cheap guesthouses don&#039;t. When looking around for hotels in Phnom Penh be sure to ask first. My tips for &lt;a href=&quot;http://www.saigonist.com/b/how-find-hotel-vietnam-and-save-money&quot;&gt;finding a hotel in Vietnam&lt;/a&gt; also applies to Cambodia.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/using-3g-internet-cambodia#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/3g">3g</category>
+ <category domain="http://www.saigonist.com/category/tags/cambodia">cambodia</category>
+ <category domain="http://www.saigonist.com/category/tags/internet">internet</category>
+ <category domain="http://www.saigonist.com/category/tags/metfone">metfone</category>
+ <category domain="http://www.saigonist.com/category/tags/mobile">mobile</category>
+ <category domain="http://www.saigonist.com/category/tags/phnom-penh">phnom penh</category>
+ <pubDate>Fri, 19 Oct 2012 04:45:59 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">550 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

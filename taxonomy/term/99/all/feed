@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/99/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>bookmarklet</title>
+    <link>http://www.saigonist.com/taxonomy/term/99/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Drupal Views UI Filter Fields by Content Type</title>
+    <link>http://www.saigonist.com/tech/drupal/drupal-views-ui-filter-fields-content-type</link>
+    <description>&lt;p&gt;Late night hack: &lt;/p&gt;
+&lt;p&gt;You have a lot of fields in a lot of content types.  You&#039;re creating a view with new display fields but it&#039;s a pain to find just the content type fields you want.  Wouldn&#039;t it be cool if you could just select a content type from a pulldown and see content fields filtered to just the ones in that content type?&lt;/p&gt;
+&lt;p&gt;Add this bookmarklet to your bookmarks bar:&lt;br /&gt;
+&lt;a id=&quot;codeOut&quot; href=&quot;javascript:(function(){var exp=/^.*Appears in:(([^,]*[,]*)*)$/;var ctypes=$(&#039;.views-radio-box .form-item&#039;).map(function(){var desc=$(this).children(&#039;.description&#039;).html();if(desc.match(exp)){return desc.match(exp)[1].split(&#039;, &#039;);}});if(ctypes.form !=undefined)ctypes=ctypes.sort();var uniques={};for(var i=0;i&lt;ctypes.length;i++)uniques[ctypes[i]]=1;var select_html=&#039;&lt;br /&gt;
+&lt;select id=&amp;quot;show-ctype&amp;quot;&gt;&lt;option value=&amp;quot;Show All&amp;quot;&gt;-Show All-&lt;/option&gt;&#039;;for(var ctype in uniques)select_html+=&#039;&lt;option value=&amp;quot;&#039;+ctype+&#039;&amp;quot;&gt;&#039;+ctype+&#039;&lt;/option&gt;&#039;;select_html+=&#039;&lt;/select&gt;
+&lt;p&gt;&#039;;$(&#039;#edit-group&#039;).after(select_html);$(&#039;#show-ctype&#039;).change(function(){$(&#039;.views-radio-box .form-item&#039;).show();if($(&#039;#show-ctype option:selected&#039;).val()==&#039;Show All&#039;)return;$(&#039;.views-radio-box .form-item&#039;).map(function(){var desc=$(this).children(&#039;.description&#039;).html().trim();if(desc.match(exp)){var arr=$.map(desc.match(exp)[1].split(&#039;, &#039;),function(x){return x.trim();});if(-1==$.inArray($(&#039;#show-ctype option:selected&#039;).val().trim(),arr))$(this).hide();}});});})();&quot;&gt;Views UI Filter&lt;/p&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/drupal-views-ui-filter-fields-content-type#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/bookmarklet">bookmarklet</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/views">views</category>
+ <pubDate>Wed, 20 Apr 2011 21:18:35 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">63 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

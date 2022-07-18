@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/128/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>https</title>
+    <link>http://www.saigonist.com/taxonomy/term/128/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>XAMPP: Apache Vhosts with SSL</title>
+    <link>http://www.saigonist.com/b/xampp-apache-vhosts-ssl</link>
+    <description>&lt;p&gt;I needed to test out ssl on my Macbook as a web server with XAMPP. &amp;nbsp;It took more effort than it should have because I was using virtual hosts as well.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/xampp-apache-vhosts-ssl#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/apache">apache</category>
+ <category domain="http://www.saigonist.com/category/tags/https">https</category>
+ <category domain="http://www.saigonist.com/category/tags/ssl">ssl</category>
+ <category domain="http://www.saigonist.com/category/tags/vhosts">vhosts</category>
+ <category domain="http://www.saigonist.com/category/tags/xampp">xampp</category>
+ <pubDate>Mon, 18 Jul 2011 11:21:03 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">225 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

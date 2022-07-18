@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/54/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>upload</title>
+    <link>http://www.saigonist.com/taxonomy/term/54/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Showing file upload progress with PHP and Drupal</title>
+    <link>http://www.saigonist.com/tech/drupal/showing-file-upload-progress-php-and-drupal</link>
+    <description>&lt;p&gt;PHP 5.2 has support for showing the percentage uploaded for a file upload in progress.  If you&#039;re not running Apache as your web server,  &lt;/p&gt;
+&lt;p&gt;Drupal&#039;s FileField module automatically detects for and uses upload progress support on the server end.  This can either be APC (Alternative PHP Cache) with rfc1867 support or with the uploadprogress PECL extension.  In Drupal, the upload progress bar looks like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://drupal.org/files/PECL.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;You can check to see if you already have support by going to admin/reports/status.&lt;/p&gt;
+&lt;p&gt;If the report shows that your server has support yet FileField CCK fields aren&#039;t updating the upload progress bar then your server has a problem.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/showing-file-upload-progress-php-and-drupal#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/ajax">ajax</category>
+ <category domain="http://www.saigonist.com/category/tags/apache">apache</category>
+ <category domain="http://www.saigonist.com/category/tags/apc">apc</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/pecl">pecl</category>
+ <category domain="http://www.saigonist.com/category/tags/php">php</category>
+ <category domain="http://www.saigonist.com/category/tags/upload">upload</category>
+ <pubDate>Mon, 31 Jan 2011 12:01:23 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">34 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

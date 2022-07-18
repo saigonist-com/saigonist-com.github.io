@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/24/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>userscripts</title>
+    <link>http://www.saigonist.com/taxonomy/term/24/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Fix Seesmic Web Zombie Tweets</title>
+    <link>http://www.saigonist.com/b/fix-seesmic-web-zombie-tweets</link>
+    <description>&lt;p&gt;Seesmic Web has had a problem for as long as I&#039;ve used it.  I was hoping they would fix it on their own but as of the last update (which broke Seesmic Web for awhile) would take care of it.  The problem is that tweets or other posts just up and disappear while you&#039;re in the middle of reading them.  I use Seesmic to scan a days worth of tweets because of its compactness and automatic relatively responsive infinite scroll.  But you know there&#039;s a problem when all of your timeline from &quot;2 hours ago&quot; to &quot;14 hours ago&quot; is missing.&lt;/p&gt;
+&lt;p&gt;There. I fixed it.&lt;/p&gt;
+&lt;p&gt;Install Seesmic Zombie Fix for Chrome (and maybe other browsers)&lt;/p&gt;
+&lt;p&gt;The problem seems to be that Seesmic periodically culls tweets that it thinks shouldn&#039;t be shown, maybe because they&#039;re too old and there&#039;s not enough space (who knows?).  This Chrome-based userscript (it should work with FireFox using greasemonkey, and also natively in Opera) watches for the tweet-snatcher to do its reaping and then saves the zombie tweets before they end up in tweet-purgatory.  The &quot;saved&quot; tweets will then show up at the top of your timeline with a pink background on the &quot;ago&quot; time.&lt;/p&gt;
+&lt;p&gt;Caveats: the &quot;ago&quot; time will no longer be updated automatically, and other javascript-y actions on the tweets will no longer be linked up.  So the expand-contract on click no longer works.  I worked around this by expanding all undead tweets. But at least you will be able to read tweets from hours ago without having them &quot;rapture&quot; on you.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/fix-seesmic-web-zombie-tweets#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/chrome">chrome</category>
+ <category domain="http://www.saigonist.com/category/tags/seesmic">seesmic</category>
+ <category domain="http://www.saigonist.com/category/tags/tweet">tweet</category>
+ <category domain="http://www.saigonist.com/category/tags/twitter">twitter</category>
+ <category domain="http://www.saigonist.com/category/tags/userscripts">userscripts</category>
+ <pubDate>Sat, 27 Aug 2011 22:00:43 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">249 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>h8sq: The 4sq Killer for Twitter</title>
+    <link>http://www.saigonist.com/h8sq</link>
+    <description>&lt;p&gt;Tired of Foursquare, Inc. spamming your Twitter?  Could you care less that someone goes somewhere so often they become its &quot;mayor&quot;?&lt;/p&gt;
+&lt;p&gt;Take back your Twitter feed with h8sq, a plugin/extension for the Google Chrome&lt;br /&gt;
+browser which will:&lt;/p&gt;
+&lt;p&gt;Remove annoying tweets like &quot;I&#039;m at McDonalds. http://4sq.com/stupid&lt;br /&gt;
+Remove annoying tweets like &quot;I just became the mayor of McDonalds! http://4sq.com/stupid&quot;&lt;br /&gt;
+Remove annoying tweets like &quot;I just unlocked the Douche badge! http://4sq.com/stupid&quot;&lt;br /&gt;
+Remove annoying tweets like &quot;I just ousted So-and-so ...&quot; (new)&lt;/p&gt;
+&lt;p&gt;It will leave alone tweets that have been personalized or merely mention 4sq.&lt;/p&gt;
+&lt;p&gt;If you run chrome just install the attached script, which should also work with Opera and with Firefox via Greasemonkey.&lt;/p&gt;
+&lt;p&gt;Install h8sq for Chrome (and maybe other browsers)&lt;/p&gt;
+&lt;p&gt;UPDATE: Now works on Twitter.com, Seesmic.com, and Hootsuite.com!&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/h8sq#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/4sq">4sq</category>
+ <category domain="http://www.saigonist.com/category/tags/chrome">chrome</category>
+ <category domain="http://www.saigonist.com/category/tags/foursquare">foursquare</category>
+ <category domain="http://www.saigonist.com/category/tags/twitter">twitter</category>
+ <category domain="http://www.saigonist.com/category/tags/userscripts">userscripts</category>
+ <pubDate>Sun, 10 Oct 2010 15:22:35 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">15 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

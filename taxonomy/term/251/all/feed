@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/251/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>hosting</title>
+    <link>http://www.saigonist.com/taxonomy/term/251/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Cloud Hosting and Content Delivery Networks from Vietnam</title>
+    <link>http://www.saigonist.com/vietnam/cloud-hosting-and-content-delivery-networks-vietnam</link>
+    <description>&lt;p&gt;I&#039;ve been doing some testing on a plethora of content delivery networks using cloudharmony.com&#039;s speedtest service. Testing from &lt;a href=&quot;http://www.saigonist.com/content/vietnam-isps&quot;&gt;multiple ISPs in Vietnam&lt;/a&gt;, during the most &lt;a href=&quot;#aag-cable-cut&quot;&gt;recent undersea cable outage&lt;/a&gt;, it becomes clear that, although none of the CDNs publicly have &lt;a href=&quot;http://www.saigonist.com/b/vietnam-internet-international-and-domestic-links&quot;&gt;datacenters in Vietnam&lt;/a&gt;, a small handfull of networks like Edgecast CDN (via &lt;a href=&quot;http://www.speedyrails.com/&quot; title=&quot;http://www.speedyrails.com/&quot;&gt;http://www.speedyrails.com/&lt;/a&gt;) come out on top as winners (except for an anomalous reading of small file size downloading from one ISP). In these tests, performance of poor hosts relative to the top was as much as 20 times slower, meaning CDN selection without taking into consideration the real world results in Vietnam can mean you&#039;re throwing a lot of money away. Poorly performing content delivery networks were more or less not any faster than hosting in the US.&lt;/p&gt;
+&lt;p&gt;Limelight CDN also had some of the best overall results, better than Edgecast in some cases.&lt;/p&gt;
+&lt;p&gt;VoxCAST CDN had a surprisingly low latency time suggesting it could be closer to Vietnam than anything in Singapore, but VoxCAST (Internap) do have a Singaporean datacenter which is probably just faster than other points in Singapore. Unfortunately, the transfer speeds were too low. Internap&#039;s CDN taken into consideration alone fared poorly. Edgecast state they use Equinix Singapore Exchange so it may be worth looking into colocating there.&lt;/p&gt;
+&lt;p&gt;Windows Azure CDN had some promising results in some tests whereas other tests failed. I didn&#039;t investigate further when CDNs failed, assuming they should not fail.&lt;/p&gt;
+&lt;p&gt;What may be more surprising is who isn&#039;t the winner here: Amazon&lt;/p&gt;
+&lt;p&gt;Amazon EC2 instances in both Singapore and Tokyo (just for comparison) performed poorly both in terms of latency and throughput. Amazon&#039;s CloudFront service did no better.&lt;/p&gt;
+&lt;p&gt;&lt;a name=&quot;aag-cable-cut&quot;&gt;Asia-America Gateway undersea cable outage&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;At the time of writing, the AAG internet cable that connects to Vietnam at Vung Tau&#039;s landing station, thus providing FPT (although Viettel and VNPT do also use AAG) in Ho Chi Minh City and its subscribers with international bandwidth to Hong Kong, Singapore, and points beyond in the US, has been cut or damaged again. The cable experiences cuts both at the Vung Tau cable landing station as well as in the main trunk when all traffic along the cable would be affected. It is one of several international links to Vietnamese ISPs such as SEA-ME-WE 3 (but not SEA-ME-WE 4) which connects to Vietnam in Da Nang and links Southeast Asia with East Asia, Australia, the Middle East, and Western Europe. TVH and TGN-Intra Asia Cable System also land in Vung Tau connecting Southern Vietnam to the greater Internet. Vietnam also has terrestrial internet connections to China.&lt;/p&gt;
+&lt;p&gt;[Update: The AAG cable is being repaired from October 25, 2012 until November 4.]&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/vietnam/cloud-hosting-and-content-delivery-networks-vietnam#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/cable">cable</category>
+ <category domain="http://www.saigonist.com/category/tags/cdn">cdn</category>
+ <category domain="http://www.saigonist.com/category/tags/cloud">cloud</category>
+ <category domain="http://www.saigonist.com/category/tags/hosting">hosting</category>
+ <category domain="http://www.saigonist.com/category/tags/internet">internet</category>
+ <category domain="http://www.saigonist.com/category/tags/isp">isp</category>
+ <category domain="http://www.saigonist.com/category/tags/latency">latency</category>
+ <category domain="http://www.saigonist.com/category/tags/network">network</category>
+ <category domain="http://www.saigonist.com/category/tags/server">server</category>
+ <category domain="http://www.saigonist.com/category/tags/submarine">submarine</category>
+ <category domain="http://www.saigonist.com/category/tags/topology">topology</category>
+ <pubDate>Sat, 25 Aug 2012 05:52:45 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">471 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/272/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>imageapi</title>
+    <link>http://www.saigonist.com/taxonomy/term/272/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Drupal ImageCache Image Quality</title>
+    <link>http://www.saigonist.com/tech/drupal/drupal-imagecache-image-quality</link>
+    <description>&lt;p&gt;The problem is this. ImageCache is a great simple way to transform random images into useful dimensions, etc. But sometimes the uploaded image is already exactly the quality and even dimensions we want. But after imagecache module runs, the file size is actually larger than the original while the quality has gone down, despite JPG image quality being 100% (default is set to 75%). One workaround can be to re-sharpen the image (imagecache_sharpen) but this also loses some quality.&lt;/p&gt;
+&lt;p&gt;1. Check that the uploaded image (metadata saved as CCK field, file stored directly in sites/default/files) has not been degraded in quality.&lt;/p&gt;
+&lt;p&gt;2. Check that minimum/maximum resolution for the image fields (CCK) are set to 0 (no restriction) so that they aren&#039;t accidentally resized at the upload to CCK step.&lt;/p&gt;
+&lt;p&gt;3. Run &quot;drush imagecache-flush&quot; in case you have files left over from a recent imagecache configuration change.&lt;/p&gt;
+&lt;p&gt;4. Try replacing GD with ImageMagick. If you stick with GD, and try compiling a newer GD library. ImageMagick by default can output higher quality images than GD.&lt;/p&gt;
+&lt;p&gt;How does Drupal&#039;s image resizing and processing work?&lt;/p&gt;
+&lt;p&gt;ImageCache goes through imageapi which uses different image processing functions based on the library (by default GD and ImageMagick support are provided) used.&lt;/p&gt;
+&lt;p&gt;Any resizing operation will result in a change (loss) in quality. That is to be expected since upsizing creates new pixels from single original pixels without having new information (unlike the magical effects of zooming into images on CSI shows) and downsizing will generally cause information to be lost and many pixels will &quot;store&quot; the information from several surrounding pixels.&lt;/p&gt;
+&lt;p&gt;So only operations that keep the image the same dimensions or crop the image (in which case the cropped portion has the same dimensions in both old and new files) will retain the same quality and avoid any blurring.&lt;/p&gt;
+&lt;p&gt;When using PHP&#039;s GD, Drupal will make calls to imagecopyresampled which will affect image quality unless image width and height are kept the same or cropping is performed. This is partly due to imagecopyresampled and partly the way it is called. &quot;Fastimagecopyresampled&quot; is a possible replacement: (from http://us.php.net/manual/en/function.imagecopyresampled.php#77679) - this is a higher quality version of PHP&#039;s imagecopyresampled. It does result in higher quality but requires hacking Drupal code instead of overriding any hooks.&lt;/p&gt;
+&lt;p&gt;I&#039;ve found that it&#039;s better to use ImageMagick than GD. The only remaining problem is that for similar quality images, the file size is something like twice as big after ImageMagick processing. You could mess around with ImageMagick&#039;s quality settings by hacking Image API code or by copying imageapi_imagemagick.module into a custom module and configuring it for use instead. But you risk breaking quality for other images. I haven&#039;t found the reason why IMagick makes image file sizes larger.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/drupal-imagecache-image-quality#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/imageapi">imageapi</category>
+ <category domain="http://www.saigonist.com/category/tags/imagecache">imagecache</category>
+ <category domain="http://www.saigonist.com/category/tags/imagemagick">imagemagick</category>
+ <category domain="http://www.saigonist.com/category/tags/php">php</category>
+ <pubDate>Wed, 26 Sep 2012 04:04:52 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">488 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

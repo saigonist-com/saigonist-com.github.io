@@ -1,0 +1,1514 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+
+
+<!-- Mirrored from www.saigonist.com/category/type/tech/drupal?page=1 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Oct 2018 11:36:05 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="Drupal" href="../../../taxonomy/term/443/all/feed" />
+<link rel="shortcut icon" href="../../../sites/saigonist.com/themes/corolla_sg/favicon.ico" type="image/x-icon" />
+  <title>Drupal | Saigonist - Expat Living in Vietnam</title>
+  <script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <link type="text/css" rel="stylesheet" media="all" href="../../../sites/saigonist.com/files/advagg_css/css_a9bd1a1b1e21fc1314eb29c6ba77b3a3_0.css" />
+<link type="text/css" rel="stylesheet" media="print" href="../../../sites/saigonist.com/files/advagg_css/css_e0d39d80602b8a9dc02de7d25cb8e5de_0.css" />
+  
+  <!--[if lte IE 8]>
+  <link type="text/css" rel="stylesheet" href="/sites/saigonist.com/themes/corolla_sg/ie8.css" media="all" />
+  <![endif]-->
+
+  <!--[if lte IE 7]>
+  <link type="text/css" rel="stylesheet" href="/sites/saigonist.com/themes/corolla_sg/ie7.css" media="all" />
+  <![endif]-->
+
+  <!--[if lte IE 6]>
+  <link type="text/css" rel="stylesheet" href="/sites/saigonist.com/themes/corolla_sg/ie6.css" media="all" />
+  <![endif]-->
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+
+</head>
+<body class="not-front not-logged-in page-taxonomy  one-sidebar">
+      <div id="navigation-wrapper">
+      <div id="navigation" class="clear-block">
+        <ul class="menu"><li class="leaf first"><a href="../../../index.html" title="">Home</a></li>
+<li class="leaf"><a href="../tech.html" title="">Tech</a></li>
+<li class="leaf"><a href="../vietnam.html" title="">Vietnam</a></li>
+<li class="leaf"><a href="../../../forums/living-and-working-vietnam.html" title="Living and Working in Vietnam">Forum</a></li>
+<li class="leaf last"><div id="block-search-0" class="block block-search">
+  <div class="inner">
+  
+    <div class="content">
+          </div>
+  </div>
+</div>
+</li>
+</ul>      </div> <!-- /#navigation -->
+    </div>
+  
+
+  <div id="header-wrapper">
+    <div id="header" class="clear-block">
+
+              <div id="branding-wrapper" class="clear-block">
+          <div id="branding">
+
+                          <div id="logo">
+                <a href="../../../index.html" title="Home" rel="home">
+<span style="color: white; font-size: 45px; font-family: Georgia; letter-spacing: 1px; text-shadow: 1px 1px 7px #444;">Saigonist</span>
+                </a>
+              </div>
+            
+                          <div id="name-and-slogan">
+                                  <div id="site-name">
+                    <a href="../../../index.html" title="Home" rel="home">Saigonist - Expat Living in Vietnam</a>
+                  </div>
+                
+                              <div id="site-slogan">Vietnam blog by an expat writing about technology, entrepreneurship, software, and living and traveling in Saigon, Vietnam</div>
+                            </div> <!-- /name-and-slogan -->
+            
+          </div> <!-- /#branding -->
+        </div> <!-- /#branding-wrapper -->
+      
+      
+    </div> <!-- /#header -->
+  </div> <!-- /#header-wrapper -->
+
+  <div id="main-columns-wrapper">
+    <div id="main-columns">
+     <div id="side-top-ad"><div id="block-block-11" class="block block-block">
+  <div class="inner">
+  
+    <div class="content">
+      <ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-9556924506572581"
+     data-ad-slot="9609004472"></ins>
+<script>/* Saigonist big top */
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
+  </div>
+</div>
+</div>      
+      <div id="main-wrapper" class=" first">
+  <div id="main">
+    <div id="page" class="clear-block">
+      <div id="breadcrumb"><div class="breadcrumb"><a href="../../../index.html">Home</a> » <a href="../tech.html">Tech</a></div></div>      
+      
+      
+      
+      <a id="main-content"></a>
+              <h1 class="page-title">Drupal</h1>
+      
+      
+                    <div class="region region-content">
+          <div class="view view-taxonomy-term view-id-taxonomy_term view-display-id-page view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div id="node-540" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="../../../tech/drupal/build-your-own-faq-drupal.html">Build your own FAQ in Drupal</a></h2>
+    
+          <div class="meta">Submitted by tomo on October 13, 2012 - 12:15pm</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_443 first active"><a href="drupal.html" rel="tag" title="" class="active">Drupal</a></li>
+<li class="taxonomy_term_111"><a href="../../tags/block.html" rel="tag" title="">block</a></li>
+<li class="taxonomy_term_339"><a href="../../tags/code.html" rel="tag" title="">code</a></li>
+<li class="taxonomy_term_12"><a href="../../tags/drupal.html" rel="tag" title="">drupal</a></li>
+<li class="taxonomy_term_340"><a href="../../tags/faq.html" rel="tag" title="">faq</a></li>
+<li class="taxonomy_term_264"><a href="../../tags/module.html" rel="tag" title="">module</a></li>
+<li class="taxonomy_term_173"><a href="../../tags/taxonomy.html" rel="tag" title="">taxonomy</a></li>
+<li class="taxonomy_term_98 last"><a href="../../tags/views.html" rel="tag" title="">views</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>Websites, including Drupal sites, often need Frequently Asked Questions and answers to them. Drupal, as a content management system, should manage your question and answer content intelligently. With all the great modules contributed to Drupal's community you might think there are some good FAQ modules. In my experience, the Drupal FAQ module is too rigid, and therefore unusable for most of my sites. But we can build a FAQ system using basic Drupal building blocks.</p>
+<p>What we need: taxonomy, blocks, views, a few lines of PHP (that can be stored in the database - no custom module required)</p>
+<p>1. Content type: Create a new content type. CCK is optional here, as you can just use Title as Question and Body as Answer.</p>
+<p>2. Vocabulary: Create a new vocabulary called FAQ. Add a few terms if only for testing.</p>
+<p>3. Devel Generate: Optional - requires Devel module's devel_generate to generate some test nodes with test questions, answers, and topics. devel_generate can be run from the command line too if you have drush installed - just run "drush genc". Anyways, generate a few dozen nodes, as many nodes as questions you have. It'll be easier to mass edit the questions once the nodes have already been generated.</p>
+<p>4. Views: You'll need two views although they can also be two displays of a single view, so let's do that.</p>
+<p>a. Create a view, filtered by your FAQ content type (and published or published/admin). </p>
+<p>You will add three node fields:<br />
+Node: Nid (Nid) [make this field hidden, but its value is used in the rewritten Question field below]<br />
+Node: Title (Question)<br />
+Node: Body (Answer)</p>
+<p>For the Question, rewrite the output to:<br />
+<div class="geshifilter"><pre class="javascript geshifilter-javascript" style="font-family:monospace;"><span style="color: #339933;">&lt;</span>a name<span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;q-[nid]&quot;</span><span style="color: #339933;">&gt;&lt;/</span>a<span style="color: #339933;">&gt;</span>
+<span style="color: #009900;">&#91;</span>title<span style="color: #009900;">&#93;</span></pre></div></p>
+<p>You'll have on argument, which is the Term (FAQ vocabulary topic) in the URL.</p>
+<p>- Configure Argument Taxonomy: Term<br />
+-- Provide default argument<br />
+--- Default argument type: Taxonomy Term ID from URL<br />
+-- Validator: (Choose your FAQ vocabulary)<br />
+-- Argument type: Term name or synonym<br />
+-- (Optional) Transform spaces to dashes in URL</p>
+<p>Now turn this default view into a page that's not overridden in any way. Set the URL to be something that's NOT your vocabulary name because your URL will conflict with the default taxonomy paths ("taxonomy/term/%" - which Taxonomy sets up path aliases for from each vocabulary with each term - but that page may also be being overridden by a view included by Views by default). So if you want your URLs to be like "/faq/return-policy" then name your Vocabulary like "FAQ Terms" instead of "FAQ".</p>
+<p>At this point you should save your new view and be able to go to "/faq/troubleshooting" or whatever. It will give you a list of questions with answers. But usually a FAQ section will also list out all questions at the top with links to answers below. How can we accomplish that?</p>
+<p>b. Let's create a new Display that's a Block. Now override the fields and remove the Answer field. Override the display of the Question to:<br />
+<div class="geshifilter"><pre class="javascript geshifilter-javascript" style="font-family:monospace;"><span style="color: #339933;">&lt;</span>a href<span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;#q-[nid]&quot;</span><span style="color: #339933;">&gt;</span><span style="color: #009900;">&#91;</span>title<span style="color: #009900;">&#93;</span><span style="color: #339933;">&lt;/</span>a<span style="color: #339933;">&gt;</span></pre></div></p>
+<p>Optionally, set a blank title for this field. Then we will have a block that is just a list of questions. But the argument won't work anymore since it's a block. So you need to override the argument "Taxonomy: Term". </p>
+<p>- Default argument type:<br />
+-- PHP Code<br />
+--- <span class="geshifilter"><code class="javascript geshifilter-javascript"><span style="color: #000066; font-weight: bold;">return</span> arg<span style="color: #009900;">&#40;</span><span style="color: #CC0000;">1</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span></code></span></p>
+<p>- Validator: Basic validation + Transform dashes in URL to spaces in term name arguments</p>
+<p>This will find the term "charity" in the path "/faq/charity" and pass it on. </p>
+<p>5. Now that the block is created, you need to make it display. We want to display it on the top of our first view!</p>
+<p>This is assuming you have a region in your theme for blocks at the top of content in pages. You could choose another location but it should really appear as the first content you see. But you want this block to appear ONLY on this page! So in block admin, configure the block you just created, and under:</p>
+<p>Page specific visibility settings<br />
+- Show block on specific pages:<br />
+-- [check] Show on only the listed pages.<br />
+Pages:<br />
+- Type in "faq/*"</p>
+<p>Save the block. Now your question list with links to answers further down the page should be appearing at the top of your FAQ pages!</p>
+<p>7. Next, you need a list of your categories. Sadly, there's no easy way for Drupal to do this. Views has a view type for taxonomies which is unfortunately not very powerful and so we can't use it to get links to "/faq/[term]" as it doesn't allow us to rewrite our own links. It allows you to link to term pages but those pages are rendered by either the Taxonomy module or that default view I mentioned earlier. Trying to override those paths with our own view is a mess, probably due to weighting.</p>
+<p>Anyways, we can easily create a list of topics with links with a tiny bit of PHP. Create a new block using the Block admin page. In the block body:</p>
+<p><div class="geshifilter"><pre class="javascript geshifilter-javascript" style="font-family:monospace;"><span style="color: #339933;">&lt;?</span>php
+$tree <span style="color: #339933;">=</span> taxonomy_get_tree<span style="color: #009900;">&#40;</span>$vocabulary_id<span style="color: #339933;">=</span>YOUR_FAQ_VOCABULARY_ID_HERE<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+$html <span style="color: #339933;">=</span> <span style="color: #3366CC;">'&lt;ul&gt;'</span><span style="color: #339933;">;</span>
+<span style="color: #000066; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>$tree<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+    foreach <span style="color: #009900;">&#40;</span>$tree as $term<span style="color: #009900;">&#41;</span> 
+        $html .<span style="color: #339933;">=</span> <span style="color: #3366CC;">'&lt;li&gt;'</span> . <span style="color: #660066;">l</span><span style="color: #009900;">&#40;</span>$term<span style="color: #339933;">-&gt;</span>name<span style="color: #339933;">,</span> <span style="color: #3366CC;">'faq/'</span> . <span style="color: #660066;">str_replace</span><span style="color: #009900;">&#40;</span><span style="color: #3366CC;">' '</span><span style="color: #339933;">,</span> <span style="color: #3366CC;">'-'</span><span style="color: #339933;">,</span> mb_strtolower<span style="color: #009900;">&#40;</span>$term<span style="color: #339933;">-&gt;</span>name<span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span> . <span style="color: #3366CC;">'&lt;/li&gt;'</span><span style="color: #339933;">;</span>
+<span style="color: #009900;">&#125;</span>
+$html .<span style="color: #339933;">=</span> <span style="color: #3366CC;">'&lt;/ul&gt;'</span><span style="color: #339933;">;</span>
+<span style="color: #000066; font-weight: bold;">return</span> $html<span style="color: #339933;">;</span>
+<span style="color: #339933;">?&gt;</span></pre></div></p>
+<p>Again, set this block to only appear on "faq/*" pages. Then configure its location into a sidebar or somewhere and you will be displaying links to each of your FAQ topics and you're done!</p>
+
+  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="../../../blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_comments"><a href="../../../tech/drupal/build-your-own-faq-drupal.html#comments" title="Jump to the first comment of this posting.">1 comment</a></li>
+<li class="disqus_comments last"><span><a href="../../../tech/drupal/build-your-own-faq-drupal.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/540">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div id="node-538" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="../../../tech/drupal/multiple-simultaneous-node-editing-forms-drupal.html">Multiple Simultaneous Node Editing Forms in Drupal</a></h2>
+    
+          <div class="meta">Submitted by tomo on October 11, 2012 - 6:44pm</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_443 first active"><a href="drupal.html" rel="tag" title="" class="active">Drupal</a></li>
+<li class="taxonomy_term_12"><a href="../../tags/drupal.html" rel="tag" title="">drupal</a></li>
+<li class="taxonomy_term_264"><a href="../../tags/module.html" rel="tag" title="">module</a></li>
+<li class="taxonomy_term_332"><a href="../../tags/node-edit.html" rel="tag" title="">node edit</a></li>
+<li class="taxonomy_term_98 last"><a href="../../tags/views.html" rel="tag" title="">views</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>Mass editing nodes in Drupal can be a chore. If you just want to edit some attribute and set it to a single value for many different nodes then Views Bulk Operations can help. But you may instead want to make some quick changes to the titles, bodies, and CCK fields of a bunch of nodes of a certain type. The default way would be to open each node in a browser tab, go to their edit forms, and then operate on each one individually. Can we come up with a better way?</p>
+<p>Multi Node Edit is a module that sounds like it could help. It promises to give you a page with many node edit forms. Unfortunately, this is not the case. By itself, this module is not usable to users. If you write some code to use it like a library you might be able to create a page with many node edit forms on it. </p>
+<p>Recommendation: This module isn't useful to most people. It might be useful if you're writing code for a custom page.</p>
+<p>Editview (editview) is the easiest to use, you just build Views and select 'Style' of 'Editview' in one of your displays. It works on the whole display, so all fields become editable. Unfortunately, you can't control this. Some fields shouldn't be editable, and so sometimes they just don't appear at all. Other times you may want to view a field but not edit it. Unfortunately, this isn't possible, even when using Global fields. [This issue is tracked here: http://drupal.org/node/635076] </p>
+<p>* In my case, I just wanted to get a link to edit the node. I accomplished this by adding a Node: Path field which shows the path/alias editing form.</p>
+<p>Recommendation: Use Editview if you're comfortable with building Views. Then you can construct a view of the fields you want to edit, and make it easy to filter the nodes you want to edit. </p>
+<p>Editable Fields (editablefields) - 6.2 doesn't integrate with Views, despite the README. 6.3 does integrate but not the way explained in the README.txt. There is no added View type to choose when creating views. The exported content types used for demonstration don't import either. Most fields aren't editable, but if they are there will be a new checkbox for editable with some options. However, the 6.3 version of the module is still quite buggy so it doesn't work at all. </p>
+<p>Recommendation: Avoid Editablefields module for now unless you want to just edit fields in the node display.</p>
+
+  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="../../../blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_forbidden"><span><a href="../../../user/login4c55.html?destination=node%2F538%23comment-form">Login</a> to post comments</span></li>
+<li class="disqus_comments last"><span><a href="../../../tech/drupal/multiple-simultaneous-node-editing-forms-drupal.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/538">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    <div id="node-536" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="../../../tech/drupal/drupal-links-content.html">Drupal Links in Content</a></h2>
+    
+          <div class="meta">Submitted by tomo on October 11, 2012 - 3:01am</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_443 first active"><a href="drupal.html" rel="tag" title="" class="active">Drupal</a></li>
+<li class="taxonomy_term_350"><a href="../../tags/404.html" rel="tag" title="">404</a></li>
+<li class="taxonomy_term_351"><a href="../../tags/broken-links.html" rel="tag" title="">broken links</a></li>
+<li class="taxonomy_term_12"><a href="../../tags/drupal.html" rel="tag" title="">drupal</a></li>
+<li class="taxonomy_term_264"><a href="../../tags/module.html" rel="tag" title="">module</a></li>
+<li class="taxonomy_term_352"><a href="../../tags/search.html" rel="tag" title="">search</a></li>
+<li class="taxonomy_term_316 last"><a href="../../tags/seo.html" rel="tag" title="">seo</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>Problem: In your blog posts you have a lot of links to other pages on your site, then one day you decide to change the URL pattern for all nodes on your site, or you change the pattern and slowly update paths to nodes by editing and saving them. Unfortunately, you had hard-coded paths in your content bodies and now they are all leading to 404 pages. What to do?</p>
+<p>1) Link checker (linkchecker) module will find the broken links. This is something you may need to use.</p>
+<p>2) Path Finder is a module that turns your node links into permalinks with node id (slug) at the front of the URL so that any future change to title which results in a different URL still leads to the same node via the node id. Example: http://www.example.com/837/latest-news/my-descriptive-seo-friendly-url</p>
+<p>Of course, this doesn't help you once you already have a bunch of nodes and content linking to them, but it's one strategy to start with. Then if you do change the titles or patterns of your nodes, as long as the node id / slug is still at the beginning of the url, then you won't get any 404 errors, although you'll then have multiple URLs pointing to the same content. So this isn't ideal.</p>
+<p>3) Turn on Pathologic: "Pathologic is an input filter which can correct paths in links and images in your Drupal content in situations which would otherwise cause them to “break;” for example, if the URL of the site changes, or the content was moved to a different server.  Pathologic is designed to be a simple, set-it-and-forget-it utility. You don't need to enter any special “tags,” path prefixes, or other non-content noise into your content to trigger Pathologic to work; it finds paths it can manage in your content automatically."</p>
+<p>4) If you just need to remove a base path (like http://www.domain.com:8080) from all URLs, then URL Replace Filter (url_replace_filter) will suffice.</p>
+<p>5) If you need to do more complicated search and replace on URLs, and want to use regular expressions, then use Search and Replace Scanner (scanner).</p>
+<p>Finally, use Global Redirect to always have a single canonical path for each piece of content.</p>
+
+  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="../../../blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_forbidden"><span><a href="../../../user/login1edb.html?destination=node%2F536%23comment-form">Login</a> to post comments</span></li>
+<li class="disqus_comments last"><span><a href="../../../tech/drupal/drupal-links-content.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/536">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-4 views-row-even">
+    <div id="node-535" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="../../../tech/drupal/dealing-spam-comments-drupal-site.html">Dealing with Spam Comments on a Drupal Site</a></h2>
+    
+          <div class="meta">Submitted by tomo on October 11, 2012 - 1:26am</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_443 first active"><a href="drupal.html" rel="tag" title="" class="active">Drupal</a></li>
+<li class="taxonomy_term_75"><a href="../../tags/comments.html" rel="tag" title="">comments</a></li>
+<li class="taxonomy_term_12"><a href="../../tags/drupal.html" rel="tag" title="">drupal</a></li>
+<li class="taxonomy_term_326"><a href="../../tags/mollom.html" rel="tag" title="">mollom</a></li>
+<li class="taxonomy_term_316"><a href="../../tags/seo.html" rel="tag" title="">seo</a></li>
+<li class="taxonomy_term_45"><a href="../../tags/spam.html" rel="tag" title="">spam</a></li>
+<li class="taxonomy_term_98 last"><a href="../../tags/views.html" rel="tag" title="">views</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>Drupal sites, like any content sites, naturally receive a lot of spam comments. Any blog or blog-like site which allows unauthenticated or anonymous users to comment on posts or any content is open to spam because spammers just want to have links to their websites displayed by your website for link-building purposes which is important for SEO. Spam comments used to be much more obvious as in blatant ads for penis-enhancing drugs. Nowadays, spammers are using more sophisticated scripts that are still easy to detect - by humans and usually also by spam-detection software. New spam might praise your blog or quote something you said in your blog post or just say something generic, perhaps on a related topic or perhaps not related at all. Then they will have their spam website in the URL field, if not also in the comment text. If the website has keywords which are totally unrelated to your blog, you can bet it's spam.</p>
+<h2>What can a Drupal website do about spam?</h2>
+<p>One old solution for spam, a common plugin on WordPress sites, is called Akismet. Akismet is a service and requires you to create an account and get an API key from them. Then they will help you detect spam.</p>
+<p>Drupal has something like Akismet but improved and it was created by the Drupal creator himself. It's called Mollom, and it's also a cloud-based service, and you also create an account with them. Mollom is free to use although there are some paid services. I use Mollom on this blog. It catches hundreds of spam comments for me but also lets in a single false negative per day or so. I wouldn't have been able to turn on comments without turning on Mollom as I would immediately be deluged with spam. But I hope that Mollom continues to improve so that I don't even get 1 spam on most days.</p>
+<p>Since I still do get some ham and spam comments, I have to process them somehow and report the spams to Mollom so they can improve their algorithms and heuristics for the future. Unfortunately, Drupal's default comments management view doesn't easily let me see if a comment is spam or not. In order to make that decision I need to see the URL and comment text that was saved. If there was no URL, it usually isn't spam, and if there was no URL in the comment text then most certainly it isn't spam. But if there was a link in the text, I need to see what site it links to, and see if the comment is at all intelligent or relevant. You can also tell by looking at any link saved in the URL field. Since Drupal's comment management page doesn't do this, I created a view, which you can import (this is Drupal 6) below. </p>
+<p>The thing that Drupal's comment admin page offers is bulk operations. Mollom provides some operations such as report spam to Mollom and delete. This is usually what I want to do. Unfortunately, there's no way to use Mollom's actions in Views with Views Bulk Operations! So until this issue gets resolved (<a href="http://drupal.org/node/655846" title="http://drupal.org/node/655846">http://drupal.org/node/655846</a>) I've done the next best thing which is to have links to the Mollom management page for each comment. It will still require you to open that page, select the reporting action you want, and then submit the form though. But this workflow has at least saved me some time and now I have removed all the really spammy spam from this site.</p>
+<p><div class="geshifilter"><pre class="php geshifilter-php" style="font-family:monospace;"><span style="color: #000088;">$view</span> <span style="color: #339933;">=</span> <span style="color: #000000; font-weight: bold;">new</span> view<span style="color: #339933;">;</span>
+<span style="color: #000088;">$view</span><span style="color: #339933;">-&gt;</span><span style="color: #004000;">name</span> <span style="color: #339933;">=</span> <span style="color: #0000ff;">'comments_more'</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$view</span><span style="color: #339933;">-&gt;</span><span style="color: #004000;">description</span> <span style="color: #339933;">=</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$view</span><span style="color: #339933;">-&gt;</span><span style="color: #004000;">tag</span> <span style="color: #339933;">=</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$view</span><span style="color: #339933;">-&gt;</span><span style="color: #004000;">view_php</span> <span style="color: #339933;">=</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$view</span><span style="color: #339933;">-&gt;</span><span style="color: #004000;">base_table</span> <span style="color: #339933;">=</span> <span style="color: #0000ff;">'comments'</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$view</span><span style="color: #339933;">-&gt;</span><span style="color: #004000;">is_cacheable</span> <span style="color: #339933;">=</span> <span style="color: #009900; font-weight: bold;">FALSE</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$view</span><span style="color: #339933;">-&gt;</span><span style="color: #004000;">api_version</span> <span style="color: #339933;">=</span> <span style="color: #cc66cc;">2</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$view</span><span style="color: #339933;">-&gt;</span><span style="color: #004000;">disabled</span> <span style="color: #339933;">=</span> <span style="color: #009900; font-weight: bold;">FALSE</span><span style="color: #339933;">;</span> <span style="color: #666666; font-style: italic;">/* Edit this to true to make a default view disabled initially */</span>
+<span style="color: #000088;">$handler</span> <span style="color: #339933;">=</span> <span style="color: #000088;">$view</span><span style="color: #339933;">-&gt;</span><span style="color: #004000;">new_display</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">'default'</span><span style="color: #339933;">,</span> <span style="color: #0000ff;">'Defaults'</span><span style="color: #339933;">,</span> <span style="color: #0000ff;">'default'</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$handler</span><span style="color: #339933;">-&gt;</span><span style="color: #004000;">override_option</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">'fields'</span><span style="color: #339933;">,</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+  <span style="color: #0000ff;">'name'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+    <span style="color: #0000ff;">'label'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'Author'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'alter'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+      <span style="color: #0000ff;">'alter_text'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'text'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'make_link'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'path'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'link_class'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'alt'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'prefix'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'suffix'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'target'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'help'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'trim'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'max_length'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'word_boundary'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">1</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'ellipsis'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">1</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'html'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'strip_tags'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'empty'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'hide_empty'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'empty_zero'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'link_to_user'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">1</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'exclude'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'id'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'name'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'table'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'comments'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'field'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'name'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'relationship'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'none'</span><span style="color: #339933;">,</span>
+  <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+  <span style="color: #0000ff;">'homepage'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+    <span style="color: #0000ff;">'label'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'Author\'s website'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'alter'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+      <span style="color: #0000ff;">'alter_text'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'text'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'make_link'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'path'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'link_class'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'alt'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'prefix'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'suffix'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'target'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'help'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'trim'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'max_length'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'word_boundary'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">1</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'ellipsis'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">1</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'html'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'strip_tags'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'empty'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'hide_empty'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'empty_zero'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'display_as_link'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">1</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'exclude'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'id'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'homepage'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'table'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'comments'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'field'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'homepage'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'relationship'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'none'</span><span style="color: #339933;">,</span>
+  <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+  <span style="color: #0000ff;">'comment'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+    <span style="color: #0000ff;">'label'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'Body'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'alter'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+      <span style="color: #0000ff;">'alter_text'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'text'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'make_link'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'path'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'link_class'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'alt'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'prefix'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'suffix'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'target'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'help'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'trim'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'max_length'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'word_boundary'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">1</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'ellipsis'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">1</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'html'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'strip_tags'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'empty'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'hide_empty'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'empty_zero'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'exclude'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'id'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'comment'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'table'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'comments'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'field'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'comment'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'relationship'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'none'</span><span style="color: #339933;">,</span>
+  <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+  <span style="color: #0000ff;">'delete_comment'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+    <span style="color: #0000ff;">'label'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'Delete link'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'alter'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+      <span style="color: #0000ff;">'alter_text'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'text'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'make_link'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'path'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'link_class'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'alt'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'prefix'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'suffix'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'target'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'help'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'trim'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'max_length'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'word_boundary'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">1</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'ellipsis'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">1</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'html'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'strip_tags'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'empty'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'hide_empty'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'empty_zero'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'text'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'exclude'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'id'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'delete_comment'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'table'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'comments'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'field'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'delete_comment'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'relationship'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'none'</span><span style="color: #339933;">,</span>
+  <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+  <span style="color: #0000ff;">'edit_comment'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+    <span style="color: #0000ff;">'label'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'Edit link'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'alter'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+      <span style="color: #0000ff;">'alter_text'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'text'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'make_link'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'path'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'link_class'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'alt'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'prefix'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'suffix'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'target'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'help'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'trim'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'max_length'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'word_boundary'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">1</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'ellipsis'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">1</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'html'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'strip_tags'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'empty'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'hide_empty'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'empty_zero'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'text'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'exclude'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'id'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'edit_comment'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'table'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'comments'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'field'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'edit_comment'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'relationship'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'none'</span><span style="color: #339933;">,</span>
+  <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+  <span style="color: #0000ff;">'hostname'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+    <span style="color: #0000ff;">'label'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'Hostname'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'alter'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+      <span style="color: #0000ff;">'alter_text'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'text'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'make_link'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'path'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'link_class'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'alt'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'prefix'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'suffix'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'target'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'help'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'trim'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'max_length'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'word_boundary'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">1</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'ellipsis'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">1</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'html'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'strip_tags'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'empty'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'hide_empty'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'empty_zero'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'exclude'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'id'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'hostname'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'table'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'comments'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'field'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'hostname'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'relationship'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'none'</span><span style="color: #339933;">,</span>
+  <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+  <span style="color: #0000ff;">'status'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+    <span style="color: #0000ff;">'label'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'In moderation'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'alter'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+      <span style="color: #0000ff;">'alter_text'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'text'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'make_link'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'path'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'link_class'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'alt'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'prefix'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'suffix'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'target'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'help'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'trim'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'max_length'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'word_boundary'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">1</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'ellipsis'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">1</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'html'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'strip_tags'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'empty'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'hide_empty'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'empty_zero'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'type'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'yes-no'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'not'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'exclude'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'id'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'status'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'table'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'comments'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'field'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'status'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'relationship'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'none'</span><span style="color: #339933;">,</span>
+  <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+  <span style="color: #0000ff;">'timestamp'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+    <span style="color: #0000ff;">'label'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'Post date'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'alter'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+      <span style="color: #0000ff;">'alter_text'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'text'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'make_link'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'path'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'link_class'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'alt'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'prefix'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'suffix'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'target'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'help'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'trim'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'max_length'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'word_boundary'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">1</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'ellipsis'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">1</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'html'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'strip_tags'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'empty'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'hide_empty'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'empty_zero'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'date_format'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'small'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'custom_date_format'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'exclude'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'id'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'timestamp'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'table'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'comments'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'field'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'timestamp'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'relationship'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'none'</span><span style="color: #339933;">,</span>
+  <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+  <span style="color: #0000ff;">'view_comment'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+    <span style="color: #0000ff;">'label'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'View link'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'alter'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+      <span style="color: #0000ff;">'alter_text'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'text'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'make_link'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'path'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'link_class'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'alt'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'prefix'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'suffix'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'target'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'help'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'trim'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'max_length'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'word_boundary'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">1</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'ellipsis'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">1</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'html'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'strip_tags'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'empty'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'hide_empty'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'empty_zero'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'text'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'exclude'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'id'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'view_comment'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'table'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'comments'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'field'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'view_comment'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'relationship'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'none'</span><span style="color: #339933;">,</span>
+  <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+  <span style="color: #0000ff;">'cid'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+    <span style="color: #0000ff;">'label'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'Mollom'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'alter'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+      <span style="color: #0000ff;">'alter_text'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">1</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'text'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'&lt;a href=&quot;/mollom/report/comment/[cid]&quot;&gt;Report to Mollom&lt;/a&gt;'</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'make_link'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'path'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'link_class'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'alt'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'prefix'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'suffix'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'target'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'help'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'trim'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'max_length'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'word_boundary'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">1</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'ellipsis'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">1</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'html'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'strip_tags'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'empty'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'hide_empty'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'empty_zero'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'link_to_comment'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'exclude'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'id'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'cid'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'table'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'comments'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'field'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'cid'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'override'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+      <span style="color: #0000ff;">'button'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'Override'</span><span style="color: #339933;">,</span>
+    <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'relationship'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'none'</span><span style="color: #339933;">,</span>
+  <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+<span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$handler</span><span style="color: #339933;">-&gt;</span><span style="color: #004000;">override_option</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">'access'</span><span style="color: #339933;">,</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+  <span style="color: #0000ff;">'type'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'none'</span><span style="color: #339933;">,</span>
+<span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$handler</span><span style="color: #339933;">-&gt;</span><span style="color: #004000;">override_option</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">'cache'</span><span style="color: #339933;">,</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+  <span style="color: #0000ff;">'type'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'none'</span><span style="color: #339933;">,</span>
+<span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$handler</span><span style="color: #339933;">-&gt;</span><span style="color: #004000;">override_option</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">'css_class'</span><span style="color: #339933;">,</span> <span style="color: #0000ff;">'view-comments-more'</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$handler</span><span style="color: #339933;">-&gt;</span><span style="color: #004000;">override_option</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">'header'</span><span style="color: #339933;">,</span> <span style="color: #0000ff;">'&lt;style&gt;
+.view-comments-more table {
+background: white;
+position: relative;
+z-index: 100;
+}
+&lt;/style&gt;'</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$handler</span><span style="color: #339933;">-&gt;</span><span style="color: #004000;">override_option</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">'header_format'</span><span style="color: #339933;">,</span> <span style="color: #0000ff;">'2'</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$handler</span><span style="color: #339933;">-&gt;</span><span style="color: #004000;">override_option</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">'header_empty'</span><span style="color: #339933;">,</span> <span style="color: #cc66cc;">0</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$handler</span><span style="color: #339933;">-&gt;</span><span style="color: #004000;">override_option</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">'items_per_page'</span><span style="color: #339933;">,</span> <span style="color: #cc66cc;">30</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$handler</span><span style="color: #339933;">-&gt;</span><span style="color: #004000;">override_option</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">'use_pager'</span><span style="color: #339933;">,</span> <span style="color: #0000ff;">'1'</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$handler</span><span style="color: #339933;">-&gt;</span><span style="color: #004000;">override_option</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">'style_plugin'</span><span style="color: #339933;">,</span> <span style="color: #0000ff;">'table'</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$handler</span><span style="color: #339933;">-&gt;</span><span style="color: #004000;">override_option</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">'style_options'</span><span style="color: #339933;">,</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+  <span style="color: #0000ff;">'grouping'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+  <span style="color: #0000ff;">'override'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">1</span><span style="color: #339933;">,</span>
+  <span style="color: #0000ff;">'sticky'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+  <span style="color: #0000ff;">'order'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'desc'</span><span style="color: #339933;">,</span>
+  <span style="color: #0000ff;">'columns'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+    <span style="color: #0000ff;">'name'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'name'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'homepage'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'homepage'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'comment'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'comment'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'delete_comment'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'delete_comment'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'edit_comment'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'edit_comment'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'hostname'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'hostname'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'status'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'status'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'timestamp'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'timestamp'</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'view_comment'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'view_comment'</span><span style="color: #339933;">,</span>
+  <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+  <span style="color: #0000ff;">'info'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+    <span style="color: #0000ff;">'name'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+      <span style="color: #0000ff;">'sortable'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">1</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'separator'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+    <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'homepage'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+      <span style="color: #0000ff;">'sortable'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">1</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'separator'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+    <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'comment'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+      <span style="color: #0000ff;">'separator'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+    <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'delete_comment'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+      <span style="color: #0000ff;">'separator'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+    <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'edit_comment'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+      <span style="color: #0000ff;">'separator'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+    <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'hostname'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+      <span style="color: #0000ff;">'sortable'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'separator'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+    <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'status'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+      <span style="color: #0000ff;">'sortable'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'separator'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+    <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'timestamp'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+      <span style="color: #0000ff;">'sortable'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">1</span><span style="color: #339933;">,</span>
+      <span style="color: #0000ff;">'separator'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+    <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+    <span style="color: #0000ff;">'view_comment'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+      <span style="color: #0000ff;">'separator'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+    <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+  <span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>
+  <span style="color: #0000ff;">'default'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'timestamp'</span><span style="color: #339933;">,</span>
+<span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$handler</span> <span style="color: #339933;">=</span> <span style="color: #000088;">$view</span><span style="color: #339933;">-&gt;</span><span style="color: #004000;">new_display</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">'page'</span><span style="color: #339933;">,</span> <span style="color: #0000ff;">'Page'</span><span style="color: #339933;">,</span> <span style="color: #0000ff;">'page_1'</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$handler</span><span style="color: #339933;">-&gt;</span><span style="color: #004000;">override_option</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">'path'</span><span style="color: #339933;">,</span> <span style="color: #0000ff;">'views/comments_more'</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$handler</span><span style="color: #339933;">-&gt;</span><span style="color: #004000;">override_option</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">'menu'</span><span style="color: #339933;">,</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+  <span style="color: #0000ff;">'type'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'none'</span><span style="color: #339933;">,</span>
+  <span style="color: #0000ff;">'title'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+  <span style="color: #0000ff;">'description'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+  <span style="color: #0000ff;">'weight'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+  <span style="color: #0000ff;">'name'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'navigation'</span><span style="color: #339933;">,</span>
+<span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #000088;">$handler</span><span style="color: #339933;">-&gt;</span><span style="color: #004000;">override_option</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">'tab_options'</span><span style="color: #339933;">,</span> <span style="color: #990000;">array</span><span style="color: #009900;">&#40;</span>
+  <span style="color: #0000ff;">'type'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'none'</span><span style="color: #339933;">,</span>
+  <span style="color: #0000ff;">'title'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+  <span style="color: #0000ff;">'description'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">''</span><span style="color: #339933;">,</span>
+  <span style="color: #0000ff;">'weight'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #cc66cc;">0</span><span style="color: #339933;">,</span>
+  <span style="color: #0000ff;">'name'</span> <span style="color: #339933;">=&gt;</span> <span style="color: #0000ff;">'navigation'</span><span style="color: #339933;">,</span>
+<span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span></pre></div></p>
+
+  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="../../../blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_forbidden"><span><a href="../../../user/login90a0.html?destination=node%2F535%23comment-form">Login</a> to post comments</span></li>
+<li class="disqus_comments last"><span><a href="../../../tech/drupal/dealing-spam-comments-drupal-site.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/535">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-5 views-row-odd">
+    <div id="node-533" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="../../../tech/drupal/automatically-add-301-redirects-old-aliases-new-aliases-drupal.html">Automatically add 301 redirects from old aliases to new aliases in Drupal</a></h2>
+    
+          <div class="meta">Submitted by tomo on October 10, 2012 - 12:51am</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_443 first active"><a href="drupal.html" rel="tag" title="" class="active">Drupal</a></li>
+<li class="taxonomy_term_317"><a href="../../tags/clean-url.html" rel="tag" title="">clean url</a></li>
+<li class="taxonomy_term_12"><a href="../../tags/drupal.html" rel="tag" title="">drupal</a></li>
+<li class="taxonomy_term_314"><a href="../../tags/path-redirect.html" rel="tag" title="">path redirect</a></li>
+<li class="taxonomy_term_313"><a href="../../tags/pathauto.html" rel="tag" title="">pathauto</a></li>
+<li class="taxonomy_term_318"><a href="../../tags/redirect.html" rel="tag" title="">redirect</a></li>
+<li class="taxonomy_term_316"><a href="../../tags/seo.html" rel="tag" title="">seo</a></li>
+<li class="taxonomy_term_319 last"><a href="../../tags/token.html" rel="tag" title="">token</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>Drupal has many SEO features built in and available as contributed modules. One main one being Clean URLs. But it's often said that Drupal gives you "just enough rope to hang yourself". </p>
+<p>Drupal has a powerful module called Pathauto that lets you create powerful URL patterns based on Tokens. Any number of modules can provides tokens via the Token API for you to use to construct URLs and you can easily create your own tokens with a bit of PHP code. With Path Auto you can also easily change the URLs for all your nodes, users, and taxonomy terms at once. This is the rope.</p>
+<p>A big part of SEO is the link building you do outside of your site to get other sites to link to your site and your inner pages within the site. The problem is when you've done all this and have thousands of links to hundreds of your pages and then you decide to change all of your URLs. Suddenly, visitors to your pages are seeing 404 error pages and Google also no longer thinks you have any linked to pages.</p>
+<p>So what can you do if you ever want to change the path of a node after you've already created the node and saved the URL? What can you do once you rebuild your paths from a new pattern? What if your maximum URL length limit was too short and now you need to fix all the long node URLs.</p>
+<p>Fortunately, new versions of Path Auto integrate with Path Redirect, which is a module for managing lists of 301 URL redirects. So by hand, you could manually create 301 redirects from the previous alias to a new alias, but luckily you can also do this automatically now.  A new option was added to Path Auto to "Create a new alias. Redirect from old alias." Choose this instead of just deleting old aliases and your new node paths should have old paths pointing to them, managed by Path Redirect.</p>
+<p>Just remember that bulk update from within Path Auto isn't the only way to update URLs. You can also bulk update selected nodes from the default content management page and also edit the URL from each node's edit page.</p>
+<p>To use this, just install both Path Auth and Path Redirect.</p>
+<p>Related Issues: http://drupal.org/project/issues/pathauto?text=redirect+from+old+alias&amp;status=All</p>
+<p>When manually changing titles and thus URLs make sure to check "Automatically create redirects when URL aliases are changed." in Path Redirect's settings.</p>
+<p>Regarding Path Redirect's fixes and Path Auto's fixes:</p>
+<p>http://drupal.org/node/629742#comment-4336624</p>
+<p><cite><br />
+In short: the two work independently.</cite></p>
+<p>The option "Automatically create redirect" (on the Path Redirect admin screen) only governs situations where you manually change a path setting. Whether pathauto is or isn't installed, does not change this behavior.</p>
+<p>Detail: when saving a node from the edit screen, the Path Redirect code executes before Pathauto does. It has no knowledge of whether Pathauto will or will not change the path alias, later on.</p>
+<p>If pathauto runs afterwards and decides that the path needs changing, it will look only at its own "Update action" to determine what to do. If that is "Delete the old alias", it will indeed get deleted, and no redirect will be created (regardless of the "Automatically create redirect" option in the Path Redirect admin screen).<br />
+</p>
+
+  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="../../../blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_forbidden"><span><a href="../../../user/loginc8d3.html?destination=node%2F533%23comment-form">Login</a> to post comments</span></li>
+<li class="disqus_comments last"><span><a href="../../../tech/drupal/automatically-add-301-redirects-old-aliases-new-aliases-drupal.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/533">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-6 views-row-even">
+    <div id="node-532" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="../../../tech/drupal/increase-drupal-maximum-url-alias-length.html">Increase Drupal Maximum URL Alias Length</a></h2>
+    
+          <div class="meta">Submitted by tomo on October 10, 2012 - 12:47am</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_443 first active"><a href="drupal.html" rel="tag" title="" class="active">Drupal</a></li>
+<li class="taxonomy_term_317"><a href="../../tags/clean-url.html" rel="tag" title="">clean url</a></li>
+<li class="taxonomy_term_315"><a href="../../tags/database.html" rel="tag" title="">database</a></li>
+<li class="taxonomy_term_12"><a href="../../tags/drupal.html" rel="tag" title="">drupal</a></li>
+<li class="taxonomy_term_264"><a href="../../tags/module.html" rel="tag" title="">module</a></li>
+<li class="taxonomy_term_314"><a href="../../tags/path-redirect.html" rel="tag" title="">path redirect</a></li>
+<li class="taxonomy_term_313"><a href="../../tags/pathauto.html" rel="tag" title="">pathauto</a></li>
+<li class="taxonomy_term_316 last"><a href="../../tags/seo.html" rel="tag" title="">seo</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>Drupal URLs can be pretty long. But practically, there's a limit in the database of 128 characters, even though browsers and web servers can support much longer URLs. With new versions of Path Auto, the schema is checked for alias column size. Then aliases longer than 128 characters are supported. This requires no hacking!</p>
+<p>To change this, without just manually altering the length of the column in your database, you can use the following code in your own module:</p>
+<p><div class="geshifilter"><pre class="php geshifilter-php" style="font-family:monospace;"><span style="color: #009933; font-style: italic;">/**
+* Implementation of hook_schema_alter().
+*/</span>
+<span style="color: #000000; font-weight: bold;">function</span> yourmodulename_schema_alter<span style="color: #009900;">&#40;</span><span style="color: #339933;">&amp;</span><span style="color: #000088;">$schema</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+  <span style="color: #000088;">$schema</span><span style="color: #009900;">&#91;</span><span style="color: #0000ff;">'url_alias'</span><span style="color: #009900;">&#93;</span><span style="color: #009900;">&#91;</span><span style="color: #0000ff;">'fields'</span><span style="color: #009900;">&#93;</span><span style="color: #009900;">&#91;</span><span style="color: #0000ff;">'dst'</span><span style="color: #009900;">&#93;</span><span style="color: #009900;">&#91;</span><span style="color: #0000ff;">'length'</span><span style="color: #009900;">&#93;</span> <span style="color: #339933;">=</span> <span style="color: #cc66cc;">255</span><span style="color: #339933;">;</span>
+<span style="color: #009900;">&#125;</span></pre></div></p>
+<p>Long URLs aren't very human friendly but even the oldest browsers can support URLs more than 2048 characters in length. Browsers support long paths, web servers support them, proxies support them, and mail clients either support them or break around 80 characters anyways. This doesn't mean you should carelessly throw around long URLs, but if you're generating them automatically then you don't need to cut them at an artificially low limit anymore.</p>
+
+  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="../../../blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_forbidden"><span><a href="../../../user/loginf395.html?destination=node%2F532%23comment-form">Login</a> to post comments</span></li>
+<li class="disqus_comments last"><span><a href="../../../tech/drupal/increase-drupal-maximum-url-alias-length.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/532">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-7 views-row-odd">
+    <div id="node-491" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="../../../tech/drupal/using-google-adsense-drupal.html">Using Google AdSense in Drupal</a></h2>
+    
+          <div class="meta">Submitted by tomo on October 8, 2012 - 10:11pm</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_443 first active"><a href="drupal.html" rel="tag" title="" class="active">Drupal</a></li>
+<li class="taxonomy_term_276"><a href="../../tags/adsense.html" rel="tag" title="">adsense</a></li>
+<li class="taxonomy_term_12"><a href="../../tags/drupal.html" rel="tag" title="">drupal</a></li>
+<li class="taxonomy_term_44"><a href="../../tags/google.html" rel="tag" title="">google</a></li>
+<li class="taxonomy_term_281 last"><a href="../../tags/money.html" rel="tag" title="">money</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>Recently I attended a BarCamp where there was a session about <strong>monetizing blogs</strong> for a very modest monthly income, although an amount that amounts to a lot for a local blogger. With Drupal, setting up Google AdSense content is easy. </p>
+<p>First, just copy the code generated from Adsense into a new block using the block admin interface. Be sure to save the node with the PHP Input Filter (you may need to give yourself permission in admin/permissions to use this powerful filter). Full HTML filter is <strong>not sufficient</strong> for AdSense code as it will break the finicky JavaScript, so use PHP which performs no filtering or transformations or <strong>create a new input filter</strong> that does no filtering.</p>
+<p>You may want to create a special <strong>region</strong> (by editing the .info file for your theme and adding a new line, then refreshing cache to see it in the dropdown in blocks admin) for your ads otherwise use an existing region to place the block. If you already have regions like a sidebar that has space for content in the same dimensions (especially width) as your chosen AdSense ad then you won't need to do anything. If you want to optimize your ads though it's recommended, even by Google themselves, to choose larger ad sizes - especially <strong>large square ads</strong>.</p>
+<p>For placing the node somewhere within the node's content, it's trickier as you can't place it use the block admin interface which only deals with regions that are defined in .info and made available via preprocess functions to your page.tpl.php. You can still use blocks to contain the code though. So create a new block, then look for the number in the URL which is the block id. Then you can manually place that block's content anywhere with this code:</p>
+<p><div class="geshifilter"><pre class="javascript geshifilter-javascript" style="font-family:monospace;">$block <span style="color: #339933;">=</span> module_invoke<span style="color: #009900;">&#40;</span><span style="color: #3366CC;">'block'</span><span style="color: #339933;">,</span> <span style="color: #3366CC;">'block'</span><span style="color: #339933;">,</span> <span style="color: #3366CC;">'view'</span><span style="color: #339933;">,</span> <span style="color: #339933;">&lt;</span>BLOCK_ID_HERE<span style="color: #339933;">&gt;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+print $block<span style="color: #009900;">&#91;</span><span style="color: #3366CC;">'content'</span><span style="color: #009900;">&#93;</span><span style="color: #339933;">;</span></pre></div></p>
+<p>When publishing your ad blocks, if they don't appear at first and you see <strong>"Bad Request 400"</strong> in Chrome's Developer JavaScript Console, you can try waiting and may magically go away after awhile. That's what happened to me.</p>
+<p>There's also an AdSense module (http://drupal.org/project/adsense) which makes this all a bit easier, but as you can see it's not hard at all to do manually, which means one less module on your system to complicate things.</p>
+<p>But here are some other things the Drupal AdSense module can do:</p>
+<p><cite><br />
+The module provides easy-to-use ad blocks.<br />
+You can easily disable the ads for certain roles.<br />
+Provides simple controls for troubleshooting the ads before going live with the site.<br />
+If Google changes some minor details in the script in , your script can be updated site-wide just by upgrading the module.<br />
+If you want to do ad revenue sharing, there's really no other option<br />
+</cite></p>
+<p>This technique can be used for other online advertising networks besides Google AdSense. It could just as easily be used for Amazon.com's affiliate program. If you're in Vietnam you might consider one of the burgeoning number of Vietnamese online ad networks, although they won't have anything like the inventory of Google.</p>
+
+  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="../../../blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_comments"><a href="../../../tech/drupal/using-google-adsense-drupal.html#comments" title="Jump to the first comment of this posting.">2 comments</a></li>
+<li class="disqus_comments last"><span><a href="../../../tech/drupal/using-google-adsense-drupal.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/491">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-8 views-row-even">
+    <div id="node-488" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="../../../tech/drupal/drupal-imagecache-image-quality.html">Drupal ImageCache Image Quality</a></h2>
+    
+          <div class="meta">Submitted by tomo on September 26, 2012 - 11:04am</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_443 first active"><a href="drupal.html" rel="tag" title="" class="active">Drupal</a></li>
+<li class="taxonomy_term_12"><a href="../../tags/drupal.html" rel="tag" title="">drupal</a></li>
+<li class="taxonomy_term_272"><a href="../../tags/imageapi.html" rel="tag" title="">imageapi</a></li>
+<li class="taxonomy_term_270"><a href="../../tags/imagecache.html" rel="tag" title="">imagecache</a></li>
+<li class="taxonomy_term_271"><a href="../../tags/imagemagick.html" rel="tag" title="">imagemagick</a></li>
+<li class="taxonomy_term_53 last"><a href="../../tags/php.html" rel="tag" title="">php</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>The problem is this. ImageCache is a great simple way to transform random images into useful dimensions, etc. But sometimes the uploaded image is already exactly the quality and even dimensions we want. But after imagecache module runs, the file size is actually larger than the original while the quality has gone down, despite JPG image quality being 100% (default is set to 75%). One workaround can be to re-sharpen the image (imagecache_sharpen) but this also loses some quality.</p>
+<p>1. Check that the uploaded image (metadata saved as CCK field, file stored directly in sites/default/files) has not been degraded in quality.</p>
+<p>2. Check that minimum/maximum resolution for the image fields (CCK) are set to 0 (no restriction) so that they aren't accidentally resized at the upload to CCK step.</p>
+<p>3. Run "drush imagecache-flush" in case you have files left over from a recent imagecache configuration change.</p>
+<p>4. Try replacing GD with ImageMagick. If you stick with GD, and try compiling a newer GD library. ImageMagick by default can output higher quality images than GD.</p>
+<p>How does Drupal's image resizing and processing work?</p>
+<p>ImageCache goes through imageapi which uses different image processing functions based on the library (by default GD and ImageMagick support are provided) used.</p>
+<p>Any resizing operation will result in a change (loss) in quality. That is to be expected since upsizing creates new pixels from single original pixels without having new information (unlike the magical effects of zooming into images on CSI shows) and downsizing will generally cause information to be lost and many pixels will "store" the information from several surrounding pixels.</p>
+<p>So only operations that keep the image the same dimensions or crop the image (in which case the cropped portion has the same dimensions in both old and new files) will retain the same quality and avoid any blurring.</p>
+<p>When using PHP's GD, Drupal will make calls to imagecopyresampled which will affect image quality unless image width and height are kept the same or cropping is performed. This is partly due to imagecopyresampled and partly the way it is called. "Fastimagecopyresampled" is a possible replacement: (from http://us.php.net/manual/en/function.imagecopyresampled.php#77679) - this is a higher quality version of PHP's imagecopyresampled. It does result in higher quality but requires hacking Drupal code instead of overriding any hooks.</p>
+<p>I've found that it's better to use ImageMagick than GD. The only remaining problem is that for similar quality images, the file size is something like twice as big after ImageMagick processing. You could mess around with ImageMagick's quality settings by hacking Image API code or by copying imageapi_imagemagick.module into a custom module and configuring it for use instead. But you risk breaking quality for other images. I haven't found the reason why IMagick makes image file sizes larger.</p>
+
+  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="../../../blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_forbidden"><span><a href="../../../user/login4ac3.html?destination=node%2F488%23comment-form">Login</a> to post comments</span></li>
+<li class="disqus_comments last"><span><a href="../../../tech/drupal/drupal-imagecache-image-quality.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/488">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-9 views-row-odd">
+    <div id="node-332" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="../../../tech/drupal/business-case-drupal-vietnam.html">The Business Case for Drupal in Vietnam</a></h2>
+    
+          <div class="meta">Submitted by tomo on May 5, 2012 - 11:51pm</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_443 first active"><a href="drupal.html" rel="tag" title="" class="active">Drupal</a></li>
+<li class="taxonomy_term_7"><a href="../vietnam.html" rel="tag" title="">Vietnam</a></li>
+<li class="taxonomy_term_131"><a href="../../tags/barcamp.html" rel="tag" title="">barcamp</a></li>
+<li class="taxonomy_term_220"><a href="../../tags/cms.html" rel="tag" title="">cms</a></li>
+<li class="taxonomy_term_12"><a href="../../tags/drupal.html" rel="tag" title="">drupal</a></li>
+<li class="taxonomy_term_189 last"><a href="../../tags/outsourcing.html" rel="tag" title="">outsourcing</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>Today I spent the day hacking on the WordPress site for BarCampSaigon. I'm no expert on WordPress but trying to hack a theme with it makes me appreciate Drupal so much more. WordPress does have an "API" or at least some documented functions which are used internally which can also be used by developers but it's certainly not designed with developers in mind. Wordpress is great for bloggers. Drupal is great for developers and users who need something more than a blog will have to choose between working with Drupal or fighting against WordPress. :-)</p>
+<p>Due to two recent conferences, BarCamp Hanoi and the opening of DrupalVietnam.org, I put together a presentation called "The Business Case for Drupal in Vietnam".  I'll blog about those two events later.</p>
+<p>I targeted two main groups: outsourcing companies based in Vietnam who want to attract more clients abroad, and any software development shop in Vietnam who is deciding what technology to use to develop websites. There is a third group, who are those companies with simpler website needs who perhaps only need one website and are not in the business of making websites.</p>
+<p>I go over a number of common concerns that customers outside of Vietnam might have which Vietnamese companies might not expect. One point is being vendor agnostic when developing what is essentially a CMS. I make a strong point that one should never fall to the temptation of developing your own in-house CMS and as a consumer, you should stay far away from such "bespoke" solutions in the modern age where content management frameworks such as Drupal exist.  I also think Drupal represents a strong brand name that is not well-known yet in Vietnam, but we all know how much Vietnamese people love brands.</p>
+<p>On the supply side, I talk about why Drupal is a decent choice for Vietnamese developers, similar to any web developer. But the main recent news is that there is finally Drupal training being made available in Vietnam, much like for Joomla, and that PHP is widely known in Vietnam not just because there are books on it in the Vietnamese language, and that there is now a core Drupal community in Vietnam represented by DrupalVietnam.org (which I somehow became vice president of).</p>
+<p>In general, I say go with your strengths. If web development is not your strength, then hire someone proper to do it for you while you focus on your core business. If web development is your business, make better use of your developers by using a CMS. </p>
+<p>Anyways, here's the presentation.</p>
+<div style="width:425px" id="__ss_12811831"><strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/tomosaigon/business-case-for-drupal-in-vietnam" title="Business Case for Drupal in Vietnam">Business Case for Drupal in Vietnam</a></strong>
+<object id="__sse12811831" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=drupalbizcase3-120505114740-phpapp02&amp;stripped_title=business-case-for-drupal-in-vietnam&amp;userName=tomosaigon" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="wmode" value="transparent" /><embed name="__sse12811831" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=drupalbizcase3-120505114740-phpapp02&amp;stripped_title=business-case-for-drupal-in-vietnam&amp;userName=tomosaigon" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="transparent" width="425" height="355"></embed></object><div style="padding:5px 0 12px">View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/tomosaigon">tomosaigon</a>.</div>
+</div>
+
+  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="../../../blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_comments"><a href="../../../tech/drupal/business-case-drupal-vietnam.html#comments" title="Jump to the first comment of this posting.">6 comments</a></li>
+<li class="disqus_comments last"><span><a href="../../../tech/drupal/business-case-drupal-vietnam.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/332">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-10 views-row-even views-row-last">
+    <div id="node-273" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="../../../tech/drupal/drupal-views-hookviewsquerysubstitutions.html">Drupal Views hook_views_query_substitutions</a></h2>
+    
+          <div class="meta">Submitted by tomo on November 19, 2011 - 12:48am</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_443 first active"><a href="drupal.html" rel="tag" title="" class="active">Drupal</a></li>
+<li class="taxonomy_term_12"><a href="../../tags/drupal.html" rel="tag" title="">drupal</a></li>
+<li class="taxonomy_term_188"><a href="../../tags/hooks.html" rel="tag" title="">hooks</a></li>
+<li class="taxonomy_term_98 last"><a href="../../tags/views.html" rel="tag" title="">views</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>Drupal's Views module has a lot of hooks that can be used to modify the behavior of a hook, from building the query to putting together the output.  Hooks are also used by modules which want to add to the Views building interface, even the basic node-based Views.</p>
+<p>Views supports a number of hooks which aren't documented.  One I came across recently was hook_views_query_substitutions.  This is potentially a powerful hook, one which the module Views arguments in filters (currently a sandbox module only for developers) takes advantage of to allow filter value substitution from the Views UI.</p>
+<p>Hook hook_views_query_substitutions is pretty basic.  By implementing the hook, you return an array of values you want to substitute with the keys you want to substitute for.  This is how the magic values like ***ADMINISTER_NODES*** which you see in the Views query preview get turned into valid SQL.</p>
+<p>For example:</p>
+<pre>function user_views_query_substitutions($view) {
+  global $user;
+  return array('***CURRENT_USER***' =&gt; intval($user-&gt;uid));
+}
+</pre><p>
+After this hook is called, Views will then run str_replace with the keys of the substitutions array and its values and apply it to the breadcrumb, title, and views arguments, as well as the query string that has been built so far.</p>
+<p>Hook hook_views_query_substitutions gets called in the execute() call of Views.  The first thing execute() does is build(), which you can hook into with hook_views_pre_build, hook_views_query_alter, and views_post_build (in that order), then you can hook into hook_views_pre_execute and hook_views_post_execute (the latter happens after the views query is executed and shows an unsubstituted query, there is no hook where one can see the substituted query).  You also have a chance to hook into the db_rewrite_sql call.</p>
+<p>Module "Views arguments in filters" is pretty basic and only allows substitution in filters which allow you to enter open text (so that you can set a value like '%1').  But by doing something similar, we can use a string passed in as a Null argument to command a Drupal module to do even more, like string substitution on any part of the query. I have a module in development now that does exactly that.</p>
+
+  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="../../../blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_forbidden"><span><a href="../../../user/login387d.html?destination=node%2F273%23comment-form">Login</a> to post comments</span></li>
+<li class="disqus_comments last"><span><a href="../../../tech/drupal/drupal-views-hookviewsquerysubstitutions.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/273">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+  </div>
+    </div>
+  
+      <div class="item-list"><ul class="pager"><li class="pager-first first"><a href="drupal.html" title="Go to first page" class="active">« first</a></li>
+<li class="pager-previous"><a href="drupal.html" title="Go to previous page" class="active">‹ previous</a></li>
+<li class="pager-item"><a href="drupal.html" title="Go to page 1" class="active">1</a></li>
+<li class="pager-current">2</li>
+<li class="pager-item"><a href="drupal4658.html?page=2" title="Go to page 3" class="active">3</a></li>
+<li class="pager-next"><a href="drupal4658.html?page=2" title="Go to next page" class="active">next ›</a></li>
+<li class="pager-last last"><a href="drupal4658.html?page=2" title="Go to last page" class="active">last »</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div>         </div>
+      
+            <a href="../../../taxonomy/term/443/all/feed" class="feed-icon"><img src="../../../misc/feed.png" alt="Syndicate content" title="Drupal" width="16" height="16" /></a>    </div> <!-- /#page -->
+
+
+    <div id="closure">
+      <div id="info">
+        © 2010-2014 Saigonist.       </div>
+
+          </div> <!-- /#closure -->
+
+  </div> <!-- /#main -->
+</div> <!-- /#main-wrapper -->
+
+
+
+    <div id="sidebar-first" class="clear-block last">
+    <div class="region region-sidebar-first">
+      <div id="block-block-10" class="block block-block">
+  <div class="inner">
+  
+    <div class="content">
+      <ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-9556924506572581"
+     data-ad-slot="4371339435"></ins>
+<script>/* Saigonist Skyscraper */
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>    </div>
+  </div>
+</div>
+<div id="block-block-1" class="block block-block">
+  <div class="inner">
+  
+    <div class="content">
+      <style>
+.block-split-left {
+    width: 150px;
+    display: inline-block;
+}
+.block-split-right {
+    width: 200px;
+    height: 200px;
+    display: inline;
+}
+
+</style>
+
+<div class="block-split-left">
+
+<a href="http://feedproxy.google.com/Saigonist" class="feed-icon"><img src="../../../misc/feed.png" alt="Syndicate content" title="Syndicate" width="16" height="16"> Syndicate via RSS</a> 
+
+<a href="http://twitter.com/tomosaigon" class="twitter-follow-button" data-show-count="false">Follow @tomosaigon</a>
+<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+
+<p><a href="http://feeds.feedburner.com/Saigonist"><img src="http://feeds.feedburner.com/~fc/Saigonist?bg=74950A&amp;fg=ffffff&amp;anim=1" height="26" width="88" style="border:0" alt="" /></a></p>
+
+</div>
+
+<div class="block-split-right">
+<ins class="adsbygoogle"
+     style="display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-9556924506572581"
+     data-ad-slot="6281513583"></ins>
+<script>/* Saigonist Side */
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+</div>    </div>
+  </div>
+</div>
+<div id="block-comment-0" class="block block-comment">
+  <div class="inner">
+      <h2>Recent comments</h2>
+  
+    <div class="content">
+      <div class="item-list"><ul><li class="first"><a href="../../../forum/6348/esl-teachers-needed-ho-chi-minh-city.html#comment-4412">Hello,
+I only have a two year</a><br />1 year 11 weeks ago</li>
+<li><a href="../../../forum/6518/looking-name-nightclub.html#comment-4314">There is no way to upload</a><br />2 years 3 days ago</li>
+<li><a href="../../../forum/6542/saigon-pearl-apartment-rent-modern-furniture-cheap-price-2-brs.html#comment-4306">Pls, contact with me if you</a><br />2 years 1 week ago</li>
+<li><a href="../../../forum/6518/looking-name-nightclub.html#comment-4303">Hi, I dont see the pictures</a><br />2 years 3 weeks ago</li>
+<li><a href="../../../forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4167">I think EIS is a better</a><br />2 years 19 weeks ago</li>
+<li><a href="../../../forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4166">You are welcome, thanks all</a><br />2 years 19 weeks ago</li>
+<li><a href="../../../forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4165">:)</a><br />2 years 19 weeks ago</li>
+<li><a href="../../../forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4164">Sorry for late reply. I think</a><br />2 years 19 weeks ago</li>
+<li><a href="../../../forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4163">Hey guys, I have stayed in</a><br />2 years 19 weeks ago</li>
+<li class="last"><a href="../../../forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4162">I think IB is a great</a><br />2 years 19 weeks ago</li>
+</ul></div>    </div>
+  </div>
+</div>
+    </div>
+  </div> <!-- /#sidebar-first -->
+
+
+    </div> <!-- /#main-columns -->
+  </div> <!-- /#main-columns-wrapper -->
+
+
+  <div class="region fat-footer">
+          <div class="region region-footer-1">
+              </div>
+          <div class="region region-footer-2">
+        <div id="block-block-3" class="block block-block">
+  <div class="inner">
+      <h2>About the author</h2>
+  
+    <div class="content">
+      <p>Asian-American <span data-scayt_word="expat" data-scaytid="1">expat</span> living in Vietnam over 3 years. I am involved in tech startups and do <a href="../../tags/drupal.html">Drupal</a> consulting. I choose to live in Saigon and Vietnam and I want to see the city and its people reach their true potential.</p>
+    </div>
+  </div>
+</div>
+<div id="block-block-4" class="block block-block">
+  <div class="inner">
+      <h2>Where is Saigon?</h2>
+  
+    <div class="content">
+      <p>It's not wrong to wonder where in the world Saigon is. </p>
+<p>Saigon is the name of the city now officially known as Ho Chi Minh City. But most people who call Saigon home call their home Saigon and it's mostly tourists who I hear refer to it as Ho Chi Minh City (or Ho Chi Minh Ville for the French).</p>
+<p>After the Vietnam/American War ended in 1975, many place names ceased to exist such as Saigon, South Vietnam, and plenty of street names. </p>
+<p>Tu Do is now Dong Khoi, Thong Nhat is Le Duan. And Tan Son Nhut Airport is now <a href="../../../content/ho-chi-minh-citys-tan-san-nhat-international-airport.html">Tan Son Nhat International Airport</a>. Rue Paul Blanchy has been Hai Ba Trung since the 1950s.</p>
+<p>Those who haven't seen Vietnam for decades will be confused not just by the geographical changes but the incredible amount of development and modernization that has since taken place.</p>
+    </div>
+  </div>
+</div>
+      </div>
+          <div class="region region-footer-3">
+        <div id="block-tagadelic-2" class="block block-tagadelic">
+  <div class="inner">
+      <h2>Tags in Tags</h2>
+  
+    <div class="content">
+      <a href="../../tags/barcamp.html" class="tagadelic level1" rel="tag" title="">barcamp</a> 
+<a href="../../tags/block.html" class="tagadelic level1" rel="tag" title="">block</a> 
+<a href="../../tags/censorship.html" class="tagadelic level1" rel="tag" title="">censorship</a> 
+<a href="../../tags/chrome.html" class="tagadelic level1" rel="tag" title="">chrome</a> 
+<a href="../../tags/drupal.html" class="tagadelic level6" rel="tag" title="">drupal</a> 
+<a href="../../tags/facebook.html" class="tagadelic level3" rel="tag" title="">facebook</a> 
+<a href="../../tags/google.html" class="tagadelic level1" rel="tag" title="">google</a> 
+<a href="../../tags/javascript.html" class="tagadelic level2" rel="tag" title="">javascript</a> 
+<a href="../../tags/module.html" class="tagadelic level1" rel="tag" title="">module</a> 
+<a href="../../tags/travel.html" class="tagadelic level1" rel="tag" title="">travel</a> 
+<a href="../../tags/twitter.html" class="tagadelic level1" rel="tag" title="">twitter</a> 
+<a href="../../tags/views.html" class="tagadelic level1" rel="tag" title="">views</a> 
+<div class='more-link'><a href="../../../tagadelic/chunk/2.html">more tags</a></div>    </div>
+  </div>
+</div>
+<div id="block-statistics-0" class="block block-statistics">
+  <div class="inner">
+      <h2>Most popular posts</h2>
+  
+    <div class="content">
+      <div class="item-list"><h3>All time:</h3><ul><li class="first"><a href="../../../content/cost-living-vietnam-its-really-cheap.html">Cost-of-Living in Vietnam: It&#039;s Really Cheap</a></li>
+<li><a href="../../../content/easy-access-facebook-vietnam-part-deux.html">Easy Access to Facebook in Vietnam, Part Deux</a></li>
+<li><a href="../../../tech/drupal/drupal-add-comment-form-above-comments.html">Drupal Add Comment Form Above Comments</a></li>
+<li><a href="../../../content/bypass-vietnams-block-facebook-or-chinas-block-youtube.html">Bypass Vietnam&#039;s Block on FaceBook - or China&#039;s Block on YouTube</a></li>
+<li><a href="../../../content/simple-download-youtube-html5.html">Simple Way to Download YouTube HTML5 Videos</a></li>
+<li><a href="../../../vietnam/cloud-hosting-and-content-delivery-networks-vietnam.html">Cloud Hosting and Content Delivery Networks from Vietnam</a></li>
+<li><a href="../../../vietnam/hcmc/foreigner-vietnam-during-tet.html">A Foreigner in Vietnam During Tet</a></li>
+<li><a href="../../../pliggmeme.html">Pliggmeme Redux Pligg Theme</a></li>
+<li><a href="../../../b/facebook-vietnam-2012.html">Facebook in Vietnam 2012</a></li>
+<li><a href="../../../content/improved-google-spam-filter.html">Improved Google Spam Filter?</a></li>
+<li><a href="../../../b/buddhism-vietnam.html">Buddhism in Vietnam</a></li>
+<li><a href="../../../content/import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet.html">Import Nokia SMS and Contacts CSV Export to Google Excel Spreadsheet</a></li>
+<li><a href="../../../content/movie-theaters-saigon.html">Movie Theaters in Saigon</a></li>
+<li><a href="../../../content/future-foursquare.html">Future For Foursquare</a></li>
+<li class="last"><a href="../../../b/correct-horse-battery-staple-better-passwords-vietnamese.html">Correct Horse Battery Staple: Better passwords with Vietnamese</a></li>
+</ul></div>    </div>
+  </div>
+</div>
+      </div>
+          <div class="region region-footer-4">
+        <div id="block-views-latest_tech-block_1" class="block block-views">
+  <div class="inner">
+      <h2>Latest Technical Posts</h2>
+  
+    <div class="content">
+      <div class="view view-latest-tech view-id-latest_tech view-display-id-block_1 view-dom-id-1">
+        <div class="view-header">
+      <p>I also post a lot of technical material unrelated to Vietnam that doesn't hit the home page. Starting from November 2015 I am only posting technical articles on my new sub-blog: <a href="http:///tech.saigonist.com">TECH.saigonist.com</a></p>
+    </div>
+  
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../tech/definition-startup-what-isnt-startup.html">Definition of Startup: What isn&#039;t a startup?</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">What is a startup? 
+We're in the middle of a tech boom and it's become fashionable to either work for a startup or to be a startup. But what is a startup? How do you know that company offering you a...</span>
+  </span>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../tech/my-startup-experiences.html">My Startup Experiences</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">I've been involved in start ups for over a decade now. During that time I've worked for companies in varying stage of development. Not all of them were startups. But how can you tell if it is or not...</span>
+  </span>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../vietnam/hcmc/code-retreat-2012-ho-chi-minh-city.html">Code Retreat 2012 - Ho Chi Minh City</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">
+$(document).ready(function(){
+
+$('.geshifilter').hover(function(){console.log(this);console.log($(this));$(this).css('position', 'relative').css('width', '800px').css('z-index', 1000);}, function...</span>
+  </span>
+</li>
+          <li class="views-row views-row-4 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../b/internet-censorship-southeast-asian-countries-myanmar-china-malaysia-thailand-cambodia-vietnam.html">Internet Censorship in Southeast Asian Countries (Myanmar, China, Malaysia, Thailand, Cambodia, Vietnam)</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">Vietnam has been labeled an "enemy of the Internet" by Reporters Without Borders. There have been a lot of cases of bloggers being targeted, harrassed, and arrested. But RSF (Reporters Sans...</span>
+  </span>
+</li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../b/using-3g-internet-cambodia.html">Using 3G Internet in Cambodia</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">On my most recent trip to Cambodia I bought a Cambodian SIM card so that I could both make calls and use the Internet on my smartphone. At the Moc Bai/Bavet border are a number of Khmer people (who...</span>
+  </span>
+</li>
+          <li class="views-row views-row-6 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../b/mailchimp-vs-pommo-mailman-phplist-self-host-or-outsource-your-mailing-list.html">MailChimp vs poMMo, Mailman, Phplist - Self-Host or Outsource Your Mailing List?</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">Use your own mail server or outsource it?
+Let's say you have a rather large mailing list of a few thousand email addresses and, well, sending it out with GMail is no longer cutting it. What are your...</span>
+  </span>
+</li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../vietnam/internet-vietnam-good-bad-ugly.html">Internet in Vietnam - Good, Bad, Ugly</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">If you ask Vietnamese officials, you'll hear such hyperbole as "the Internet service development in Vietnam is in no way inferior to developed countries in the world" (Mai Liem Truc, former Deputy...</span>
+  </span>
+</li>
+          <li class="views-row views-row-8 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../b/pommo-problems.html">poMMo proBLEMs</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">poMMo is free open source mailing list management software. It's written in PHP and pretty basic but does give a decent management interface. However, it's no longer maintained. There is a GitHub...</span>
+  </span>
+</li>
+          <li class="views-row views-row-9 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../b/preventing-repetitive-stress-injuries-programmers-and-writers.html">Preventing Repetitive Stress Injuries for Programmers and Writers</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">My situation
+I'm a career programmer who has suffered from pain in my hands and arms for several years. Like carpal tunnel syndrome, this pain is from damage to tissue (including tendons) caused by...</span>
+  </span>
+</li>
+          <li class="views-row views-row-10 views-row-even views-row-last">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../b/calling-us-free-foreign-countries.html">Calling the US for free from foreign countries</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">Calling US numbers from the US is pretty trivial and nearly free. But calling from another country means either:
+- paying for long distance from your telephone company
+- using a phone card to call...</span>
+  </span>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>     </div>
+  </div>
+</div>
+<div id="block-views-latest_forum-block_1" class="block block-views">
+  <div class="inner">
+  
+    <div class="content">
+      <div class="view view-latest-forum view-id-latest_forum view-display-id-block_1 view-dom-id-2">
+        <div class="view-header">
+      <h1>Recent activity in the <a href="../../../forums/living-and-working-vietnam.html">expat forum</a>...</h1>
+    </div>
+  
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../forum/6713/we-can-support-you-about-visa-arrival-visa-extension.html">We can support you about &lt;Visa on arrival - Visa extension&gt;</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Nowadays, foreigners have many difficulties in living and working in Vietnam, in which the main...</span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../forum/6712/visa-vietnam-expats.html">VISA VIETNAM FOR EXPATS</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Dear  Sir/Madam
+I'm Ms. Vui - who is special making all of services for expats in Vietnam.
+Pls...</span>
+  </div>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../forum/6709/apartment-rent-cheap-price-ms-linh-0932705239.html">Apartment for rent with cheap price Ms Linh 0932705239</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Masteri apartment for rent with fully furnished or unfurnished #Condominium
+Add: 159 Ha Noi highway...</span>
+  </div>
+</li>
+          <li class="views-row views-row-4 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../forum/6707/best-dishes-christmas.html">Best dishes for Christmas</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">1. Roasted turkey
+Succulent tender turkey meat with moist and flavourful stuffing. Give this...</span>
+  </div>
+</li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../forum/6706/best-dishes-christmas.html">Best dishes for Christmas</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">1. Roasted turkey
+Succulent tender turkey meat with moist and flavourful stuffing. Give this...</span>
+  </div>
+</li>
+          <li class="views-row views-row-6 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../forum/6705/top-places-visit-christmas-hcmc.html">Top places to visit this Christmas in HCMC</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Christmas is coming! Another wonderful season of joy and happiness … and a lot of wonderful places...</span>
+  </div>
+</li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../forum/6703/apartment-rent-masteri-ms-linh-0932705239.html">Apartment for rent in MASTERI  Ms Linh 0932705239</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Masteri apartment for rent with fully furnished or unfurnished #Condominium
+Add: 159 Ha Noi highway...</span>
+  </div>
+</li>
+          <li class="views-row views-row-8 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../forum/6702/apartment-rent-diamond-island-ms-linh-0932705239.html">Apartment for rent in Diamond Island  Ms Linh 0932705239</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Diamond Island  apartment for rent with fully furnished or unfurnished #luxury  #Condominium
+Add:...</span>
+  </div>
+</li>
+          <li class="views-row views-row-9 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../forum/6701/apartment-rent-diamond-island-ms-linh-0932705239.html">Apartment for rent in Diamond Island  Ms Linh 0932705239</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Diamond Island  apartment for rent with fully furnished or unfurnished #luxury  #Condominium
+Add:...</span>
+  </div>
+</li>
+          <li class="views-row views-row-10 views-row-even views-row-last">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../forum/6700/apartment-rent-diamond-island-ms-linh-0932705239.html">Apartment for rent in Diamond Island  Ms Linh 0932705239</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Diamond Island  apartment for rent with fully furnished or unfurnished #luxury  #Condominium
+Add:...</span>
+  </div>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>     </div>
+  </div>
+</div>
+      </div>
+      </div>
+
+  <script type="text/javascript" src="../../../sites/saigonist.com/files/advagg_js/js_ae4c45ca17e58eea971e353d18846ebd_1.js"></script>
+<script type="text/javascript" src="../../../sites/saigonist.com/files/advagg_js/js_114add5d22097bf8ea6c5fb53a2ba535_0.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","googleanalytics":{"trackOutgoing":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|avi|csv|doc|exe|flv|gif|gz|jpe?g|js|mp(3|4|e?g)|mov|pdf|phps|png|ppt|rar|sit|tar|torrent|txt|wma|wmv|xls|xml|zip"},"disqusCommentDomain":"saigon"});
+//--><!]]>
+</script>
+
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "CToolsAJAX": { "scripts": { "/sites/saigonist.com/modules/jquery_update/replace/jquery.min.js?X": true, "/misc/drupal.js?X": true, "/sites/saigonist.com/modules/saigonist/gavote.js?X": true, "/sites/saigonist.com/modules/saigonist/saigonist.js?X": true, "/sites/saigonist.com/modules/saigonist/jquery.slicknav.js?X": true, "/sites/saigonist.com/modules/disqus/disqus.js?X": true, "/sites/saigonist.com/modules/ajax/jquery/jquery.a_form.packed.js?X": true, "/sites/saigonist.com/modules/ajax/ajax.js?X": true, "/sites/all/modules/3rdparty/google_analytics/googleanalytics.js?X": true }, "css": { "/modules/aggregator/aggregator.css?X": true, "/modules/node/node.css?X": true, "/modules/poll/poll.css?X": true, "/modules/system/defaults.css?X": true, "/modules/system/system.css?X": true, "/modules/system/system-menus.css?X": true, "/modules/user/user.css?X": true, "/sites/all/modules/3rdparty/cck/theme/content-module.css?X": true, "/sites/all/modules/3rdparty/ctools/css/ctools.css?X": true, "/sites/all/modules/3rdparty/date/date.css?X": true, "/sites/all/modules/3rdparty/date/date_popup/themes/datepicker.css?X": true, "/sites/all/modules/3rdparty/date/date_popup/themes/timeentry.css?X": true, "/sites/all/modules/3rdparty/filefield/filefield.css?X": true, "/sites/all/modules/3rdparty/tagadelic/tagadelic.css?X": true, "/sites/all/modules/3rdparty/x/mollom/mollom.css?X": true, "/sites/saigonist.com/modules/geshifilter/geshifilter.css?X": true, "/modules/forum/forum.css?X": true, "/sites/all/modules/3rdparty/cck/modules/fieldgroup/fieldgroup.css?X": true, "/sites/all/modules/3rdparty/views/css/views.css?X": true, "/sites/saigonist.com/themes/corolla_sg/reset.css?X": true, "/sites/saigonist.com/themes/corolla_sg/base.css?X": true, "/sites/saigonist.com/themes/corolla_sg/style.css?X": true, "/sites/saigonist.com/themes/corolla_sg/drupal-6.css?X": true, "/sites/saigonist.com/themes/corolla_sg/colors.css?X": true, "/sites/saigonist.com/themes/corolla_sg/dynamic_tomo.css?X": true, "/sites/saigonist.com/themes/corolla_sg/slicknav.css?X": true, "/sites/saigonist.com/themes/corolla_sg/tomo.css?X": true, "/sites/saigonist.com/themes/corolla_sg/responsive.css?X": true, "/sites/saigonist.com/themes/corolla_sg/print.css?X": true } } });
+//--><!]]>
+</script>
+<script type="text/javascript" src="../../../sites/saigonist.com/files/advagg_js/js_bd2dccda1712ebf640b9dcbfe9797558_2.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var gaJsHost=(("https:"==document.location.protocol)?"https://ssl.":"http://www.");document.write(unescape("%3Cscript src='"+gaJsHost+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+try{var pageTracker=_gat._getTracker("UA-18406883-1");pageTracker._trackPageview()}catch(err){}
+//--><!]]>
+</script>
+
+</body>
+
+<!-- Mirrored from www.saigonist.com/category/type/tech/drupal?page=1 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Oct 2018 11:36:14 GMT -->
+</html>

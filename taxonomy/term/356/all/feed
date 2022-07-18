@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/356/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>mobile</title>
+    <link>http://www.saigonist.com/taxonomy/term/356/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>On Vietnam banning chat apps</title>
+    <link>http://www.saigonist.com/vietnam/vietnam-banning-chat-apps</link>
+    <description>&lt;p&gt;Here are some random thoughts on the news of Vietnamese ISPs/ministries colluding to ban mobile chat apps like Line/KakaoTalk/Viber/Whatsapp. The story so far has been that Vietnam&#039;s mobile networks, losing more and more money from people using free chat apps instead of SMS (which senders pay a little money for in Vietnam) which is pure profit for them, would like to put a stop to this trend.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/vietnam/vietnam-banning-chat-apps#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/censorship">censorship</category>
+ <category domain="http://www.saigonist.com/category/tags/chat">chat</category>
+ <category domain="http://www.saigonist.com/category/tags/mobile">mobile</category>
+ <category domain="http://www.saigonist.com/category/tags/viber">viber</category>
+ <pubDate>Wed, 28 Aug 2013 10:30:21 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">1547 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Using 3G Internet in Cambodia</title>
+    <link>http://www.saigonist.com/b/using-3g-internet-cambodia</link>
+    <description>&lt;p&gt;On my most recent trip to Cambodia I bought a Cambodian SIM card so that I could both make calls and use the Internet on my smartphone. At the Moc Bai/Bavet border are a number of Khmer people (who speak Vietnamese) hanging around offering to change money into Cambodian Riel from Vietnam Dong (or US dollars). They also sell sim cards for around 60k VND ($3) which gives you a few dollars worth of calls. They can also cut the SIMs into microsims for iPhones. &lt;/p&gt;
+&lt;p&gt;I got a MetFone sim but my Vietnamese Mobifone sim actually worked while in Bavet and didn&#039;t lose signal until we were a few kilometers from the border. When I eventually lost signal and switched in the new MetFone sim, however, I wasn&#039;t able to get on the internet with either GPRS or 3G. And even when I arrived in Phnom Penh I couldn&#039;t find anyone who knew how to activate 3G and MetFone&#039;s website was not accessible.&lt;/p&gt;
+&lt;p&gt;Here are the instructions for anyone who wants to activate 3G on their MetFone sim card.&lt;/p&gt;
+&lt;p&gt;1) Send &quot;3G ON&quot; or just &quot;ON&quot; as a sms to the number 133. This enables 3G for your account. But you still need to set up your phone to use their APN.&lt;/p&gt;
+&lt;p&gt;2) You can have MetFone configure your smartphone by sending a special configuration file but you need to know the name of your handset according to MetFone. You can guess it but if you guess wrong you won&#039;t receive anything or you&#039;ll receive a configuration file for the wrong phone.&lt;/p&gt;
+&lt;p&gt;Send &quot;MI &quot; to the number 111. For a Sony Ericsson P900 the handset code is P900. For an LG Optimus Black the code is P970. It is the code name your manufacturer uses for your phone.&lt;/p&gt;
+&lt;p&gt;3) If you can&#039;t figure out the right handset code or MetFone doesn&#039;t know about your phone then you can configure it manually.&lt;/p&gt;
+&lt;p&gt;Go into your connection settings and set up an APN.&lt;br /&gt;
+&lt;code&gt;&lt;br /&gt;
+           Input information APN: Metfone&lt;br /&gt;
+           Username:        Metfone&lt;br /&gt;
+           Password:        No&lt;br /&gt;
+           Input code 1111 ( if handset request) and reset again.&lt;br /&gt;
+&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;0) When you need to check your balance to see how many phone credits or how many kilobytes of data you can transfer, dial the code &quot;*097#&quot;. This will send a command to your carrier and you&#039;ll get a message back immediately.&lt;/p&gt;
+&lt;p&gt;You may also need to reset your phone after enabling 3G or setting up your APN.&lt;/p&gt;
+&lt;p&gt;Note that 3G coverage in Cambodia is very spotty compared to Vietnam (even though MetFone is from Vietnamese military company Viettel). Speed can be decent but you may lose connection even without moving. This applies to Phnom Penh. Like Vietnam, most hotels have free wifi although many cheap guesthouses don&#039;t. When looking around for hotels in Phnom Penh be sure to ask first. My tips for &lt;a href=&quot;http://www.saigonist.com/b/how-find-hotel-vietnam-and-save-money&quot;&gt;finding a hotel in Vietnam&lt;/a&gt; also applies to Cambodia.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/using-3g-internet-cambodia#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/3g">3g</category>
+ <category domain="http://www.saigonist.com/category/tags/cambodia">cambodia</category>
+ <category domain="http://www.saigonist.com/category/tags/internet">internet</category>
+ <category domain="http://www.saigonist.com/category/tags/metfone">metfone</category>
+ <category domain="http://www.saigonist.com/category/tags/mobile">mobile</category>
+ <category domain="http://www.saigonist.com/category/tags/phnom-penh">phnom penh</category>
+ <pubDate>Fri, 19 Oct 2012 04:45:59 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">550 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Speeding up your slow Android smart phone</title>
+    <link>http://www.saigonist.com/b/speeding-your-slow-android-smart-phone</link>
+    <description>&lt;p&gt;Some time after getting a new phone or after wiping and reinstalling the phone&#039;s OS (or upgrading to a new version of Android), the phone starts to bog down and feel laggy compared to before. The hardware is the same (well, maybe the phone&#039;s battery has lost some charging capacity but the memory and CPU are still as good as when they were manufactured), so it must be something software-related, right? I mean, this problem happens with Windows PCs too (but not with Linux/OpenBSD...).&lt;/p&gt;
+&lt;h2&gt;Not the thousands of stored SMSs and phone call logs&lt;/h2&gt;
+&lt;p&gt;At first, I thought it might be the thousands of SMSs (and hundreds of phone calls) stored on my phone, which I keep for convenience. On my old Symbian OS Nokia these SMSs would really slow the phone down and so I would have to delete messages every month. But there&#039;s no good reason a modern phone can&#039;t handle nearly unlimited messages as easily as just a handful. But I gave it a shot, deleting all SMSs (first backing the messages and call logs with SMS Backup &amp;amp; Restore app) and phone calls, but it had no effect.&lt;/p&gt;
+&lt;h2&gt;Not task killers&lt;/h2&gt;
+&lt;p&gt;So then I wondered what mobile apps might be slowing the phone down. There are various task killer apps in the app marketplace and they will help you free up memory. I kinda of wanted to see a more granular view of what resources the various apps were using, like Task Manager or Activity Monitor. So I opened up Terminal Emulator and ran &#039;top&#039; which doesn&#039;t redraw the screen like it would in other terminals, but simply writes out all processes to the screen again on each refresh. So it&#039;s slightly harder to understand.&lt;/p&gt;
+&lt;p&gt;Using an automated task killer is controversial. It&#039;s possible that using an automated task killer will confuse Android&#039;s memory manager.&lt;/p&gt;
+&lt;h2&gt;Not the version of Android&lt;/h2&gt;
+&lt;p&gt;Upgrading Android. Right after you load a fresh ROM onto your phone it is probably going to be as fast and responsive as it ever will be. Then some months down the line it&#039;s running slowly.&lt;/p&gt;
+&lt;h2&gt;Remove widgets, V6 Supercharger your memory mangement, and turn off GPS&lt;/h2&gt;
+&lt;p&gt;Here are the things that do help speed up your Android phone.&lt;/p&gt;
+&lt;p&gt;1) Remove some widgets and live wallpapers.&lt;/p&gt;
+&lt;p&gt;2) Advanced users: V6 Supercharger Script&lt;/p&gt;
+&lt;p&gt;&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/wIA5Wil5QUI&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;3) In the end I think turning off GPS helped the most. This is likely due to location apps polling your location nearly constantly when it&#039;s on. &lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/speeding-your-slow-android-smart-phone#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/android">android</category>
+ <category domain="http://www.saigonist.com/category/tags/mobile">mobile</category>
+ <category domain="http://www.saigonist.com/category/tags/phone">phone</category>
+ <pubDate>Fri, 12 Oct 2012 13:10:51 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">543 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

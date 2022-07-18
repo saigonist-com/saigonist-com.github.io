@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/476/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>hack day</title>
+    <link>http://www.saigonist.com/taxonomy/term/476/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Hacking Your First Hackathon</title>
+    <link>http://www.saigonist.com/vietnam/hcmc/hacking-your-first-hackathon</link>
+    <description>&lt;p&gt;Today I&#039;ll be speaking, mentoring, then judging at Keewi&#039;s Hack Day event. &lt;/p&gt;
+&lt;p&gt;Over a decade ago I joined a group of &quot;hackers&quot; in developing an open source ultra-secure UNIX operating system called OpenBSD. As the most secure OS in the world, it was designed to keep out hackers, as in crackers, those seeking unauthorized access to computer systems. But we were also hackers, a type of &quot;artisanal&quot; programmer. OpenBSD hackers are spread across the world and they gather themselves together periodically into one place to be super productive on a common goal over the course of several days. OpenBSD invented the hackathon, even coining the word itself.&lt;/p&gt;
+&lt;p&gt;I attended my first hackathon back when I was still in school, which I graduated from over 10 years ago. It was organized by our university&#039;s open source club, the only extracurricular activity I was involved in. We got permission to use one of the classrooms overnight and even got funding to buy a couple pizzas and pop. That was it. There were no corporate sponsors. There were no spectators watching us code except for our confused girlfriends. There were no headhunters or suits looking for geeks they could make use of. And there was no prize money because we were just there to see what hacks we could pull off in a night and then show each other.&lt;/p&gt;
+&lt;p&gt;Nowadays, hackathons are more and more common and are seen by corporations as something they can take advantage of.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/vietnam/hcmc/hacking-your-first-hackathon#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam/hcmc">HCMC</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/hack-day">hack day</category>
+ <category domain="http://www.saigonist.com/category/tags/hackathon">hackathon</category>
+ <category domain="http://www.saigonist.com/category/tags/keewi">keewi</category>
+ <category domain="http://www.saigonist.com/category/tags/openbsd">openbsd</category>
+ <category domain="http://www.saigonist.com/category/tags/startup">startup</category>
+ <pubDate>Sat, 08 Jun 2013 07:13:49 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">1142 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

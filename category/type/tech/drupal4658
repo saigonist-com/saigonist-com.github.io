@@ -1,0 +1,959 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+
+
+<!-- Mirrored from www.saigonist.com/category/type/tech/drupal?page=2 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Oct 2018 11:36:14 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="Drupal" href="../../../taxonomy/term/443/all/feed" />
+<link rel="shortcut icon" href="../../../sites/saigonist.com/themes/corolla_sg/favicon.ico" type="image/x-icon" />
+  <title>Drupal | Saigonist - Expat Living in Vietnam</title>
+  <script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <link type="text/css" rel="stylesheet" media="all" href="../../../sites/saigonist.com/files/advagg_css/css_a9bd1a1b1e21fc1314eb29c6ba77b3a3_0.css" />
+<link type="text/css" rel="stylesheet" media="print" href="../../../sites/saigonist.com/files/advagg_css/css_e0d39d80602b8a9dc02de7d25cb8e5de_0.css" />
+  
+  <!--[if lte IE 8]>
+  <link type="text/css" rel="stylesheet" href="/sites/saigonist.com/themes/corolla_sg/ie8.css" media="all" />
+  <![endif]-->
+
+  <!--[if lte IE 7]>
+  <link type="text/css" rel="stylesheet" href="/sites/saigonist.com/themes/corolla_sg/ie7.css" media="all" />
+  <![endif]-->
+
+  <!--[if lte IE 6]>
+  <link type="text/css" rel="stylesheet" href="/sites/saigonist.com/themes/corolla_sg/ie6.css" media="all" />
+  <![endif]-->
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+
+</head>
+<body class="not-front not-logged-in page-taxonomy  one-sidebar">
+      <div id="navigation-wrapper">
+      <div id="navigation" class="clear-block">
+        <ul class="menu"><li class="leaf first"><a href="../../../index.html" title="">Home</a></li>
+<li class="leaf"><a href="../tech.html" title="">Tech</a></li>
+<li class="leaf"><a href="../vietnam.html" title="">Vietnam</a></li>
+<li class="leaf"><a href="../../../forums/living-and-working-vietnam.html" title="Living and Working in Vietnam">Forum</a></li>
+<li class="leaf last"><div id="block-search-0" class="block block-search">
+  <div class="inner">
+  
+    <div class="content">
+          </div>
+  </div>
+</div>
+</li>
+</ul>      </div> <!-- /#navigation -->
+    </div>
+  
+
+  <div id="header-wrapper">
+    <div id="header" class="clear-block">
+
+              <div id="branding-wrapper" class="clear-block">
+          <div id="branding">
+
+                          <div id="logo">
+                <a href="../../../index.html" title="Home" rel="home">
+<span style="color: white; font-size: 45px; font-family: Georgia; letter-spacing: 1px; text-shadow: 1px 1px 7px #444;">Saigonist</span>
+                </a>
+              </div>
+            
+                          <div id="name-and-slogan">
+                                  <div id="site-name">
+                    <a href="../../../index.html" title="Home" rel="home">Saigonist - Expat Living in Vietnam</a>
+                  </div>
+                
+                              <div id="site-slogan">Vietnam blog by an expat writing about technology, entrepreneurship, software, and living and traveling in Saigon, Vietnam</div>
+                            </div> <!-- /name-and-slogan -->
+            
+          </div> <!-- /#branding -->
+        </div> <!-- /#branding-wrapper -->
+      
+      
+    </div> <!-- /#header -->
+  </div> <!-- /#header-wrapper -->
+
+  <div id="main-columns-wrapper">
+    <div id="main-columns">
+     <div id="side-top-ad"><div id="block-block-11" class="block block-block">
+  <div class="inner">
+  
+    <div class="content">
+      <ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-9556924506572581"
+     data-ad-slot="9609004472"></ins>
+<script>/* Saigonist big top */
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
+  </div>
+</div>
+</div>      
+      <div id="main-wrapper" class=" first">
+  <div id="main">
+    <div id="page" class="clear-block">
+      <div id="breadcrumb"><div class="breadcrumb"><a href="../../../index.html">Home</a> » <a href="../tech.html">Tech</a></div></div>      
+      
+      
+      
+      <a id="main-content"></a>
+              <h1 class="page-title">Drupal</h1>
+      
+      
+                    <div class="region region-content">
+          <div class="view view-taxonomy-term view-id-taxonomy_term view-display-id-page view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div id="node-252" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="../../../tech/drupal/importing-and-exporting-drupal-taxonomy.html">Importing and Exporting Drupal Taxonomy</a></h2>
+    
+          <div class="meta">Submitted by tomo on August 31, 2011 - 3:10am</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_443 first active"><a href="drupal.html" rel="tag" title="" class="active">Drupal</a></li>
+<li class="taxonomy_term_12"><a href="../../tags/drupal.html" rel="tag" title="">drupal</a></li>
+<li class="taxonomy_term_264"><a href="../../tags/module.html" rel="tag" title="">module</a></li>
+<li class="taxonomy_term_173"><a href="../../tags/taxonomy.html" rel="tag" title="">taxonomy</a></li>
+<li class="taxonomy_term_263 last"><a href="../../tags/vocabulary.html" rel="tag" title="">vocabulary</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>There are multiple modules for importing and exporting Drupal taxonomies (Drupal switches between using the term "taxonomy" and "vocabulary" like a clinical schizophrenic).  Some use CSV format (http://drupal.org/project/taxonomy_csv), others XML (http://drupal.org/project/taxonomy_xml), and still others use a PHP array (http://drupal.org/project/taxonomy_export).</p>
+<p>Some of these modules use the same paths for the export and import pages but they are different modules and aren't compatible. If you have both Taxonomy Export and Taxonomy XML installed at the same time they will conflict.</p>
+<p>Except for CSV, the other import/export modules need you to create documents in a rather wordy XML or PHP code format, which can actually be more work than entering the terms in manually. Some people may use taxonomy import/export for only the taxonomy definition rather than terms. It's sometimes unclear what happens if you want to re-import duplicate term names later. </p>
+<p>What worked best for me was using Taxonomy Manager which gives you an improved UI for organizing terms within a vocabulary. I wish it made editing the core fields of a taxonomy more ajax-y but what it does provide is an easy way to add multiple terms at once, a textarea for pasting in a list of terms, and a way to select where the new terms will go. So you can paste in all the top level terms, then paste in all the 2nd level children of the 1st term and select the 1st term to indicate they will all go under it. As long as you don't have too many different branches, then this can be done fairly easily.</p>
+
+  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="../../../blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_comments"><a href="../../../tech/drupal/importing-and-exporting-drupal-taxonomy.html#comments" title="Jump to the first comment of this posting.">1 comment</a></li>
+<li class="disqus_comments last"><span><a href="../../../tech/drupal/importing-and-exporting-drupal-taxonomy.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/252">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div id="node-211" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="../../../tech/drupal/attaching-tablematrixarray-drupal-node.html">Attaching a table/matrix/array to a Drupal node</a></h2>
+    
+          <div class="meta">Submitted by tomo on July 5, 2011 - 7:48pm</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_443 first active"><a href="drupal.html" rel="tag" title="" class="active">Drupal</a></li>
+<li class="taxonomy_term_125"><a href="../../tags/array.html" rel="tag" title="">array</a></li>
+<li class="taxonomy_term_121"><a href="../../tags/cck.html" rel="tag" title="">cck</a></li>
+<li class="taxonomy_term_12"><a href="../../tags/drupal.html" rel="tag" title="">drupal</a></li>
+<li class="taxonomy_term_124"><a href="../../tags/matrix.html" rel="tag" title="">matrix</a></li>
+<li class="taxonomy_term_122"><a href="../../tags/noderelationships.html" rel="tag" title="">noderelationships</a></li>
+<li class="taxonomy_term_123"><a href="../../tags/table.html" rel="tag" title="">table</a></li>
+<li class="taxonomy_term_126"><a href="../../tags/tablefield.html" rel="tag" title="">tablefield</a></li>
+<li class="taxonomy_term_98 last"><a href="../../tags/views.html" rel="tag" title="">views</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>[This blog post is a rewrite of just the main points due to my baby <span data-scayt_word="Macbook" data-scaytid="1">Macbook</span> Pro dying while I was distracted.]</p><p>Drupal content types with <span data-scayt_word="CCK" data-scaytid="2">CCK</span> make it quite easy to add any number of defined fields to an &#39;object&#39;, and with multiple/unlimited values for a field or with node references it&#39;s possible to make a Drupal node &#39;two-dimensional&#39;.</p><p>Sometimes you need more. Sometimes you want tabular data, a table, to be part of a node. If the table always has the same dimensions, and at least the same columns for each node, then the above can work through node references and views.</p><p>What if you want to add a different two-dimensional table to nodes of a content type, but without knowing the number or labels for the columns and rows beforehand. &nbsp;For example, you might want to attach a pricing table to a node, with multiple products and multiple ways to price each product. &nbsp;An example of that might be 5 t-shirt designs, where shirts are priced based on size and quantity ordered.</p>
+<a href="../../../tech/drupal/attaching-tablematrixarray-drupal-node.html">Read the rest of this article...</a>  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="../../../blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_comments"><a href="../../../tech/drupal/attaching-tablematrixarray-drupal-node.html#comments" title="Jump to the first comment of this posting.">1 comment</a></li>
+<li class="node_read_more"><a href="../../../tech/drupal/attaching-tablematrixarray-drupal-node.html" title="Read the rest of Attaching a table/matrix/array to a Drupal node.">Read more</a></li>
+<li class="disqus_comments last"><span><a href="../../../tech/drupal/attaching-tablematrixarray-drupal-node.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/211">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    <div id="node-63" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="../../../tech/drupal/drupal-views-ui-filter-fields-content-type.html">Drupal Views UI Filter Fields by Content Type</a></h2>
+    
+          <div class="meta">Submitted by tomo on April 21, 2011 - 4:18am</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_443 first active"><a href="drupal.html" rel="tag" title="" class="active">Drupal</a></li>
+<li class="taxonomy_term_99"><a href="../../tags/bookmarklet.html" rel="tag" title="">bookmarklet</a></li>
+<li class="taxonomy_term_12"><a href="../../tags/drupal.html" rel="tag" title="">drupal</a></li>
+<li class="taxonomy_term_98 last"><a href="../../tags/views.html" rel="tag" title="">views</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>Late night hack: </p>
+<p>You have a lot of fields in a lot of content types.  You're creating a view with new display fields but it's a pain to find just the content type fields you want.  Wouldn't it be cool if you could just select a content type from a pulldown and see content fields filtered to just the ones in that content type?</p>
+<p>Add this bookmarklet to your bookmarks bar:<br />
+<a id="codeOut" href="javascript:(function(){var exp=/^.*Appears in:(([^,]*[,]*)*)$/;var ctypes=$('.views-radio-box .form-item').map(function(){var desc=$(this).children('.description').html();if(desc.match(exp)){return desc.match(exp)[1].split(', ');}});if(ctypes.form !=undefined)ctypes=ctypes.sort();var uniques={};for(var i=0;i<ctypes.length;i++)uniques[ctypes[i]]=1;var select_html='<br />
+<select id=&quot;show-ctype&quot;><option value=&quot;Show All&quot;>-Show All-</option>';for(var ctype in uniques)select_html+='<option value=&quot;'+ctype+'&quot;>'+ctype+'</option>';select_html+='</select>
+<p>';$('#edit-group').after(select_html);$('#show-ctype').change(function(){$('.views-radio-box .form-item').show();if($('#show-ctype option:selected').val()=='Show All')return;$('.views-radio-box .form-item').map(function(){var desc=$(this).children('.description').html().trim();if(desc.match(exp)){var arr=$.map(desc.match(exp)[1].split(', '),function(x){return x.trim();});if(-1==$.inArray($('#show-ctype option:selected').val().trim(),arr))$(this).hide();}});});})();">Views UI Filter</p></a></p>
+
+<a href="../../../tech/drupal/drupal-views-ui-filter-fields-content-type.html">Read the rest of this article...</a>  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="../../../blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_comments"><a href="../../../tech/drupal/drupal-views-ui-filter-fields-content-type.html#comments" title="Jump to the first comment of this posting.">2 comments</a></li>
+<li class="node_read_more"><a href="../../../tech/drupal/drupal-views-ui-filter-fields-content-type.html" title="Read the rest of Drupal Views UI Filter Fields by Content Type.">Read more</a></li>
+<li class="disqus_comments last"><span><a href="../../../tech/drupal/drupal-views-ui-filter-fields-content-type.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/63">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-4 views-row-even">
+    <div id="node-58" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="../../../tech/drupal/drupal-add-comment-form-above-comments.html">Drupal Add Comment Form Above Comments</a></h2>
+    
+          <div class="meta">Submitted by tomo on March 24, 2011 - 12:57am</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_443 first active"><a href="drupal.html" rel="tag" title="" class="active">Drupal</a></li>
+<li class="taxonomy_term_75"><a href="../../tags/comments.html" rel="tag" title="">comments</a></li>
+<li class="taxonomy_term_12 last"><a href="../../tags/drupal.html" rel="tag" title="">drupal</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>Drupal 6 allows you to either display the comment form below saved comments or on a separate page.  There's surprisingly no way to configure the form to appear above the comments.  It's hard-coded at the bottom of comment_render to either append the form, or not at all.</p>
+<p>There's a micro-module aptly titled 'Comment form above comments' which does the job but does so using string replaces on resulting html so it's not the ideal or elegant solution.</p>
+<p>It turns out to be simple to get the same effect in code.</p>
+<p>First, we need to "configure" the form to appear on a separate page, but only because we're going to manually show it.  You can ensure this configuration with the line:<br />
+<div class="geshifilter"><pre class="javascript geshifilter-javascript" style="font-family:monospace;">variable_set<span style="color: #009900;">&#40;</span><span style="color: #3366CC;">'comment_form_location_'</span>.$node<span style="color: #339933;">-&gt;</span>type<span style="color: #339933;">,</span> COMMENT_FORM_SEPARATE_PAGE<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span></pre></div></p>
+<p>You could even variable_get and re-variable_set after printing the form if you really wanted to.</p>
+<p>Next, output the following where you want to display comments, whether in a PHP code block or node template:<br />
+<div class="geshifilter"><pre class="javascript geshifilter-javascript" style="font-family:monospace;">$edit <span style="color: #339933;">=</span> array<span style="color: #009900;">&#40;</span><span style="color: #3366CC;">'nid'</span> <span style="color: #339933;">=&gt;</span> $node<span style="color: #339933;">-&gt;</span>nid<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+print comment_form_box<span style="color: #009900;">&#40;</span>$edit<span style="color: #009900;">&#41;</span> . <span style="color: #660066;">comment_render</span><span style="color: #009900;">&#40;</span>$node<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span></pre></div></p>
+<p>Another recent discovery was that the comment form is hard-coded to redirect to /node after submitting.  This hack, as a module, will get you back to the page you submitted from:<br />
+<div class="geshifilter"><pre class="javascript geshifilter-javascript" style="font-family:monospace;"><span style="color: #000066; font-weight: bold;">function</span> noredirect_comment_form_submit<span style="color: #009900;">&#40;</span><span style="color: #339933;">&amp;</span>$form<span style="color: #339933;">,</span> <span style="color: #339933;">&amp;</span>$form_state<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+    $form_state<span style="color: #009900;">&#91;</span><span style="color: #3366CC;">'redirect'</span><span style="color: #009900;">&#93;</span> <span style="color: #339933;">=</span> ltrim<span style="color: #009900;">&#40;</span>$form<span style="color: #009900;">&#91;</span><span style="color: #3366CC;">'#action'</span><span style="color: #009900;">&#93;</span><span style="color: #339933;">,</span> <span style="color: #3366CC;">'/'</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #009900;">&#125;</span></pre></div><br />
+<div class="geshifilter"><pre class="javascript geshifilter-javascript" style="font-family:monospace;"><span style="color: #000066; font-weight: bold;">function</span> noredirect_form_alter<span style="color: #009900;">&#40;</span><span style="color: #339933;">&amp;</span>$form<span style="color: #339933;">,</span> $form_state<span style="color: #339933;">,</span> $form_id<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+    <span style="color: #000066; font-weight: bold;">if</span> <span style="color: #009900;">&#40;</span>$form_id <span style="color: #339933;">==</span> <span style="color: #3366CC;">'comment_form'</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+       $form<span style="color: #009900;">&#91;</span><span style="color: #3366CC;">'#action'</span><span style="color: #009900;">&#93;</span> <span style="color: #339933;">=</span> request_uri<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+        $form<span style="color: #009900;">&#91;</span><span style="color: #3366CC;">'#submit'</span><span style="color: #009900;">&#93;</span><span style="color: #009900;">&#91;</span><span style="color: #009900;">&#93;</span> <span style="color: #339933;">=</span> <span style="color: #3366CC;">'noredirect_comment_form_submit'</span><span style="color: #339933;">;</span>
+    <span style="color: #009900;">&#125;</span>
+<span style="color: #009900;">&#125;</span></pre></div></p>
+
+  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="../../../blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_comments"><a href="../../../tech/drupal/drupal-add-comment-form-above-comments.html#comments" title="Jump to the first comment of this posting.">16 comments</a></li>
+<li class="disqus_comments last"><span><a href="../../../tech/drupal/drupal-add-comment-form-above-comments.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/58">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-5 views-row-odd">
+    <div id="node-34" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="../../../tech/drupal/showing-file-upload-progress-php-and-drupal.html">Showing file upload progress with PHP and Drupal</a></h2>
+    
+          <div class="meta">Submitted by tomo on January 31, 2011 - 7:01pm</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_443 first active"><a href="drupal.html" rel="tag" title="" class="active">Drupal</a></li>
+<li class="taxonomy_term_55"><a href="../../tags/ajax.html" rel="tag" title="">ajax</a></li>
+<li class="taxonomy_term_56"><a href="../../tags/apache.html" rel="tag" title="">apache</a></li>
+<li class="taxonomy_term_60"><a href="../../tags/apc.html" rel="tag" title="">apc</a></li>
+<li class="taxonomy_term_12"><a href="../../tags/drupal.html" rel="tag" title="">drupal</a></li>
+<li class="taxonomy_term_59"><a href="../../tags/pecl.html" rel="tag" title="">pecl</a></li>
+<li class="taxonomy_term_53"><a href="../../tags/php.html" rel="tag" title="">php</a></li>
+<li class="taxonomy_term_54 last"><a href="../../tags/upload.html" rel="tag" title="">upload</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>PHP 5.2 has support for showing the percentage uploaded for a file upload in progress.  If you're not running Apache as your web server,  </p>
+<p>Drupal's FileField module automatically detects for and uses upload progress support on the server end.  This can either be APC (Alternative PHP Cache) with rfc1867 support or with the uploadprogress PECL extension.  In Drupal, the upload progress bar looks like this:</p>
+<p><img src="http://drupal.org/files/PECL.png" /></p>
+<p>You can check to see if you already have support by going to admin/reports/status.</p>
+<p>If the report shows that your server has support yet FileField CCK fields aren't updating the upload progress bar then your server has a problem.</p>
+
+<a href="../../../tech/drupal/showing-file-upload-progress-php-and-drupal.html">Read the rest of this article...</a>  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="../../../blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_comments"><a href="../../../tech/drupal/showing-file-upload-progress-php-and-drupal.html#comments" title="Jump to the first comment of this posting.">1 comment</a></li>
+<li class="node_read_more"><a href="../../../tech/drupal/showing-file-upload-progress-php-and-drupal.html" title="Read the rest of Showing file upload progress with PHP and Drupal.">Read more</a></li>
+<li class="disqus_comments last"><span><a href="../../../tech/drupal/showing-file-upload-progress-php-and-drupal.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/34">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-6 views-row-even">
+    <div id="node-33" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="../../../tech/drupal/drupal-flashvideo-streaming-php-and-jw-player.html">Drupal FlashVideo Streaming with PHP and JW Player</a></h2>
+    
+          <div class="meta">Submitted by tomo on January 24, 2011 - 5:17pm</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_443 first active"><a href="drupal.html" rel="tag" title="" class="active">Drupal</a></li>
+<li class="taxonomy_term_12"><a href="../../tags/drupal.html" rel="tag" title="">drupal</a></li>
+<li class="taxonomy_term_51"><a href="../../tags/flashvideo.html" rel="tag" title="">flashvideo</a></li>
+<li class="taxonomy_term_52"><a href="../../tags/streaming.html" rel="tag" title="">streaming</a></li>
+<li class="taxonomy_term_29 last"><a href="../../tags/video.html" rel="tag" title="">video</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>Getting Drupal to stream video using PHP and the FlashVideo module to manage video uploads is not easy.  It involves 5 distinct pieces of software, which means 5 places where things could go wrong with little error logging.</p>
+<p>Here's what you need:<br />
+1. FlashVideo http://drupal.org/project/flashvideo<br />
+2. ffmpeg<br />
+3. flvtool2<br />
+4. xmoov-php<br />
+5. JW Player</p>
+<div class="field field-type-filefield field-field-blogattachments">
+      <div class="field-label">Attachments:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    <div class="filefield-file clear-block"><div class="filefield-icon field-icon-video-x-flv"><img class="field-icon-video-x-flv"  alt="video/x-flv icon" src="../../../sites/all/modules/3rdparty/filefield/icons/protocons/16x16/mimetypes/video-x-generic.png" /></div><a href="../../../sites/saigonist.com/files/656-2178-legoshay_656.flv" type="video/x-flv; length=272847">656-2178-legoshay_656.flv</a></div>        </div>
+              <div class="field-item even">
+                    <div class="filefield-file clear-block"><div class="filefield-icon field-icon-text-plain"><img class="field-icon-text-plain"  alt="text/plain icon" src="../../../sites/all/modules/3rdparty/filefield/icons/protocons/16x16/mimetypes/text-plain.png" /></div><a href="../../../sites/saigonist.com/files/stream.php_.txt" type="text/plain; length=0">stream.php_.txt</a></div>        </div>
+              <div class="field-item odd">
+                    <div class="filefield-file clear-block"><div class="filefield-icon field-icon-text-x-diff"><img class="field-icon-text-x-diff"  alt="text/x-diff icon" src="../../../sites/all/modules/3rdparty/filefield/icons/protocons/16x16/mimetypes/text-x-generic.png" /></div><a href="../../../sites/saigonist.com/files/flashvideo_streaming.patch" type="text/x-diff; length=1185">flashvideo_streaming.patch</a></div>        </div>
+        </div>
+</div>
+
+<a href="../../../tech/drupal/drupal-flashvideo-streaming-php-and-jw-player.html">Read the rest of this article...</a>  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="../../../blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_forbidden"><span><a href="../../../user/loginc0ef.html?destination=node%2F33%23comment-form">Login</a> to post comments</span></li>
+<li class="node_read_more"><a href="../../../tech/drupal/drupal-flashvideo-streaming-php-and-jw-player.html" title="Read the rest of Drupal FlashVideo Streaming with PHP and JW Player.">Read more</a></li>
+<li class="disqus_comments last"><span><a href="../../../tech/drupal/drupal-flashvideo-streaming-php-and-jw-player.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/33">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-7 views-row-odd">
+    <div id="node-21" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="../../../content/drupal-administration-menu-missing-links.html">Drupal Administration Menu Missing Links</a></h2>
+    
+          <div class="meta">Submitted by tomo on December 7, 2010 - 5:30pm</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_443 first active"><a href="drupal.html" rel="tag" title="" class="active">Drupal</a></li>
+<li class="taxonomy_term_31"><a href="../../tags/adminmenu.html" rel="tag" title="">admin_menu</a></li>
+<li class="taxonomy_term_12 last"><a href="../../tags/drupal.html" rel="tag" title="">drupal</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>Working on a Drupal site that's already half-way started, I noticed that after installing the admin_menu module many links I expected were missing, such as the refresh cache links and several content types under the Content Types menu.</p>
+<p>First, I tried clearing out all caches manually via the Performance page.</p>
+<p>Next, I tried truncating all cache tables in case cache_menu or another table was corrupted.</p>
+<p>Still no go, so I tried disabling, uninstalling, and reinstalling the admin_menu module which should rebuild the admin_menu links in the menu router.</p>
+<p>In the end it turned out to be a Wampserver problem as it (as well as Xampp) use PHP 5.3, which Drupal has a lot of problems with.  PHP 5.3 has a change from earlier versions in that function declarations like:</p>
+<p>function admin_menu_admin_menu(&amp;$deleted)</p>
+<p>no longer work.  Normally, you'd see that in your error messages.</p>
+<p>The solution is to remove the &amp; before $deleted on line 107 in admin_menu.inc in the admin_menu module.  This will also make the related PHP warnings go away.</p>
+<p>Running 5.2 and 5.3 on one computer using XAMPP (on OSX) is easy by following these instructions: https://gist.github.com/1012774</p>
+
+  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="../../../blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_forbidden"><span><a href="../../../user/loginbe5a.html?destination=node%2F21%23comment-form">Login</a> to post comments</span></li>
+<li class="disqus_comments last"><span><a href="../../../content/drupal-administration-menu-missing-links.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/21">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+  </div>
+  <div class="views-row views-row-8 views-row-even views-row-last">
+    <div id="node-5" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="../../../tech/drupal/theme-developer-saving-wrong-temp-directory.html">Theme developer saving to wrong temp directory</a></h2>
+    
+          <div class="meta">Submitted by tomo on September 7, 2010 - 1:36am</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_443 first active"><a href="drupal.html" rel="tag" title="" class="active">Drupal</a></li>
+<li class="taxonomy_term_12 last"><a href="../../tags/drupal.html" rel="tag" title="">drupal</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>After importing a database for a Drupal site from a different server, you may see errors such as:</p>
+<p><span class="geshifilter"><code class="javascript geshifilter-javascript">warning<span style="color: #339933;">:</span> file_put_contents<span style="color: #009900;">&#40;</span><span style="color: #339933;">/</span>devel_themer_19527646904c852428ef200<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#91;</span><span style="color: #000066; font-weight: bold;">function</span>.<span style="color: #660066;">file</span><span style="color: #339933;">-</span>put<span style="color: #339933;">-</span>contents<span style="color: #009900;">&#93;</span><span style="color: #339933;">:</span> failed to open stream<span style="color: #339933;">:</span> Permission denied <span style="color: #000066; font-weight: bold;">in</span> <span style="color: #339933;">/</span>home<span style="color: #339933;">/</span>tomo<span style="color: #339933;">/</span>xxx<span style="color: #339933;">/</span>sites<span style="color: #339933;">/</span>all<span style="color: #339933;">/</span>modules<span style="color: #339933;">/</span>3rdparty<span style="color: #339933;">/</span>devel_themer<span style="color: #339933;">/</span>devel_themer.<span style="color: #660066;">module</span> on line <span style="color: #CC0000;">638</span>.</code></span></p>
+<p>And if you try to select an element:</p>
+<p><span class="geshifilter"><code class="javascript geshifilter-javascript">Ajax variables file not found.</code></span></p>
+<p>What&#39;s going on here is the files aren&#39;t being written to the temp directory which is a Drupal&nbsp;variable stored in the database. &nbsp;Delete the row from the variables table where name is file_directory_temp and then Drupal will automatically set the variable to the correct directory.</p>
+<p><span class="geshifilter"><code class="javascript geshifilter-javascript"><span style="color: #000066; font-weight: bold;">delete</span> from variables where name<span style="color: #339933;">=</span><span style="color: #3366CC;">'file_directory_temp'</span><span style="color: #339933;">;</span></code></span><br />
+or<br />
+<span class="geshifilter"><code class="javascript geshifilter-javascript"><span style="color: #000066; font-weight: bold;">delete</span> from variable where name<span style="color: #339933;">=</span><span style="color: #3366CC;">'file_directory_temp'</span><span style="color: #339933;">;</span></code></span></p>
+
+<a href="../../../tech/drupal/theme-developer-saving-wrong-temp-directory.html">Read the rest of this article...</a>  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="../../../blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_comments"><a href="../../../tech/drupal/theme-developer-saving-wrong-temp-directory.html#comments" title="Jump to the first comment of this posting.">1 comment</a></li>
+<li class="node_read_more"><a href="../../../tech/drupal/theme-developer-saving-wrong-temp-directory.html" title="Read the rest of Theme developer saving to wrong temp directory.">Read more</a></li>
+<li class="disqus_comments last"><span><a href="../../../tech/drupal/theme-developer-saving-wrong-temp-directory.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/5">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+  </div>
+    </div>
+  
+      <div class="item-list"><ul class="pager"><li class="pager-first first"><a href="drupal.html" title="Go to first page" class="active">« first</a></li>
+<li class="pager-previous"><a href="drupal2679.html?page=1" title="Go to previous page" class="active">‹ previous</a></li>
+<li class="pager-item"><a href="drupal.html" title="Go to page 1" class="active">1</a></li>
+<li class="pager-item"><a href="drupal2679.html?page=1" title="Go to page 2" class="active">2</a></li>
+<li class="pager-current last">3</li>
+</ul></div>  
+  
+  
+  
+  
+</div>         </div>
+      
+            <a href="../../../taxonomy/term/443/all/feed" class="feed-icon"><img src="../../../misc/feed.png" alt="Syndicate content" title="Drupal" width="16" height="16" /></a>    </div> <!-- /#page -->
+
+
+    <div id="closure">
+      <div id="info">
+        © 2010-2014 Saigonist.       </div>
+
+          </div> <!-- /#closure -->
+
+  </div> <!-- /#main -->
+</div> <!-- /#main-wrapper -->
+
+
+
+    <div id="sidebar-first" class="clear-block last">
+    <div class="region region-sidebar-first">
+      <div id="block-block-10" class="block block-block">
+  <div class="inner">
+  
+    <div class="content">
+      <ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-9556924506572581"
+     data-ad-slot="4371339435"></ins>
+<script>/* Saigonist Skyscraper */
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>    </div>
+  </div>
+</div>
+<div id="block-block-1" class="block block-block">
+  <div class="inner">
+  
+    <div class="content">
+      <style>
+.block-split-left {
+    width: 150px;
+    display: inline-block;
+}
+.block-split-right {
+    width: 200px;
+    height: 200px;
+    display: inline;
+}
+
+</style>
+
+<div class="block-split-left">
+
+<a href="http://feedproxy.google.com/Saigonist" class="feed-icon"><img src="../../../misc/feed.png" alt="Syndicate content" title="Syndicate" width="16" height="16"> Syndicate via RSS</a> 
+
+<a href="http://twitter.com/tomosaigon" class="twitter-follow-button" data-show-count="false">Follow @tomosaigon</a>
+<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+
+<p><a href="http://feeds.feedburner.com/Saigonist"><img src="http://feeds.feedburner.com/~fc/Saigonist?bg=74950A&amp;fg=ffffff&amp;anim=1" height="26" width="88" style="border:0" alt="" /></a></p>
+
+</div>
+
+<div class="block-split-right">
+<ins class="adsbygoogle"
+     style="display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-9556924506572581"
+     data-ad-slot="6281513583"></ins>
+<script>/* Saigonist Side */
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+</div>    </div>
+  </div>
+</div>
+<div id="block-comment-0" class="block block-comment">
+  <div class="inner">
+      <h2>Recent comments</h2>
+  
+    <div class="content">
+      <div class="item-list"><ul><li class="first"><a href="../../../forum/6348/esl-teachers-needed-ho-chi-minh-city.html#comment-4412">Hello,
+I only have a two year</a><br />1 year 11 weeks ago</li>
+<li><a href="../../../forum/6518/looking-name-nightclub.html#comment-4314">There is no way to upload</a><br />2 years 3 days ago</li>
+<li><a href="../../../forum/6542/saigon-pearl-apartment-rent-modern-furniture-cheap-price-2-brs.html#comment-4306">Pls, contact with me if you</a><br />2 years 1 week ago</li>
+<li><a href="../../../forum/6518/looking-name-nightclub.html#comment-4303">Hi, I dont see the pictures</a><br />2 years 3 weeks ago</li>
+<li><a href="../../../forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4167">I think EIS is a better</a><br />2 years 19 weeks ago</li>
+<li><a href="../../../forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4166">You are welcome, thanks all</a><br />2 years 19 weeks ago</li>
+<li><a href="../../../forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4165">:)</a><br />2 years 19 weeks ago</li>
+<li><a href="../../../forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4164">Sorry for late reply. I think</a><br />2 years 19 weeks ago</li>
+<li><a href="../../../forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4163">Hey guys, I have stayed in</a><br />2 years 19 weeks ago</li>
+<li class="last"><a href="../../../forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4162">I think IB is a great</a><br />2 years 19 weeks ago</li>
+</ul></div>    </div>
+  </div>
+</div>
+    </div>
+  </div> <!-- /#sidebar-first -->
+
+
+    </div> <!-- /#main-columns -->
+  </div> <!-- /#main-columns-wrapper -->
+
+
+  <div class="region fat-footer">
+          <div class="region region-footer-1">
+              </div>
+          <div class="region region-footer-2">
+        <div id="block-block-3" class="block block-block">
+  <div class="inner">
+      <h2>About the author</h2>
+  
+    <div class="content">
+      <p>Asian-American <span data-scayt_word="expat" data-scaytid="1">expat</span> living in Vietnam over 3 years. I am involved in tech startups and do <a href="../../tags/drupal.html">Drupal</a> consulting. I choose to live in Saigon and Vietnam and I want to see the city and its people reach their true potential.</p>
+    </div>
+  </div>
+</div>
+<div id="block-block-4" class="block block-block">
+  <div class="inner">
+      <h2>Where is Saigon?</h2>
+  
+    <div class="content">
+      <p>It's not wrong to wonder where in the world Saigon is. </p>
+<p>Saigon is the name of the city now officially known as Ho Chi Minh City. But most people who call Saigon home call their home Saigon and it's mostly tourists who I hear refer to it as Ho Chi Minh City (or Ho Chi Minh Ville for the French).</p>
+<p>After the Vietnam/American War ended in 1975, many place names ceased to exist such as Saigon, South Vietnam, and plenty of street names. </p>
+<p>Tu Do is now Dong Khoi, Thong Nhat is Le Duan. And Tan Son Nhut Airport is now <a href="../../../content/ho-chi-minh-citys-tan-san-nhat-international-airport.html">Tan Son Nhat International Airport</a>. Rue Paul Blanchy has been Hai Ba Trung since the 1950s.</p>
+<p>Those who haven't seen Vietnam for decades will be confused not just by the geographical changes but the incredible amount of development and modernization that has since taken place.</p>
+    </div>
+  </div>
+</div>
+      </div>
+          <div class="region region-footer-3">
+        <div id="block-tagadelic-2" class="block block-tagadelic">
+  <div class="inner">
+      <h2>Tags in Tags</h2>
+  
+    <div class="content">
+      <a href="../../tags/barcamp.html" class="tagadelic level1" rel="tag" title="">barcamp</a> 
+<a href="../../tags/block.html" class="tagadelic level1" rel="tag" title="">block</a> 
+<a href="../../tags/censorship.html" class="tagadelic level1" rel="tag" title="">censorship</a> 
+<a href="../../tags/chrome.html" class="tagadelic level1" rel="tag" title="">chrome</a> 
+<a href="../../tags/drupal.html" class="tagadelic level6" rel="tag" title="">drupal</a> 
+<a href="../../tags/facebook.html" class="tagadelic level3" rel="tag" title="">facebook</a> 
+<a href="../../tags/google.html" class="tagadelic level1" rel="tag" title="">google</a> 
+<a href="../../tags/javascript.html" class="tagadelic level2" rel="tag" title="">javascript</a> 
+<a href="../../tags/module.html" class="tagadelic level1" rel="tag" title="">module</a> 
+<a href="../../tags/travel.html" class="tagadelic level1" rel="tag" title="">travel</a> 
+<a href="../../tags/twitter.html" class="tagadelic level1" rel="tag" title="">twitter</a> 
+<a href="../../tags/views.html" class="tagadelic level1" rel="tag" title="">views</a> 
+<div class='more-link'><a href="../../../tagadelic/chunk/2.html">more tags</a></div>    </div>
+  </div>
+</div>
+<div id="block-statistics-0" class="block block-statistics">
+  <div class="inner">
+      <h2>Most popular posts</h2>
+  
+    <div class="content">
+      <div class="item-list"><h3>All time:</h3><ul><li class="first"><a href="../../../content/cost-living-vietnam-its-really-cheap.html">Cost-of-Living in Vietnam: It&#039;s Really Cheap</a></li>
+<li><a href="../../../content/easy-access-facebook-vietnam-part-deux.html">Easy Access to Facebook in Vietnam, Part Deux</a></li>
+<li><a href="../../../tech/drupal/drupal-add-comment-form-above-comments.html">Drupal Add Comment Form Above Comments</a></li>
+<li><a href="../../../content/bypass-vietnams-block-facebook-or-chinas-block-youtube.html">Bypass Vietnam&#039;s Block on FaceBook - or China&#039;s Block on YouTube</a></li>
+<li><a href="../../../content/simple-download-youtube-html5.html">Simple Way to Download YouTube HTML5 Videos</a></li>
+<li><a href="../../../vietnam/cloud-hosting-and-content-delivery-networks-vietnam.html">Cloud Hosting and Content Delivery Networks from Vietnam</a></li>
+<li><a href="../../../vietnam/hcmc/foreigner-vietnam-during-tet.html">A Foreigner in Vietnam During Tet</a></li>
+<li><a href="../../../pliggmeme.html">Pliggmeme Redux Pligg Theme</a></li>
+<li><a href="../../../b/facebook-vietnam-2012.html">Facebook in Vietnam 2012</a></li>
+<li><a href="../../../content/improved-google-spam-filter.html">Improved Google Spam Filter?</a></li>
+<li><a href="../../../b/buddhism-vietnam.html">Buddhism in Vietnam</a></li>
+<li><a href="../../../content/import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet.html">Import Nokia SMS and Contacts CSV Export to Google Excel Spreadsheet</a></li>
+<li><a href="../../../content/movie-theaters-saigon.html">Movie Theaters in Saigon</a></li>
+<li><a href="../../../content/future-foursquare.html">Future For Foursquare</a></li>
+<li class="last"><a href="../../../b/correct-horse-battery-staple-better-passwords-vietnamese.html">Correct Horse Battery Staple: Better passwords with Vietnamese</a></li>
+</ul></div>    </div>
+  </div>
+</div>
+      </div>
+          <div class="region region-footer-4">
+        <div id="block-views-latest_tech-block_1" class="block block-views">
+  <div class="inner">
+      <h2>Latest Technical Posts</h2>
+  
+    <div class="content">
+      <div class="view view-latest-tech view-id-latest_tech view-display-id-block_1 view-dom-id-1">
+        <div class="view-header">
+      <p>I also post a lot of technical material unrelated to Vietnam that doesn't hit the home page. Starting from November 2015 I am only posting technical articles on my new sub-blog: <a href="http:///tech.saigonist.com">TECH.saigonist.com</a></p>
+    </div>
+  
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../tech/definition-startup-what-isnt-startup.html">Definition of Startup: What isn&#039;t a startup?</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">What is a startup? 
+We're in the middle of a tech boom and it's become fashionable to either work for a startup or to be a startup. But what is a startup? How do you know that company offering you a...</span>
+  </span>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../tech/my-startup-experiences.html">My Startup Experiences</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">I've been involved in start ups for over a decade now. During that time I've worked for companies in varying stage of development. Not all of them were startups. But how can you tell if it is or not...</span>
+  </span>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../vietnam/hcmc/code-retreat-2012-ho-chi-minh-city.html">Code Retreat 2012 - Ho Chi Minh City</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">
+$(document).ready(function(){
+
+$('.geshifilter').hover(function(){console.log(this);console.log($(this));$(this).css('position', 'relative').css('width', '800px').css('z-index', 1000);}, function...</span>
+  </span>
+</li>
+          <li class="views-row views-row-4 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../b/internet-censorship-southeast-asian-countries-myanmar-china-malaysia-thailand-cambodia-vietnam.html">Internet Censorship in Southeast Asian Countries (Myanmar, China, Malaysia, Thailand, Cambodia, Vietnam)</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">Vietnam has been labeled an "enemy of the Internet" by Reporters Without Borders. There have been a lot of cases of bloggers being targeted, harrassed, and arrested. But RSF (Reporters Sans...</span>
+  </span>
+</li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../b/using-3g-internet-cambodia.html">Using 3G Internet in Cambodia</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">On my most recent trip to Cambodia I bought a Cambodian SIM card so that I could both make calls and use the Internet on my smartphone. At the Moc Bai/Bavet border are a number of Khmer people (who...</span>
+  </span>
+</li>
+          <li class="views-row views-row-6 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../b/mailchimp-vs-pommo-mailman-phplist-self-host-or-outsource-your-mailing-list.html">MailChimp vs poMMo, Mailman, Phplist - Self-Host or Outsource Your Mailing List?</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">Use your own mail server or outsource it?
+Let's say you have a rather large mailing list of a few thousand email addresses and, well, sending it out with GMail is no longer cutting it. What are your...</span>
+  </span>
+</li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../vietnam/internet-vietnam-good-bad-ugly.html">Internet in Vietnam - Good, Bad, Ugly</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">If you ask Vietnamese officials, you'll hear such hyperbole as "the Internet service development in Vietnam is in no way inferior to developed countries in the world" (Mai Liem Truc, former Deputy...</span>
+  </span>
+</li>
+          <li class="views-row views-row-8 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../b/pommo-problems.html">poMMo proBLEMs</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">poMMo is free open source mailing list management software. It's written in PHP and pretty basic but does give a decent management interface. However, it's no longer maintained. There is a GitHub...</span>
+  </span>
+</li>
+          <li class="views-row views-row-9 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../b/preventing-repetitive-stress-injuries-programmers-and-writers.html">Preventing Repetitive Stress Injuries for Programmers and Writers</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">My situation
+I'm a career programmer who has suffered from pain in my hands and arms for several years. Like carpal tunnel syndrome, this pain is from damage to tissue (including tendons) caused by...</span>
+  </span>
+</li>
+          <li class="views-row views-row-10 views-row-even views-row-last">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../b/calling-us-free-foreign-countries.html">Calling the US for free from foreign countries</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">Calling US numbers from the US is pretty trivial and nearly free. But calling from another country means either:
+- paying for long distance from your telephone company
+- using a phone card to call...</span>
+  </span>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>     </div>
+  </div>
+</div>
+<div id="block-views-latest_forum-block_1" class="block block-views">
+  <div class="inner">
+  
+    <div class="content">
+      <div class="view view-latest-forum view-id-latest_forum view-display-id-block_1 view-dom-id-2">
+        <div class="view-header">
+      <h1>Recent activity in the <a href="../../../forums/living-and-working-vietnam.html">expat forum</a>...</h1>
+    </div>
+  
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../forum/6713/we-can-support-you-about-visa-arrival-visa-extension.html">We can support you about &lt;Visa on arrival - Visa extension&gt;</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Nowadays, foreigners have many difficulties in living and working in Vietnam, in which the main...</span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../forum/6712/visa-vietnam-expats.html">VISA VIETNAM FOR EXPATS</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Dear  Sir/Madam
+I'm Ms. Vui - who is special making all of services for expats in Vietnam.
+Pls...</span>
+  </div>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../forum/6709/apartment-rent-cheap-price-ms-linh-0932705239.html">Apartment for rent with cheap price Ms Linh 0932705239</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Masteri apartment for rent with fully furnished or unfurnished #Condominium
+Add: 159 Ha Noi highway...</span>
+  </div>
+</li>
+          <li class="views-row views-row-4 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../forum/6707/best-dishes-christmas.html">Best dishes for Christmas</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">1. Roasted turkey
+Succulent tender turkey meat with moist and flavourful stuffing. Give this...</span>
+  </div>
+</li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../forum/6706/best-dishes-christmas.html">Best dishes for Christmas</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">1. Roasted turkey
+Succulent tender turkey meat with moist and flavourful stuffing. Give this...</span>
+  </div>
+</li>
+          <li class="views-row views-row-6 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../forum/6705/top-places-visit-christmas-hcmc.html">Top places to visit this Christmas in HCMC</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Christmas is coming! Another wonderful season of joy and happiness … and a lot of wonderful places...</span>
+  </div>
+</li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../forum/6703/apartment-rent-masteri-ms-linh-0932705239.html">Apartment for rent in MASTERI  Ms Linh 0932705239</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Masteri apartment for rent with fully furnished or unfurnished #Condominium
+Add: 159 Ha Noi highway...</span>
+  </div>
+</li>
+          <li class="views-row views-row-8 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../forum/6702/apartment-rent-diamond-island-ms-linh-0932705239.html">Apartment for rent in Diamond Island  Ms Linh 0932705239</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Diamond Island  apartment for rent with fully furnished or unfurnished #luxury  #Condominium
+Add:...</span>
+  </div>
+</li>
+          <li class="views-row views-row-9 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../forum/6701/apartment-rent-diamond-island-ms-linh-0932705239.html">Apartment for rent in Diamond Island  Ms Linh 0932705239</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Diamond Island  apartment for rent with fully furnished or unfurnished #luxury  #Condominium
+Add:...</span>
+  </div>
+</li>
+          <li class="views-row views-row-10 views-row-even views-row-last">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../../forum/6700/apartment-rent-diamond-island-ms-linh-0932705239.html">Apartment for rent in Diamond Island  Ms Linh 0932705239</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Diamond Island  apartment for rent with fully furnished or unfurnished #luxury  #Condominium
+Add:...</span>
+  </div>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>     </div>
+  </div>
+</div>
+      </div>
+      </div>
+
+  <script type="text/javascript" src="../../../sites/saigonist.com/files/advagg_js/js_ae4c45ca17e58eea971e353d18846ebd_1.js"></script>
+<script type="text/javascript" src="../../../sites/saigonist.com/files/advagg_js/js_114add5d22097bf8ea6c5fb53a2ba535_0.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","googleanalytics":{"trackOutgoing":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|avi|csv|doc|exe|flv|gif|gz|jpe?g|js|mp(3|4|e?g)|mov|pdf|phps|png|ppt|rar|sit|tar|torrent|txt|wma|wmv|xls|xml|zip"},"disqusCommentDomain":"saigon"});
+//--><!]]>
+</script>
+
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "CToolsAJAX": { "scripts": { "/sites/saigonist.com/modules/jquery_update/replace/jquery.min.js?X": true, "/misc/drupal.js?X": true, "/sites/saigonist.com/modules/saigonist/gavote.js?X": true, "/sites/saigonist.com/modules/saigonist/saigonist.js?X": true, "/sites/saigonist.com/modules/saigonist/jquery.slicknav.js?X": true, "/sites/saigonist.com/modules/disqus/disqus.js?X": true, "/sites/saigonist.com/modules/ajax/jquery/jquery.a_form.packed.js?X": true, "/sites/saigonist.com/modules/ajax/ajax.js?X": true, "/sites/all/modules/3rdparty/google_analytics/googleanalytics.js?X": true }, "css": { "/modules/aggregator/aggregator.css?X": true, "/modules/node/node.css?X": true, "/modules/poll/poll.css?X": true, "/modules/system/defaults.css?X": true, "/modules/system/system.css?X": true, "/modules/system/system-menus.css?X": true, "/modules/user/user.css?X": true, "/sites/all/modules/3rdparty/cck/theme/content-module.css?X": true, "/sites/all/modules/3rdparty/ctools/css/ctools.css?X": true, "/sites/all/modules/3rdparty/date/date.css?X": true, "/sites/all/modules/3rdparty/date/date_popup/themes/datepicker.css?X": true, "/sites/all/modules/3rdparty/date/date_popup/themes/timeentry.css?X": true, "/sites/all/modules/3rdparty/filefield/filefield.css?X": true, "/sites/all/modules/3rdparty/tagadelic/tagadelic.css?X": true, "/sites/all/modules/3rdparty/x/mollom/mollom.css?X": true, "/sites/saigonist.com/modules/geshifilter/geshifilter.css?X": true, "/modules/forum/forum.css?X": true, "/sites/all/modules/3rdparty/cck/modules/fieldgroup/fieldgroup.css?X": true, "/sites/all/modules/3rdparty/views/css/views.css?X": true, "/sites/saigonist.com/themes/corolla_sg/reset.css?X": true, "/sites/saigonist.com/themes/corolla_sg/base.css?X": true, "/sites/saigonist.com/themes/corolla_sg/style.css?X": true, "/sites/saigonist.com/themes/corolla_sg/drupal-6.css?X": true, "/sites/saigonist.com/themes/corolla_sg/colors.css?X": true, "/sites/saigonist.com/themes/corolla_sg/dynamic_tomo.css?X": true, "/sites/saigonist.com/themes/corolla_sg/slicknav.css?X": true, "/sites/saigonist.com/themes/corolla_sg/tomo.css?X": true, "/sites/saigonist.com/themes/corolla_sg/responsive.css?X": true, "/sites/saigonist.com/themes/corolla_sg/print.css?X": true } } });
+//--><!]]>
+</script>
+<script type="text/javascript" src="../../../sites/saigonist.com/files/advagg_js/js_bd2dccda1712ebf640b9dcbfe9797558_2.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var gaJsHost=(("https:"==document.location.protocol)?"https://ssl.":"http://www.");document.write(unescape("%3Cscript src='"+gaJsHost+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+try{var pageTracker=_gat._getTracker("UA-18406883-1");pageTracker._trackPageview()}catch(err){}
+//--><!]]>
+</script>
+
+</body>
+
+<!-- Mirrored from www.saigonist.com/category/type/tech/drupal?page=2 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Oct 2018 11:36:22 GMT -->
+</html>

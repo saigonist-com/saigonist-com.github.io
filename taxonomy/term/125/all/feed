@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/125/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>array</title>
+    <link>http://www.saigonist.com/taxonomy/term/125/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Attaching a table/matrix/array to a Drupal node</title>
+    <link>http://www.saigonist.com/tech/drupal/attaching-tablematrixarray-drupal-node</link>
+    <description>&lt;p&gt;[This blog post is a rewrite of just the main points due to my baby &lt;span data-scayt_word=&quot;Macbook&quot; data-scaytid=&quot;1&quot;&gt;Macbook&lt;/span&gt; Pro dying while I was distracted.]&lt;/p&gt;&lt;p&gt;Drupal content types with &lt;span data-scayt_word=&quot;CCK&quot; data-scaytid=&quot;2&quot;&gt;CCK&lt;/span&gt; make it quite easy to add any number of defined fields to an &amp;#39;object&amp;#39;, and with multiple/unlimited values for a field or with node references it&amp;#39;s possible to make a Drupal node &amp;#39;two-dimensional&amp;#39;.&lt;/p&gt;&lt;p&gt;Sometimes you need more. Sometimes you want tabular data, a table, to be part of a node. If the table always has the same dimensions, and at least the same columns for each node, then the above can work through node references and views.&lt;/p&gt;&lt;p&gt;What if you want to add a different two-dimensional table to nodes of a content type, but without knowing the number or labels for the columns and rows beforehand. &amp;nbsp;For example, you might want to attach a pricing table to a node, with multiple products and multiple ways to price each product. &amp;nbsp;An example of that might be 5 t-shirt designs, where shirts are priced based on size and quantity ordered.&lt;/p&gt;</description>
+     <comments>http://www.saigonist.com/tech/drupal/attaching-tablematrixarray-drupal-node#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/array">array</category>
+ <category domain="http://www.saigonist.com/category/tags/cck">cck</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/matrix">matrix</category>
+ <category domain="http://www.saigonist.com/category/tags/noderelationships">noderelationships</category>
+ <category domain="http://www.saigonist.com/category/tags/table">table</category>
+ <category domain="http://www.saigonist.com/category/tags/tablefield">tablefield</category>
+ <category domain="http://www.saigonist.com/category/tags/views">views</category>
+ <pubDate>Tue, 05 Jul 2011 12:48:48 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">211 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

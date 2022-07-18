@@ -1,0 +1,1130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+
+
+<!-- Mirrored from www.saigonist.com/content/import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Oct 2018 10:21:04 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../sites/saigonist.com/themes/corolla_sg/favicon.ico" type="image/x-icon" />
+  <title>Import Nokia SMS and Contacts CSV Export to Google Excel Spreadsheet | Saigonist - Expat Living in Vietnam</title>
+  <script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <link type="text/css" rel="stylesheet" media="all" href="../sites/saigonist.com/files/advagg_css/css_7e4afcf34e8ca6d100170c1fb41f16fc_0.css" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/saigonist.com/files/advagg_css/css_51aa555fc841820eb36d6bd2d7555911_0.css" />
+<link type="text/css" rel="stylesheet" media="print" href="../sites/saigonist.com/files/advagg_css/css_e0d39d80602b8a9dc02de7d25cb8e5de_0.css" />
+  
+  <!--[if lte IE 8]>
+  <link type="text/css" rel="stylesheet" href="/sites/saigonist.com/themes/corolla_sg/ie8.css" media="all" />
+  <![endif]-->
+
+  <!--[if lte IE 7]>
+  <link type="text/css" rel="stylesheet" href="/sites/saigonist.com/themes/corolla_sg/ie7.css" media="all" />
+  <![endif]-->
+
+  <!--[if lte IE 6]>
+  <link type="text/css" rel="stylesheet" href="/sites/saigonist.com/themes/corolla_sg/ie6.css" media="all" />
+  <![endif]-->
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+
+</head>
+<body class="not-front not-logged-in page-node node-type-blog  one-sidebar">
+      <div id="navigation-wrapper">
+      <div id="navigation" class="clear-block">
+        <ul class="menu"><li class="leaf first"><a href="../index.html" title="">Home</a></li>
+<li class="leaf"><a href="../category/type/tech.html" title="">Tech</a></li>
+<li class="leaf"><a href="../category/type/vietnam.html" title="">Vietnam</a></li>
+<li class="leaf"><a href="../forums/living-and-working-vietnam.html" title="Living and Working in Vietnam">Forum</a></li>
+<li class="leaf last"><div id="block-search-0" class="block block-search">
+  <div class="inner">
+  
+    <div class="content">
+          </div>
+  </div>
+</div>
+</li>
+</ul>      </div> <!-- /#navigation -->
+    </div>
+  
+
+  <div id="header-wrapper">
+    <div id="header" class="clear-block">
+
+              <div id="branding-wrapper" class="clear-block">
+          <div id="branding">
+
+                          <div id="logo">
+                <a href="../index.html" title="Home" rel="home">
+<span style="color: white; font-size: 45px; font-family: Georgia; letter-spacing: 1px; text-shadow: 1px 1px 7px #444;">Saigonist</span>
+                </a>
+              </div>
+            
+                          <div id="name-and-slogan">
+                                  <div id="site-name">
+                    <a href="../index.html" title="Home" rel="home">Saigonist - Expat Living in Vietnam</a>
+                  </div>
+                
+                              <div id="site-slogan">Vietnam blog by an expat writing about technology, entrepreneurship, software, and living and traveling in Saigon, Vietnam</div>
+                            </div> <!-- /name-and-slogan -->
+            
+          </div> <!-- /#branding -->
+        </div> <!-- /#branding-wrapper -->
+      
+      
+    </div> <!-- /#header -->
+  </div> <!-- /#header-wrapper -->
+
+  <div id="main-columns-wrapper">
+    <div id="main-columns">
+     <div id="side-top-ad"><div id="block-block-11" class="block block-block">
+  <div class="inner">
+  
+    <div class="content">
+      <ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-9556924506572581"
+     data-ad-slot="9609004472"></ins>
+<script>/* Saigonist big top */
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
+  </div>
+</div>
+</div>      
+      <div id="main-wrapper" class=" first">
+  <div id="main">
+    <div id="page" class="clear-block">
+      <div id="breadcrumb"><div class="breadcrumb"><a href="../index.html">Home</a> » <a href="../blog.html">Blogs</a> » <a href="../blogs/tomo.html">tomo&#039;s blog</a></div></div>      
+      
+      
+      
+      <a id="main-content"></a>
+              <h1 class="page-title">Import Nokia SMS and Contacts CSV Export to Google Excel Spreadsheet</h1>
+      
+      
+                    <div class="region region-content">
+          <div id="node-59" class="node">
+
+  <div class="node-header">
+
+    
+          <div class="meta">Submitted by tomo on March 25, 2011 - 5:03am</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_6 first"><a href="../category/type/tech.html" rel="tag" title="">Tech</a></li>
+<li class="taxonomy_term_79"><a href="../category/tags/csv.html" rel="tag" title="">csv</a></li>
+<li class="taxonomy_term_88"><a href="../category/tags/excel.html" rel="tag" title="">excel</a></li>
+<li class="taxonomy_term_76"><a href="../category/tags/nokia.html" rel="tag" title="">nokia</a></li>
+<li class="taxonomy_term_78"><a href="../category/tags/pc-suite.html" rel="tag" title="">pc suite</a></li>
+<li class="taxonomy_term_77"><a href="../category/tags/smartphone.html" rel="tag" title="">smartphone</a></li>
+<li class="taxonomy_term_80 last"><a href="../category/tags/spreadsheet.html" rel="tag" title="">spreadsheet</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>Using Nokia's PC Suite, one can export SMS messages from one's phone (maybe only their smartphones with USB).  The format is CSV but the output is basically unreadable due to PC Suite bugs.  Only a phone number is exported per message, no contact name.  But more importantly, the CSV output is broken -- double quotes aren't properly escaped.</p>
+<p>I think it's useful to be able to browse old messages online, say in a Google spreadsheet.  But to do that, we need to rewrite PC Suite's output a bit.</p>
+<p>[I didn't know anything about scripting Excel (or Google's spreadsheet which is basically Excel) but I did want to look up some old messages because I couldn't remember somebody's birthday.  After importing messages from a year ago to Google docs, I could read messages between my friend and I around that day to find out exactly.]</p>
+<p>First, export your messages.  If your phone has a strict limit of stored messages, or gets really slow after a few hundred messages, then you should be doing this regularly.  Also, export your contacts to CSV.</p>
+<p>Then, run this script on each SMS CSV file:<br />
+[Update: I rewrote this in Javascript which you can use directly at the bottom]</p>
+<pre>#!/usr/bin/python
+
+import sys
+for line in sys.stdin:
+    line = line.replace('\r', '').replace('\n', '')
+    x = line.split(',')
+    x[7] = x[7][1:]
+    x[-1] = x[-1][:-1]
+    print ','.join(x[:7]) + ',"' + ','.join([y.replace('"', '""') for y in x[7:]]) + '"'
+</pre><p>E.g. save that as fix.py, then run:</p>
+<pre>./fix.py &lt; exported-inbox.csv > fixed-inbox.csv
+</pre><p>
+Now open up a new Google Docs spreadsheet and import fixed-inbox.csv as a sheet, and your exported contacts as another sheet.</p>
+<p>In your contacts sheet, add a new column before the first column and populate it as a function:<br />
+<span class="geshifilter"><code class="javascript geshifilter-javascript"><span style="color: #339933;">=</span>EXPAND<span style="color: #009900;">&#40;</span>RIGHT<span style="color: #009900;">&#40;</span>O1<span style="color: #339933;">:</span>O2<span style="color: #339933;">,</span> <span style="color: #CC0000;">7</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span><span style="color: #3366CC;">&quot;</span></code></span><br />
+You can then drag all the way down, so that each row of that column has that expression, with appropriate row numbers.  This creates an index of the most significant numbers of a phone number (my Vietnamese phone numbers are a mix of +84... and 09..., this normalizes them).  It's important that this column is to the left of your contacts' names.</p>
+<p>Now in the sms export sheet, add a column, say column D after the number, which is column C.  Use this expression:<br />
+<span class="geshifilter"><code class="javascript geshifilter-javascript"><span style="color: #339933;">=</span>VLOOKUP<span style="color: #009900;">&#40;</span>RIGHT<span style="color: #009900;">&#40;</span>C1<span style="color: #339933;">,</span> <span style="color: #CC0000;">7</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span>contacts<span style="color: #339933;">!</span>A<span style="color: #339933;">:</span>B<span style="color: #339933;">,</span> <span style="color: #CC0000;">2</span><span style="color: #339933;">,</span> FALSE<span style="color: #009900;">&#41;</span></code></span><br />
+What this does is use the "contacts" sheet's A column as an index column to lookup, and we again normalize the phone number in column C (right-most 7 digits) to print out the name in column B of contacts.</p>
+<p>And Voila! You have contact names next to each message.</p>
+<p>Below is a JS snippet that will fix your Nokia PC Suite exported csv files.</p>
+<p><label>Paste your exported csv here:</label><br />
+<textarea id="csv-exported" class="resizable resizeable">Paste your exported csv here</textarea><br />
+Click this link to transform the pasted text into the box below:<br />
+<a href="javascript:void(0);" id="link-fix">Fix CSV</a><br />
+<textarea id="csv-fixed" class="resizable"></textarea></p>
+<script  type="text/javascript">
+$(document).ready(function(){$('#link-fix').click(fixcsv)});
+
+function fixcsv() {
+var csv = $('#csv-exported').val().split('\n');
+var fixed = '';
+for (var i=0; i != csv.length; i++) {
+if (csv[i] == '') continue;
+var line = csv[i].split(',');
+var msg = line.slice(7).join(',').slice(1, -1).replace(/"/g, '""');
+fixed += line.slice(0, 7).join(',') + ',"' + msg + '"\n';
+$('#csv-fixed').val(fixed);
+}
+}
+</script><div id="disqus_thread"></div><noscript><div class="disqus-noscript"><a href="http://saigon.disqus.com/?url=http%3A%2F%2Fwww.saigonist.com%2Fnode%2F59">View the discussion thread.</a></div></noscript>
+<a href="import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet.html">Read the rest of this article...</a>  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="../blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_forbidden last"><span><a href="../user/loginbb0b.html?destination=node%2F59%23comment-form">Login</a> to post comments</span></li>
+</ul>  </div>
+
+</div>
+
+<div id="forum-comments" class="en">
+  <a id="comment-1098"></a>
+
+    
+
+<div id="post-1098" class="forum-post clear-block posted-by-0">
+  <div class="forum-post-info clear-block">
+    <div class="forum-posted-on">
+      March 20, 2013 - 10:43am
+          </div>
+
+    
+        
+    <span class="forum-post-number"><a href="import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet.html#comment-1098" class="active">#2</a></span>
+  </div> 
+  <div class="forum-post-wrapper">
+    <div class="forum-post-panel-sub">
+              <div class="author-pane">Guriiyzyh (not verified)
+</div>          </div>
+
+    <div class="forum-post-panel-main clear-block">
+      
+      <div class="forum-post-content">
+        <p>Dutch non-profit organization Mars One intends to be the first to be able to deliver mankind to Mars and build a city. Following the schedule, it will occur very soon - in 2023 , that is two years faster than the other participants of the " race of Martians " - the U.S., China and Russia . </p>
+<p>Who thinks about this? # notraty</p>
+      </div>
+
+      
+          </div>
+  </div> 
+  <div class="forum-post-footer clear-block">
+    <div class="forum-jump-links">
+      <a href="#forum-topic-top" title="Jump to top of page" class="af-button-small"><span>Top</span></a>
+    </div>
+
+          <div class="forum-post-links">
+        <ul class="links"><li class="comment_forbidden first last"><span><a href="../user/loginbb0b.html?destination=node%2F59%23comment-form">Login</a> to post comments</span></li>
+</ul>      </div>
+      </div> </div> 
+<a id="comment-310"></a>
+
+    
+
+<div id="post-310" class="forum-post clear-block posted-by-0">
+  <div class="forum-post-info clear-block">
+    <div class="forum-posted-on">
+      April 18, 2012 - 1:13am
+          </div>
+
+    
+        
+    <span class="forum-post-number"><a href="import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet.html#comment-310" class="active">#3</a></span>
+  </div> 
+  <div class="forum-post-wrapper">
+    <div class="forum-post-panel-sub">
+              <div class="author-pane">Anonymous (not verified)
+</div>          </div>
+
+    <div class="forum-post-panel-main clear-block">
+      
+      <div class="forum-post-content">
+        <p>This is really great, i have looked for this information literally for years haha</p>
+<p>btw i can't use the java script snippet where you paste the csv file, I tried to copy the csv file from windows explorer then right click and paste it in the box, nothing happens.. please enlighten me</p>
+      </div>
+
+      
+          </div>
+  </div> 
+  <div class="forum-post-footer clear-block">
+    <div class="forum-jump-links">
+      <a href="#forum-topic-top" title="Jump to top of page" class="af-button-small"><span>Top</span></a>
+    </div>
+
+          <div class="forum-post-links">
+        <ul class="links"><li class="comment_forbidden first last"><span><a href="../user/loginbb0b.html?destination=node%2F59%23comment-form">Login</a> to post comments</span></li>
+</ul>      </div>
+      </div> </div> 
+<div class="indented"><a id="comment-698"></a>
+
+    
+
+<div id="post-698" class="forum-post clear-block posted-by-0">
+  <div class="forum-post-info clear-block">
+    <div class="forum-posted-on">
+      August 25, 2012 - 2:22am
+          </div>
+
+          <span class="forum-in-reply-to"><a href="import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet.html#comment-310" class="active">(Reply to #2)</a></span>
+    
+        
+    <span class="forum-post-number"><a href="import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet.html#comment-698" class="active">#4</a></span>
+  </div> 
+  <div class="forum-post-wrapper">
+    <div class="forum-post-panel-sub">
+              <div class="author-pane">File Share Live (not verified)
+</div>          </div>
+
+    <div class="forum-post-panel-main clear-block">
+      
+      <div class="forum-post-content">
+        <p>Great website you have here but I was wanting to know if<br />
+you knew of any discussion boards that cover the same topics talked about here?<br />
+I'd really love to be a part of online community where I can get advice from other knowledgeable individuals that share the same interest. If you have any suggestions, please let me know. Thanks!</p>
+      </div>
+
+      
+          </div>
+  </div> 
+  <div class="forum-post-footer clear-block">
+    <div class="forum-jump-links">
+      <a href="#forum-topic-top" title="Jump to top of page" class="af-button-small"><span>Top</span></a>
+    </div>
+
+          <div class="forum-post-links">
+        <ul class="links"><li class="comment_forbidden first last"><span><a href="../user/loginbb0b.html?destination=node%2F59%23comment-form">Login</a> to post comments</span></li>
+</ul>      </div>
+      </div> </div> 
+<a id="comment-696"></a>
+
+    
+
+<div id="post-696" class="forum-post clear-block posted-by-0">
+  <div class="forum-post-info clear-block">
+    <div class="forum-posted-on">
+      August 24, 2012 - 12:01pm
+          </div>
+
+          <span class="forum-in-reply-to"><a href="import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet.html#comment-310" class="active">(Reply to #2)</a></span>
+    
+        
+    <span class="forum-post-number"><a href="import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet.html#comment-696" class="active">#5</a></span>
+  </div> 
+  <div class="forum-post-wrapper">
+    <div class="forum-post-panel-sub">
+              <div class="author-pane">Northern Lights (not verified)
+</div>          </div>
+
+    <div class="forum-post-panel-main clear-block">
+      
+      <div class="forum-post-content">
+        <p>Your style is so unique compared to other people I have read stuff from.<br />
+Thank you for posting when you've got the opportunity, Guess I will just bookmark this site.</p>
+      </div>
+
+      
+          </div>
+  </div> 
+  <div class="forum-post-footer clear-block">
+    <div class="forum-jump-links">
+      <a href="#forum-topic-top" title="Jump to top of page" class="af-button-small"><span>Top</span></a>
+    </div>
+
+          <div class="forum-post-links">
+        <ul class="links"><li class="comment_forbidden first last"><span><a href="../user/loginbb0b.html?destination=node%2F59%23comment-form">Login</a> to post comments</span></li>
+</ul>      </div>
+      </div> </div> 
+<a id="comment-695"></a>
+
+    
+
+<div id="post-695" class="forum-post clear-block posted-by-0">
+  <div class="forum-post-info clear-block">
+    <div class="forum-posted-on">
+      August 23, 2012 - 9:41pm
+          </div>
+
+          <span class="forum-in-reply-to"><a href="import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet.html#comment-310" class="active">(Reply to #2)</a></span>
+    
+        
+    <span class="forum-post-number"><a href="import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet.html#comment-695" class="active">#6</a></span>
+  </div> 
+  <div class="forum-post-wrapper">
+    <div class="forum-post-panel-sub">
+              <div class="author-pane">younger looking skin (not verified)
+</div>          </div>
+
+    <div class="forum-post-panel-main clear-block">
+      
+      <div class="forum-post-content">
+        <p>Howdy! Do you know if they make any plugins to help with Search Engine<br />
+Optimization? I'm trying to get my blog to rank for some targeted keywords but I'm not seeing very good success.<br />
+If you know of any please share. Kudos!</p>
+      </div>
+
+      
+          </div>
+  </div> 
+  <div class="forum-post-footer clear-block">
+    <div class="forum-jump-links">
+      <a href="#forum-topic-top" title="Jump to top of page" class="af-button-small"><span>Top</span></a>
+    </div>
+
+          <div class="forum-post-links">
+        <ul class="links"><li class="comment_forbidden first last"><span><a href="../user/loginbb0b.html?destination=node%2F59%23comment-form">Login</a> to post comments</span></li>
+</ul>      </div>
+      </div> </div> 
+<a id="comment-642"></a>
+
+    
+
+<div id="post-642" class="forum-post clear-block posted-by-0">
+  <div class="forum-post-info clear-block">
+    <div class="forum-posted-on">
+      July 31, 2012 - 5:49pm
+          </div>
+
+          <span class="forum-in-reply-to"><a href="import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet.html#comment-310" class="active">(Reply to #2)</a></span>
+    
+        
+    <span class="forum-post-number"><a href="import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet.html#comment-642" class="active">#7</a></span>
+  </div> 
+  <div class="forum-post-wrapper">
+    <div class="forum-post-panel-sub">
+              <div class="author-pane">a fantastic read (not verified)
+</div>          </div>
+
+    <div class="forum-post-panel-main clear-block">
+      
+      <div class="forum-post-content">
+        <p>Superb website you have here but I was wanting to know if you knew of any forums that cover the same topics discussed here?</p>
+<p>I'd really like to be a part of online community where I can get advice from other experienced people that share the same interest. If you have any suggestions, please let me know. Many thanks!</p>
+      </div>
+
+      
+          </div>
+  </div> 
+  <div class="forum-post-footer clear-block">
+    <div class="forum-jump-links">
+      <a href="#forum-topic-top" title="Jump to top of page" class="af-button-small"><span>Top</span></a>
+    </div>
+
+          <div class="forum-post-links">
+        <ul class="links"><li class="comment_forbidden first last"><span><a href="../user/loginbb0b.html?destination=node%2F59%23comment-form">Login</a> to post comments</span></li>
+</ul>      </div>
+      </div> </div> 
+<div class="indented"><a id="comment-653"></a>
+
+    
+
+<div id="post-653" class="forum-post clear-block posted-by-1 post-by-starter">
+  <div class="forum-post-info clear-block">
+    <div class="forum-posted-on">
+      August 2, 2012 - 2:39am
+          </div>
+
+          <span class="forum-in-reply-to"><a href="import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet.html#comment-642" class="active">(Reply to #6)</a></span>
+    
+        
+    <span class="forum-post-number"><a href="import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet.html#comment-653" class="active">#8</a></span>
+  </div> 
+  <div class="forum-post-wrapper">
+    <div class="forum-post-panel-sub">
+              <div class="author-pane">tomo
+</div>          </div>
+
+    <div class="forum-post-panel-main clear-block">
+      
+      <div class="forum-post-content">
+        <p>Here's a forum: http://www.saigonist.com/forums/living-and-working-vietnam</p>
+      </div>
+
+      
+          </div>
+  </div> 
+  <div class="forum-post-footer clear-block">
+    <div class="forum-jump-links">
+      <a href="#forum-topic-top" title="Jump to top of page" class="af-button-small"><span>Top</span></a>
+    </div>
+
+          <div class="forum-post-links">
+        <ul class="links"><li class="comment_forbidden first last"><span><a href="../user/loginbb0b.html?destination=node%2F59%23comment-form">Login</a> to post comments</span></li>
+</ul>      </div>
+      </div> </div> 
+</div><a id="comment-637"></a>
+
+    
+
+<div id="post-637" class="forum-post clear-block posted-by-0">
+  <div class="forum-post-info clear-block">
+    <div class="forum-posted-on">
+      July 28, 2012 - 2:28pm
+          </div>
+
+          <span class="forum-in-reply-to"><a href="import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet.html#comment-310" class="active">(Reply to #2)</a></span>
+    
+        
+    <span class="forum-post-number"><a href="import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet.html#comment-637" class="active">#9</a></span>
+  </div> 
+  <div class="forum-post-wrapper">
+    <div class="forum-post-panel-sub">
+              <div class="author-pane">Tarifvergleich (not verified)
+</div>          </div>
+
+    <div class="forum-post-panel-main clear-block">
+      
+      <div class="forum-post-content">
+        <p>I &#1075;eally love &#1091;our web&#1109;ite.<br />
+. Great colors &amp; th&#1077;me. Did y&omicron;u ma&kappa;&#1077; this amazing site &#1091;ourself?<br />
+&#1056;lease reply back as I'm wanting to create my very own blog and would love to find out where you got this from or just what the theme is named. Thank you!</p>
+      </div>
+
+      
+          </div>
+  </div> 
+  <div class="forum-post-footer clear-block">
+    <div class="forum-jump-links">
+      <a href="#forum-topic-top" title="Jump to top of page" class="af-button-small"><span>Top</span></a>
+    </div>
+
+          <div class="forum-post-links">
+        <ul class="links"><li class="comment_forbidden first last"><span><a href="../user/loginbb0b.html?destination=node%2F59%23comment-form">Login</a> to post comments</span></li>
+</ul>      </div>
+      </div> </div> 
+<a id="comment-635"></a>
+
+    
+
+<div id="post-635" class="forum-post clear-block posted-by-0">
+  <div class="forum-post-info clear-block">
+    <div class="forum-posted-on">
+      July 28, 2012 - 7:57am
+          </div>
+
+          <span class="forum-in-reply-to"><a href="import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet.html#comment-310" class="active">(Reply to #2)</a></span>
+    
+        
+    <span class="forum-post-number"><a href="import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet.html#comment-635" class="active">#10</a></span>
+  </div> 
+  <div class="forum-post-wrapper">
+    <div class="forum-post-panel-sub">
+              <div class="author-pane">alexander group llc (not verified)
+</div>          </div>
+
+    <div class="forum-post-panel-main clear-block">
+      
+      <div class="forum-post-content">
+        <p>I would also love to add if you do not now have an insurance policy otherwise you do not participate in any group insurance, you could well<br />
+gain from seeking the help of a health insurance broker.<br />
+Self-employed or people who have medical conditions commonly seek the help of a health insurance<br />
+agent. Thanks for your text.<br />
+Thanks for your short article. I would also like to say that your health insurance brokerage service also works for<br />
+the benefit of the particular coordinators of your group insurance policies.<br />
+The health agent is given a long list of benefits desired<br />
+by a person or a group coordinator. What any broker really does<br />
+is look for individuals and also coordinators that best complement those requirements.<br />
+Then he provides his tips and if all sides agree, this broker formulates<br />
+a contract between the two parties.<br />
+I will also like to express that most of those that find themselves without the need of health insurance are<br />
+usually students, self-employed and those that are unemployed.</p>
+<p>More than half of those uninsured are really under the age of Thirty five.<br />
+They do not think they are in need of health insurance since they're young in addition to healthy. Their income is frequently spent on homes, food, plus entertainment. Many people that do go to work either 100 % or part time are not offered insurance by way of their jobs so they proceed without due to the rising price of health insurance in the us. Thanks for the thoughts you discuss through this blog.<br />
+Thanks for the ideas you write about through this site. In addition, lots of young women that become pregnant tend not to even seek to get health insurance because they have anxiety they wouldn't qualify.<br />
+Although many states today require  insurers produce coverage despite the<br />
+pre-existing conditions. Prices on these kinds of guaranteed<br />
+programs are usually larger, but when thinking about the high cost of medical care bills it may be your safer route to take to protect one's financial future.<br />
+I have observed that of all kinds of insurance, medical insurance is the most dubious because of the turmoil between the insurance company's<br />
+duty to remain making money and the buyer's need to have insurance policies. Insurance companies' profits on wellness plans have become low,<br />
+hence some organizations struggle to generate income.<br />
+Thanks for the strategies you write about<br />
+through this web site.</p>
+      </div>
+
+      
+          </div>
+  </div> 
+  <div class="forum-post-footer clear-block">
+    <div class="forum-jump-links">
+      <a href="#forum-topic-top" title="Jump to top of page" class="af-button-small"><span>Top</span></a>
+    </div>
+
+          <div class="forum-post-links">
+        <ul class="links"><li class="comment_forbidden first last"><span><a href="../user/loginbb0b.html?destination=node%2F59%23comment-form">Login</a> to post comments</span></li>
+</ul>      </div>
+      </div> </div> 
+<a id="comment-607"></a>
+
+    
+
+<div id="post-607" class="forum-post clear-block posted-by-0">
+  <div class="forum-post-info clear-block">
+    <div class="forum-posted-on">
+      July 19, 2012 - 9:07pm
+          </div>
+
+          <span class="forum-in-reply-to"><a href="import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet.html#comment-310" class="active">(Reply to #2)</a></span>
+    
+        
+    <span class="forum-post-number"><a href="import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet.html#comment-607" class="active">#11</a></span>
+  </div> 
+  <div class="forum-post-wrapper">
+    <div class="forum-post-panel-sub">
+              <div class="author-pane">zur seite (not verified)
+</div>          </div>
+
+    <div class="forum-post-panel-main clear-block">
+      
+      <div class="forum-post-content">
+        <p>I'm gone to tell my little brother, that he should also pay a visit this weblog on regular basis to take updated from latest information.</p>
+      </div>
+
+      
+          </div>
+  </div> 
+  <div class="forum-post-footer clear-block">
+    <div class="forum-jump-links">
+      <a href="#forum-topic-top" title="Jump to top of page" class="af-button-small"><span>Top</span></a>
+    </div>
+
+          <div class="forum-post-links">
+        <ul class="links"><li class="comment_forbidden first last"><span><a href="../user/loginbb0b.html?destination=node%2F59%23comment-form">Login</a> to post comments</span></li>
+</ul>      </div>
+      </div> </div> 
+</div>    </div>
+<div id="block-similar-0" class="block block-similar">
+  <div class="inner">
+      <h2>Similar entries</h2>
+  
+    <div class="content">
+      <div class="item-list"><ul><li class="first"><a href="../tech/drupal/importing-and-exporting-drupal-taxonomy.html">Importing and Exporting Drupal Taxonomy</a></li>
+<li><a href="../b/calling-us-free-foreign-countries.html">Calling the US for free from foreign countries</a></li>
+<li><a href="../b/drupal-module-idea-embed-google-spreadsheet-cck-field.html">Drupal module idea: embed Google spreadsheet CCK field</a></li>
+<li><a href="../tech/drupal/increase-drupal-maximum-url-alias-length.html">Increase Drupal Maximum URL Alias Length</a></li>
+<li class="last"><a href="../tech/drupal/attaching-tablematrixarray-drupal-node.html">Attaching a table/matrix/array to a Drupal node</a></li>
+</ul></div>    </div>
+  </div>
+</div>
+        </div>
+      
+                </div> <!-- /#page -->
+
+
+    <div id="closure">
+      <div id="info">
+        © 2010-2014 Saigonist.       </div>
+
+          </div> <!-- /#closure -->
+
+  </div> <!-- /#main -->
+</div> <!-- /#main-wrapper -->
+
+
+
+    <div id="sidebar-first" class="clear-block last">
+    <div class="region region-sidebar-first">
+      <div id="block-block-10" class="block block-block">
+  <div class="inner">
+  
+    <div class="content">
+      <ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-9556924506572581"
+     data-ad-slot="4371339435"></ins>
+<script>/* Saigonist Skyscraper */
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>    </div>
+  </div>
+</div>
+<div id="block-block-1" class="block block-block">
+  <div class="inner">
+  
+    <div class="content">
+      <style>
+.block-split-left {
+    width: 150px;
+    display: inline-block;
+}
+.block-split-right {
+    width: 200px;
+    height: 200px;
+    display: inline;
+}
+
+</style>
+
+<div class="block-split-left">
+
+<a href="http://feedproxy.google.com/Saigonist" class="feed-icon"><img src="../misc/feed.png" alt="Syndicate content" title="Syndicate" width="16" height="16"> Syndicate via RSS</a> 
+
+<a href="http://twitter.com/tomosaigon" class="twitter-follow-button" data-show-count="false">Follow @tomosaigon</a>
+<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+
+<p><a href="http://feeds.feedburner.com/Saigonist"><img src="http://feeds.feedburner.com/~fc/Saigonist?bg=74950A&amp;fg=ffffff&amp;anim=1" height="26" width="88" style="border:0" alt="" /></a></p>
+
+</div>
+
+<div class="block-split-right">
+<ins class="adsbygoogle"
+     style="display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-9556924506572581"
+     data-ad-slot="6281513583"></ins>
+<script>/* Saigonist Side */
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+</div>    </div>
+  </div>
+</div>
+<div id="block-comment-0" class="block block-comment">
+  <div class="inner">
+      <h2>Recent comments</h2>
+  
+    <div class="content">
+      <div class="item-list"><ul><li class="first"><a href="../forum/6348/esl-teachers-needed-ho-chi-minh-city.html#comment-4412">Hello,
+I only have a two year</a><br />1 year 11 weeks ago</li>
+<li><a href="../forum/6518/looking-name-nightclub.html#comment-4314">There is no way to upload</a><br />2 years 3 days ago</li>
+<li><a href="../forum/6542/saigon-pearl-apartment-rent-modern-furniture-cheap-price-2-brs.html#comment-4306">Pls, contact with me if you</a><br />2 years 1 week ago</li>
+<li><a href="../forum/6518/looking-name-nightclub.html#comment-4303">Hi, I dont see the pictures</a><br />2 years 3 weeks ago</li>
+<li><a href="../forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4167">I think EIS is a better</a><br />2 years 19 weeks ago</li>
+<li><a href="../forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4166">You are welcome, thanks all</a><br />2 years 19 weeks ago</li>
+<li><a href="../forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4165">:)</a><br />2 years 19 weeks ago</li>
+<li><a href="../forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4164">Sorry for late reply. I think</a><br />2 years 19 weeks ago</li>
+<li><a href="../forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4163">Hey guys, I have stayed in</a><br />2 years 19 weeks ago</li>
+<li class="last"><a href="../forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4162">I think IB is a great</a><br />2 years 19 weeks ago</li>
+</ul></div>    </div>
+  </div>
+</div>
+    </div>
+  </div> <!-- /#sidebar-first -->
+
+
+    </div> <!-- /#main-columns -->
+  </div> <!-- /#main-columns-wrapper -->
+
+
+  <div class="region fat-footer">
+          <div class="region region-footer-1">
+              </div>
+          <div class="region region-footer-2">
+        <div id="block-block-3" class="block block-block">
+  <div class="inner">
+      <h2>About the author</h2>
+  
+    <div class="content">
+      <p>Asian-American <span data-scayt_word="expat" data-scaytid="1">expat</span> living in Vietnam over 3 years. I am involved in tech startups and do <a href="../category/tags/drupal.html">Drupal</a> consulting. I choose to live in Saigon and Vietnam and I want to see the city and its people reach their true potential.</p>
+    </div>
+  </div>
+</div>
+<div id="block-block-4" class="block block-block">
+  <div class="inner">
+      <h2>Where is Saigon?</h2>
+  
+    <div class="content">
+      <p>It's not wrong to wonder where in the world Saigon is. </p>
+<p>Saigon is the name of the city now officially known as Ho Chi Minh City. But most people who call Saigon home call their home Saigon and it's mostly tourists who I hear refer to it as Ho Chi Minh City (or Ho Chi Minh Ville for the French).</p>
+<p>After the Vietnam/American War ended in 1975, many place names ceased to exist such as Saigon, South Vietnam, and plenty of street names. </p>
+<p>Tu Do is now Dong Khoi, Thong Nhat is Le Duan. And Tan Son Nhut Airport is now <a href="ho-chi-minh-citys-tan-san-nhat-international-airport.html">Tan Son Nhat International Airport</a>. Rue Paul Blanchy has been Hai Ba Trung since the 1950s.</p>
+<p>Those who haven't seen Vietnam for decades will be confused not just by the geographical changes but the incredible amount of development and modernization that has since taken place.</p>
+    </div>
+  </div>
+</div>
+      </div>
+          <div class="region region-footer-3">
+        <div id="block-tagadelic-2" class="block block-tagadelic">
+  <div class="inner">
+      <h2>Tags in Tags</h2>
+  
+    <div class="content">
+      <a href="../category/tags/barcamp.html" class="tagadelic level1" rel="tag" title="">barcamp</a> 
+<a href="../category/tags/block.html" class="tagadelic level1" rel="tag" title="">block</a> 
+<a href="../category/tags/censorship.html" class="tagadelic level1" rel="tag" title="">censorship</a> 
+<a href="../category/tags/chrome.html" class="tagadelic level1" rel="tag" title="">chrome</a> 
+<a href="../category/tags/drupal.html" class="tagadelic level6" rel="tag" title="">drupal</a> 
+<a href="../category/tags/facebook.html" class="tagadelic level3" rel="tag" title="">facebook</a> 
+<a href="../category/tags/google.html" class="tagadelic level1" rel="tag" title="">google</a> 
+<a href="../category/tags/javascript.html" class="tagadelic level2" rel="tag" title="">javascript</a> 
+<a href="../category/tags/module.html" class="tagadelic level1" rel="tag" title="">module</a> 
+<a href="../category/tags/travel.html" class="tagadelic level1" rel="tag" title="">travel</a> 
+<a href="../category/tags/twitter.html" class="tagadelic level1" rel="tag" title="">twitter</a> 
+<a href="../category/tags/views.html" class="tagadelic level1" rel="tag" title="">views</a> 
+<div class='more-link'><a href="../tagadelic/chunk/2.html">more tags</a></div>    </div>
+  </div>
+</div>
+<div id="block-statistics-0" class="block block-statistics">
+  <div class="inner">
+      <h2>Most popular posts</h2>
+  
+    <div class="content">
+      <div class="item-list"><h3>All time:</h3><ul><li class="first"><a href="cost-living-vietnam-its-really-cheap.html">Cost-of-Living in Vietnam: It&#039;s Really Cheap</a></li>
+<li><a href="easy-access-facebook-vietnam-part-deux.html">Easy Access to Facebook in Vietnam, Part Deux</a></li>
+<li><a href="../tech/drupal/drupal-add-comment-form-above-comments.html">Drupal Add Comment Form Above Comments</a></li>
+<li><a href="bypass-vietnams-block-facebook-or-chinas-block-youtube.html">Bypass Vietnam&#039;s Block on FaceBook - or China&#039;s Block on YouTube</a></li>
+<li><a href="simple-download-youtube-html5.html">Simple Way to Download YouTube HTML5 Videos</a></li>
+<li><a href="../vietnam/cloud-hosting-and-content-delivery-networks-vietnam.html">Cloud Hosting and Content Delivery Networks from Vietnam</a></li>
+<li><a href="../vietnam/hcmc/foreigner-vietnam-during-tet.html">A Foreigner in Vietnam During Tet</a></li>
+<li><a href="../pliggmeme.html">Pliggmeme Redux Pligg Theme</a></li>
+<li><a href="../b/facebook-vietnam-2012.html">Facebook in Vietnam 2012</a></li>
+<li><a href="improved-google-spam-filter.html">Improved Google Spam Filter?</a></li>
+<li><a href="../b/buddhism-vietnam.html">Buddhism in Vietnam</a></li>
+<li><a href="import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet.html" class="active">Import Nokia SMS and Contacts CSV Export to Google Excel Spreadsheet</a></li>
+<li><a href="movie-theaters-saigon.html">Movie Theaters in Saigon</a></li>
+<li><a href="future-foursquare.html">Future For Foursquare</a></li>
+<li class="last"><a href="../b/correct-horse-battery-staple-better-passwords-vietnamese.html">Correct Horse Battery Staple: Better passwords with Vietnamese</a></li>
+</ul></div>    </div>
+  </div>
+</div>
+      </div>
+          <div class="region region-footer-4">
+        <div id="block-views-latest_tech-block_1" class="block block-views">
+  <div class="inner">
+      <h2>Latest Technical Posts</h2>
+  
+    <div class="content">
+      <div class="view view-latest-tech view-id-latest_tech view-display-id-block_1 view-dom-id-1">
+        <div class="view-header">
+      <p>I also post a lot of technical material unrelated to Vietnam that doesn't hit the home page. Starting from November 2015 I am only posting technical articles on my new sub-blog: <a href="http:///tech.saigonist.com">TECH.saigonist.com</a></p>
+    </div>
+  
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../tech/definition-startup-what-isnt-startup.html">Definition of Startup: What isn&#039;t a startup?</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">What is a startup? 
+We're in the middle of a tech boom and it's become fashionable to either work for a startup or to be a startup. But what is a startup? How do you know that company offering you a...</span>
+  </span>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../tech/my-startup-experiences.html">My Startup Experiences</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">I've been involved in start ups for over a decade now. During that time I've worked for companies in varying stage of development. Not all of them were startups. But how can you tell if it is or not...</span>
+  </span>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../vietnam/hcmc/code-retreat-2012-ho-chi-minh-city.html">Code Retreat 2012 - Ho Chi Minh City</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">
+$(document).ready(function(){
+
+$('.geshifilter').hover(function(){console.log(this);console.log($(this));$(this).css('position', 'relative').css('width', '800px').css('z-index', 1000);}, function...</span>
+  </span>
+</li>
+          <li class="views-row views-row-4 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../b/internet-censorship-southeast-asian-countries-myanmar-china-malaysia-thailand-cambodia-vietnam.html">Internet Censorship in Southeast Asian Countries (Myanmar, China, Malaysia, Thailand, Cambodia, Vietnam)</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">Vietnam has been labeled an "enemy of the Internet" by Reporters Without Borders. There have been a lot of cases of bloggers being targeted, harrassed, and arrested. But RSF (Reporters Sans...</span>
+  </span>
+</li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../b/using-3g-internet-cambodia.html">Using 3G Internet in Cambodia</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">On my most recent trip to Cambodia I bought a Cambodian SIM card so that I could both make calls and use the Internet on my smartphone. At the Moc Bai/Bavet border are a number of Khmer people (who...</span>
+  </span>
+</li>
+          <li class="views-row views-row-6 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../b/mailchimp-vs-pommo-mailman-phplist-self-host-or-outsource-your-mailing-list.html">MailChimp vs poMMo, Mailman, Phplist - Self-Host or Outsource Your Mailing List?</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">Use your own mail server or outsource it?
+Let's say you have a rather large mailing list of a few thousand email addresses and, well, sending it out with GMail is no longer cutting it. What are your...</span>
+  </span>
+</li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../vietnam/internet-vietnam-good-bad-ugly.html">Internet in Vietnam - Good, Bad, Ugly</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">If you ask Vietnamese officials, you'll hear such hyperbole as "the Internet service development in Vietnam is in no way inferior to developed countries in the world" (Mai Liem Truc, former Deputy...</span>
+  </span>
+</li>
+          <li class="views-row views-row-8 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../b/pommo-problems.html">poMMo proBLEMs</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">poMMo is free open source mailing list management software. It's written in PHP and pretty basic but does give a decent management interface. However, it's no longer maintained. There is a GitHub...</span>
+  </span>
+</li>
+          <li class="views-row views-row-9 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../b/preventing-repetitive-stress-injuries-programmers-and-writers.html">Preventing Repetitive Stress Injuries for Programmers and Writers</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">My situation
+I'm a career programmer who has suffered from pain in my hands and arms for several years. Like carpal tunnel syndrome, this pain is from damage to tissue (including tendons) caused by...</span>
+  </span>
+</li>
+          <li class="views-row views-row-10 views-row-even views-row-last">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../b/calling-us-free-foreign-countries.html">Calling the US for free from foreign countries</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">Calling US numbers from the US is pretty trivial and nearly free. But calling from another country means either:
+- paying for long distance from your telephone company
+- using a phone card to call...</span>
+  </span>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>     </div>
+  </div>
+</div>
+<div id="block-views-latest_forum-block_1" class="block block-views">
+  <div class="inner">
+  
+    <div class="content">
+      <div class="view view-latest-forum view-id-latest_forum view-display-id-block_1 view-dom-id-2">
+        <div class="view-header">
+      <h1>Recent activity in the <a href="../forums/living-and-working-vietnam.html">expat forum</a>...</h1>
+    </div>
+  
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../forum/6713/we-can-support-you-about-visa-arrival-visa-extension.html">We can support you about &lt;Visa on arrival - Visa extension&gt;</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Nowadays, foreigners have many difficulties in living and working in Vietnam, in which the main...</span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../forum/6712/visa-vietnam-expats.html">VISA VIETNAM FOR EXPATS</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Dear  Sir/Madam
+I'm Ms. Vui - who is special making all of services for expats in Vietnam.
+Pls...</span>
+  </div>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../forum/6709/apartment-rent-cheap-price-ms-linh-0932705239.html">Apartment for rent with cheap price Ms Linh 0932705239</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Masteri apartment for rent with fully furnished or unfurnished #Condominium
+Add: 159 Ha Noi highway...</span>
+  </div>
+</li>
+          <li class="views-row views-row-4 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../forum/6707/best-dishes-christmas.html">Best dishes for Christmas</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">1. Roasted turkey
+Succulent tender turkey meat with moist and flavourful stuffing. Give this...</span>
+  </div>
+</li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../forum/6706/best-dishes-christmas.html">Best dishes for Christmas</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">1. Roasted turkey
+Succulent tender turkey meat with moist and flavourful stuffing. Give this...</span>
+  </div>
+</li>
+          <li class="views-row views-row-6 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../forum/6705/top-places-visit-christmas-hcmc.html">Top places to visit this Christmas in HCMC</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Christmas is coming! Another wonderful season of joy and happiness … and a lot of wonderful places...</span>
+  </div>
+</li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../forum/6703/apartment-rent-masteri-ms-linh-0932705239.html">Apartment for rent in MASTERI  Ms Linh 0932705239</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Masteri apartment for rent with fully furnished or unfurnished #Condominium
+Add: 159 Ha Noi highway...</span>
+  </div>
+</li>
+          <li class="views-row views-row-8 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../forum/6702/apartment-rent-diamond-island-ms-linh-0932705239.html">Apartment for rent in Diamond Island  Ms Linh 0932705239</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Diamond Island  apartment for rent with fully furnished or unfurnished #luxury  #Condominium
+Add:...</span>
+  </div>
+</li>
+          <li class="views-row views-row-9 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../forum/6701/apartment-rent-diamond-island-ms-linh-0932705239.html">Apartment for rent in Diamond Island  Ms Linh 0932705239</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Diamond Island  apartment for rent with fully furnished or unfurnished #luxury  #Condominium
+Add:...</span>
+  </div>
+</li>
+          <li class="views-row views-row-10 views-row-even views-row-last">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../forum/6700/apartment-rent-diamond-island-ms-linh-0932705239.html">Apartment for rent in Diamond Island  Ms Linh 0932705239</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Diamond Island  apartment for rent with fully furnished or unfurnished #luxury  #Condominium
+Add:...</span>
+  </div>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>     </div>
+  </div>
+</div>
+      </div>
+      </div>
+
+  <script type="text/javascript" src="../sites/saigonist.com/files/advagg_js/js_ae4c45ca17e58eea971e353d18846ebd_1.js"></script>
+<script type="text/javascript" src="../sites/saigonist.com/files/advagg_js/js_114add5d22097bf8ea6c5fb53a2ba535_0.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","googleanalytics":{"trackOutgoing":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|avi|csv|doc|exe|flv|gif|gz|jpe?g|js|mp(3|4|e?g)|mov|pdf|phps|png|ppt|rar|sit|tar|torrent|txt|wma|wmv|xls|xml|zip"},"disqus":{"url":"http:\/\/www.saigonist.com\/node\/59","title":"Import Nokia SMS and Contacts CSV Export to Google Excel Spreadsheet","identifier":"node\/59","shortname":"saigon"}});
+//--><!]]>
+</script>
+
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "CToolsAJAX": { "scripts": { "/sites/saigonist.com/modules/jquery_update/replace/jquery.min.js?X": true, "/misc/drupal.js?X": true, "/sites/saigonist.com/modules/saigonist/gavote.js?X": true, "/sites/saigonist.com/modules/saigonist/saigonist.js?X": true, "/sites/saigonist.com/modules/saigonist/jquery.slicknav.js?X": true, "/sites/saigonist.com/modules/disqus/disqus.js?X": true, "/sites/saigonist.com/modules/ajax/jquery/jquery.a_form.packed.js?X": true, "/sites/saigonist.com/modules/ajax/ajax.js?X": true, "/sites/all/modules/3rdparty/google_analytics/googleanalytics.js?X": true }, "css": { "/modules/aggregator/aggregator.css?X": true, "/modules/node/node.css?X": true, "/modules/poll/poll.css?X": true, "/modules/system/defaults.css?X": true, "/modules/system/system.css?X": true, "/modules/system/system-menus.css?X": true, "/modules/user/user.css?X": true, "/sites/all/modules/3rdparty/cck/theme/content-module.css?X": true, "/sites/all/modules/3rdparty/ctools/css/ctools.css?X": true, "/sites/all/modules/3rdparty/date/date.css?X": true, "/sites/all/modules/3rdparty/date/date_popup/themes/datepicker.css?X": true, "/sites/all/modules/3rdparty/date/date_popup/themes/timeentry.css?X": true, "/sites/all/modules/3rdparty/filefield/filefield.css?X": true, "/sites/all/modules/3rdparty/tagadelic/tagadelic.css?X": true, "/sites/all/modules/3rdparty/x/mollom/mollom.css?X": true, "/sites/saigonist.com/modules/geshifilter/geshifilter.css?X": true, "/modules/forum/forum.css?X": true, "/sites/all/modules/3rdparty/cck/modules/fieldgroup/fieldgroup.css?X": true, "/sites/all/modules/3rdparty/views/css/views.css?X": true, "/modules/comment/comment.css?X": true, "/sites/saigonist.com/modules/advanced_forum/styles/naked/advanced_forum.naked.structure.css?X": true, "/sites/saigonist.com/modules/advanced_forum/styles/naked_stacked/advanced_forum.naked_stacked.structure.css?X": true, "/sites/saigonist.com/modules/advanced_forum/styles/silver_bells/advanced_forum.silver_bells.style.css?X": true, "/sites/saigonist.com/modules/advanced_forum/styles/silver_bells_stacked/advanced_forum.silver_bells_stacked.style.css?X": true, "/sites/saigonist.com/modules/advanced_forum/styles/naked/advanced_forum.naked.images.css?X": true, "/sites/saigonist.com/modules/advanced_forum/styles/silver_bells/advanced_forum.silver_bells.images.css?X": true, "/sites/saigonist.com/themes/corolla_sg/reset.css?X": true, "/sites/saigonist.com/themes/corolla_sg/base.css?X": true, "/sites/saigonist.com/themes/corolla_sg/style.css?X": true, "/sites/saigonist.com/themes/corolla_sg/drupal-6.css?X": true, "/sites/saigonist.com/themes/corolla_sg/colors.css?X": true, "/sites/saigonist.com/themes/corolla_sg/dynamic_tomo.css?X": true, "/sites/saigonist.com/themes/corolla_sg/slicknav.css?X": true, "/sites/saigonist.com/themes/corolla_sg/tomo.css?X": true, "/sites/saigonist.com/themes/corolla_sg/responsive.css?X": true, "/sites/saigonist.com/themes/corolla_sg/print.css?X": true } } });
+//--><!]]>
+</script>
+<script type="text/javascript" src="../sites/saigonist.com/files/advagg_js/js_bd2dccda1712ebf640b9dcbfe9797558_2.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var gaJsHost=(("https:"==document.location.protocol)?"https://ssl.":"http://www.");document.write(unescape("%3Cscript src='"+gaJsHost+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+try{var pageTracker=_gat._getTracker("UA-18406883-1");pageTracker._trackPageview()}catch(err){}
+//--><!]]>
+</script>
+
+</body>
+
+<!-- Mirrored from www.saigonist.com/content/import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Oct 2018 10:21:05 GMT -->
+</html>

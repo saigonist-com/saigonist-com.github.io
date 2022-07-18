@@ -1,0 +1,1105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+
+
+<!-- Mirrored from www.saigonist.com/blog?page=2 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Oct 2018 11:34:33 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="RSS - blogs" href="blog/feed" />
+<link rel="shortcut icon" href="sites/saigonist.com/themes/corolla_sg/favicon.ico" type="image/x-icon" />
+  <title>Blogs | Saigonist - Expat Living in Vietnam</title>
+  <script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <link type="text/css" rel="stylesheet" media="all" href="sites/saigonist.com/files/advagg_css/css_a9bd1a1b1e21fc1314eb29c6ba77b3a3_0.css" />
+<link type="text/css" rel="stylesheet" media="print" href="sites/saigonist.com/files/advagg_css/css_e0d39d80602b8a9dc02de7d25cb8e5de_0.css" />
+  
+  <!--[if lte IE 8]>
+  <link type="text/css" rel="stylesheet" href="/sites/saigonist.com/themes/corolla_sg/ie8.css" media="all" />
+  <![endif]-->
+
+  <!--[if lte IE 7]>
+  <link type="text/css" rel="stylesheet" href="/sites/saigonist.com/themes/corolla_sg/ie7.css" media="all" />
+  <![endif]-->
+
+  <!--[if lte IE 6]>
+  <link type="text/css" rel="stylesheet" href="/sites/saigonist.com/themes/corolla_sg/ie6.css" media="all" />
+  <![endif]-->
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+
+</head>
+<body class="not-front not-logged-in page-blog  one-sidebar">
+      <div id="navigation-wrapper">
+      <div id="navigation" class="clear-block">
+        <ul class="menu"><li class="leaf first"><a href="index.html" title="">Home</a></li>
+<li class="leaf"><a href="category/type/tech.html" title="">Tech</a></li>
+<li class="leaf"><a href="category/type/vietnam.html" title="">Vietnam</a></li>
+<li class="leaf"><a href="forums/living-and-working-vietnam.html" title="Living and Working in Vietnam">Forum</a></li>
+<li class="leaf last"><div id="block-search-0" class="block block-search">
+  <div class="inner">
+  
+    <div class="content">
+          </div>
+  </div>
+</div>
+</li>
+</ul>      </div> <!-- /#navigation -->
+    </div>
+  
+
+  <div id="header-wrapper">
+    <div id="header" class="clear-block">
+
+              <div id="branding-wrapper" class="clear-block">
+          <div id="branding">
+
+                          <div id="logo">
+                <a href="index.html" title="Home" rel="home">
+<span style="color: white; font-size: 45px; font-family: Georgia; letter-spacing: 1px; text-shadow: 1px 1px 7px #444;">Saigonist</span>
+                </a>
+              </div>
+            
+                          <div id="name-and-slogan">
+                                  <div id="site-name">
+                    <a href="index.html" title="Home" rel="home">Saigonist - Expat Living in Vietnam</a>
+                  </div>
+                
+                              <div id="site-slogan">Vietnam blog by an expat writing about technology, entrepreneurship, software, and living and traveling in Saigon, Vietnam</div>
+                            </div> <!-- /name-and-slogan -->
+            
+          </div> <!-- /#branding -->
+        </div> <!-- /#branding-wrapper -->
+      
+      
+    </div> <!-- /#header -->
+  </div> <!-- /#header-wrapper -->
+
+  <div id="main-columns-wrapper">
+    <div id="main-columns">
+     <div id="side-top-ad"><div id="block-block-11" class="block block-block">
+  <div class="inner">
+  
+    <div class="content">
+      <ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-9556924506572581"
+     data-ad-slot="9609004472"></ins>
+<script>/* Saigonist big top */
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
+  </div>
+</div>
+</div>      
+      <div id="main-wrapper" class=" first">
+  <div id="main">
+    <div id="page" class="clear-block">
+      <div id="breadcrumb"><div class="breadcrumb"><a href="index.html">Home</a></div></div>      
+      
+      
+      
+      <a id="main-content"></a>
+              <h1 class="page-title">Blogs</h1>
+      
+      
+                    <div class="region region-content">
+          <div class="item-list"></div><div id="node-584" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="tech/drupal/backbonejs-and-underscorejs-javascript-frameworks-drupal-8-core.html">Backbone.js and Underscore.js JavaScript Frameworks in Drupal 8 Core</a></h2>
+    
+          <div class="meta">Submitted by tomo on December 20, 2012 - 5:22pm</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_443 first"><a href="category/type/tech/drupal.html" rel="tag" title="">Drupal</a></li>
+<li class="taxonomy_term_449"><a href="category/tags/backbonejs.html" rel="tag" title="">backbone.js</a></li>
+<li class="taxonomy_term_435"><a href="category/tags/drupal8.html" rel="tag" title="">drupal8</a></li>
+<li class="taxonomy_term_30"><a href="category/tags/javascript.html" rel="tag" title="">javascript</a></li>
+<li class="taxonomy_term_450 last"><a href="category/tags/underscorejs.html" rel="tag" title="">underscore.js</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <h2>JavaScript as a serious programming language?</h2>
+<p>Unbeknownst to many folks, even those developing websites, JavaScript libraries are hot right now. One reason is that they're being used on both the frontend (browser) as well as the server via Node.js. And so Drupal 8 includes two new JavaScript libraries, beyond the mainstay of jQuery, which are popular because they rewrite how we use JavaScript, much like Drupal changes how we develop PHP software. They are the Backbone.js and Underscore.js JavaScript frameworks. Since they're in core, Drupal itself can use them in its own JavaScript code. However, as far as I can tell nothing in core, besides Backbone, is using Underscore yet.</p>
+<p>Backbone.js (http://backbonejs.org/) gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface.</p>
+<p>The cool thing about Backbone is it splits the abstract representation from DOM events and HTML rendering in your JavaScript code. This is especially applicable to web apps which constantly get new data via AJAX from a REST server and then update the browser in-page rather than reloading a new URL and rendering the page's html on the server - for example via Drupal and it's normal theme/template system. </p>
+<p>If you think of modern web applications like GMail or Trello (which is built on Backbone) they work mostly by not reloading the page but rather with each click of the mouse pulling in data from the server then rendering it somehow in the current page. Backbone is how Rdio, Hulu, and Pitchfork play music and videos continuously across "page loads". This can also be happening in the background independent of user activity to update content or display status messages or maybe show new email.</p>
+<h2>AJAX vs AHAH</h2>
+<p>In Drupal, you'll see a lot of references to AHAH. AHAH is basically AJAX except that it's honest about the X, which in AJAX stands for XML, but in Drupal using AHAH it's actual HTML which can be inserted into a page. Or it could be JavaScriptON that's parsed and, using some custom JavaScript logic, turned into HTML by manipulating the DOM. </p>
+<p>Without something like Backbone, this is how AJAXy applications are written in Drupal. We add in #ahah hooks that form elements and their widgets can use (when JavaScript is available.) But the login on the frontend is completely custom and usually is jQuery $.ajax callbacks that use jQuery selectors to find and replace DOM elements manually.</p>
+<p>Backbone.js gives us a framework to represent things we want to update on the frontend in a structured way, with clear separation between the model and rendering. The model language directly maps to the MVC of Ruby on Rails. Then by updating the model, which is all the logic we really want, the visual representation is updated for us. Backbone can call Underscore templates, Mustache.js, or directly insert into the DOM server-side rendered (the old way we just mentioned) HTML.</p>
+<p>So now our AHAH callbacks can return JSON that's pure data, and allow Backbone to handle rendering the HTML.</p>
+<h2>So what about Underscore.js?</h2>
+<p>Backbone itself depends on Underscore, but Underscore by itself is also useful. For example, see how Conway's Game of Life can be implemented in JavaScript without if-statements or loops (for, for-in, while) by using Underscore.js and by programming in a more functional style, with functionality similar to Ruby or Python. jQuery, long since included in Drupal core, also offers some functions like $.map or $.each but Underscore is much more complete. Underscore is a JavaScript utility library, not for writing any specific kinds of apps but for making all of your JavaScript code potentially cleaner, simpler, shorter.</p>
+<p>Some _ functions:<br />
+_.each<br />
+map<br />
+reduce<br />
+find<br />
+filter<br />
+every<br />
+pluck</p>
+<p>Underscore also has some array and object helper functions, deep === comparison (isEqual), etc. See it all at http://documentcloud.github.com/underscore/</p>
+<p>You can play around with Underscore.js right now by writing up some code at http://jsfiddle.net/</p>
+
+  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_comments"><a href="tech/drupal/backbonejs-and-underscorejs-javascript-frameworks-drupal-8-core.html#comments" title="Jump to the first comment of this posting.">2 comments</a></li>
+<li class="disqus_comments last"><span><a href="tech/drupal/backbonejs-and-underscorejs-javascript-frameworks-drupal-8-core.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/584">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+<div id="node-583" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="tech/backbonejs-and-underscorejs-extensions-plugins.html">Backbone.js and Underscore.js Extensions / Plugins</a></h2>
+    
+          <div class="meta">Submitted by tomo on December 17, 2012 - 3:31pm</div>
+        
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>As I blogged recently, Drupal 8 core now has two new JavaScript libraries: Underscore.js and Backbone.js. But, like jQuery, these libraries or frameworks can also be extended with JavaScript modules that integrate or are based on them.</p>
+<p>Backbone has a lot of projects based on it, whereas Underscore has relatively few, besides Backbone itself.</p>
+<p>The main Backbone page lists a lot of Backbone resources: https://github.com/documentcloud/backbone/wiki/Extensions,-Plugins,-Resources</p>
+<p>But here are some others:</p>
+<p>http://kmalakoff.github.com/knockback/ - Knockback.js brings Knockout.js magic to Backbone.js</p>
+<p>https://github.com/lukasolson/Backbone-Super - A convenient super method for the popular JavaScript library, Backbone.js.</p>
+<p>http://chaijs.com/plugins/chai-backbone - Chai Assertion Library extends itself for Backbone support: chai-backbone is an extension to the chai assertion library that provides a set of backbone specific assertions.</p>
+<h2>Underscore plugins</h2>
+<p>Really, not nearly as much directly based on Underscore.js as on Backbone. But here are a few:</p>
+<h2>underscore-awesomer.js</h2>
+<p>https://github.com/kmalakoff/underscore-awesomer - By the author of Knockback, underscore-awesomer.js purports to add even awesomer features to Underscore.js! For example:</p>
+<p>Keypaths to reference deeply into nested objects:<br />
+<div class="geshifilter"><pre class="javascript geshifilter-javascript" style="font-family:monospace;">_.<span style="color: #660066;">keypath</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#123;</span>hello<span style="color: #339933;">:</span> <span style="color: #009900;">&#123;</span>world<span style="color: #339933;">:</span> ‘<span style="color: #339933;">!</span>’<span style="color: #009900;">&#125;</span> <span style="color: #009900;">&#125;</span><span style="color: #339933;">,</span> ‘hello.<span style="color: #660066;">world</span>’<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span> <span style="color: #006600; font-style: italic;">// returns ‘!’</span></pre></div></p>
+<p>Array or object _.remove:<br />
+<div class="geshifilter"><pre class="javascript geshifilter-javascript" style="font-family:monospace;"><span style="color: #000066; font-weight: bold;">var</span> removed <span style="color: #339933;">=</span> _.<span style="color: #660066;">remove</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#123;</span>bob<span style="color: #339933;">:</span> <span style="color: #CC0000;">1</span><span style="color: #339933;">,</span> fred<span style="color: #339933;">:</span> <span style="color: #CC0000;">3</span><span style="color: #339933;">,</span> george<span style="color: #339933;">:</span> <span style="color: #CC0000;">5</span><span style="color: #009900;">&#125;</span><span style="color: #339933;">,</span> <span style="color: #009900;">&#91;</span>‘bob’<span style="color: #339933;">,</span> ‘george’<span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span> _.<span style="color: #660066;">isEqual</span><span style="color: #009900;">&#40;</span>removed<span style="color: #339933;">,</span> <span style="color: #009900;">&#91;</span><span style="color: #CC0000;">1</span><span style="color: #339933;">,</span><span style="color: #CC0000;">5</span><span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span></pre></div></p>
+<p>And some other stuff, including stuff that's already been moved into separate independent libraries!</p>
+<h2>Underscore.string</h2>
+<p>Underscore.string adds various string manipulation operations like you'd find in Python like capitalization, whitespace removal, searching, and lots more. Actually, Underscore.js isn't a dependency but with _ you get to do chaining.</p>
+<p>Link: https://github.com/epeli/underscore.string</p>
+<h2>Singool.js</h2>
+<p>Lightweight JavaScript framework for developing single-page web applications.</p>
+<p>Singool already uses Underscore.js since that is a dependency for using Backbone.js. So it uses its templating system by default. </p>
+<p>Link: http://fahad19.github.com/singool/</p>
+<h2>Happy.js</h2>
+<p>"Lightweight, extensible form validation plugin for jQuery/Zepto.js, HTML5, and Underscore.js" - Well, honestly the only Underscore.js integration is has is to allow you to call _.mixin on your own validation functions.</p>
+<p>http://thechangelog.com/post/3028809528/happy-js-form-ishappy-lightweight-extensible-form-valida</p>
+<h2>Underscore alternatives</h2>
+<p>http://lodash.com/ - An alternative to Underscore.js, delivering consistency, customization, performance, and extra features.<br />
+http://sugarjs.com/ - Sugar is a Javascript library that extends native objects with helpful methods. It is designed to be intuitive, unobtrusive, and let you do more with less code. "Underscore with Prototype-ish syntax."</p>
+
+  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_forbidden"><span><a href="user/loginb283.html?destination=node%2F583%23comment-form">Login</a> to post comments</span></li>
+<li class="disqus_comments last"><span><a href="tech/backbonejs-and-underscorejs-extensions-plugins.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/583">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+<div id="node-582" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="tech/drupal/views-drupal-8-core.html">Views in Drupal 8 Core</a></h2>
+    
+          <div class="meta">Submitted by tomo on December 17, 2012 - 11:30am</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_443 first"><a href="category/type/tech/drupal.html" rel="tag" title="">Drupal</a></li>
+<li class="taxonomy_term_435"><a href="category/tags/drupal8.html" rel="tag" title="">drupal8</a></li>
+<li class="taxonomy_term_98 last"><a href="category/tags/views.html" rel="tag" title="">views</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>With Views now in Drupal core as of D8 the two most common basic contrib modules from previous versions of Drupal, CCK and Views, are now both part of core.</p>
+<p>CCK, now called Entities, from one perspective is what allows us to create arbitrary database tables through a web interface where we can hold arbitrary data yet work with it through a common interface, and use Drupal goodies like widgets, theming, content creation forms and pages, etc. on them. Views is the complement to this way of creating custom content. Views in core means we can now retrieve or query that arbitrary, custom content in arbitrary and custom ways.</p>
+<p>Views is basically a web UI for an SQL query builder. The fields are the SELECTed database columns and the filters are your WHERE clause. </p>
+<p>This isn't just a feature for non-technical dudes and non-developers. Just because you can write SQL queries doesn't mean you should write all of them. Views gives you an interface into various Drupal core and contributed modules and the content they manage, if those modules integrate with Views via hooks. Entities (or CCK) can create a mess of database tables. Sometimes these tables will change structure from under your feet due to some changes via the admin interface. You might not know until your code is broken. But using Views, the query will always be up to date.</p>
+<p>Now that Views is in core, other parts of core could possibly depend on and build on Views, just like many other parts of Drupal core use concepts that came from Entities (CCK). So Drupal core can do a lot more out of the box. And contributed modules can be written to depend on only Entity and Views, which are part of core, and so these new modules won't have any other 3rd party dependencies. That's a win for module developers.</p>
+
+  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_forbidden"><span><a href="user/login940c.html?destination=node%2F582%23comment-form">Login</a> to post comments</span></li>
+<li class="disqus_comments last"><span><a href="tech/drupal/views-drupal-8-core.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/582">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+<div id="node-581" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="tech/drupal/fatal-error-call-undefined-function-blocklist.html">Fatal error: Call to undefined function: block_list()</a></h2>
+    
+          <div class="meta">Submitted by tomo on December 17, 2012 - 11:28am</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_443 first"><a href="category/type/tech/drupal.html" rel="tag" title="">Drupal</a></li>
+<li class="taxonomy_term_448 last"><a href="category/tags/drupal6.html" rel="tag" title="">drupal6</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>On a Drupal 6 site where I had copied over a database to be used with a freshly checked out tree, I suddenly got this fatal error which stopped any page from loading:</p>
+<p><div class="geshifilter"><pre class="javascript geshifilter-javascript" style="font-family:monospace;">Fatal error<span style="color: #339933;">:</span> Call to <span style="color: #003366; font-weight: bold;">undefined</span> <span style="color: #000066; font-weight: bold;">function</span><span style="color: #339933;">:</span> block_list<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span> <span style="color: #000066; font-weight: bold;">in</span> ...<span style="color: #339933;">/</span>theme.<span style="color: #660066;">inc</span> on line <span style="color: #CC0000;">935</span></pre></div></p>
+<p>I'm not sure how it happens. And even after it happens, it's not always immediately a problem. It can be a problem that manifests itself when migrating or copying a database from one site to another. And for some reason, the exact same database worked on another site.</p>
+<p>In my case, the problem was the filenames for some core modules and themes and you can see if that's your problem by running this query:<br />
+<div class="geshifilter"><pre class="javascript geshifilter-javascript" style="font-family:monospace;">SELECT count<span style="color: #009900;">&#40;</span><span style="color: #339933;">*</span><span style="color: #009900;">&#41;</span> FROM system WHERE filename LIKE <span style="color: #3366CC;">'%modules/modules%'</span> OR filename LIKE <span style="color: #3366CC;">'%themes/themes%'</span><span style="color: #339933;">;</span></pre></div></p>
+<p>If that returns anything (like a filename like 'modules/modules/block/block.module') then you have a problem which you can fix by running:<br />
+<div class="geshifilter"><pre class="javascript geshifilter-javascript" style="font-family:monospace;">UPDATE system SET filename <span style="color: #339933;">=</span> replace<span style="color: #009900;">&#40;</span>filename<span style="color: #339933;">,</span> <span style="color: #3366CC;">'themes/themes'</span><span style="color: #339933;">,</span> <span style="color: #3366CC;">'themes'</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+UPDATE system SET filename <span style="color: #339933;">=</span> replace<span style="color: #009900;">&#40;</span>filename<span style="color: #339933;">,</span> <span style="color: #3366CC;">'modules/modules'</span><span style="color: #339933;">,</span> <span style="color: #3366CC;">'modules'</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span></pre></div></p>
+
+  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_comments"><a href="tech/drupal/fatal-error-call-undefined-function-blocklist.html#comments" title="Jump to the first comment of this posting.">1 comment</a></li>
+<li class="disqus_comments last"><span><a href="tech/drupal/fatal-error-call-undefined-function-blocklist.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/581">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+<div id="node-579" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="vietnam/hcmc/code-retreat-2012-ho-chi-minh-city.html">Code Retreat 2012 - Ho Chi Minh City</a></h2>
+    
+          <div class="meta">Submitted by tomo on December 12, 2012 - 5:08pm</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_442 first"><a href="category/type/vietnam/hcmc.html" rel="tag" title="">HCMC</a></li>
+<li class="taxonomy_term_6"><a href="category/type/tech.html" rel="tag" title="">Tech</a></li>
+<li class="taxonomy_term_30 last"><a href="category/tags/javascript.html" rel="tag" title="">javascript</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <script>
+$(document).ready(function(){
+
+$('.geshifilter').hover(function(){console.log(this);console.log($(this));$(this).css('position', 'relative').css('width', '800px').css('z-index', 1000);}, function(){$(this).css('position','initial');});
+
+});
+</script><p>
+On Saturday December 8th, Ho Chi Minh City along with 200 other cities around the world celebrated a global Code Retreat.</p>
+<h2>What is a code retreat?</h2>
+<p>Like a <a href="b/10-days-sitting-vipassana-meditation-vietnam.html">meditation retreat</a>, a code retreat is a time set aside to step out of the daily life and routine in order to get deep into practice. It's a full work day, and everyone attending is giving up their Saturday to do what they are probably paid to do from Monday to Friday. That's dedication to the craft. Not so many people came, partly due to poor advertising.</p>
+<p>The code retreat was open to anyone but all attendees were fellow programmers, those with some experience already but who want to improve themselves. Besides myself, there was a motley crew of foreigners - an organizer from Japan, a local software tycoon originally from Spain, a Czech developer. Otherwise, all Vietnamese, including startup developers, university faculty, students, and corporate workers. </p>
+<p>The venue was ERC Vietnam, the Singaporean MBA school who, along with two other Singaporean schools in Vietnam, is rumored to have lost its operating license from the Ministry of Education which would force it to close. However, the school was still open as usual. A Toastmasters club was also meeting in the room across the hall. There were scheduled outings for students posted in the elevators to be held at local bars and restaurants.</p>
+<object width="640" height="480"><param name="allowfullscreen" value="true" /><param name="movie" value="https://www.facebook.com/v/423486017723254" /><embed src="https://www.facebook.com/v/423486017723254" type="application/x-shockwave-flash" allowfullscreen="1" width="640" height="480"></embed></object><h2>The coding</h2>
+<p>There were six sessions lasting about an hour each throughout the day and each session was the same both in format and content. The format was:</p>
+<p>15 minutes - pair up with another programmer and discuss the strategy for writing the program - choose a language, maybe a framework, discuss data structures and algorithms<br />
+15 minutes - one person "drives" the keyboard, the other "navigates" - pair programming (an extreme programming methodology) where two developers use a single laptop to collaboratively develop software<br />
+15 minutes - switch up driver and navigator, although often times only a single person was familiar with the text editor or developing environment or even language and API (some languages heavily depend on libraries and APIs to do simple tasks which are difficult to do in the core language alone)<br />
+15 minutes - retrospective and break - we wrote down our learnings on sticky notes and collected them for each other to read and at the end of the day we had a whole day retrospective</p>
+<p>What were we writing?</p>
+<p>We were implementing Conway's Game of Life. Each pair (each session we picked new partners) wrote the game six times throughout the day, erasing the code they had written at the end of each session. The goal was not to write the game of life, but to get better at writing code by writing the same code over and over, by developing the same software over and over.</p>
+<p>Halfway through the day some rules started to be added. First, we had to use TDD (test driven development) methodology (which some people didn't realize was feasible in JavaScript), then OOP (what if someone had chosen Scheme or some other functional language?). This was to encourage us to try new techniques and learn them from each other. </p>
+<p>I was an outlier in that I wanted to use languages like Python, JavaScript, or even PHP instead of .Net framework languages. Instead of a massive IDE I was using Vim. In the end, in each session where it was up to me I chose Javascript. There was no need to build a new project from a template and then compile executables before running them. Just open a text file, save as html, and use Chrome as a development environment. </p>
+<p>Later, more rules were imposed:<br />
+No if statements.<br />
+No loops (for, while, etc.).<br />
+No functions longer than a few lines (maybe 3 or 5 statements max). </p>
+<p>We were encouraged to pick one rule and try to work within its constraints. I decided to apply all the rules! </p>
+<p>These rules would be easy to abide by using a functional programming language but they're not impossible to follow in Python or Javascript either. But to  replace loops using recursion, one thing I found was that nobody remembered how to write recursive functions and most people didn't even want to try as it was hurting their heads. </p>
+<p>After the day was over, I took a look at underscore.js, a utility library for JavaScript which makes functional-like programming in JavaScript much easier. </p>
+<p>Here's what I came up with.</p>
+<p><div class="geshifilter"><pre class="javascript geshifilter-javascript" style="font-family:monospace;"><span style="color: #339933;">&lt;</span>script src<span style="color: #339933;">=</span><span style="color: #3366CC;">&quot;underscore.js&quot;</span><span style="color: #339933;">&gt;&lt;/</span>script<span style="color: #339933;">&gt;</span>
+<span style="color: #339933;">&lt;</span>script<span style="color: #339933;">&gt;</span>
+&nbsp;
+<span style="color: #006600; font-style: italic;">// row and col are indices into 2d array 'grid', either 'today' or 'tomorrow'</span>
+<span style="color: #000066; font-weight: bold;">function</span> value<span style="color: #009900;">&#40;</span>grid<span style="color: #339933;">,</span> row<span style="color: #339933;">,</span> col<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span> <span style="color: #000066; font-weight: bold;">return</span> <span style="color: #009900;">&#40;</span>_.<span style="color: #660066;">isUndefined</span><span style="color: #009900;">&#40;</span>grid<span style="color: #009900;">&#91;</span>row<span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span> <span style="color: #339933;">||</span> _.<span style="color: #660066;">isUndefined</span><span style="color: #009900;">&#40;</span>grid<span style="color: #009900;">&#91;</span>row<span style="color: #009900;">&#93;</span><span style="color: #009900;">&#91;</span>col<span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span> <span style="color: #339933;">?</span> <span style="color: #CC0000;">0</span> <span style="color: #339933;">:</span> grid<span style="color: #009900;">&#91;</span>row<span style="color: #009900;">&#93;</span><span style="color: #009900;">&#91;</span>col<span style="color: #009900;">&#93;</span><span style="color: #339933;">;</span> <span style="color: #009900;">&#125;</span>
+<span style="color: #000066; font-weight: bold;">function</span> count_neighbors<span style="color: #009900;">&#40;</span>grid<span style="color: #339933;">,</span> row<span style="color: #339933;">,</span> col<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+    <span style="color: #000066; font-weight: bold;">return</span> value<span style="color: #009900;">&#40;</span>grid<span style="color: #339933;">,</span> row<span style="color: #339933;">-</span><span style="color: #CC0000;">1</span><span style="color: #339933;">,</span> col<span style="color: #339933;">-</span><span style="color: #CC0000;">1</span><span style="color: #009900;">&#41;</span> <span style="color: #339933;">+</span> value<span style="color: #009900;">&#40;</span>grid<span style="color: #339933;">,</span> row<span style="color: #339933;">-</span><span style="color: #CC0000;">1</span><span style="color: #339933;">,</span> col<span style="color: #009900;">&#41;</span> <span style="color: #339933;">+</span> value<span style="color: #009900;">&#40;</span>grid<span style="color: #339933;">,</span> row<span style="color: #339933;">-</span><span style="color: #CC0000;">1</span><span style="color: #339933;">,</span> col<span style="color: #339933;">+</span><span style="color: #CC0000;">1</span><span style="color: #009900;">&#41;</span> <span style="color: #339933;">+</span>
+           value<span style="color: #009900;">&#40;</span>grid<span style="color: #339933;">,</span> row  <span style="color: #339933;">,</span> col<span style="color: #339933;">-</span><span style="color: #CC0000;">1</span><span style="color: #009900;">&#41;</span> <span style="color: #339933;">+</span>                           value<span style="color: #009900;">&#40;</span>grid<span style="color: #339933;">,</span> row  <span style="color: #339933;">,</span> col<span style="color: #339933;">+</span><span style="color: #CC0000;">1</span><span style="color: #009900;">&#41;</span> <span style="color: #339933;">+</span>
+           value<span style="color: #009900;">&#40;</span>grid<span style="color: #339933;">,</span> row<span style="color: #339933;">+</span><span style="color: #CC0000;">1</span><span style="color: #339933;">,</span> col<span style="color: #339933;">-</span><span style="color: #CC0000;">1</span><span style="color: #009900;">&#41;</span> <span style="color: #339933;">+</span> value<span style="color: #009900;">&#40;</span>grid<span style="color: #339933;">,</span> row<span style="color: #339933;">+</span><span style="color: #CC0000;">1</span><span style="color: #339933;">,</span> col<span style="color: #009900;">&#41;</span> <span style="color: #339933;">+</span> value<span style="color: #009900;">&#40;</span>grid<span style="color: #339933;">,</span> row<span style="color: #339933;">+</span><span style="color: #CC0000;">1</span><span style="color: #339933;">,</span> col<span style="color: #339933;">+</span><span style="color: #CC0000;">1</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #009900;">&#125;</span>
+<span style="color: #000066; font-weight: bold;">function</span> next_state_if<span style="color: #009900;">&#40;</span>neighbors<span style="color: #339933;">,</span> state<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span> <span style="color: #000066; font-weight: bold;">return</span> <span style="color: #009900;">&#40;</span>neighbors <span style="color: #339933;">==</span> <span style="color: #CC0000;">3</span><span style="color: #009900;">&#41;</span> <span style="color: #339933;">?</span> <span style="color: #CC0000;">1</span> <span style="color: #339933;">:</span> <span style="color: #009900;">&#40;</span><span style="color: #009900;">&#40;</span>neighbors <span style="color: #339933;">==</span> <span style="color: #CC0000;">2</span><span style="color: #009900;">&#41;</span> <span style="color: #339933;">?</span> state <span style="color: #339933;">:</span> <span style="color: #CC0000;">0</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span> <span style="color: #009900;">&#125;</span>
+<span style="color: #000066; font-weight: bold;">function</span> next_state<span style="color: #009900;">&#40;</span>grid<span style="color: #339933;">,</span> row<span style="color: #339933;">,</span> col<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span> <span style="color: #000066; font-weight: bold;">return</span> next_state_if<span style="color: #009900;">&#40;</span>count_neighbors<span style="color: #009900;">&#40;</span>grid<span style="color: #339933;">,</span> row<span style="color: #339933;">,</span> col<span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span> grid<span style="color: #009900;">&#91;</span>row<span style="color: #009900;">&#93;</span><span style="color: #009900;">&#91;</span>col<span style="color: #009900;">&#93;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span> <span style="color: #009900;">&#125;</span>
+<span style="color: #000066; font-weight: bold;">function</span> calculate_tomorrow<span style="color: #009900;">&#40;</span>today<span style="color: #339933;">,</span> tomorrow<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+    _.<span style="color: #660066;">each</span><span style="color: #009900;">&#40;</span>today<span style="color: #339933;">,</span> <span style="color: #000066; font-weight: bold;">function</span> <span style="color: #009900;">&#40;</span>foo<span style="color: #339933;">,</span> row<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span>
+        _.<span style="color: #660066;">each</span><span style="color: #009900;">&#40;</span><span style="color: #000066; font-weight: bold;">this</span>.<span style="color: #660066;">today</span><span style="color: #009900;">&#91;</span>row<span style="color: #009900;">&#93;</span><span style="color: #339933;">,</span> <span style="color: #000066; font-weight: bold;">function</span> <span style="color: #009900;">&#40;</span>foo<span style="color: #339933;">,</span> col<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span> <span style="color: #000066; font-weight: bold;">this</span>.<span style="color: #660066;">tomorrow</span><span style="color: #009900;">&#91;</span>row<span style="color: #009900;">&#93;</span><span style="color: #009900;">&#91;</span>col<span style="color: #009900;">&#93;</span> <span style="color: #339933;">=</span> next_state<span style="color: #009900;">&#40;</span><span style="color: #000066; font-weight: bold;">this</span>.<span style="color: #660066;">today</span><span style="color: #339933;">,</span> row<span style="color: #339933;">,</span> col<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span> <span style="color: #009900;">&#125;</span><span style="color: #339933;">,</span> <span style="color: #000066; font-weight: bold;">this</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+    <span style="color: #009900;">&#125;</span><span style="color: #339933;">,</span> <span style="color: #009900;">&#123;</span>today<span style="color: #339933;">:</span> today<span style="color: #339933;">,</span> tomorrow<span style="color: #339933;">:</span> tomorrow<span style="color: #009900;">&#125;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #009900;">&#125;</span>
+&nbsp;
+<span style="color: #006600; font-style: italic;">// helpers</span>
+<span style="color: #000066; font-weight: bold;">function</span> copy2d<span style="color: #009900;">&#40;</span>ary2d<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span> <span style="color: #000066; font-weight: bold;">return</span> _.<span style="color: #660066;">map</span><span style="color: #009900;">&#40;</span>ary2d<span style="color: #339933;">,</span> <span style="color: #000066; font-weight: bold;">function</span> <span style="color: #009900;">&#40;</span>list<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span> <span style="color: #000066; font-weight: bold;">return</span> list.<span style="color: #660066;">slice</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span> <span style="color: #009900;">&#125;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span> <span style="color: #009900;">&#125;</span>
+<span style="color: #000066; font-weight: bold;">function</span> print_r<span style="color: #009900;">&#40;</span>ary2d<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span> console.<span style="color: #660066;">log</span><span style="color: #009900;">&#40;</span>_.<span style="color: #660066;">map</span><span style="color: #009900;">&#40;</span>ary2d<span style="color: #339933;">,</span> <span style="color: #000066; font-weight: bold;">function</span> <span style="color: #009900;">&#40;</span>list<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span> <span style="color: #000066; font-weight: bold;">return</span> list.<span style="color: #660066;">join</span><span style="color: #009900;">&#40;</span><span style="color: #3366CC;">''</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span> <span style="color: #009900;">&#125;</span><span style="color: #009900;">&#41;</span>.<span style="color: #660066;">join</span><span style="color: #009900;">&#40;</span><span style="color: #3366CC;">'<span style="color: #000099; font-weight: bold;">\n</span>'</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span> <span style="color: #009900;">&#125;</span>
+<span style="color: #000066; font-weight: bold;">function</span> random_init<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span> <span style="color: #000066; font-weight: bold;">return</span> _.<span style="color: #660066;">map</span><span style="color: #009900;">&#40;</span>_.<span style="color: #660066;">range</span><span style="color: #009900;">&#40;</span><span style="color: #CC0000;">30</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span> <span style="color: #000066; font-weight: bold;">function</span> <span style="color: #009900;">&#40;</span>list<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span> <span style="color: #000066; font-weight: bold;">return</span> _.<span style="color: #660066;">map</span><span style="color: #009900;">&#40;</span>_.<span style="color: #660066;">range</span><span style="color: #009900;">&#40;</span><span style="color: #CC0000;">30</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">,</span> <span style="color: #000066; font-weight: bold;">function</span> <span style="color: #009900;">&#40;</span>list<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#123;</span> <span style="color: #000066; font-weight: bold;">return</span> _.<span style="color: #660066;">random</span><span style="color: #009900;">&#40;</span><span style="color: #CC0000;">1</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span> <span style="color: #009900;">&#125;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span> <span style="color: #009900;">&#125;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span> <span style="color: #009900;">&#125;</span>
+&nbsp;
+<span style="color: #006600; font-style: italic;">// demo main loop</span>
+<span style="color: #000066; font-weight: bold;">var</span> today <span style="color: #339933;">=</span> random_init<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #000066; font-weight: bold;">var</span> tomorrow <span style="color: #339933;">=</span> random_init<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+print_r<span style="color: #009900;">&#40;</span>today<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+setInterval<span style="color: #009900;">&#40;</span><span style="color: #000066; font-weight: bold;">function</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#123;</span>
+    calculate_tomorrow<span style="color: #009900;">&#40;</span>today<span style="color: #339933;">,</span> tomorrow<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+    print_r<span style="color: #009900;">&#40;</span>tomorrow<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+    today <span style="color: #339933;">=</span> copy2d<span style="color: #009900;">&#40;</span>tomorrow<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #009900;">&#125;</span><span style="color: #339933;">,</span> <span style="color: #CC0000;">400</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+<span style="color: #339933;">&lt;/</span>script<span style="color: #339933;">&gt;</span></pre></div></p>
+
+  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_forbidden"><span><a href="user/logind29e.html?destination=node%2F579%23comment-form">Login</a> to post comments</span></li>
+<li class="disqus_comments last"><span><a href="vietnam/hcmc/code-retreat-2012-ho-chi-minh-city.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/579">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+<div id="node-578" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="tech/drupal/drupal-8-new-file-based-configuration-management-system.html">Drupal 8: New File-Based Configuration Management System </a></h2>
+    
+          <div class="meta">Submitted by tomo on December 11, 2012 - 11:20am</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_443 first"><a href="category/type/tech/drupal.html" rel="tag" title="">Drupal</a></li>
+<li class="taxonomy_term_445"><a href="category/tags/configuration.html" rel="tag" title="">configuration</a></li>
+<li class="taxonomy_term_444"><a href="category/tags/drupal-8.html" rel="tag" title="">drupal 8</a></li>
+<li class="taxonomy_term_446"><a href="category/tags/version-control.html" rel="tag" title="">version control</a></li>
+<li class="taxonomy_term_447 last"><a href="category/tags/yaml.html" rel="tag" title="">yaml</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <h2>Before Drupal 8: Background</h2>
+<p>In older versions of Drupal, a lot of "developing" a Drupal site was more clicking around in admin pages rather than writing PHP code in files. This was also Drupal's strength in that non-developers could and developers alike could create powerful and expressive features through a web interface. The downside of this is that changes weren't tracked and there was no way to revert changes - something common and easy to do with any code in a source control system.</p>
+<p>Drupalists came up with various solutions. For some major contributed modules like Views and CCK it was possible to export and import views and content types. It was also later possible to package up some changes in some more modules into Features using the Features module and API. But many modules didn't use any API and just haphazardly wrote their configurations to various database tables. To track these and be able to push changes out to other Drupal installations one had to write code in hook_update steps to upgrade the database. This was prone to error as it was being written manually.</p>
+<p>And so most Drupal sites were staged and then pushed out to production via database dumps and restorations. Unfortunately, there's no clear separation between configuration and content in a Drupal database. And there's no common way to export, push, and import nodes or any other content from a development site to a production site or vice versa.</p>
+<p>With Drupal 8 there is now a solution. Now all configuration that goes through the core configuration API will be written to the database but also to regularly named configuration files in YAML format (not XML as some documentation still mentions). So you can now put the directory containing your configuration into git or svn or whatever. Then you can use your version control to revert configuration changes! And pushing Drupal's configuration changes is simply a matter of committing the automatically generated config files and then updating on the receiving end. Once updated config files are in the right directory they can be synced via the admin interface which shows you a list of changed config files.</p>
+<h2>How does the new Drupal 8 configuration API work?</h2>
+<p>Some pertinent background files:</p>
+<p>core/includes/config.inc: This is the API for configuration storage.</p>
+<p>sites/default/default.settings.php: (from the comments)<br />
++ * By default, Drupal configuration files are stored in a randomly named<br />
++ * directory under the default public files path. On install the<br />
++ * named directory is created in the default files directory. For enhanced<br />
++ * security, you may set this variable to a location outside your docroot.</p>
+<p>The following is the directory that was automatically created by installation but you can (and probably should) move it to another location, above the web root, and set it in settings.php.</p>
+<p>sites/default/files/config_dd-NwbWruIxwygcszFOmRMZgufouo9QDGaG9UufzfxU/staging: (This is in the secret, private, randomly-named directory created by installation whose name is stored in your settings file which should not be readable by anyone else. The directory name there will not be the same on your own installation.)</p>
+<p>This directory contains configuration to be imported into your Drupal site. To make this configuration active, see admin/config/development/sync. For information about deploying configuration between servers, see <a href="http://drupal.org/documentation/administer/config" title="http://drupal.org/documentation/administer/config">http://drupal.org/documentation/administer/config</a></p>
+<p>sites/default/files/config_dd-NwbWruIxwygcszFOmRMZgufouo9QDGaG9UufzfxU/active/book.settings.yml (same as the file in core/modules/book/config):</p>
+<p>Here's what the YAML looks like:<br />
+<div class="geshifilter"><pre class="javascript geshifilter-javascript" style="font-family:monospace;">allowed_types<span style="color: #339933;">:</span>
+  <span style="color: #339933;">-</span> book
+block<span style="color: #339933;">:</span>
+  navigation<span style="color: #339933;">:</span>
+    mode<span style="color: #339933;">:</span> <span style="color: #3366CC;">'all pages'</span>
+child_type<span style="color: #339933;">:</span> book</pre></div></p>
+<p>And then this file:<br />
+<div class="geshifilter"><pre class="javascript geshifilter-javascript" style="font-family:monospace;">sites<span style="color: #339933;">/</span><span style="color: #000066; font-weight: bold;">default</span><span style="color: #339933;">/</span>files<span style="color: #339933;">/</span>php<span style="color: #339933;">/</span>service_container<span style="color: #339933;">/</span>cca23ded514a7eee056b17f0533030d74889c56f42a34ff3ac35597553e2726cf.<span style="color: #660066;">php</span>
+                    <span style="color: #339933;">^^^</span> unreadable          <span style="color: #339933;">^^</span> random<span style="color: #339933;">,</span> with randomly named PHP <span style="color: #FF0000;">class</span></pre></div></p>
+<p>As noted, "sites/default/files/php/" is not readable. </p>
+<h2>Instructions on using the configuration API</h2>
+<blockquote><p>
+On your development server, perform whatever configuration changes are needed through the UI. Create Views, check checkboxes, etc. These changes will get written to *both* the database table *and* the file system so the two are in sync (it will also re-generate the digital signatures of the underlying files).</p>
+<p>When finished with your edits, review the changes in the config directory with $vcs diff (or your tool of choice) to confirm they look as expected.</p>
+<p>If everything looks good, move the changed files to your production server in the usual way (SFTP, $vcs add/commit/push, $vcs update/pull). Nothing will immediately change, as your site will still be reading from the active store.</p>
+<p>Finally, go to admin/configuration/system/config or run drush config-update (note: final location/command likely different; making these up right now). This will outline the files that have changed. If the changes seem good, go ahead and confirm to overwrite the content of the active store with the on-disk configuration. The admin tool will offer to regenerate the file signatures if necessary.
+</p></blockquote>
+<p>So you use the web interface to make configuration changes as you always did. But now those changes will also be written out to disk where you can keep track of changes using git or subversion or whatever VCS you use. Every Drupal 8 module should load and save configuration through the new API and so we get these YAML-format human-readable configuration files for free.</p>
+
+  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_forbidden"><span><a href="user/login470a.html?destination=node%2F578%23comment-form">Login</a> to post comments</span></li>
+<li class="disqus_comments last"><span><a href="tech/drupal/drupal-8-new-file-based-configuration-management-system.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/578">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+<div id="node-576" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="vietnam/facebook-sms-vietnam-viettel.html">Facebook via SMS in Vietnam - Viettel</a></h2>
+    
+          <div class="meta">Submitted by tomo on December 8, 2012 - 8:51am</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_7 first"><a href="category/type/vietnam.html" rel="tag" title="">Vietnam</a></li>
+<li class="taxonomy_term_14"><a href="category/tags/facebook.html" rel="tag" title="">facebook</a></li>
+<li class="taxonomy_term_439"><a href="category/tags/sms.html" rel="tag" title="">sms</a></li>
+<li class="taxonomy_term_441"><a href="category/tags/social-network.html" rel="tag" title="">social network</a></li>
+<li class="taxonomy_term_266"><a href="category/tags/telecom.html" rel="tag" title="">telecom</a></li>
+<li class="taxonomy_term_440"><a href="category/tags/viettel.html" rel="tag" title="">viettel</a></li>
+<li class="taxonomy_term_453 last"><a href="category/tags/zing.html" rel="tag" title="">zing</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>Viettel, Vietnam's military-owned telecom, has opened up direct Facebook integration via sms to Viettel mobile phone subscribers. This is an officially supported way for Vietnamese people to access Facebook on the go without a computer or smartphone. This is targeting Vietnamese people who mainly access the internet at internet cafes and so using this they won't need to hang around at cafes where they're charged hourly while they wait for someone to comment or like their status updates. This applies to a lot of Vietnamese folks and could lead to even faster adoption of Vietnam's #1 social network. What does that imply about any official government ban on Facebook?</p>
+
+<a href="vietnam/facebook-sms-vietnam-viettel.html">Read the rest of this article...</a>  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_comments"><a href="vietnam/facebook-sms-vietnam-viettel.html#comments" title="Jump to the first comment of this posting.">2 comments</a></li>
+<li class="node_read_more"><a href="vietnam/facebook-sms-vietnam-viettel.html" title="Read the rest of Facebook via SMS in Vietnam - Viettel.">Read more</a></li>
+<li class="disqus_comments last"><span><a href="vietnam/facebook-sms-vietnam-viettel.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/576">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+<div id="node-567" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="tech/drupal/running-drupal-8-and-php-538-mac-osx.html">Running Drupal 8 and PHP 5.3.8+ on Mac OSX</a></h2>
+    
+          <div class="meta">Submitted by tomo on November 20, 2012 - 8:41am</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_443 first"><a href="category/type/tech/drupal.html" rel="tag" title="">Drupal</a></li>
+<li class="taxonomy_term_56"><a href="category/tags/apache.html" rel="tag" title="">apache</a></li>
+<li class="taxonomy_term_12"><a href="category/tags/drupal.html" rel="tag" title="">drupal</a></li>
+<li class="taxonomy_term_444"><a href="category/tags/drupal-8.html" rel="tag" title="">drupal 8</a></li>
+<li class="taxonomy_term_438"><a href="category/tags/lion.html" rel="tag" title="">lion</a></li>
+<li class="taxonomy_term_436"><a href="category/tags/osx.html" rel="tag" title="">osx</a></li>
+<li class="taxonomy_term_53"><a href="category/tags/php.html" rel="tag" title="">php</a></li>
+<li class="taxonomy_term_437"><a href="category/tags/snow-leopard.html" rel="tag" title="">snow leopard</a></li>
+<li class="taxonomy_term_130 last"><a href="category/tags/xampp.html" rel="tag" title="">xampp</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>I develop on my MacBook Pro and when building Drupal 6 sites, I had to run PHP 5.2 because there were many conflicts in Drupal 6 core and contributed modules which meant running on PHP 5.3 either threw up errors or didn't run properly. Since I run XAMPP for Mac OS X, I also run phpswitch which lets me switch from XAMPP using PHP 5.2 to PHP 5.3 and back.</p>
+<p>Unfortunately, Drupal 8 not only requires PHP 5.3 but PHP 5.3.5 or higher. Drupal 7 ran fine on PHP 5.2.5 or higher with  PHP 5.3 recommended.</p>
+<p>1) XAMPP Mac OS X 1.7.3 comes with: Apache 2.2.14, MySQL 5.1.44, PHP 5.3.1.</p>
+
+<a href="tech/drupal/running-drupal-8-and-php-538-mac-osx.html">Read the rest of this article...</a>  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_forbidden"><span><a href="user/login7e8f.html?destination=node%2F567%23comment-form">Login</a> to post comments</span></li>
+<li class="node_read_more"><a href="tech/drupal/running-drupal-8-and-php-538-mac-osx.html" title="Read the rest of Running Drupal 8 and PHP 5.3.8+ on Mac OSX.">Read more</a></li>
+<li class="disqus_comments last"><span><a href="tech/drupal/running-drupal-8-and-php-538-mac-osx.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/567">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+<div id="node-566" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="b/10-days-sitting-vipassana-meditation-vietnam.html">10 Days of Sitting: Vipassana Meditation in Vietnam</a></h2>
+    
+          <div class="meta">Submitted by tomo on November 17, 2012 - 1:53pm</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_204 first"><a href="category/type/buddhism.html" rel="tag" title="">Buddhism</a></li>
+<li class="taxonomy_term_7"><a href="category/type/vietnam.html" rel="tag" title="">Vietnam</a></li>
+<li class="taxonomy_term_208"><a href="category/tags/meditation.html" rel="tag" title="">meditation</a></li>
+<li class="taxonomy_term_433"><a href="category/tags/pagoda.html" rel="tag" title="">pagoda</a></li>
+<li class="taxonomy_term_434 last"><a href="category/tags/vipassana.html" rel="tag" title="">vipassana</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>From the October 31st to November 11th I attended a Vipassana meditation course/retreat on the outskirts of Ho Chi Minh City. </p>
+<p>On the fourth day, we got to eat: yogurt. I was so happy that day.</p>
+<h2>Five Precepts: No killing, no stealing, no sexual misconduct, no lying, no drinking alcohol</h2>
+
+<a href="b/10-days-sitting-vipassana-meditation-vietnam.html">Read the rest of this article...</a>  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_comments"><a href="b/10-days-sitting-vipassana-meditation-vietnam.html#comments" title="Jump to the first comment of this posting.">4 comments</a></li>
+<li class="node_read_more"><a href="b/10-days-sitting-vipassana-meditation-vietnam.html" title="Read the rest of 10 Days of Sitting: Vipassana Meditation in Vietnam.">Read more</a></li>
+<li class="disqus_comments last"><span><a href="b/10-days-sitting-vipassana-meditation-vietnam.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/566">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+<div id="node-563" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="vietnam/how-hire-software-developers-and-other-employees-vietnam.html">How to hire software developers and other employees in Vietnam</a></h2>
+    
+          <div class="meta">Submitted by tomo on October 30, 2012 - 10:59pm</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_7 first"><a href="category/type/vietnam.html" rel="tag" title="">Vietnam</a></li>
+<li class="taxonomy_term_432"><a href="category/tags/employee.html" rel="tag" title="">employee</a></li>
+<li class="taxonomy_term_428"><a href="category/tags/employment.html" rel="tag" title="">employment</a></li>
+<li class="taxonomy_term_429"><a href="category/tags/hiring.html" rel="tag" title="">hiring</a></li>
+<li class="taxonomy_term_430"><a href="category/tags/howto.html" rel="tag" title="">howto</a></li>
+<li class="taxonomy_term_243"><a href="category/tags/jobs.html" rel="tag" title="">jobs</a></li>
+<li class="taxonomy_term_431 last"><a href="category/tags/resume.html" rel="tag" title="">resume</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>In the past, when looking to hire people to work for your company, you would rely on your personal network and you still have to do that to a great extent today. But if you're trying to fill hundreds of positions then you can't only take personal recommendations.</p>
+<p>    Before the Internet, there were newspapers which made money by selling subscriptions and selling newspapers at newspaper stands, selling advertising, and selling space in their classified ads. It is still possible to put up classified ads to get employees for your restaurant, bar, massage parlor, hair salon, etc. Print classified businesses like Mua&amp;Ban (Buy&amp;Sell) have also gone online.</p>
+<p>    Nowadays, instead of Dice or Monster.com or other job websites that are popular in the US, in Vietnam we have three major employment websites: Vietnamworks.com, Kiemviec.com, Timviecnhanh.com. Vietnamworks (Navigos) is the premier and most costly of them all, but the other two get a fair number of CVs posted if you're looking.</p>
+<h2>Hiring Process</h2>
+<p>    Once you've placed your ad and received some resumes/CVs or searched and found some by yourself, you'll start calling them up and scheduling them to come meet you for an interview. You can have them come to your office or meet them in a cafe. If the candidate isn't so fluent in English, then bring a Vietnamese person to help communicate.</p>
+<h2>Some problems you may face</h2>
+<p>    They won't show up to the interview or they will show up late.</p>
+<p>    They will list skills they don't have.</p>
+<p>    Even if the candidate says they are fluent in English they may not really be comfortable speaking English with you at an interview. Unfortunately this means they don't have great English and if you can only communicate in English with them then this could be a problem unless you plan to only communicate via chat or email. Having a Vietnamese person on hand really cuts down on confusion. Being able to speak English well can easily double a person's salary.</p>
+<h2>Interviewing software developers</h2>
+<p>    Since I'm usually cost conducting interviews with programmers I like to sit in front of a laptop with the interviewee and have him write some code while I watch. It should be in in language that he is comfortable with and if he's a good programmer he should be comfortable and at least 1 language.</p>
+<p>    Otherwise the programmer will spend a lot of time having to lookup function definitions online. I also like to use interactive programming environments and so using javascript inside Chrome developer tools is readily available and hopefully familiar to the programmer if not Firefox's Firebug.</p>
+<h2>Tips</h2>
+<p>    Most cafes are not ideal for conducting an interview because they're too noisy for too loud or to smokey or otherwise just not very professional. A cafe that suits you for drinking coffee or working alone may not be right for meeting others professionally. But try to find a few cafes which have some rooms sectioned off, are non-smoking, and don't have music or movies playing.</p>
+
+  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_forbidden"><span><a href="user/login6e1c.html?destination=node%2F563%23comment-form">Login</a> to post comments</span></li>
+<li class="disqus_comments last"><span><a href="vietnam/how-hire-software-developers-and-other-employees-vietnam.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/563">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+<div class="item-list"><ul class="pager"><li class="pager-first first"><a href="blog.html" title="Go to first page" class="active">« first</a></li>
+<li class="pager-previous"><a href="blog2679.html?page=1" title="Go to previous page" class="active">‹ previous</a></li>
+<li class="pager-item"><a href="blog.html" title="Go to page 1" class="active">1</a></li>
+<li class="pager-item"><a href="blog2679.html?page=1" title="Go to page 2" class="active">2</a></li>
+<li class="pager-current">3</li>
+<li class="pager-item"><a href="blog9ba9.html?page=3" title="Go to page 4" class="active">4</a></li>
+<li class="pager-item"><a href="blogfdb0.html?page=4" title="Go to page 5" class="active">5</a></li>
+<li class="pager-item"><a href="blogaf4d.html?page=5" title="Go to page 6" class="active">6</a></li>
+<li class="pager-item"><a href="blogc575.html?page=6" title="Go to page 7" class="active">7</a></li>
+<li class="pager-item"><a href="blog235c.html?page=7" title="Go to page 8" class="active">8</a></li>
+<li class="pager-item"><a href="blogfdfa.html?page=8" title="Go to page 9" class="active">9</a></li>
+<li class="pager-ellipsis">…</li>
+<li class="pager-next"><a href="blog9ba9.html?page=3" title="Go to next page" class="active">next ›</a></li>
+<li class="pager-last last"><a href="blog89ae.html?page=23" title="Go to last page" class="active">last »</a></li>
+</ul></div>        </div>
+      
+            <a href="blog/feed" class="feed-icon"><img src="misc/feed.png" alt="Syndicate content" title="RSS - blogs" width="16" height="16" /></a>    </div> <!-- /#page -->
+
+
+    <div id="closure">
+      <div id="info">
+        © 2010-2014 Saigonist.       </div>
+
+          </div> <!-- /#closure -->
+
+  </div> <!-- /#main -->
+</div> <!-- /#main-wrapper -->
+
+
+
+    <div id="sidebar-first" class="clear-block last">
+    <div class="region region-sidebar-first">
+      <div id="block-block-10" class="block block-block">
+  <div class="inner">
+  
+    <div class="content">
+      <ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-9556924506572581"
+     data-ad-slot="4371339435"></ins>
+<script>/* Saigonist Skyscraper */
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>    </div>
+  </div>
+</div>
+<div id="block-block-1" class="block block-block">
+  <div class="inner">
+  
+    <div class="content">
+      <style>
+.block-split-left {
+    width: 150px;
+    display: inline-block;
+}
+.block-split-right {
+    width: 200px;
+    height: 200px;
+    display: inline;
+}
+
+</style>
+
+<div class="block-split-left">
+
+<a href="http://feedproxy.google.com/Saigonist" class="feed-icon"><img src="misc/feed.png" alt="Syndicate content" title="Syndicate" width="16" height="16"> Syndicate via RSS</a> 
+
+<a href="http://twitter.com/tomosaigon" class="twitter-follow-button" data-show-count="false">Follow @tomosaigon</a>
+<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+
+<p><a href="http://feeds.feedburner.com/Saigonist"><img src="http://feeds.feedburner.com/~fc/Saigonist?bg=74950A&amp;fg=ffffff&amp;anim=1" height="26" width="88" style="border:0" alt="" /></a></p>
+
+</div>
+
+<div class="block-split-right">
+<ins class="adsbygoogle"
+     style="display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-9556924506572581"
+     data-ad-slot="6281513583"></ins>
+<script>/* Saigonist Side */
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+</div>    </div>
+  </div>
+</div>
+<div id="block-comment-0" class="block block-comment">
+  <div class="inner">
+      <h2>Recent comments</h2>
+  
+    <div class="content">
+      <div class="item-list"><ul><li class="first"><a href="forum/6348/esl-teachers-needed-ho-chi-minh-city.html#comment-4412">Hello,
+I only have a two year</a><br />1 year 11 weeks ago</li>
+<li><a href="forum/6518/looking-name-nightclub.html#comment-4314">There is no way to upload</a><br />2 years 3 days ago</li>
+<li><a href="forum/6542/saigon-pearl-apartment-rent-modern-furniture-cheap-price-2-brs.html#comment-4306">Pls, contact with me if you</a><br />2 years 1 week ago</li>
+<li><a href="forum/6518/looking-name-nightclub.html#comment-4303">Hi, I dont see the pictures</a><br />2 years 3 weeks ago</li>
+<li><a href="forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4167">I think EIS is a better</a><br />2 years 19 weeks ago</li>
+<li><a href="forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4166">You are welcome, thanks all</a><br />2 years 19 weeks ago</li>
+<li><a href="forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4165">:)</a><br />2 years 19 weeks ago</li>
+<li><a href="forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4164">Sorry for late reply. I think</a><br />2 years 19 weeks ago</li>
+<li><a href="forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4163">Hey guys, I have stayed in</a><br />2 years 19 weeks ago</li>
+<li class="last"><a href="forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4162">I think IB is a great</a><br />2 years 19 weeks ago</li>
+</ul></div>    </div>
+  </div>
+</div>
+    </div>
+  </div> <!-- /#sidebar-first -->
+
+
+    </div> <!-- /#main-columns -->
+  </div> <!-- /#main-columns-wrapper -->
+
+
+  <div class="region fat-footer">
+          <div class="region region-footer-1">
+              </div>
+          <div class="region region-footer-2">
+        <div id="block-block-3" class="block block-block">
+  <div class="inner">
+      <h2>About the author</h2>
+  
+    <div class="content">
+      <p>Asian-American <span data-scayt_word="expat" data-scaytid="1">expat</span> living in Vietnam over 3 years. I am involved in tech startups and do <a href="category/tags/drupal.html">Drupal</a> consulting. I choose to live in Saigon and Vietnam and I want to see the city and its people reach their true potential.</p>
+    </div>
+  </div>
+</div>
+<div id="block-block-4" class="block block-block">
+  <div class="inner">
+      <h2>Where is Saigon?</h2>
+  
+    <div class="content">
+      <p>It's not wrong to wonder where in the world Saigon is. </p>
+<p>Saigon is the name of the city now officially known as Ho Chi Minh City. But most people who call Saigon home call their home Saigon and it's mostly tourists who I hear refer to it as Ho Chi Minh City (or Ho Chi Minh Ville for the French).</p>
+<p>After the Vietnam/American War ended in 1975, many place names ceased to exist such as Saigon, South Vietnam, and plenty of street names. </p>
+<p>Tu Do is now Dong Khoi, Thong Nhat is Le Duan. And Tan Son Nhut Airport is now <a href="content/ho-chi-minh-citys-tan-san-nhat-international-airport.html">Tan Son Nhat International Airport</a>. Rue Paul Blanchy has been Hai Ba Trung since the 1950s.</p>
+<p>Those who haven't seen Vietnam for decades will be confused not just by the geographical changes but the incredible amount of development and modernization that has since taken place.</p>
+    </div>
+  </div>
+</div>
+      </div>
+          <div class="region region-footer-3">
+        <div id="block-tagadelic-2" class="block block-tagadelic">
+  <div class="inner">
+      <h2>Tags in Tags</h2>
+  
+    <div class="content">
+      <a href="category/tags/barcamp.html" class="tagadelic level1" rel="tag" title="">barcamp</a> 
+<a href="category/tags/block.html" class="tagadelic level1" rel="tag" title="">block</a> 
+<a href="category/tags/censorship.html" class="tagadelic level1" rel="tag" title="">censorship</a> 
+<a href="category/tags/chrome.html" class="tagadelic level1" rel="tag" title="">chrome</a> 
+<a href="category/tags/drupal.html" class="tagadelic level6" rel="tag" title="">drupal</a> 
+<a href="category/tags/facebook.html" class="tagadelic level3" rel="tag" title="">facebook</a> 
+<a href="category/tags/google.html" class="tagadelic level1" rel="tag" title="">google</a> 
+<a href="category/tags/javascript.html" class="tagadelic level2" rel="tag" title="">javascript</a> 
+<a href="category/tags/module.html" class="tagadelic level1" rel="tag" title="">module</a> 
+<a href="category/tags/travel.html" class="tagadelic level1" rel="tag" title="">travel</a> 
+<a href="category/tags/twitter.html" class="tagadelic level1" rel="tag" title="">twitter</a> 
+<a href="category/tags/views.html" class="tagadelic level1" rel="tag" title="">views</a> 
+<div class='more-link'><a href="tagadelic/chunk/2.html">more tags</a></div>    </div>
+  </div>
+</div>
+<div id="block-statistics-0" class="block block-statistics">
+  <div class="inner">
+      <h2>Most popular posts</h2>
+  
+    <div class="content">
+      <div class="item-list"><h3>All time:</h3><ul><li class="first"><a href="content/cost-living-vietnam-its-really-cheap.html">Cost-of-Living in Vietnam: It&#039;s Really Cheap</a></li>
+<li><a href="content/easy-access-facebook-vietnam-part-deux.html">Easy Access to Facebook in Vietnam, Part Deux</a></li>
+<li><a href="tech/drupal/drupal-add-comment-form-above-comments.html">Drupal Add Comment Form Above Comments</a></li>
+<li><a href="content/bypass-vietnams-block-facebook-or-chinas-block-youtube.html">Bypass Vietnam&#039;s Block on FaceBook - or China&#039;s Block on YouTube</a></li>
+<li><a href="content/simple-download-youtube-html5.html">Simple Way to Download YouTube HTML5 Videos</a></li>
+<li><a href="vietnam/cloud-hosting-and-content-delivery-networks-vietnam.html">Cloud Hosting and Content Delivery Networks from Vietnam</a></li>
+<li><a href="vietnam/hcmc/foreigner-vietnam-during-tet.html">A Foreigner in Vietnam During Tet</a></li>
+<li><a href="pliggmeme.html">Pliggmeme Redux Pligg Theme</a></li>
+<li><a href="b/facebook-vietnam-2012.html">Facebook in Vietnam 2012</a></li>
+<li><a href="content/improved-google-spam-filter.html">Improved Google Spam Filter?</a></li>
+<li><a href="b/buddhism-vietnam.html">Buddhism in Vietnam</a></li>
+<li><a href="content/import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet.html">Import Nokia SMS and Contacts CSV Export to Google Excel Spreadsheet</a></li>
+<li><a href="content/movie-theaters-saigon.html">Movie Theaters in Saigon</a></li>
+<li><a href="content/future-foursquare.html">Future For Foursquare</a></li>
+<li class="last"><a href="b/correct-horse-battery-staple-better-passwords-vietnamese.html">Correct Horse Battery Staple: Better passwords with Vietnamese</a></li>
+</ul></div>    </div>
+  </div>
+</div>
+      </div>
+          <div class="region region-footer-4">
+        <div id="block-views-latest_tech-block_1" class="block block-views">
+  <div class="inner">
+      <h2>Latest Technical Posts</h2>
+  
+    <div class="content">
+      <div class="view view-latest-tech view-id-latest_tech view-display-id-block_1 view-dom-id-1">
+        <div class="view-header">
+      <p>I also post a lot of technical material unrelated to Vietnam that doesn't hit the home page. Starting from November 2015 I am only posting technical articles on my new sub-blog: <a href="http:///tech.saigonist.com">TECH.saigonist.com</a></p>
+    </div>
+  
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="tech/definition-startup-what-isnt-startup.html">Definition of Startup: What isn&#039;t a startup?</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">What is a startup? 
+We're in the middle of a tech boom and it's become fashionable to either work for a startup or to be a startup. But what is a startup? How do you know that company offering you a...</span>
+  </span>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="tech/my-startup-experiences.html">My Startup Experiences</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">I've been involved in start ups for over a decade now. During that time I've worked for companies in varying stage of development. Not all of them were startups. But how can you tell if it is or not...</span>
+  </span>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="vietnam/hcmc/code-retreat-2012-ho-chi-minh-city.html">Code Retreat 2012 - Ho Chi Minh City</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">
+$(document).ready(function(){
+
+$('.geshifilter').hover(function(){console.log(this);console.log($(this));$(this).css('position', 'relative').css('width', '800px').css('z-index', 1000);}, function...</span>
+  </span>
+</li>
+          <li class="views-row views-row-4 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="b/internet-censorship-southeast-asian-countries-myanmar-china-malaysia-thailand-cambodia-vietnam.html">Internet Censorship in Southeast Asian Countries (Myanmar, China, Malaysia, Thailand, Cambodia, Vietnam)</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">Vietnam has been labeled an "enemy of the Internet" by Reporters Without Borders. There have been a lot of cases of bloggers being targeted, harrassed, and arrested. But RSF (Reporters Sans...</span>
+  </span>
+</li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="b/using-3g-internet-cambodia.html">Using 3G Internet in Cambodia</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">On my most recent trip to Cambodia I bought a Cambodian SIM card so that I could both make calls and use the Internet on my smartphone. At the Moc Bai/Bavet border are a number of Khmer people (who...</span>
+  </span>
+</li>
+          <li class="views-row views-row-6 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="b/mailchimp-vs-pommo-mailman-phplist-self-host-or-outsource-your-mailing-list.html">MailChimp vs poMMo, Mailman, Phplist - Self-Host or Outsource Your Mailing List?</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">Use your own mail server or outsource it?
+Let's say you have a rather large mailing list of a few thousand email addresses and, well, sending it out with GMail is no longer cutting it. What are your...</span>
+  </span>
+</li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="vietnam/internet-vietnam-good-bad-ugly.html">Internet in Vietnam - Good, Bad, Ugly</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">If you ask Vietnamese officials, you'll hear such hyperbole as "the Internet service development in Vietnam is in no way inferior to developed countries in the world" (Mai Liem Truc, former Deputy...</span>
+  </span>
+</li>
+          <li class="views-row views-row-8 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="b/pommo-problems.html">poMMo proBLEMs</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">poMMo is free open source mailing list management software. It's written in PHP and pretty basic but does give a decent management interface. However, it's no longer maintained. There is a GitHub...</span>
+  </span>
+</li>
+          <li class="views-row views-row-9 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="b/preventing-repetitive-stress-injuries-programmers-and-writers.html">Preventing Repetitive Stress Injuries for Programmers and Writers</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">My situation
+I'm a career programmer who has suffered from pain in my hands and arms for several years. Like carpal tunnel syndrome, this pain is from damage to tissue (including tendons) caused by...</span>
+  </span>
+</li>
+          <li class="views-row views-row-10 views-row-even views-row-last">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="b/calling-us-free-foreign-countries.html">Calling the US for free from foreign countries</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">Calling US numbers from the US is pretty trivial and nearly free. But calling from another country means either:
+- paying for long distance from your telephone company
+- using a phone card to call...</span>
+  </span>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>     </div>
+  </div>
+</div>
+<div id="block-views-latest_forum-block_1" class="block block-views">
+  <div class="inner">
+  
+    <div class="content">
+      <div class="view view-latest-forum view-id-latest_forum view-display-id-block_1 view-dom-id-2">
+        <div class="view-header">
+      <h1>Recent activity in the <a href="forums/living-and-working-vietnam.html">expat forum</a>...</h1>
+    </div>
+  
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="forum/6713/we-can-support-you-about-visa-arrival-visa-extension.html">We can support you about &lt;Visa on arrival - Visa extension&gt;</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Nowadays, foreigners have many difficulties in living and working in Vietnam, in which the main...</span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="forum/6712/visa-vietnam-expats.html">VISA VIETNAM FOR EXPATS</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Dear  Sir/Madam
+I'm Ms. Vui - who is special making all of services for expats in Vietnam.
+Pls...</span>
+  </div>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="forum/6709/apartment-rent-cheap-price-ms-linh-0932705239.html">Apartment for rent with cheap price Ms Linh 0932705239</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Masteri apartment for rent with fully furnished or unfurnished #Condominium
+Add: 159 Ha Noi highway...</span>
+  </div>
+</li>
+          <li class="views-row views-row-4 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="forum/6707/best-dishes-christmas.html">Best dishes for Christmas</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">1. Roasted turkey
+Succulent tender turkey meat with moist and flavourful stuffing. Give this...</span>
+  </div>
+</li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="forum/6706/best-dishes-christmas.html">Best dishes for Christmas</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">1. Roasted turkey
+Succulent tender turkey meat with moist and flavourful stuffing. Give this...</span>
+  </div>
+</li>
+          <li class="views-row views-row-6 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="forum/6705/top-places-visit-christmas-hcmc.html">Top places to visit this Christmas in HCMC</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Christmas is coming! Another wonderful season of joy and happiness … and a lot of wonderful places...</span>
+  </div>
+</li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="forum/6703/apartment-rent-masteri-ms-linh-0932705239.html">Apartment for rent in MASTERI  Ms Linh 0932705239</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Masteri apartment for rent with fully furnished or unfurnished #Condominium
+Add: 159 Ha Noi highway...</span>
+  </div>
+</li>
+          <li class="views-row views-row-8 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="forum/6702/apartment-rent-diamond-island-ms-linh-0932705239.html">Apartment for rent in Diamond Island  Ms Linh 0932705239</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Diamond Island  apartment for rent with fully furnished or unfurnished #luxury  #Condominium
+Add:...</span>
+  </div>
+</li>
+          <li class="views-row views-row-9 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="forum/6701/apartment-rent-diamond-island-ms-linh-0932705239.html">Apartment for rent in Diamond Island  Ms Linh 0932705239</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Diamond Island  apartment for rent with fully furnished or unfurnished #luxury  #Condominium
+Add:...</span>
+  </div>
+</li>
+          <li class="views-row views-row-10 views-row-even views-row-last">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="forum/6700/apartment-rent-diamond-island-ms-linh-0932705239.html">Apartment for rent in Diamond Island  Ms Linh 0932705239</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Diamond Island  apartment for rent with fully furnished or unfurnished #luxury  #Condominium
+Add:...</span>
+  </div>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>     </div>
+  </div>
+</div>
+      </div>
+      </div>
+
+  <script type="text/javascript" src="sites/saigonist.com/files/advagg_js/js_ae4c45ca17e58eea971e353d18846ebd_1.js"></script>
+<script type="text/javascript" src="sites/saigonist.com/files/advagg_js/js_114add5d22097bf8ea6c5fb53a2ba535_0.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","googleanalytics":{"trackOutgoing":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|avi|csv|doc|exe|flv|gif|gz|jpe?g|js|mp(3|4|e?g)|mov|pdf|phps|png|ppt|rar|sit|tar|torrent|txt|wma|wmv|xls|xml|zip"},"disqusCommentDomain":"saigon"});
+//--><!]]>
+</script>
+
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "CToolsAJAX": { "scripts": { "/sites/saigonist.com/modules/jquery_update/replace/jquery.min.js?X": true, "/misc/drupal.js?X": true, "/sites/saigonist.com/modules/saigonist/gavote.js?X": true, "/sites/saigonist.com/modules/saigonist/saigonist.js?X": true, "/sites/saigonist.com/modules/saigonist/jquery.slicknav.js?X": true, "/sites/saigonist.com/modules/disqus/disqus.js?X": true, "/sites/saigonist.com/modules/ajax/jquery/jquery.a_form.packed.js?X": true, "/sites/saigonist.com/modules/ajax/ajax.js?X": true, "/sites/all/modules/3rdparty/google_analytics/googleanalytics.js?X": true }, "css": { "/modules/aggregator/aggregator.css?X": true, "/modules/node/node.css?X": true, "/modules/poll/poll.css?X": true, "/modules/system/defaults.css?X": true, "/modules/system/system.css?X": true, "/modules/system/system-menus.css?X": true, "/modules/user/user.css?X": true, "/sites/all/modules/3rdparty/cck/theme/content-module.css?X": true, "/sites/all/modules/3rdparty/ctools/css/ctools.css?X": true, "/sites/all/modules/3rdparty/date/date.css?X": true, "/sites/all/modules/3rdparty/date/date_popup/themes/datepicker.css?X": true, "/sites/all/modules/3rdparty/date/date_popup/themes/timeentry.css?X": true, "/sites/all/modules/3rdparty/filefield/filefield.css?X": true, "/sites/all/modules/3rdparty/tagadelic/tagadelic.css?X": true, "/sites/all/modules/3rdparty/x/mollom/mollom.css?X": true, "/sites/saigonist.com/modules/geshifilter/geshifilter.css?X": true, "/modules/forum/forum.css?X": true, "/sites/all/modules/3rdparty/cck/modules/fieldgroup/fieldgroup.css?X": true, "/sites/all/modules/3rdparty/views/css/views.css?X": true, "/sites/saigonist.com/themes/corolla_sg/reset.css?X": true, "/sites/saigonist.com/themes/corolla_sg/base.css?X": true, "/sites/saigonist.com/themes/corolla_sg/style.css?X": true, "/sites/saigonist.com/themes/corolla_sg/drupal-6.css?X": true, "/sites/saigonist.com/themes/corolla_sg/colors.css?X": true, "/sites/saigonist.com/themes/corolla_sg/dynamic_tomo.css?X": true, "/sites/saigonist.com/themes/corolla_sg/slicknav.css?X": true, "/sites/saigonist.com/themes/corolla_sg/tomo.css?X": true, "/sites/saigonist.com/themes/corolla_sg/responsive.css?X": true, "/sites/saigonist.com/themes/corolla_sg/print.css?X": true } } });
+//--><!]]>
+</script>
+<script type="text/javascript" src="sites/saigonist.com/files/advagg_js/js_bd2dccda1712ebf640b9dcbfe9797558_2.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var gaJsHost=(("https:"==document.location.protocol)?"https://ssl.":"http://www.");document.write(unescape("%3Cscript src='"+gaJsHost+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+try{var pageTracker=_gat._getTracker("UA-18406883-1");pageTracker._trackPageview()}catch(err){}
+//--><!]]>
+</script>
+
+</body>
+
+<!-- Mirrored from www.saigonist.com/blog?page=2 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Oct 2018 11:34:43 GMT -->
+</html>

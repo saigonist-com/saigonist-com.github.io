@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/188/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>hooks</title>
+    <link>http://www.saigonist.com/taxonomy/term/188/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Drupal Views hook_views_query_substitutions</title>
+    <link>http://www.saigonist.com/tech/drupal/drupal-views-hookviewsquerysubstitutions</link>
+    <description>&lt;p&gt;Drupal&#039;s Views module has a lot of hooks that can be used to modify the behavior of a hook, from building the query to putting together the output.  Hooks are also used by modules which want to add to the Views building interface, even the basic node-based Views.&lt;/p&gt;
+&lt;p&gt;Views supports a number of hooks which aren&#039;t documented.  One I came across recently was hook_views_query_substitutions.  This is potentially a powerful hook, one which the module Views arguments in filters (currently a sandbox module only for developers) takes advantage of to allow filter value substitution from the Views UI.&lt;/p&gt;
+&lt;p&gt;Hook hook_views_query_substitutions is pretty basic.  By implementing the hook, you return an array of values you want to substitute with the keys you want to substitute for.  This is how the magic values like ***ADMINISTER_NODES*** which you see in the Views query preview get turned into valid SQL.&lt;/p&gt;
+&lt;p&gt;For example:&lt;/p&gt;
+&lt;pre&gt;
+function user_views_query_substitutions($view) {
+  global $user;
+  return array(&#039;***CURRENT_USER***&#039; =&amp;gt; intval($user-&amp;gt;uid));
+}
+&lt;/pre&gt;&lt;p&gt;
+After this hook is called, Views will then run str_replace with the keys of the substitutions array and its values and apply it to the breadcrumb, title, and views arguments, as well as the query string that has been built so far.&lt;/p&gt;
+&lt;p&gt;Hook hook_views_query_substitutions gets called in the execute() call of Views.  The first thing execute() does is build(), which you can hook into with hook_views_pre_build, hook_views_query_alter, and views_post_build (in that order), then you can hook into hook_views_pre_execute and hook_views_post_execute (the latter happens after the views query is executed and shows an unsubstituted query, there is no hook where one can see the substituted query).  You also have a chance to hook into the db_rewrite_sql call.&lt;/p&gt;
+&lt;p&gt;Module &quot;Views arguments in filters&quot; is pretty basic and only allows substitution in filters which allow you to enter open text (so that you can set a value like &#039;%1&#039;).  But by doing something similar, we can use a string passed in as a Null argument to command a Drupal module to do even more, like string substitution on any part of the query. I have a module in development now that does exactly that.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/drupal-views-hookviewsquerysubstitutions#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/hooks">hooks</category>
+ <category domain="http://www.saigonist.com/category/tags/views">views</category>
+ <pubDate>Fri, 18 Nov 2011 17:48:13 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">273 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

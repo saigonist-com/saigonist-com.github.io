@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/165/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>extension</title>
+    <link>http://www.saigonist.com/taxonomy/term/165/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Fix Facebook links and browse privately at the same time</title>
+    <link>http://www.saigonist.com/b/fix-facebook-links-and-browse-privately-same-time</link>
+    <description>&lt;p&gt;Did you know that Facebook was tracking all the links you clicked? If you&#039;ve ever tried to copy a link from Facebook to another site then you&#039;d see that the link always started with &lt;a href=&quot;http://www.facebook.com&quot; title=&quot;www.facebook.com&quot;&gt;www.facebook.com&lt;/a&gt; which is how they track what pages you&#039;re visiting.  &lt;/p&gt;
+&lt;p&gt;In Vietnam, this is more than just a privacy problem.  Because Facebook access intermittently requires &lt;a href=&quot;http://www.saigonist.com/content/easy-access-facebook-vietnam-part-deux&quot;&gt;workarounds&lt;/a&gt; to connect, those links can be useless even if we can see the actual website URL right there. This is because, by showing you the real website URL, Facebook makes you think they aren&#039;t doing anything tricky by adding a tracking ID to the URL and forcing you to go through Facebook to browse to the site.&lt;/p&gt;
+&lt;p&gt;So what can you do to make your life easier as well as private?&lt;/p&gt;
+&lt;p&gt;Install the &lt;a href=&quot;https://chrome.google.com/webstore/detail/omkknlonjipnallbpmboackchhnocedb&quot;&gt;Facebook Link Tracking Disabler&lt;/a&gt; free from the Chrome Web Store.&lt;/p&gt;
+&lt;p&gt;--&lt;/p&gt;
+&lt;p&gt;Bonus: Are you tired of people using Facebook apps to post news stories which then require you to install the app to actually read the article?  If you haven&#039;t already filtered all of those out of your feed then you should at least install the &lt;a href=&quot;https://chrome.google.com/webstore/detail/ofblfbpdngokklccponchjpfcakgllih&quot;&gt;Facebook Article Grabber&lt;/a&gt; extension to convert those stories into real URLs.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/fix-facebook-links-and-browse-privately-same-time#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/chrome">chrome</category>
+ <category domain="http://www.saigonist.com/category/tags/extension">extension</category>
+ <category domain="http://www.saigonist.com/category/tags/facebook">facebook</category>
+ <category domain="http://www.saigonist.com/category/tags/privacy">privacy</category>
+ <pubDate>Mon, 27 Feb 2012 07:32:53 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">297 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Twitter Decoder Ring</title>
+    <link>http://www.saigonist.com/b/twitter-decoder-ring</link>
+    <description>&lt;p&gt;My latest Chrome extension is a quick wrapper around a &quot;service&quot; (hoping the provider see it that way :) to compress English text and get around the 140 character bound on Twitter.&lt;/p&gt;
+&lt;p&gt;Twitter Decoder Ring: https://chrome.google.com/webstore/detail/idcnolgflhcckjdfpfbcehjocggffdjk&lt;/p&gt;
+&lt;p&gt;&lt;img width=&quot;400px&quot; src=&quot;http://www.saigonist.com/sites/saigonist.com/files/decoderringsmall.png&quot; /&gt;&lt;br /&gt;
+Twitter has a 140 character limit on tweets.  This can be annoying when you are writing something and end up just slightly over (seeing negative character counts).  So a lot of third party solutions have sprung up to allow one to tweet longer tweets by basically linking to a blog post.  For example, TweetDeck does this.  There is a way to compress some 140 words into 140 characters by 1) using the set of Chinese characters to represent bits and 2) compressing the English text into as few bits as possible.  &lt;/p&gt;
+&lt;p&gt;For example, the entire paragraph above compresses into this non-sensical Chinese character string: 顜善嬔巖嗴允曏不t唈吷呈 呌噑庠嗱鲷凸亥丂仨丶乇儓乓(劗揦允圫s囸 严懦倡侭鹔丘柺槐嫢忒爠t唈堺倱t唈婐丕珹埼円七哢蠧呕囫 自t唈吷讴鏞弣恟帺呙冑咭巖嗴佽哻巖0簝噯呝丕1哼测樖匡螎諑歘丂2哼檂鎗俫抆哻与亩歘挍叜&lt;/p&gt;
+&lt;p&gt;I have always thought it a bit unfair that Chinese Twitter users get to say a lot more in 140 characters than we English-speakers do, because each Chinese character essentially represents an idea and often a complete word, rather than just a sound in an alphabet (like the Latin, Arabic, Hebrew, or even Vietnamese alphabets).  On the other hand, Chinese Twitter users aren&#039;t allowed to access Twitter so I guess it&#039;s a draw.&lt;/p&gt;
+&lt;p&gt;A description of the project to compress English words into Chinese characters is found at: http://thevirtuosi.blogspot.com/2011/08/tweet-is-worth-at-least-140-words.html and a web frontend for the Python script that does the compression can be found at http://pages.physics.cornell.edu/~aalemi/twitter/&lt;/p&gt;
+&lt;p&gt;It&#039;s important to note that although the characters are real Chinese characters, the string that is created most likely isn&#039;t correct or meaningful Chinese when read by a Chinese person.&lt;/p&gt;
+&lt;p&gt;This extension uses the backend from the above blog post and provides a quick and dirty wrapper to encode English text as compressed Chinese characters.&lt;/p&gt;
+&lt;div class=&quot;field field-type-filefield field-field-blogattachments&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Attachments:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file clear-block&quot;&gt;&lt;div class=&quot;filefield-icon field-icon-image-png&quot;&gt;&lt;img class=&quot;field-icon-image-png&quot;  alt=&quot;image/png icon&quot; src=&quot;http://www.saigonist.com/sites/all/modules/3rdparty/filefield/icons/protocons/16x16/mimetypes/image-x-generic.png&quot; /&gt;&lt;/div&gt;&lt;a href=&quot;http://www.saigonist.com/sites/saigonist.com/files/decoderringsmall.png&quot; type=&quot;image/png; length=110017&quot;&gt;decoderringsmall.png&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+     <comments>http://www.saigonist.com/b/twitter-decoder-ring#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/chinese">chinese</category>
+ <category domain="http://www.saigonist.com/category/tags/chrome">chrome</category>
+ <category domain="http://www.saigonist.com/category/tags/compression">compression</category>
+ <category domain="http://www.saigonist.com/category/tags/extension">extension</category>
+ <category domain="http://www.saigonist.com/category/tags/twitter">twitter</category>
+ <pubDate>Sun, 04 Sep 2011 20:17:36 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">254 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Correct Horse Battery Staple: The Google Chrome Password Generator Extension</title>
+    <link>http://www.saigonist.com/b/correct-horse-battery-staple-google-chrome-password-generator-extension</link>
+    <description>&lt;p&gt;I have turned the&amp;nbsp;&lt;a href=&quot;http://www.saigonist.com/b/correct-horse-battery-staple-better-passwords-vietnamese&quot;&gt;Correct Horse Battery Staple post&amp;#39;s Foreign Language Random Password/&lt;span data-scayt_word=&quot;Passphrase&quot; data-scaytid=&quot;1&quot;&gt;Passphrase&lt;/span&gt; Generator&lt;/a&gt; into a &lt;a href=&quot;https://chrome.google.com/webstore/detail/mppopcldmfbiecahpbhccgicchbjdcli&quot;&gt;Google Chrome extension&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Here is what it looks like:&lt;/p&gt;&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://www.saigonist.com/sites/saigonist.com/files/foreignpass_screenshot.png&quot; /&gt;&lt;/p&gt;&lt;p&gt;And in the Chrome web store:&lt;/p&gt;&lt;p&gt;&lt;img alt=&quot;Chrome App Store screenshot of Multi-Lingual Password Generator&quot; src=&quot;http://www.saigonist.com/sites/saigonist.com/files/chromestoress.png&quot; style=&quot;width: 500px; height: 243px; &quot; /&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/mppopcldmfbiecahpbhccgicchbjdcli&quot;&gt;Go install it&lt;/a&gt; and easily generate a secure and memorable &lt;span data-scayt_word=&quot;passphrase&quot; data-scaytid=&quot;2&quot;&gt;passphrase&lt;/span&gt;&amp;nbsp;anytime you need it!&lt;/p&gt;&lt;div class=&quot;field field-type-filefield field-field-blogattachments&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Attachments:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file clear-block&quot;&gt;&lt;div class=&quot;filefield-icon field-icon-image-png&quot;&gt;&lt;img class=&quot;field-icon-image-png&quot;  alt=&quot;image/png icon&quot; src=&quot;http://www.saigonist.com/sites/all/modules/3rdparty/filefield/icons/protocons/16x16/mimetypes/image-x-generic.png&quot; /&gt;&lt;/div&gt;&lt;a href=&quot;http://www.saigonist.com/sites/saigonist.com/files/chromestoress.png&quot; type=&quot;image/png; length=169319&quot;&gt;chromestoress.png&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+              &lt;div class=&quot;field-item even&quot;&gt;
+                    &lt;div class=&quot;filefield-file clear-block&quot;&gt;&lt;div class=&quot;filefield-icon field-icon-image-png&quot;&gt;&lt;img class=&quot;field-icon-image-png&quot;  alt=&quot;image/png icon&quot; src=&quot;http://www.saigonist.com/sites/all/modules/3rdparty/filefield/icons/protocons/16x16/mimetypes/image-x-generic.png&quot; /&gt;&lt;/div&gt;&lt;a href=&quot;http://www.saigonist.com/sites/saigonist.com/files/foreignpass_screenshot.png&quot; type=&quot;image/png; length=72494&quot;&gt;foreignpass_screenshot.png&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+     <comments>http://www.saigonist.com/b/correct-horse-battery-staple-google-chrome-password-generator-extension#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/addon">addon</category>
+ <category domain="http://www.saigonist.com/category/tags/chrome">chrome</category>
+ <category domain="http://www.saigonist.com/category/tags/extension">extension</category>
+ <category domain="http://www.saigonist.com/category/tags/language">language</category>
+ <category domain="http://www.saigonist.com/category/tags/password">password</category>
+ <category domain="http://www.saigonist.com/category/tags/plugin">plugin</category>
+ <category domain="http://www.saigonist.com/category/tags/security">security</category>
+ <category domain="http://www.saigonist.com/category/tags/software">software</category>
+ <pubDate>Tue, 23 Aug 2011 11:36:01 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">246 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

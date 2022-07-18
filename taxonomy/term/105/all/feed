@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/105/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>seesmic</title>
+    <link>http://www.saigonist.com/taxonomy/term/105/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Fix Seesmic Web Zombie Tweets</title>
+    <link>http://www.saigonist.com/b/fix-seesmic-web-zombie-tweets</link>
+    <description>&lt;p&gt;Seesmic Web has had a problem for as long as I&#039;ve used it.  I was hoping they would fix it on their own but as of the last update (which broke Seesmic Web for awhile) would take care of it.  The problem is that tweets or other posts just up and disappear while you&#039;re in the middle of reading them.  I use Seesmic to scan a days worth of tweets because of its compactness and automatic relatively responsive infinite scroll.  But you know there&#039;s a problem when all of your timeline from &quot;2 hours ago&quot; to &quot;14 hours ago&quot; is missing.&lt;/p&gt;
+&lt;p&gt;There. I fixed it.&lt;/p&gt;
+&lt;p&gt;Install Seesmic Zombie Fix for Chrome (and maybe other browsers)&lt;/p&gt;
+&lt;p&gt;The problem seems to be that Seesmic periodically culls tweets that it thinks shouldn&#039;t be shown, maybe because they&#039;re too old and there&#039;s not enough space (who knows?).  This Chrome-based userscript (it should work with FireFox using greasemonkey, and also natively in Opera) watches for the tweet-snatcher to do its reaping and then saves the zombie tweets before they end up in tweet-purgatory.  The &quot;saved&quot; tweets will then show up at the top of your timeline with a pink background on the &quot;ago&quot; time.&lt;/p&gt;
+&lt;p&gt;Caveats: the &quot;ago&quot; time will no longer be updated automatically, and other javascript-y actions on the tweets will no longer be linked up.  So the expand-contract on click no longer works.  I worked around this by expanding all undead tweets. But at least you will be able to read tweets from hours ago without having them &quot;rapture&quot; on you.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/fix-seesmic-web-zombie-tweets#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/chrome">chrome</category>
+ <category domain="http://www.saigonist.com/category/tags/seesmic">seesmic</category>
+ <category domain="http://www.saigonist.com/category/tags/tweet">tweet</category>
+ <category domain="http://www.saigonist.com/category/tags/twitter">twitter</category>
+ <category domain="http://www.saigonist.com/category/tags/userscripts">userscripts</category>
+ <pubDate>Sat, 27 Aug 2011 22:00:43 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">249 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Routing Around Vietnam&#039;s Facebook Block Via Apps</title>
+    <link>http://www.saigonist.com/b/routing-around-vietnams-facebook-block-apps</link>
+    <description>&lt;p&gt;[This is the third post about &lt;a href=&quot;http://www.saigonist.com/content/easy-access-facebook-vietnam-part-deux&quot;&gt;Accessing Facebook in Vietnam&lt;/a&gt;]&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Lately, ISPs in Vietnam has begun randomly blocking Facebook again after a period of openness. &amp;nbsp;When it&#039;s blocked, even accessing Facebook via their Lisp4 server (or using the Saigonist DNS server) doesn&#039;t work.&lt;/p&gt;
+&lt;p&gt;But there are a number of apps, both web-based and desktop apps, which integrate with Facebook to different extents. &amp;nbsp;These apps, once you login to them with your Facebook account, can basically get your Facebook updates for you without requiring access to Facebook.&lt;/p&gt;
+&lt;p&gt;One such app is Seesmic, which has both a web and a desktop client. &amp;nbsp;Seesmic connects to a numer of social networks and I use it for reading my Twitter feed, with a custom hack to fix a serious problem with disappearing Tweets. &amp;nbsp;But once you login to Seesmic and connect it to your Facebook account, you can see your Facebook feed as well as messages. &amp;nbsp;That&#039;s enough for most people, most of the time.&lt;/p&gt;
+&lt;p&gt;Other desktop apps that can connect to Facebook are &lt;a href=&quot;http://www.bubbleshq.com/extensions/?page=86&quot;&gt;Bubbles&lt;/a&gt;&amp;nbsp;and Hootsuite, but I wasn&#039;t able to get Hootsuite to connect to my Facebook account.&lt;/p&gt;
+&lt;p&gt;Another less convenient way is to use Opera&#039;s online demo of their &lt;a href=&quot;http://www.opera.com/mobile/demo/&quot;&gt;Opera Mini&lt;/a&gt; browser. &amp;nbsp;It&#039;s a Java app and you use it like you&#039;re using a phone, but it will connect to Facebook for you (unless your browser doesn&#039;t let Java make network connections).&lt;/p&gt;
+&lt;p&gt;When I saw that Diesel released a desktop app called &lt;a href=&quot;http://www.bestupidatwork.com/&quot;&gt;Excellbook&lt;/a&gt; as part of a marketing campaign called Be Stupid At Work, I was hoping it would also work in bypassing the Facebook block. &amp;nbsp;It&#039;s an Adobe AIR app, which requires installing Adobe AIR, and is generally a piece of crap. &amp;nbsp;Even if you can get it to connect, it will require a connection to Facebook still and so it&#039;s not so useful. &amp;nbsp;Nice idea, terrible execution and yet another example of a bad Adobe AIR app.&lt;/p&gt;</description>
+     <comments>http://www.saigonist.com/b/routing-around-vietnams-facebook-block-apps#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/block">block</category>
+ <category domain="http://www.saigonist.com/category/tags/censorship">censorship</category>
+ <category domain="http://www.saigonist.com/category/tags/diesel">diesel</category>
+ <category domain="http://www.saigonist.com/category/tags/excelbook">excelbook</category>
+ <category domain="http://www.saigonist.com/category/tags/facebook">facebook</category>
+ <category domain="http://www.saigonist.com/category/tags/opera">opera</category>
+ <category domain="http://www.saigonist.com/category/tags/seesmic">seesmic</category>
+ <pubDate>Fri, 24 Jun 2011 05:04:43 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">195 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Hatesquare for Seesmic and Hootsuite, Hootsuite Ad Blocker</title>
+    <link>http://www.saigonist.com/b/hatesquare-seesmic-and-hootsuite-hootsuite-ad-blocker</link>
+    <description>&lt;p&gt;Since I mostly use Hootsuite and Seesmic for reading my Twitter timeline (the other big reader, TweetDeck, won&#039;t connect to both Twitter and Facebook in either it&#039;s Chrome app or desktop versions), I&#039;ve updated &lt;a href=&quot;http://www.saigonist.com/h8sq&quot;&gt;h8sq: the 4sq killer&lt;/a&gt; to work on those clients.&lt;/p&gt;
+&lt;p&gt;This also includes performance enhancements for the Twitter.com version.&lt;/p&gt;
+&lt;p&gt;Furthermore, if you open your Chrome Developer JavaScript console, you will see log messages for each hated on FourSquare tweet like so:&lt;/p&gt;
+&lt;p&gt;&quot;hated on tomosaigon&quot;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;:)&lt;/p&gt;
+&lt;p&gt;Do you find Hootsuite&#039;s &quot;Promoted Tweets&quot; distracting? &amp;nbsp;I&#039;ve also hacked together an ad blocker for Hootsuite. &amp;nbsp;Rather, it should be called an ad blacker, as it blacks out the ad but still makes it clear who is spamming you, and you can still read the full ad by mousing over it.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.saigonist.com/sites/saigonist.com/files/h8sq.user.js&quot;&gt;Install h8sq for Chrome&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.saigonist.com/sites/saigonist.com/files/hootfree.user.js&quot;&gt;Install hootfree hootsuite ad blacker for Chrome&lt;/a&gt;&lt;/p&gt;</description>
+     <comments>http://www.saigonist.com/b/hatesquare-seesmic-and-hootsuite-hootsuite-ad-blocker#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/4sq">4sq</category>
+ <category domain="http://www.saigonist.com/category/tags/filter">filter</category>
+ <category domain="http://www.saigonist.com/category/tags/foursquare">foursquare</category>
+ <category domain="http://www.saigonist.com/category/tags/h8sq">h8sq</category>
+ <category domain="http://www.saigonist.com/category/tags/hootsuite">hootsuite</category>
+ <category domain="http://www.saigonist.com/category/tags/seesmic">seesmic</category>
+ <category domain="http://www.saigonist.com/category/tags/tweet">tweet</category>
+ <category domain="http://www.saigonist.com/category/tags/twitter">twitter</category>
+ <pubDate>Wed, 11 May 2011 05:21:26 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">102 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

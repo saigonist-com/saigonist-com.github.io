@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/112/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>opera</title>
+    <link>http://www.saigonist.com/taxonomy/term/112/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Routing Around Vietnam&#039;s Facebook Block Via Apps</title>
+    <link>http://www.saigonist.com/b/routing-around-vietnams-facebook-block-apps</link>
+    <description>&lt;p&gt;[This is the third post about &lt;a href=&quot;http://www.saigonist.com/content/easy-access-facebook-vietnam-part-deux&quot;&gt;Accessing Facebook in Vietnam&lt;/a&gt;]&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Lately, ISPs in Vietnam has begun randomly blocking Facebook again after a period of openness. &amp;nbsp;When it&#039;s blocked, even accessing Facebook via their Lisp4 server (or using the Saigonist DNS server) doesn&#039;t work.&lt;/p&gt;
+&lt;p&gt;But there are a number of apps, both web-based and desktop apps, which integrate with Facebook to different extents. &amp;nbsp;These apps, once you login to them with your Facebook account, can basically get your Facebook updates for you without requiring access to Facebook.&lt;/p&gt;
+&lt;p&gt;One such app is Seesmic, which has both a web and a desktop client. &amp;nbsp;Seesmic connects to a numer of social networks and I use it for reading my Twitter feed, with a custom hack to fix a serious problem with disappearing Tweets. &amp;nbsp;But once you login to Seesmic and connect it to your Facebook account, you can see your Facebook feed as well as messages. &amp;nbsp;That&#039;s enough for most people, most of the time.&lt;/p&gt;
+&lt;p&gt;Other desktop apps that can connect to Facebook are &lt;a href=&quot;http://www.bubbleshq.com/extensions/?page=86&quot;&gt;Bubbles&lt;/a&gt;&amp;nbsp;and Hootsuite, but I wasn&#039;t able to get Hootsuite to connect to my Facebook account.&lt;/p&gt;
+&lt;p&gt;Another less convenient way is to use Opera&#039;s online demo of their &lt;a href=&quot;http://www.opera.com/mobile/demo/&quot;&gt;Opera Mini&lt;/a&gt; browser. &amp;nbsp;It&#039;s a Java app and you use it like you&#039;re using a phone, but it will connect to Facebook for you (unless your browser doesn&#039;t let Java make network connections).&lt;/p&gt;
+&lt;p&gt;When I saw that Diesel released a desktop app called &lt;a href=&quot;http://www.bestupidatwork.com/&quot;&gt;Excellbook&lt;/a&gt; as part of a marketing campaign called Be Stupid At Work, I was hoping it would also work in bypassing the Facebook block. &amp;nbsp;It&#039;s an Adobe AIR app, which requires installing Adobe AIR, and is generally a piece of crap. &amp;nbsp;Even if you can get it to connect, it will require a connection to Facebook still and so it&#039;s not so useful. &amp;nbsp;Nice idea, terrible execution and yet another example of a bad Adobe AIR app.&lt;/p&gt;</description>
+     <comments>http://www.saigonist.com/b/routing-around-vietnams-facebook-block-apps#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/block">block</category>
+ <category domain="http://www.saigonist.com/category/tags/censorship">censorship</category>
+ <category domain="http://www.saigonist.com/category/tags/diesel">diesel</category>
+ <category domain="http://www.saigonist.com/category/tags/excelbook">excelbook</category>
+ <category domain="http://www.saigonist.com/category/tags/facebook">facebook</category>
+ <category domain="http://www.saigonist.com/category/tags/opera">opera</category>
+ <category domain="http://www.saigonist.com/category/tags/seesmic">seesmic</category>
+ <pubDate>Fri, 24 Jun 2011 05:04:43 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">195 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

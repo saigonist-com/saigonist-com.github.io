@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/40/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>vietnam</title>
+    <link>http://www.saigonist.com/taxonomy/term/40/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Easy Access to Facebook in Vietnam, Part Deux</title>
+    <link>http://www.saigonist.com/content/easy-access-facebook-vietnam-part-deux</link>
+    <description>&lt;p&gt;Here&#039;s an easier way to access Facebook again in Vietnam, as a follow-up to my earlier post Bypass Vietnam&#039;s Block on FaceBook - or China&#039;s Block on YouTube.&lt;/p&gt;
+&lt;p&gt;Just change your DNS settings to use 65.111.171.175 as your DNS server like before.  I&#039;ve set up a DNS server which returns different IP addresses for facebook (facebook.com and fbcdn.net).  You can also do this on your computer by setting entries for all subdomains of facebook.com to 153.16.15.71 and for fbcdn.net to 60.254.175.11.&lt;/p&gt;
+&lt;p&gt;For detailed instructions on changing your computer&#039;s DNS settings refer to http://code.google.com/speed/public-dns/docs/using.html but remember to use the address 65.111.171.175 instead of Google&#039;s 8.8.8.8 and 8.8.8.4.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/content/easy-access-facebook-vietnam-part-deux#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/blocked">blocked</category>
+ <category domain="http://www.saigonist.com/category/tags/dns">dns</category>
+ <category domain="http://www.saigonist.com/category/tags/facebook">facebook</category>
+ <category domain="http://www.saigonist.com/category/tags/vietnam">vietnam</category>
+ <pubDate>Fri, 14 Jan 2011 07:58:51 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">28 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

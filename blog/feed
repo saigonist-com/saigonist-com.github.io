@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.saigonist.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Saigonist - Expat Living in Vietnam blogs</title>
+ <link>http://www.saigonist.com/blog</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Facebook block in Vietnam May 2016</title>
+ <link>http://www.saigonist.com/vietnam/facebook-block-vietnam-may-2016</link>
+ <description>&lt;p&gt;Is Facebook blocked in Vietnam right now? Over the past few years, the main ISPs and mobile operators in Vietnam either stopped blocking Facebook or only lightly blocked it (with easy workarounds). Earlier in the rise of Facebook maybe some officials thought it was feasible that the Facebook social network could be prevented from taking hold. Today it&#039;s quite clear that it already has.&lt;/p&gt;
+&lt;p&gt;The Facebook block happening in May 2016 also affects other Facebook properties/apps like Facebook Messenger and Instagram. This also breaks any websites which require Facebook to login.&lt;/p&gt;
+&lt;p&gt;I&#039;m not in Vietnam currently, but I&#039;ve had many friends there talk to me about the situation over the past few days. A lot of people on both Facebook and other social networks (like Zalo in Vietnam) are complaining about not being able to access Facebook but most of them are not talking about or questioning the reasons why it might be blocked now.&lt;/p&gt;
+&lt;p&gt;Since I&#039;m not able to test the network conditions of Vietnam myself, I&#039;ve heard from some friends in tech in Vietnam. At first, mobile operators VNPT and Viettel started blocking Facebook, but now other major ISPs such as FPT have joined the internet blockade. Whereas in the past a ban on Facebook simply meant that DNS requests for the facebook.com domain would fail, which could be easily circumvented using a non-broken DNS server such as Google&#039;s public DNS servers (8.8.8.8 and 8.8.4.4), this is no longer the case in Vietnam now.&lt;/p&gt;
+&lt;p&gt;Like in China, where not only Facebook but hundreds of American news and social media sites are blocked, the solution to a &quot;firewall&quot; blocking a particular website from your location is to use a VPN or a proxy server.&lt;/p&gt;
+&lt;p&gt;VPNs and proxies allow you to &quot;masqueride&quot; your originating IP address and to bounce around the firewall. You connect to the VPN or proxy server, which isn&#039;t banned (yet), and then from there you can freely connect to any other site as usual. The censors just think you&#039;re connecting to a normal website and let the traffic through.&lt;/p&gt;
+&lt;p&gt;Which VPN to use? Fortunately, there are a lot of VPN options, both free and paid. On your phone, you can find VPN apps listed in the app store or Google Play store. Some work on desktop as well, such as Betternet.co (google it).&lt;/p&gt;
+&lt;p&gt;The alternative to VPNs is web proxies (SOCKS or web). You can find lists of web proxies or use this one from HideMyAss. With these, you configure your browser&#039;s network settings to use a proxy and set the IP address and port which you found in a list.&lt;/p&gt;
+&lt;p&gt;You can also search the Chrome Web Store for proxy and VPN Chrome extensions which will simplify the process as well.&lt;/p&gt;
+</description>
+ <comments>http://www.saigonist.com/vietnam/facebook-block-vietnam-may-2016#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/tags/block">block</category>
+ <category domain="http://www.saigonist.com/category/tags/facebook">facebook</category>
+ <category domain="http://www.saigonist.com/category/tags/proxy">proxy</category>
+ <category domain="http://www.saigonist.com/category/tags/vpn">vpn</category>
+ <pubDate>Sun, 15 May 2016 14:23:30 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">6489 at http://www.saigonist.com</guid>
+</item>
+<item>
+ <title>How ignoring feedback hurts Vietnamese businesses</title>
+ <link>http://www.saigonist.com/vietnam/how-ignoring-feedback-hurts-vietnamese-businesses</link>
+ <description>&lt;p&gt;Every &quot;system&quot; is made up of parts which are connected and have relations with each other. In order for the parts and the system as a whole to gain benefit from these relationships, the system needs for there to be feedback mechanisms from one component to another. Your body&#039;s hip is aware when your foot makes contact with a football, through signals passing through your brain and without the proper functioning of the routing of these signals you would blindly miss the ball and keel over instead. Organizations of people are no different. And a business is just a component in a system whose other constituents include the customers (and also include constituents like shareholders and employees or executive staff). Without effective feedback looping from customer to business owner and back, businesses will lose their initial momentum and then flounder and eventually fail. Imagine a bicycle rider who is pushed into motion by a friend but who then has to take over control of direction, speed, and angle. Without quick and accurate communication from your pedaling feet to your equilibrium sensors in your ears to the visual processing through your eyeballs - if any of these sensory data flows is cut, the rider will eventually tumble over. Keeping a business upright and moving forward is like keeping a bicycle upright and moving forward. When this process is failing, even though customers lose when and while this is happening, given a market of choices (another effective ecosystem component), the customer moves on away from the lost, confused, or stunted business.&lt;/p&gt;
+&lt;p&gt;For a concrete example, let&#039;s imagine a typical journey to a restaurant in Vietnam. Food is a typical small enterprise here, given the low barriers to entry compared to other types of business, giving foreigners an impression of how entrepreneurial Vietnamese are. But among the myriad of food &amp;amp; beverage businesses which start up in Vietnam, the vast majority close prematurely for what I think are preventable reasons knowable ahead of time. At least some of these reasons relate to restricted flows of feedback.&lt;/p&gt;
+&lt;p&gt;1. You are walking down a local street and enter a local restaurant. You know nothing about it except that it&#039;s near you right now.&lt;/p&gt;
+&lt;p&gt;Did someone notice you entering? No, not this time. The arrival of a potential real customer was not acknowledged. There is a lack of situational awareness among the staff. [I have sometimes sat down at a restaurant and then left after a few minutes without anybody offering to accept my money in exchange for a meal. When an entrepreneur is paying for those potential customers to walk in the door without buying anything, they are losing money on each non-customer.]&lt;/p&gt;
+&lt;p&gt;I don&#039;t blame only the staff for being ignorant. That behavior is enabled by a society that doesn&#039;t expect more. &lt;/p&gt;
+&lt;p&gt;2. You end up ordering some dishes. A starter, a main, a drink. Your first choices are all unavailable. You try again, but your second choices are also not for sale today (or any day). Whoever created this menu was dreaming big. But a million customers could try ordering an unavailable dish without the store owner ever knowing about this demand. Why? Because the staff will never relay those failed requests up to someone who can take action, the low level staff themselves being completely powerless in this typical hierarchy. &lt;/p&gt;
+&lt;p&gt;Anyways, you end up ordering less than you would have if the menu was accurate and up to date. The alternative: knowing what your customers desire and giving it to them.&lt;/p&gt;
+&lt;p&gt;3. Your order arrives. Hopefully, there wasn&#039;t a mistake due to miscommunication and lack of confirming your order carefully. If there was a misunderstanding, who pays for the mistake? The staff will argue with the customer to make the customer pay. If not, the employee pays. For that meal, the business owner didn&#039;t lose money. But would you ever come back? No, but you leave the owner wondering why not.&lt;/p&gt;
+&lt;p&gt;Realize, though, this waitress&#039;s role here in the business is not to provide good customer service, at least the incentive system isn&#039;t there. In the American tipping system, the carrot/stick of nice/no tips is supposed to translate into attentive service from your wait staff.  In Vietnam, wait staff are treated like dogs, paid little, and rarely receive tips. There&#039;s often little trust between employee and boss. Often, employees are stealing from their employers who don&#039;t know the real number of transactions taking place.&lt;/p&gt;
+&lt;p&gt;Tomorrow, you end up getting food poisoning from this meal. This case will not bubble up back to the wait staff who was picking her nose, or to the kitchen staff who wasn&#039;t properly washing anything, or to the owner who never wanted this to happen but who will regardless not be getting repeat business due to the lack of quality control. Without effective feedback, the problem of poor sanitation continues, as will any unexamined pathology. But who wants to be the receiver of bad feedback? On a personal leve, who wants to hear that they are doing a poor job?&lt;/p&gt;
+&lt;p&gt;Rules for incentives also effectively serve as feedback. Shareholders benefit directly when a business is successful and employees should too. Shareholders aren&#039;t at the point of transaction as it&#039;s happening and can&#039;t influence the transaction. Responsibility is left to the wait staff to assess customer feedback and use it before it&#039;s too late to benefit from the transaction.&lt;/p&gt;
+&lt;p&gt;4. Finally, you are ready to leave. You haven&#039;t paid yet. Is someone willing to take your money? No, again a lack of situational awareness. Not paying attention to customers. You will have to yell to get someone&#039;s attention. Subtler cues from customers are lost to the ether. These unobserved flows of information are an opportunity for capturing a competitive advantage, but remain only the potential for such. Business owners are already fighting the known unknowns. In the meantime, they can be taken down by the &quot;unknown unknowns&quot;.&lt;/p&gt;
+&lt;p&gt;You, as a customer, will not trust the ability of your waitress to accurately calculate your bill. So you will scrutinize it for inevitable mistakes of overcharging. These mistakes are completely accepted without any mechanism which would discourage them in the form of punishment. Instead, the carrot of receiving money for unsold goods subtly encourages the practice to continue.&lt;/p&gt;
+&lt;p&gt;At this point, your waitress takes away your unused wet disposable towelettes in case you now decide to use them without paying for them. These are the final impressions the customer takes away from their dining experience.&lt;/p&gt;
+&lt;p&gt;5. Finally, you leave. How was your meal? Who knows. Was there anything else you would have wanted to order today? Data left uncollected. Will you come back again? Time may tell, but by then the restaurant or cafe or shop or whatever business it is which isn&#039;t openly collecting and responding to feedback from customers is already closed - after only being open for a few months.&lt;/p&gt;
+&lt;p&gt;The above scenario doesn&#039;t play out every time you eat in Vietnam. But outsiders who have been eating out in Vietnam for a few weeks should be familiar with all of these typical situations. Food business is something that foreigners have the most time interfacing with in Vietnam, unless they move deeper into the society. It is hubris for a restaurateur to believe they know how their customers feel without asking them. But the same problem of ignoring constituent feedback exists throughout the culture of all organizations. First, organizations need to have an awareness of what&#039;s going on. Then, they need to implement mechanisms for collecting feedback data (many points of it). And let the customer know their feedback is being acknowledged. Finally, this data needs to feed back into business operations. The end goal is to see the cycle repeat and to see customer feedback improve over time.&lt;/p&gt;
+</description>
+ <comments>http://www.saigonist.com/vietnam/how-ignoring-feedback-hurts-vietnamese-businesses#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <pubDate>Wed, 24 Feb 2016 06:29:45 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">6420 at http://www.saigonist.com</guid>
+</item>
+<item>
+ <title>Chiang Mai vs Saigon (for digital nomads / expats)</title>
+ <link>http://www.saigonist.com/vietnam/hcmc/chiang-mai-vs-saigon-digital-nomads-expats</link>
+ <description>&lt;p&gt;[Preface: 4 years ago I wrote about &lt;a href=&quot;http://www.saigonist.com/vietnam/bootstrap-abroad-cheaply-bootstrap-your-startup-vietnam&quot;&gt;bootstrapping startups from Vietnam&lt;/a&gt; and in recent years we&#039;ve seen waves of &quot;digital nomads&quot; settling down in Vietnam. The situation for startups in particular in Vietnam has developed rapidly since but it&#039;s still a good base for &quot;bootstrappers&quot;. The following is one long-term Vietnam expat&#039;s view on another trendy digital nomad hotspot.]&lt;/p&gt;
+&lt;p&gt;Have you heard? Chiang Mai, a city in the north of Thailand, is a top destination for digital nomads. What&#039;s a digital nomad? It&#039;s those people you see sitting in cafes all day with MacBooks. There are thousands of them in Saigon, at thousands of cafes throughout the city, but mostly around District 1. &lt;/p&gt;
+&lt;p&gt;When you&#039;ve been hanging around Bangkok or Saigon, you&#039;ll find that Chiang Mai is much quieter. Peaceful. The honking has stopped, and you have space. There&#039;s a lot less going on here. And all the travel agencies are encouraging you to trek outside the city where there&#039;s even less. This is a small provincial outpost, not a cosmopolitan regional economic hub. But it draws in a ton of tourists.&lt;/p&gt;
+&lt;p&gt;The heart of the city is the square-shaped Old City, surrounded by a moat, which is still filled with standing water. This area is full of guesthouses and hotels and places for backpackers and tourists to hang out and get their backs rubbed. There are a number of streets in Chiang Mai which could be called &quot;massage districts&quot; due to almost every shop being a massage shop - 100 baht for 30 minutes, 200 baht for an hour. Massage may be the city&#039;s main industry. The city as a whole shuts down early, including the Old City. It&#039;s the complete opposite of Bangkok&#039;s Khaosan Road. But the masseuses stay open until the last bars close. Walking Street is full of white people laying in chairs on the sidewalk getting rubbed down by Thai people until midnight. &lt;/p&gt;
+&lt;p&gt;Contrast this with Saigon. Saigon is the kind of city that stays up late. There&#039;s always someplace to go eat and drink that&#039;s open. It&#039;s loud and noisy. You can get your massages here too but the masseuses will always be young women, not the aunties (or grannies or sometimes even male masseurs) who pull your limbs in Chiang Mai. So Chiang Mai is good for saving money by not going out, and maybe not dating local women.&lt;/p&gt;
+&lt;p&gt;Cafes with wifi, air conditioning, power outlets. And coffee. This is the natural habitat of the digital nomad. Chiang Mai&#039;s cafes are clustered in the Nimmanhemin / Nimmanheminda neighborhood outside of the Old City. This is a trendy area with shopping and trendy eateries as well as a handful of cafes. It&#039;s not a big neighborhood, but it&#039;s outside of the tourist circuit. Chiang Mai has a more artsy feel to it per capita / square meter compared to Vietnamese cities, and this street is a mix of hipster and yuppy, although such concepts just don&#039;t really apply in Southeast Asia. &lt;/p&gt;
+&lt;p&gt;&lt;img width=&quot;500&quot; src=&quot;https://lh3.googleusercontent.com/7ynTrgSUkumxTyDpRjzBCrE93OaakgwKyvS6xTuv8vHhEGumqK9SOSAEwjO-y-lRXKGh0JLONg2i5Q=w459-h354-no&quot; alt=&quot;Ploen Ruedee Night Market&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;But another great hangout spot (for white people) in CM with a similar creative-consumption vibe is Ploen Ruedee Night Market, &quot;international food park&quot;, by the night market / bazaar. But it and the whole area are closed / dead on Sundays.&lt;/p&gt;
+&lt;p&gt;I&#039;ve gotten used to cafes in Saigon having a certain standard of size to accommodate lots of customers, availability of power outlets, free iced tea, and fuss-free wifi. And there are more cafes in Saigon which fit this bill than any other city in Southeast Asia. For people settling in Chiang Mai&#039;s Nimmanhemin neighborhood and seeking cafes, it&#039;s not hard to find one. But they will be smaller and easily already full, or won&#039;t have any power outlets (this is common), or the wifi will be limited. Saigon has more quantity and variety when it comes to cafe styles. &lt;/p&gt;
+&lt;p&gt;&lt;img width=&quot;500&quot; src=&quot;https://lh3.googleusercontent.com/LBgp3u63-AonFR2KNA_j2v13_rY3l36fEr1g8JTpuGca4z4V_nhUeWv3V4sHplk1AKED2hcC-UOhnQ=w497-h354-no&quot; alt=&quot;Nimmanhemin cafes&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Internet speeds in Chiang Mai can be decent. But a lot of the wireless networks have problems - being oversubscribed, being owned by telecom providers and requiring a subscription from them, being free to guests but only for an hour or two, and you&#039;ll only be able to connect to wifi with one device instead of both your laptop and your phone, etc. As cutthroat as Vietnamese businesses are, Saigon wifi providers aren&#039;t sophisticated enough to make you pay to access them, ever. A lot of Chiang Mai wifi networks are open as in unencrypted, whereas almost all wifi in Saigon will use WPA, just no login. As a consumer, you don&#039;t want to access wifi networks which are open but require logging in with an account tied to your passport or phone number.&lt;/p&gt;
+&lt;p&gt;&lt;img width=&quot;500&quot; src=&quot;https://lh3.googleusercontent.com/rd9dUe684PSHx5rzhn9YnlFQepEZ3o4QZqEFXN1pK2o5z4kAjDoOLTCqikkR6MI7yPvEHCyJuaUEjA=w1180-h612-no&quot; alt=&quot;Punspace coworking in Chiang Mai&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Chiang Mai has a few coworking spaces. For digital nomad noobs and gurus alike. Here you&#039;ll find community. Chiang Mai has a small fraction of the population of Bangkok or Saigon. If you &quot;nomad&quot; here, your community will be people just like you, not local people. While Vietnam and Saigon in particular has a community and ecosystem of internet / technology professionals who are not nomads, Chiang Mai does not. Saigon has &quot;real&quot; expats, people sent there by multinational corporations to work there, as well as all the smaller companies who still need or desire to hire foreigners (and not just for teaching English). Saigon is economically diverse, providing both access to a workforce with skills which a business may need, as well as being a market for selling services to. If you are developing products and need developers or marketers you can hire from the millions of young people working in Ho Chi Minh City, and their salary will be affordable to bootstrapping startups. You might even meet investors who fund your project in Saigon. Chiang Mai is more like a resort for internet forum dudes, some who are &quot;killing it&quot; and others who have no idea what they&#039;re doing but are keen on experience &quot;Southeast Asia lite&quot;. Also, apparently working at Chiang Mai coworking spaces puts you at risk of being rounded up by the immigration police who have recently raided them looking for foreigners working on tourist visas. &lt;/p&gt;
+&lt;p&gt;There is no &quot;digital nomad visa&quot;. And most of us aren&#039;t eligible for work visas. Visas are an issue, but the visa situation is better for Westerners in Vietnam than in Thailand. People are frequently denied visas to Thailand which is rare for visitors to Vietnam, although you need to arrange a tourist visa (3 months) before you arrive in Vietnam instead of upon arrival. There are agencies in Chiang Mai explicitly advertising &quot;visa run&quot; services, which you&#039;ll have to do after 30 days or so. They take you by bus to a bordering country - Myanmar or Laos. You might be refused at the border returning to Thailand for staying there too long. Thai immigration might deny people who&#039;ve done multiple consecutive visa runs. Vietnam, despite its bureaucracies and unclear regulations, is much more certain and easier in this regard with no requirement to stay outside the country for months before being allowed back in.&lt;/p&gt;
+&lt;p&gt;But Thai people are pleasant and friendly. It&#039;s the Land of Smiles. Vietnamese people can learn a lot from Thais about attracting global tourists by providing better customer service instead of turning them off through rude behavior (which the Vietnamese person won&#039;t realize is rude) and through blatant overcharging or scams. I can&#039;t emphasize enough how nice and not rude Thai people are (generalizing). Thai people know how to queue. &lt;/p&gt;
+&lt;p&gt;Saigon is no nomad paradise. But it still manages to attract all kinds of people who stay for a long time. There are various communities and it&#039;s still really cheap. Living here is comfortable. Chiang Mai is also a comfortable place for new nomads. It&#039;s open to newbies, and is an &quot;Asia-lite&quot; compared to the edgier environment of Saigon. The digital nomad to local population ratio is quite high. There are more options for employment, entertainment / nightlife, dating, events, diaspora communities, etc. in Saigon, but more choice can also be confusing or distracting. Saigon can be more stressful whereas Chiang Mai promotes stress relief in its scenery, less hectic traffic, and massages. Chiang Mai can be a few degrees less hot compared to the hottest times in lower altitudes. Does &quot;digital nomad&quot; define who you are? Do you need to be a member of a digital nomad community above all other concerns? Then maybe Chiang Mai is sufficient. If you seek more, and want to be exposed to variety, insanity, and unexpected things daily, then start discovering Saigon. &lt;/p&gt;
+&lt;p&gt;Some other comments:&lt;br /&gt;
+1. Chiang Mai is a clean city, but there are random poop smells. Saigon has random urine smells (where guys pee on the street).&lt;br /&gt;
+2. Chiang Mai has an uncomfortable &quot;burning season&quot; from February til April when the air is full of smoke from fires in the surrounding farmland and people leave the city. The smoke in the air is so bad that there are days the planes can&#039;t fly in Chiang Mai causing the airport to shut down and stranding anyone trying to leave, so it&#039;s best to stay out for that season.&lt;br /&gt;
+3. Thailand uses Thai script to write their language, a script similar to Khmer, but undecipherable to most foreigners. Signs are often not translated into English. Chiang Mai street names are hard to find. Vietnam is the opposite in that even Vietnamese names can be written and read (letter by letter) by foreigners and every building on every street has its address marked outside making it easy to always know where you are (this mostly works).&lt;br /&gt;
+4. Chiang Mai is a small and compact city, but increasingly full of cars. The traffic isn&#039;t too bad yet but can still back up at intersections. There is basically no bus system or public transit, besides individual trucks. There are also few taxis (making it unreasonable to hail one on the street) but many tuk-tuks.&lt;/p&gt;
+</description>
+ <comments>http://www.saigonist.com/vietnam/hcmc/chiang-mai-vs-saigon-digital-nomads-expats#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam/hcmc">HCMC</category>
+ <category domain="http://www.saigonist.com/category/tags/chiang-mai">chiang mai</category>
+ <category domain="http://www.saigonist.com/category/tags/coworking">coworking</category>
+ <category domain="http://www.saigonist.com/category/tags/digital-nomad">digital nomad</category>
+ <category domain="http://www.saigonist.com/category/tags/thailand">thailand</category>
+ <pubDate>Wed, 06 Jan 2016 05:07:46 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">6391 at http://www.saigonist.com</guid>
+</item>
+<item>
+ <title>Green Teas</title>
+ <link>http://www.saigonist.com/reviews/green-teas</link>
+ <description>&lt;p&gt;I tested out some Organic Black Matcha Tea. &lt;/p&gt;
+&lt;p&gt;I&#039;m used to drinking normal Japanese matcha as well as various loose leaf and bagged green teas. This is totally unlike Japanese matcha green tea, besides being a powder. The powder is more powder-like and less leafy. But despite being a powder, it isn&#039;t going to dissolve, so you will drink the matcha suspended in liquid unless you let it all settle to the bottom. The taste is not strong at all, nor is it particularly bitter.&lt;/p&gt;
+&lt;p&gt;I don&#039;t think there&#039;s much caffeine content because I can dump a lot of powder into a lot of water and drink it all and feel nothing compared to coffee or green tea.&lt;/p&gt;
+&lt;p&gt;I can&#039;t speak to its health benefits although the claims are pretty strong.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.tomoson.com/?code=TOP3524008b5be993a1bd82bdd6e5378ae4&quot; rel=&quot;nofollow&quot;&gt;&lt;img style=&quot;display: none&quot; src=&quot;http://www.tomoson.com/images/front/pixel.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+I received one or more of the products mentioned above for free using &lt;a href=&quot;http://www.tomoson.com/?code=BOTTOM3524008b5be993a1bd82bdd6e5378ae4&quot; rel=&quot;nofollow&quot;&gt;Tomoson.com&lt;/a&gt;. Regardless, I only recommend products or services I use personally and believe will be good for my readers.&lt;/p&gt;
+</description>
+ <comments>http://www.saigonist.com/reviews/green-teas#comments</comments>
+ <pubDate>Mon, 21 Jul 2014 15:08:02 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">6196 at http://www.saigonist.com</guid>
+</item>
+<item>
+ <title>FOSSASIA: Free software and why you should care</title>
+ <link>http://www.saigonist.com/tech/fossasia-free-software-and-why-you-should-care</link>
+ <description>&lt;p&gt;&lt;a href=&quot;#fossasia&quot;&gt;What is FOSSASIA?&lt;/a&gt; | &lt;a href=&quot;#noaf&quot;&gt;Nerds of a feather flock together&lt;/a&gt; | &lt;a href=&quot;#where&quot;&gt;Where is FOSS found?&lt;/a&gt; | &lt;a href=&quot;#why&quot;&gt;Why you should go to FOSSASIA&lt;/a&gt; | &lt;a href=&quot;#freesoftware&quot;&gt;Why you should care about Free Software&lt;/a&gt; | &lt;a href=&quot;#southeastasia&quot;&gt;Why open source matters to Southeast Asia&lt;/a&gt; | &lt;a href=&quot;#morethansoftware&quot;&gt;Open Source is more than just software. Open Source Everything!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I&#039;ve been doing a lot of traveling for nerdy reasons lately. A month ago it was BarCamp Yangon. This past weekend it was FOSSASIA in Phnom Penh, Cambodia. I&#039;ll get back to writing about living in Vietnam soon, since I&#039;ll be traveling around the country.&lt;/p&gt;
+&lt;p&gt;&lt;strong id=&quot;fossasia&quot;&gt;What is FOSSASIA?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.saigonist.com/tech/fossasia-free-software-and-why-you-should-care&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.saigonist.com/tech/fossasia-free-software-and-why-you-should-care#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/cambodia">cambodia</category>
+ <category domain="http://www.saigonist.com/category/tags/open-source">open source</category>
+ <category domain="http://www.saigonist.com/category/tags/phnom-penh">phnom penh</category>
+ <category domain="http://www.saigonist.com/category/tags/software">software</category>
+ <pubDate>Tue, 04 Mar 2014 09:53:36 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">5869 at http://www.saigonist.com</guid>
+</item>
+<item>
+ <title>BarCamp Yangon</title>
+ <link>http://www.saigonist.com/tech/barcamp-yangon</link>
+ <description>&lt;p&gt;Skip to:&lt;br /&gt;
+&lt;a href=&quot;#session&quot;&gt;Sessions&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;#android&quot;&gt;Android vs iOS&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;#bitcoin&quot;&gt;Bitcoin &lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;#beercamp&quot;&gt;Beercamp&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;#summary&quot;&gt;Summary&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Size matters. Size doesn&#039;t matter.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span float=&quot;left&quot;&gt;Yangon, Myanmar holds the largest BarCamp in the world. Or so they say, but who&#039;s counting? I can confirm that it&#039;s a two day affair, like BarCamp Phnom Penh (where a few of my compatriots were from) and of similar size to Cambodia&#039;s main and largest BarCamp. Even our homely one-day BarCamp Saigon is roughly the same in crowd size according to my eyeball count. The number of sessions, at around 160 over two days, is also about the same per day as are the popularity and attendance in the classrooms in which they are held. There were even many sparsely attended talks (such as my own!) But size isn&#039;t everything.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.saigonist.com/tech/barcamp-yangon&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.saigonist.com/tech/barcamp-yangon#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/android">android</category>
+ <category domain="http://www.saigonist.com/category/tags/barcamp">barcamp</category>
+ <category domain="http://www.saigonist.com/category/tags/bitcoin">bitcoin</category>
+ <category domain="http://www.saigonist.com/category/tags/myanmar">myanmar</category>
+ <category domain="http://www.saigonist.com/category/tags/yangon">yangon</category>
+ <pubDate>Wed, 26 Feb 2014 05:12:22 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">5693 at http://www.saigonist.com</guid>
+</item>
+<item>
+ <title>My Vietnam Startup Report</title>
+ <link>http://www.saigonist.com/vietnam/my-vietnam-startup-report</link>
+ <description>&lt;p&gt;Last Wednesday night, @Bowei Gai of the World Startup Report made his stop on his year-long globetrotting tour to the center of the Vietnamese startup scene at Saigon Hub in Ho Chi Minh City. He gave a talk that had been honed over many months and included lots of interesting bits from startup scenes around the world, from the amazing size (trillions!) of Chinese e-commerce companies, to the equally impressive adoption of mobile payment in Sub-Saharan African countries (30%!). Later, in private, we heard of the incredible arrogance of French startup people and corruption around the world. But we were also humbled by the recent multiple-hundreds of million dollar exits of Nepalese technology companies. And perhaps secretly identified with the conditions of economic crisis under which Argentinean entrepreneurs had to run their businesses - 20+% annual inflation driving up business costs, a local currency constantly losing value leading locals to buy dollars when they could... &lt;/p&gt;
+&lt;p&gt;Bowei has been flying to a new country every few days to study a brand new local startup scene. Originally with the intention of writing up the local report as he was traveling, that was clearly impossible.  And so it&#039;ll be at least a few months before we see his Vietnam Startup Report. So let me share my own thoughts while they&#039;re still fresh.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.saigonist.com/vietnam/my-vietnam-startup-report&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.saigonist.com/vietnam/my-vietnam-startup-report#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/barcamp">barcamp</category>
+ <category domain="http://www.saigonist.com/category/tags/coworking">coworking</category>
+ <category domain="http://www.saigonist.com/category/tags/investing">investing</category>
+ <category domain="http://www.saigonist.com/category/tags/startup">startup</category>
+ <pubDate>Fri, 06 Sep 2013 08:43:49 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">1562 at http://www.saigonist.com</guid>
+</item>
+<item>
+ <title>On Vietnam banning chat apps</title>
+ <link>http://www.saigonist.com/vietnam/vietnam-banning-chat-apps</link>
+ <description>&lt;p&gt;Here are some random thoughts on the news of Vietnamese ISPs/ministries colluding to ban mobile chat apps like Line/KakaoTalk/Viber/Whatsapp. The story so far has been that Vietnam&#039;s mobile networks, losing more and more money from people using free chat apps instead of SMS (which senders pay a little money for in Vietnam) which is pure profit for them, would like to put a stop to this trend.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.saigonist.com/vietnam/vietnam-banning-chat-apps&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.saigonist.com/vietnam/vietnam-banning-chat-apps#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/censorship">censorship</category>
+ <category domain="http://www.saigonist.com/category/tags/chat">chat</category>
+ <category domain="http://www.saigonist.com/category/tags/mobile">mobile</category>
+ <category domain="http://www.saigonist.com/category/tags/viber">viber</category>
+ <pubDate>Wed, 28 Aug 2013 10:30:21 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">1547 at http://www.saigonist.com</guid>
+</item>
+<item>
+ <title>Learning Spanish in Ho Chi Minh City</title>
+ <link>http://www.saigonist.com/vietnam/learning-spanish-ho-chi-minh-city</link>
+ <description>&lt;p&gt;I&#039;ve had several friends ask me where they can learn Spanish in Ho Chi Minh City, especially since the University of Social Sciences and Humanities canceled their Spanish language course. There aren&#039;t that many people who want to learn or speak Spanish in Vietnam since there is less trade between Vietnam and Spanish-speaking countries (compared to Japanese, Korean, Chinese) but it&#039;s a hobby for some.&lt;/p&gt;
+&lt;p&gt;My friend let me know about an open course at her Spanish school:&lt;/p&gt;
+&lt;p&gt;The school is called Jaleo (Escuela de Espanol) in Phu Nhuan district at 38 Hoa Su Street, Ward 12, Phu Nhuan - near Phan Xich Long street. Telephone: 08 3517 1288 or you can call 01649922169.&lt;/p&gt;
+&lt;p&gt;They have a basic class starting September 5th on Mondays and Wednesdays from 6:30-8:00PM. The 8 week course is 2.4 million. Other courses are listed on their website.&lt;/p&gt;
+&lt;p&gt;The teachers are native Spanish speakers.&lt;/p&gt;
+&lt;p&gt;Besides Spanish language they also have courses on Spanish/Latin American culture and also do private tutoring. Basically, it&#039;s a small operation from people who want to make Spanish teaching possible in Vietnam, not a big corporate language center. Open to both Vietnamese and expats.&lt;/p&gt;
+</description>
+ <comments>http://www.saigonist.com/vietnam/learning-spanish-ho-chi-minh-city#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/tags/education">education</category>
+ <category domain="http://www.saigonist.com/category/tags/language">language</category>
+ <category domain="http://www.saigonist.com/category/tags/latin">latin</category>
+ <category domain="http://www.saigonist.com/category/tags/spanish">spanish</category>
+ <pubDate>Wed, 28 Aug 2013 04:23:40 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">1546 at http://www.saigonist.com</guid>
+</item>
+<item>
+ <title>Hacking Your First Hackathon</title>
+ <link>http://www.saigonist.com/vietnam/hcmc/hacking-your-first-hackathon</link>
+ <description>&lt;p&gt;Today I&#039;ll be speaking, mentoring, then judging at Keewi&#039;s Hack Day event. &lt;/p&gt;
+&lt;p&gt;Over a decade ago I joined a group of &quot;hackers&quot; in developing an open source ultra-secure UNIX operating system called OpenBSD. As the most secure OS in the world, it was designed to keep out hackers, as in crackers, those seeking unauthorized access to computer systems. But we were also hackers, a type of &quot;artisanal&quot; programmer. OpenBSD hackers are spread across the world and they gather themselves together periodically into one place to be super productive on a common goal over the course of several days. OpenBSD invented the hackathon, even coining the word itself.&lt;/p&gt;
+&lt;p&gt;I attended my first hackathon back when I was still in school, which I graduated from over 10 years ago. It was organized by our university&#039;s open source club, the only extracurricular activity I was involved in. We got permission to use one of the classrooms overnight and even got funding to buy a couple pizzas and pop. That was it. There were no corporate sponsors. There were no spectators watching us code except for our confused girlfriends. There were no headhunters or suits looking for geeks they could make use of. And there was no prize money because we were just there to see what hacks we could pull off in a night and then show each other.&lt;/p&gt;
+&lt;p&gt;Nowadays, hackathons are more and more common and are seen by corporations as something they can take advantage of.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.saigonist.com/vietnam/hcmc/hacking-your-first-hackathon&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.saigonist.com/vietnam/hcmc/hacking-your-first-hackathon#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam/hcmc">HCMC</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/hack-day">hack day</category>
+ <category domain="http://www.saigonist.com/category/tags/hackathon">hackathon</category>
+ <category domain="http://www.saigonist.com/category/tags/keewi">keewi</category>
+ <category domain="http://www.saigonist.com/category/tags/openbsd">openbsd</category>
+ <category domain="http://www.saigonist.com/category/tags/startup">startup</category>
+ <pubDate>Sat, 08 Jun 2013 07:13:49 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">1142 at http://www.saigonist.com</guid>
+</item>
+</channel>
+</rss>

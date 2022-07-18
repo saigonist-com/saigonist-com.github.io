@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/131/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>barcamp</title>
+    <link>http://www.saigonist.com/taxonomy/term/131/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>BarCamp Yangon</title>
+    <link>http://www.saigonist.com/tech/barcamp-yangon</link>
+    <description>&lt;p&gt;Skip to:&lt;br /&gt;
+&lt;a href=&quot;#session&quot;&gt;Sessions&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;#android&quot;&gt;Android vs iOS&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;#bitcoin&quot;&gt;Bitcoin &lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;#beercamp&quot;&gt;Beercamp&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;#summary&quot;&gt;Summary&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Size matters. Size doesn&#039;t matter.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span float=&quot;left&quot;&gt;Yangon, Myanmar holds the largest BarCamp in the world. Or so they say, but who&#039;s counting? I can confirm that it&#039;s a two day affair, like BarCamp Phnom Penh (where a few of my compatriots were from) and of similar size to Cambodia&#039;s main and largest BarCamp. Even our homely one-day BarCamp Saigon is roughly the same in crowd size according to my eyeball count. The number of sessions, at around 160 over two days, is also about the same per day as are the popularity and attendance in the classrooms in which they are held. There were even many sparsely attended talks (such as my own!) But size isn&#039;t everything.&lt;/span&gt;&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/barcamp-yangon#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/android">android</category>
+ <category domain="http://www.saigonist.com/category/tags/barcamp">barcamp</category>
+ <category domain="http://www.saigonist.com/category/tags/bitcoin">bitcoin</category>
+ <category domain="http://www.saigonist.com/category/tags/myanmar">myanmar</category>
+ <category domain="http://www.saigonist.com/category/tags/yangon">yangon</category>
+ <pubDate>Wed, 26 Feb 2014 05:12:22 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">5693 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>My Vietnam Startup Report</title>
+    <link>http://www.saigonist.com/vietnam/my-vietnam-startup-report</link>
+    <description>&lt;p&gt;Last Wednesday night, @Bowei Gai of the World Startup Report made his stop on his year-long globetrotting tour to the center of the Vietnamese startup scene at Saigon Hub in Ho Chi Minh City. He gave a talk that had been honed over many months and included lots of interesting bits from startup scenes around the world, from the amazing size (trillions!) of Chinese e-commerce companies, to the equally impressive adoption of mobile payment in Sub-Saharan African countries (30%!). Later, in private, we heard of the incredible arrogance of French startup people and corruption around the world. But we were also humbled by the recent multiple-hundreds of million dollar exits of Nepalese technology companies. And perhaps secretly identified with the conditions of economic crisis under which Argentinean entrepreneurs had to run their businesses - 20+% annual inflation driving up business costs, a local currency constantly losing value leading locals to buy dollars when they could... &lt;/p&gt;
+&lt;p&gt;Bowei has been flying to a new country every few days to study a brand new local startup scene. Originally with the intention of writing up the local report as he was traveling, that was clearly impossible.  And so it&#039;ll be at least a few months before we see his Vietnam Startup Report. So let me share my own thoughts while they&#039;re still fresh.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/vietnam/my-vietnam-startup-report#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/barcamp">barcamp</category>
+ <category domain="http://www.saigonist.com/category/tags/coworking">coworking</category>
+ <category domain="http://www.saigonist.com/category/tags/investing">investing</category>
+ <category domain="http://www.saigonist.com/category/tags/startup">startup</category>
+ <pubDate>Fri, 06 Sep 2013 08:43:49 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">1562 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>The Business Case for Drupal in Vietnam</title>
+    <link>http://www.saigonist.com/tech/drupal/business-case-drupal-vietnam</link>
+    <description>&lt;p&gt;Today I spent the day hacking on the WordPress site for BarCampSaigon. I&#039;m no expert on WordPress but trying to hack a theme with it makes me appreciate Drupal so much more. WordPress does have an &quot;API&quot; or at least some documented functions which are used internally which can also be used by developers but it&#039;s certainly not designed with developers in mind. Wordpress is great for bloggers. Drupal is great for developers and users who need something more than a blog will have to choose between working with Drupal or fighting against WordPress. :-)&lt;/p&gt;
+&lt;p&gt;Due to two recent conferences, BarCamp Hanoi and the opening of DrupalVietnam.org, I put together a presentation called &quot;The Business Case for Drupal in Vietnam&quot;.  I&#039;ll blog about those two events later.&lt;/p&gt;
+&lt;p&gt;I targeted two main groups: outsourcing companies based in Vietnam who want to attract more clients abroad, and any software development shop in Vietnam who is deciding what technology to use to develop websites. There is a third group, who are those companies with simpler website needs who perhaps only need one website and are not in the business of making websites.&lt;/p&gt;
+&lt;p&gt;I go over a number of common concerns that customers outside of Vietnam might have which Vietnamese companies might not expect. One point is being vendor agnostic when developing what is essentially a CMS. I make a strong point that one should never fall to the temptation of developing your own in-house CMS and as a consumer, you should stay far away from such &quot;bespoke&quot; solutions in the modern age where content management frameworks such as Drupal exist.  I also think Drupal represents a strong brand name that is not well-known yet in Vietnam, but we all know how much Vietnamese people love brands.&lt;/p&gt;
+&lt;p&gt;On the supply side, I talk about why Drupal is a decent choice for Vietnamese developers, similar to any web developer. But the main recent news is that there is finally Drupal training being made available in Vietnam, much like for Joomla, and that PHP is widely known in Vietnam not just because there are books on it in the Vietnamese language, and that there is now a core Drupal community in Vietnam represented by DrupalVietnam.org (which I somehow became vice president of).&lt;/p&gt;
+&lt;p&gt;In general, I say go with your strengths. If web development is not your strength, then hire someone proper to do it for you while you focus on your core business. If web development is your business, make better use of your developers by using a CMS. &lt;/p&gt;
+&lt;p&gt;Anyways, here&#039;s the presentation.&lt;/p&gt;
+&lt;div style=&quot;width:425px&quot; id=&quot;__ss_12811831&quot;&gt;&lt;strong style=&quot;display:block;margin:12px 0 4px&quot;&gt;&lt;a href=&quot;http://www.slideshare.net/tomosaigon/business-case-for-drupal-in-vietnam&quot; title=&quot;Business Case for Drupal in Vietnam&quot;&gt;Business Case for Drupal in Vietnam&lt;/a&gt;&lt;/strong&gt;
+&lt;object id=&quot;__sse12811831&quot; width=&quot;425&quot; height=&quot;355&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=drupalbizcase3-120505114740-phpapp02&amp;stripped_title=business-case-for-drupal-in-vietnam&amp;userName=tomosaigon&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot; /&gt;&lt;param name=&quot;wmode&quot; value=&quot;transparent&quot; /&gt;&lt;embed name=&quot;__sse12811831&quot; src=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=drupalbizcase3-120505114740-phpapp02&amp;stripped_title=business-case-for-drupal-in-vietnam&amp;userName=tomosaigon&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; wmode=&quot;transparent&quot; width=&quot;425&quot; height=&quot;355&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;div style=&quot;padding:5px 0 12px&quot;&gt;View more &lt;a href=&quot;http://www.slideshare.net/&quot;&gt;presentations&lt;/a&gt; from &lt;a href=&quot;http://www.slideshare.net/tomosaigon&quot;&gt;tomosaigon&lt;/a&gt;.&lt;/div&gt;
+&lt;/div&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/business-case-drupal-vietnam#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/tags/barcamp">barcamp</category>
+ <category domain="http://www.saigonist.com/category/tags/cms">cms</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/outsourcing">outsourcing</category>
+ <pubDate>Sat, 05 May 2012 16:51:28 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">332 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Barcamping is easy and 3 other ideas</title>
+    <link>http://www.saigonist.com/b/barcamping-easy-and-3-other-ideas</link>
+    <description>&lt;p&gt;BarCampSaigon Winter 2011 was a success by most measures, comparable to the previous one. There were a lot of registrations, a lot of attendees, and a lot of sessions.  We fed, clothed, and caffeinated hundreds of people and found sponsors willing to pay for it all.  We didn&#039;t lose money (making money isn&#039;t possible, but losing money is). Yet something about it has been bothering me since last Sunday.&lt;/p&gt;
+&lt;p&gt;Barcamping is easy; Easy to attend; Even easy to organize.&lt;/p&gt;
+&lt;p&gt;Yes, it can be easy to organize a BarCamp. But, I think, it&#039;s really difficult to organize BarCamps (plural).&lt;/p&gt;
+&lt;p&gt;For one, most people who like the idea of organizing a BarCamp like the idea exactly once.  It&#039;s hard to keep the fire going.  The first BarCamp Saigon flame nearly died out - some embers turned into a second generation.  But BarCamp Hanoi&#039;s flame has already disappeared.  These are unrecognized failures.&lt;/p&gt;
+&lt;p&gt;The problem, as I see it, is that this BarCamp didn&#039;t necessarily ensure that another BarCamp would happen, and I think just continued to fuel the myth among people that BarCamps will happen magically and automatically, that they will get a free meal and t-shirt again.  After some thought, these three distillations occurred to me:&lt;/p&gt;
+&lt;p&gt;1. barcamp should beget barcamp.&lt;br /&gt;
+2. barcamp should be the beginning - not the end.&lt;br /&gt;
+3. barcamp should be the exception - not the rule. &lt;/p&gt;
+&lt;p&gt;So let me explain. &lt;/p&gt;
+&lt;p&gt;1. BarCampSaigon should be the genesis of the next BarCampSaigon, and also BarCamps in other Vietnamese cities - BarCampCanTho, BarCampDaNang, BarCampDaLat.  People should understand what a BarCamp is enough to organize simple ones in their hometowns, and do it without worrying about significant funding or caring how many people will show up. Clothing and caffeination optional.&lt;/p&gt;
+&lt;p&gt;2. Things should start at BarCamp. Ideas should be formed and relationships forged out of discussions among people who should have been meeting more regularly but hadn&#039;t. It shouldn&#039;t be a place to launch or announce your finished product, although if you started from a previous BarCamp that would be thrilling news.  Sessions should not just lead to greater understanding, but cause new questions and avenues of inquiry to be developed.&lt;/p&gt;
+&lt;p&gt;3. BarCamp is the unconference.  But it&#039;s also become the premier tech conference in Saigon. I think there should be large tech conferences here covering the major topics that are presented on at BarCampSaigon.  And BarCampSaigon should be the place for importing new foreign and emerging ideas, which should then one day get full conferences of their own, so that BCSG can be a platform for further more ideas which need sharing.&lt;/p&gt;
+&lt;p&gt;These three goals aren&#039;t officially BarCamp&#039;s raison d&#039;etre, nor are they the only important ingredients in a BarCamp.  The meat of the camp does matter: the number and quality of sessions and people leading them so that people buzz about the next BarCamp; food and coffee and beer to get people to sit down communally; design of t-shirts and other assets to make the event come off professional; and convincing sponsors to make it all happen.  I would like to have more thoughts about how those ingredients can coincide with the above three ideas.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/barcamping-easy-and-3-other-ideas#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/barcamp">barcamp</category>
+ <category domain="http://www.saigonist.com/category/tags/unconference">unconference</category>
+ <pubDate>Thu, 15 Dec 2011 05:32:32 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">279 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Saigon MobileDevCamp 2011</title>
+    <link>http://www.saigonist.com/b/saigon-mobiledevcamp-2011</link>
+    <description>&lt;p&gt;This past weekend was the third annual Saigon MobileDevCamp held at
+Bach Khoa University.  Although I&#039;m mainly a web developer, as the event was billed as
+a brother to BarCamp, I decided to go and check it out, meet some
+people, support my friend Dan, and see if anything from the event could be applied to
+the upcoming BarCamp Saigon on December 11th.  
+&lt;/p&gt;&lt;p&gt;
+Like BarCamp, the venue is a local university. However, the quality of facilities between a regular Vietnamese university like Bach Khoa and a foreign-operated campus like RMIT are on a quite different level.  Most rooms were without air conditioning and became quite hotter than I&#039;m accustomed to.
+In the morning there were
+a number of sessions on developing mobile apps (I checked out a session on PhoneGap but missed the Unity 3D session). In contrast to the BarCamp ideal, guest speakers were invited to give sessions which were planned and scheduled beforehand. Topics were confined to the &quot;mobile development&quot; theme.
+&lt;/p&gt;&lt;p&gt;
+After lunch, the main event would
+be a 24-hour coding competition. As I was already waking up far earlier than usual to
+attend the conference which I hadn&#039;t even properly registered for, I had no intention of joining the hackathon but
+I would eventually be overcome by my friend Cong&#039;s excitement for Doing Things.
+&lt;/p&gt;
+&lt;fieldset class=&quot;collapsible collapsed&quot;&gt;&lt;legend&gt;The Contest (click to expand)&lt;/legend&gt;
+
+&lt;h2&gt;19 teams. 5 persons max. 24 hours. 3 categories.&lt;/h2&gt;
+&lt;p&gt;
+There were 19 teams of up to five people competing.  We were number
+19, registering about an hour after the competition had begun.  (Not only was I the only foreigner on our team, I was the only foreigner on any team.  The rest of the foreigners were there to hang out and talk to people, which was all I originally intended on.) Participants included employees of sponsors as well as students.
+&lt;/p&gt;&lt;p&gt;
+&lt;/p&gt;&lt;p&gt;
+At the start of the competition, MC Minh announced in Vietnamese 
+the three categories that apps could be in: spelling, medical
+emergencies, and fighting pollution. (I think I misunderstood initially, but later an email in English was sent out.)  This prevents teams from having ideas and apps already in development beforethe competition.  This, along with the 24 hour time limit and 5-man team limit, are the constraints we were working with; otherwise no judging criteria were announced.  It&#039;s unrealistic to expect to develop much of an application in 24 hours and we knew this going in. We would later realize how little the actual code mattered.
+&lt;/p&gt;&lt;p&gt;
+Once the 24 hour clock had started ticking at 2 PM and neither Cong nor I had joined any teams, we decided to see what we could come up between the two of us.  We went outside for some fresh air (actually, cigarette smoke) and discussed some ideas for the
+spelling topic but we dismissed them the most quickly.  We came up with an idea
+for the medical emergency category but when we came up with an idea
+for the environmental category, one which we could talk about at length and come up with numerous uses for, that&#039;s when
+    Cong
+called up Hong who also liked the idea and joined our team as our third member. We were probably the smallest team there.
+&lt;/p&gt;&lt;p&gt;
+During the hacking event there is a large room available for
+participants to use and even sleep in. At night there was a pizza party. For me, the room was too hot and
+humid so we decided to leave and find someplace more conducive
+to hacking for the remaining hours.  We even considered renting a hotel room for 300,000VND but in the end
+we decided to just go to my house which at least has soft places to
+lie down, a working (at least better than Bach Khoa&#039;s) wifi connection, and air conditioning.  The only
+problem was that it was a bit far from the competition so we lost some
+time commuting there and back. We also got soaked by rain on the way.
+&lt;/p&gt;
+
+&lt;h2&gt;Hackathon&lt;/h2&gt;
+&lt;p&gt;
+A hackathon is a chance for hackers to push themselves both mentally and physically. Although in previous years, teams who skipped sleeping at all didn&#039;t fare so well, I&#039;m sure most people didn&#039;t get a good night&#039;s sleep.  For our team, besides a short nap, a dinner break as the rain was dying down, and a breakfast break for my teammates, we were hacking the entire time we were at my house. As the hours wore on, I found myself getting more easily frustrated while staring at nonfunctioning code, code that it would often later turn out didn&#039;t need to be written. In some ways, the experience is similar to working at a startup with even shorter horizons.  
+&lt;/p&gt;
+&lt;/fieldset&gt;
+
+ &lt;fieldset class=&quot;collapsible collapsed&quot;&gt;&lt;legend&gt;Our Idea (click to expand)&lt;/legend&gt;
+&lt;p&gt;
+Our idea with this: we live in an apathetic world where social
+problems that were once taken care of by the local (think village) community are now left to a (criminally)
+unresponsive government.  Littering,
+driving dangerously, and domestic violence may be crimes which are
+witnessed by millions of people every day who simply think &quot;it&#039;s not my
+business&quot;.  The saying goes, &quot;No good deed goes unpunished&quot;.   Clearly, the world needs a hero.  But there are heroes all
+around us or at least people doing heroic things. We just don&#039;t
+recognize them as heroes.  In real life, there is no Superman. But suppose  
+each of us is a Clark Kent, hiding an &quot;inner Superman&quot;?
+&lt;/p&gt;&lt;p&gt;
+We wanted to attack a problem that was beyond just our ability to solve. We wanted to create a better world, not just entertain. We wanted to think beyond the contest, while still participating within its constraints. We wanted to do well, but more importantly do good.
+&lt;/p&gt;
+&lt;h2&gt;The Solution&lt;/h2&gt;
+&lt;p&gt;
+Our solution was to create an application that makes it simple (in a way only possible with modern technoloy) to be
+recognized and recognize others for doing simple deeds that might
+otherwise be too mundane to mention (mundane being what most people&#039;s initial impression of Twitter&#039;s concept was), meaning also that it&#039;s &quot;not worth
+doing&quot;.  At first, we would be increasing awareness of the dismal situation
+within and around each person, then encourage them to take small
+actions to improve the situation with friends and strangers. There are still some good people left in the world; others are at least good enough to act altruistically if it&#039;s convenient enough. Not only would you receive recognition for your history of good deeds, we would arrange for local businesses to sponsor the top do-gooders on each district&#039;s leaderboard, giving them access to influential people (in a way that Klout is trying and failing to do). This would provide operating and marketing income as well as give people an extra push to participate.
+&lt;/p&gt;
+&lt;h2&gt;
+Some Use Cases
+&lt;/h2&gt;
+&lt;p&gt;
+You see a truck hit a bike.  Before the truck driver has a chance to get away you snap a quick photo of the truck&#039;s license plate, tag it as a crime-in-progress, and your photo and location are quickly uploaded. Now, anyone else using the app in the same neighborhood can spot the truck and force it to stop.
+&lt;/p&gt;&lt;p&gt;
+You see a pile of trash near a canal. You snap a photo and tag it &quot;trash&quot; and as you&#039;re clearing it up, a fellow user who lives nearby comes to help.  When you&#039;ve cleaned up the area, you both snap shots of the results and receive thanks from each other and some latecomers.
+&lt;/p&gt;&lt;p&gt;
+You get stuck in traffic. Up ahead you see that several cars are in the wrong lane and are stuck in gridlock. You post a &quot;traffic&quot; update with location and a few people about to leave work, and a friend in a taxi approaching that intersection thank you.
+&lt;/p&gt;&lt;p&gt;
+You see a new crack in the road. You snap a photo of it and send the link, which includes the GPS coordinates, to the local authorities. After a few weeks, the crack hasn&#039;t been fixed and has grown wider.  Eventually, the post gathers &quot;thanks&quot; and comments from a number of people and someone is forced to take responsibility for the fact that action wasn&#039;t taken earlier.
+&lt;/p&gt;&lt;p&gt;
+You see your neighbor abuse his wife. What can you do? After publicly shaming him, you receive some helpful advice in the comments.
+&lt;/p&gt;&lt;p&gt;
+Your neighborhood has a small plot of unused dirt, so you plant a tree there.
+&lt;/p&gt;&lt;p&gt;
+There are also the good things others are doing. When you see someone who is not a police officer stand in the street and direct traffic. When a mother scolds a child for littering. When a stranger tells you your bag is unzipped, or your phone about to fall out of your pocket. The person who sticks a big block in a pothole. The person who stops a taxi from entering a crowded one-way street in the wrong direction. The person who subdues a drunken belligerent Australian when the police couldn&#039;t do it for two hours. The inspector who refuses a bribe. The seller who throws out dirty or spoiled food. The car that doesn&#039;t enter a backed up intersection and block it when the light turns red.
+&lt;/p&gt;
+&lt;h2&gt;SoLoMo&lt;/h2&gt;
+&lt;p&gt;
+The idea has all of today&#039;s buzz words. It&#039;s social, mobile, and local. It has crowdsourced goodness. It will post to your Facebook, Twitter, and Foursquare. It&#039;s green, social enterprise that profits from companies that want to greenwash. It&#039;s got gamification. It&#039;s a location-based service measuring real reputation online. It consumes web APIs like Google Maps, while exposing its own API for others to mashup.
+&lt;/p&gt;
+&lt;/fieldset&gt;
+
+ &lt;fieldset class=&quot;collapsible collapsed&quot;&gt;&lt;legend&gt;Implementation (click to expand)&lt;/legend&gt;
+&lt;h2&gt;Drupal | REST | iOS | Your Social Networks&lt;/h2&gt;
+&lt;p&gt;
+The mobile application stores and retrieves data from a website we developed for it.  I developed a
+web backend and frontend using Drupal which exposes a REST API which was consumed by
+the iPhone app which could use it to login, create and retrieve local status updates
+with photo and location much like Facebook, Twitter, or Foursquare.  
+Other people could then see what people were doing near them and
+either thank them or leave a comment, or even go there in person and help -- it could be happening a hundred meters away.  By
+posting updates and getting thanked you earn points which puts
+you on the leaderboard for your local district and can lead to being awarded badges, like &quot;trash hero&quot;.  The idea was we would
+find local businesses to sponsor each district and give prizes to the
+community leaders while getting to be associated as an upstanding member of a
+neighborhood.
+&lt;/p&gt;&lt;p&gt;
+We integrated with Google maps to show location and also used their
+reverse geo-code API to find the ward or district name, so people could &quot;follow&quot; a neighborhood irregardless of distance -- like their home.  Furthermore, there was a one-way &quot;follow&quot; relationship like Twitter and Google+ to get all of a local hero&#039;s updates. More followers leads to more thanks. 
+&lt;/p&gt;&lt;p&gt;
+The web version (same Drupal site as the API) has all the same functionality as the mobile app
+and more. We developed an iPhone app for the contest, but an equivalent Android version would be easy to build. We used Twitter Bootstrap as a foundation for the frontend design.
+&lt;/p&gt;&lt;p&gt;
+In the future, we could strongly integrate with Facebook, Twitter, Foursquare, and any other social network which allows geo-tagging of posts, so their posts appear inline with your local hero timeline.
+&lt;/p&gt;
+&lt;/fieldset&gt;
+
+ &lt;fieldset class=&quot;collapsible collapsed&quot;&gt;&lt;legend&gt;Presentation, judging, and lessons learned (click to expand)&lt;/legend&gt;
+
+&lt;p&gt;
+All teams had to be physically present in the main room at 1PM on Sunday, which effectively meant we lost over an hour of hacking time. We arrived just in time for the deadline, but then waited another 4-5 hours to give our presentation and demo. We had probably slept less than 8 hours combined among the three of us, and by the time it was our turn to present, I was nearly completely faded. There&#039;s a lesson in that. 
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h2&gt;Humans Get Worn Down By Serial Decision-Making&lt;/h2&gt;
+&lt;p&gt;
+Our first lesson was this: don&#039;t present last. Don&#039;t expect judges not to be mentally exhausted after several hours of listening to presentations. Don&#039;t expect that their state of mind will be the same when they started as when they&#039;re about to finish.  
+&lt;/p&gt;
+
+&lt;h2&gt;Don&#039;t Alienate The Judges&lt;/h2&gt;
+&lt;p&gt;
+In short: Our presentation was a failure. It was a trainwreck that lasted 10 minutes. By the time we were presenting, a strict 10 minute time limit was being enforced. I think our presentation was designed for 20 minutes. Both Cong and Hong had experience with previous MobileDevCamps and they had made a presentation for the app before I had finished coding.
+&lt;/p&gt;&lt;p&gt;
+We opened with a video of a toddler in China being run over by a truck, a clip that sparked outrage all over the world including Vietnam and within China. It was bad form. My partner hadn&#039;t realized that two of the judges sitting in front of us were actually from China. They were visibly upset, not taking kindly to the implication, and this set the tone for the rest of the presentation. Meanwhile, other judges wanted to watch the video again. Not only did this upset the Chinese judges but the other sympathetic organizers were also quite upset by the possibility that we had jeapordized future sponsorship by the Chinese. By the time we were done talking about the video, we only had 5 minutes left, and hadn&#039;t even opened the app.  
+&lt;/p&gt;
+
+&lt;h2&gt;Fake It.&lt;/h2&gt;
+&lt;p&gt;
+In the remaining time, we struggled to explain the idea behind the product and finally give a quick demo of some of the features. We ran out of time before showing off some of the minor features.  One of the judges expressed interest in hearing about the implementation, and we missed a chance to impress based on technical features. There just wasn&#039;t any time.
+&lt;/p&gt;
+
+&lt;/fieldset&gt;
+
+
+&lt;p&gt;
+So that&#039;s it. We lost. We learned some lessons.
+&lt;/p&gt;
+&lt;p&gt;1. Be one of the first to present if you can.&lt;/p&gt;
+&lt;p&gt;2. Don&#039;t single out and alienate judges.&lt;/p&gt;
+&lt;p&gt;3. Don&#039;t build clean, well-architected software with maintainable code. In real life, this matters. For this competition, it doesn&#039;t. &lt;/p&gt;
+
+&lt;p&gt;
+The greatest tragedy perhaps (besides not winning) was that the presentations were all made in private with the judges.  Having groups present their apps for everyone to see, or at least putting them somewhere online, would have been the BarCamp way. As we didn&#039;t receive any feedback or anything from the judges, it would have been nice to share what we all worked on for 24 hours (multiplied by nearly 100 people) and be able to learn from others&#039; experience.  Even if there wasn&#039;t time for all to present, I don&#039;t think I was the only one interested in seeing at least the demos from the winners.
+&lt;/p&gt;
+
+
+
+&lt;fieldset class=&quot;collapsible collapsed&quot;&gt;&lt;legend&gt;P.S. Our second idea was this (click to expand)&lt;/legend&gt;
+&lt;p&gt;
+In Vietnam, emergency response service is nearly nonexistent.  If you
+get into an accident where you need emergency medical treatment you
+will most likely die.  People are reluctant to take you to the
+hospital because the hospital will then expect you to pay the bill.
+Taxis don&#039;t want to deal with getting blood in their seats.  If nobody
+contacts your relatives or if you don&#039;t have enough money in your
+wallet to pay the hospital on arrival, people will just let you die because they don&#039;t feel it&#039;s their business.  See Idea #1.
+&lt;/p&gt;&lt;p&gt;
+Our idea was to make it so your friends and family could automatically
+be contacted in case of emergency.  Many phones have a feature where
+without unlocking the phone, the phone can still make emergency calls.
+ But what if the phone could also send an SMS message and some friends
+as well as post a call for help on your Facebook wall, your Twitter, your FourSquare, etc. along with your location.  It could turn out to be a follower on Twitter you don&#039;t follow back who happens to be nearby who saves your life. In Vietnam, this type of &quot;hail Mary&quot; is more likely to get a response than the local 911-like service.  Of course there are problems, like the fact most people wouldn&#039;t think to install the app until they&#039;re laying there dying, if that.
+&lt;p&gt;
+&lt;/fieldset&gt;
+</description>
+     <comments>http://www.saigonist.com/b/saigon-mobiledevcamp-2011#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam/hcmc">HCMC</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/barcamp">barcamp</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/hackathon">hackathon</category>
+ <category domain="http://www.saigonist.com/category/tags/iphone">iphone</category>
+ <pubDate>Mon, 07 Nov 2011 19:16:35 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">268 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Barcamp Saigon Summer 2011 Parting Thoughts</title>
+    <link>http://www.saigonist.com/b/barcamp-saigon-summer-2011-parting-thoughts</link>
+    <description>&lt;p&gt;Sunday we had our 4th and largest Barcamp in Saigon.  About 570 showed up to the premier free and open tech event in Vietnam.  Here are 5 of the things I took away from it.&lt;/p&gt;
+&lt;p&gt;1. The most people sign up in the last few days before the event.&lt;/p&gt;
+&lt;p&gt;(if the below graph doesn&#039;t load, try reloading the page)&lt;/p&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot;&gt; {&quot;dataSourceUrl&quot;:&quot;//spreadsheets1.google.com/a/barcampsaigon.com/spreadsheet/tq?key=0AueZQGVELvm_dHZyWWhmOU5RNF84cWJxVUtjQlZuU3c&amp;transpose=0&amp;headers=-1&amp;range=A1%3AA74&amp;gid=2&amp;pub=1&quot;,&quot;options&quot;:{&quot;vAxes&quot;:[{&quot;min&quot;:null,&quot;title&quot;:&quot;Registrations per day&quot;,&quot;max&quot;:null}],&quot;reverseCategories&quot;:false,&quot;title&quot;:&quot;Barcamp Saigon Summer 2011 Signups&quot;,&quot;titleX&quot;:&quot;May 11 to July 24&quot;,&quot;backgroundColor&quot;:&quot;#FFFFFF&quot;,&quot;legend&quot;:&quot;none&quot;,&quot;logScale&quot;:false,&quot;reverseAxis&quot;:false,&quot;hAxis&quot;:{&quot;maxAlternation&quot;:1},&quot;hasLabelsColumn&quot;:false,&quot;isStacked&quot;:false,&quot;vAxis&quot;:{&quot;format&quot;:&quot;#0.##########&quot;},&quot;width&quot;:450,&quot;height&quot;:371},&quot;state&quot;:{},&quot;chartType&quot;:&quot;ColumnChart&quot;,&quot;chartName&quot;:&quot;Chart 1&quot;} &lt;/script&gt;&lt;p&gt;
+Traditionally, we would get a 50% show rate of the registrations but this time we had 999 people sign up and 570 show up.  Without any setup for cross-checking registrations we don&#039;t know how many showed up without pre-registering.  Because so many signed up after we settled financial calculations, it wasn&#039;t possible to accommodate the unexpected people with free food.  &lt;/p&gt;
+&lt;p&gt;2. Barcamp is a recruiting event.  Sponsors came with recruitment in mind.  Non-sponsors can also try to muscle their way in.  Giving a presentation is a great way to advertise your company and the people who ask attentive questions might be good hiring candidates.  But giving a presentation as an individual is also a great way to advertise your hireability to companies.  &lt;/p&gt;
+&lt;p&gt;3. Morning rush - everyone should have an equal chance in getting their presentation on the schedule as long as they show up to the opening.  But it&#039;s kind of chaotic.  When the dust settles, most sessions are in the morning while the afternoon schedule is sparser.  A lot of people end up leaving before the closing ceremony and t-shirt giveaway, not that there&#039;s a problem giving out all shirts.  Other Barcamps do it differently.  Some use a voting system and I&#039;ve thought about some implementations for next time.&lt;/p&gt;
+&lt;p&gt;4. Serial event organizing needs (infra)structure to make organizing less stressful over time.  Without huge Google or Microsoft campuses in town, we&#039;re lucky we do have the large (although far) and impressive campus of RMIT to depend on.  If we want to go Yangon-scale, we may need a totally different location.  &lt;/p&gt;
+&lt;p&gt;As a tech-heavy event with talks on web scalability and high throughput, it&#039;s no good when the official web server falls over under load (I blame Windows).  Good internet connectivity at the end is also a must.&lt;/p&gt;
+&lt;p&gt;Other skills the organizing team needs: Fund-raising, logistics, graphic design, legal, and the ability to get the word out.&lt;/p&gt;
+&lt;p&gt;5. Outsiders are awesome.  I&#039;m really grateful for the guys who brought Barcamp organizing experience from Cambodia, China, Southeast Asia, Germany, etc. to Saigon to share with us.  Barcamps are often bootstrapped by foreigners.  Outsiders also expose us to new ideas in technology.  But I was happy to see at least some local ideas find an audience in the foreign attendees.&lt;/p&gt;
+&lt;p&gt;Barcamp isn&#039;t just about the sessions.  It&#039;s as much about people coming together and sharing ideas outside of the sessions.  The organizers&#039; task isn&#039;t to control who speaks, unlike traditional conferences.  Our job is to provide a platform for everyone to share knowledge with anyone who is interested.  The trend, I hope, is for more people to realize that they do have knowledge that&#039;s interesting and worth sharing and to give them the opportunity to speak in front of an audience and further develop their ideas when putting together their presentations, and also get feedback from strangers that they otherwise would have never met.&lt;/p&gt;
+&lt;p&gt;Some newspapers reported about Sunday&#039;s event (in Vietnamese):&lt;br /&gt;
+&lt;a href=&quot;http://dddn.com.vn/2011072504147776cat187/rmit-viet-nam-to-chuc-thanh-cong-barcamp-sai-gon-2011.htm&quot; title=&quot;http://dddn.com.vn/2011072504147776cat187/rmit-viet-nam-to-chuc-thanh-cong-barcamp-sai-gon-2011.htm&quot;&gt;http://dddn.com.vn/2011072504147776cat187/rmit-viet-nam-to-chuc-thanh-co...&lt;/a&gt;&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/barcamp-saigon-summer-2011-parting-thoughts#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/tags/barcamp">barcamp</category>
+ <pubDate>Tue, 26 Jul 2011 19:31:43 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">229 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

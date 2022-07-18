@@ -1,0 +1,918 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+
+
+<!-- Mirrored from www.saigonist.com/blog?page=23 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Oct 2018 11:35:46 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="RSS - blogs" href="blog/feed" />
+<link rel="shortcut icon" href="sites/saigonist.com/themes/corolla_sg/favicon.ico" type="image/x-icon" />
+  <title>Blogs | Saigonist - Expat Living in Vietnam</title>
+  <script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <link type="text/css" rel="stylesheet" media="all" href="sites/saigonist.com/files/advagg_css/css_a9bd1a1b1e21fc1314eb29c6ba77b3a3_0.css" />
+<link type="text/css" rel="stylesheet" media="print" href="sites/saigonist.com/files/advagg_css/css_e0d39d80602b8a9dc02de7d25cb8e5de_0.css" />
+  
+  <!--[if lte IE 8]>
+  <link type="text/css" rel="stylesheet" href="/sites/saigonist.com/themes/corolla_sg/ie8.css" media="all" />
+  <![endif]-->
+
+  <!--[if lte IE 7]>
+  <link type="text/css" rel="stylesheet" href="/sites/saigonist.com/themes/corolla_sg/ie7.css" media="all" />
+  <![endif]-->
+
+  <!--[if lte IE 6]>
+  <link type="text/css" rel="stylesheet" href="/sites/saigonist.com/themes/corolla_sg/ie6.css" media="all" />
+  <![endif]-->
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+
+</head>
+<body class="not-front not-logged-in page-blog  one-sidebar">
+      <div id="navigation-wrapper">
+      <div id="navigation" class="clear-block">
+        <ul class="menu"><li class="leaf first"><a href="index.html" title="">Home</a></li>
+<li class="leaf"><a href="category/type/tech.html" title="">Tech</a></li>
+<li class="leaf"><a href="category/type/vietnam.html" title="">Vietnam</a></li>
+<li class="leaf"><a href="forums/living-and-working-vietnam.html" title="Living and Working in Vietnam">Forum</a></li>
+<li class="leaf last"><div id="block-search-0" class="block block-search">
+  <div class="inner">
+  
+    <div class="content">
+          </div>
+  </div>
+</div>
+</li>
+</ul>      </div> <!-- /#navigation -->
+    </div>
+  
+
+  <div id="header-wrapper">
+    <div id="header" class="clear-block">
+
+              <div id="branding-wrapper" class="clear-block">
+          <div id="branding">
+
+                          <div id="logo">
+                <a href="index.html" title="Home" rel="home">
+<span style="color: white; font-size: 45px; font-family: Georgia; letter-spacing: 1px; text-shadow: 1px 1px 7px #444;">Saigonist</span>
+                </a>
+              </div>
+            
+                          <div id="name-and-slogan">
+                                  <div id="site-name">
+                    <a href="index.html" title="Home" rel="home">Saigonist - Expat Living in Vietnam</a>
+                  </div>
+                
+                              <div id="site-slogan">Vietnam blog by an expat writing about technology, entrepreneurship, software, and living and traveling in Saigon, Vietnam</div>
+                            </div> <!-- /name-and-slogan -->
+            
+          </div> <!-- /#branding -->
+        </div> <!-- /#branding-wrapper -->
+      
+      
+    </div> <!-- /#header -->
+  </div> <!-- /#header-wrapper -->
+
+  <div id="main-columns-wrapper">
+    <div id="main-columns">
+     <div id="side-top-ad"><div id="block-block-11" class="block block-block">
+  <div class="inner">
+  
+    <div class="content">
+      <ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-9556924506572581"
+     data-ad-slot="9609004472"></ins>
+<script>/* Saigonist big top */
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
+  </div>
+</div>
+</div>      
+      <div id="main-wrapper" class=" first">
+  <div id="main">
+    <div id="page" class="clear-block">
+      <div id="breadcrumb"><div class="breadcrumb"><a href="index.html">Home</a></div></div>      
+      
+      
+      
+      <a id="main-content"></a>
+              <h1 class="page-title">Blogs</h1>
+      
+      
+                    <div class="region region-content">
+          <div class="item-list"></div><div id="node-12" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="content/mafia-wars-bugs.html">Mafia Wars bugs</a></h2>
+    
+          <div class="meta">Submitted by tomo on September 29, 2010 - 3:40am</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_6 first last"><a href="category/type/tech.html" rel="tag" title="">Tech</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>After playing Mafia Wars for awhile, I've noticed some bugs recently.  They are in the way certain strings are formatted.</p>
+<p>'You were snuffed in the fight, losing 6 experience points%FMT_SPAND_END%'</p>
+<p>'%OPPONENT% asked their Mafia to attack you. Fight them back now'</p>
+
+<a href="content/mafia-wars-bugs.html">Read the rest of this article...</a>  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_forbidden"><span><a href="user/logind7ff.html?destination=node%2F12%23comment-form">Login</a> to post comments</span></li>
+<li class="node_read_more"><a href="content/mafia-wars-bugs.html" title="Read the rest of Mafia Wars bugs.">Read more</a></li>
+<li class="disqus_comments last"><span><a href="content/mafia-wars-bugs.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/12">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+<div id="node-9" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="content/movie-theaters-saigon.html">Movie Theaters in Saigon</a></h2>
+    
+          <div class="meta">Submitted by tomo on September 11, 2010 - 7:56pm</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_7 first"><a href="category/type/vietnam.html" rel="tag" title="">Vietnam</a></li>
+<li class="taxonomy_term_17"><a href="category/tags/cinema.html" rel="tag" title="">cinema</a></li>
+<li class="taxonomy_term_239"><a href="category/tags/film.html" rel="tag" title="">film</a></li>
+<li class="taxonomy_term_237"><a href="category/tags/guide.html" rel="tag" title="">guide</a></li>
+<li class="taxonomy_term_238"><a href="category/tags/movies.html" rel="tag" title="">movies</a></li>
+<li class="taxonomy_term_18 last"><a href="category/tags/theater.html" rel="tag" title="">theater</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>Does anybody aggregate movie theater show times for Ho Chi Minh City?  Here's where I get my information, from disparate sources on poorly designed Vietnamese websites:</p>
+<p>Cinebox<br />
+212 Lý Chính Thắng, Q.3 (near Kỳ Đồng)<br />
+240 Đường 3/2, Quận 10 (Hòa Bình, huge place)<br />
+http://www.cinebox.vn/index.php?page=schedule&amp;step=1</p>
+<p>Galaxy<br />
+116 Nguyễn Du, Q.1,<br />
+230 Nguyễn Trãi, Q.1<br />
+246 Nguyễn Hồng Đào, Q.Tân Bình<br />
+http://www.galaxycine.vn/?cine=calendar&amp;search=cinema</p>
+<p>Megastar<br />
+Hung Vuong Plaza<br />
+CT Plaza<br />
+http://megastar.vn/index.aspx</p>
+<p>And then there's always free movies at:<br />
+Bobby Brewers<br />
+45 Bui Vien, P.Pham Ngu Lao. Q.1<br />
+86 Pham Ngoc Thach, Q.3<br />
+306/8 Nguyen Thi Minh Khai, Q.3<br />
+179 Tran Huy Lieu. Q.PN<br />
+http://www.bobbybrewers.com/bv_schedule.html</p>
+
+<a href="content/movie-theaters-saigon.html">Read the rest of this article...</a>  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_comments"><a href="content/movie-theaters-saigon.html#comments" title="Jump to the first comment of this posting.">4 comments</a></li>
+<li class="node_read_more"><a href="content/movie-theaters-saigon.html" title="Read the rest of Movie Theaters in Saigon.">Read more</a></li>
+<li class="disqus_comments last"><span><a href="content/movie-theaters-saigon.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/9">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+<div id="node-7" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="content/cygwin-mkshortcut-unicode-windows-filename-support.html">Cygwin mkshortcut Unicode Windows filename support</a></h2>
+    
+          <div class="meta">Submitted by tomo on September 8, 2010 - 1:03am</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_6 first"><a href="category/type/tech.html" rel="tag" title="">Tech</a></li>
+<li class="taxonomy_term_8"><a href="category/tags/cygwin.html" rel="tag" title="">cygwin</a></li>
+<li class="taxonomy_term_16 last"><a href="category/tags/unicode.html" rel="tag" title="">unicode</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>Cygwin comes with utilities for dealing with Windows-style shortcut files.  readshortcut will output the file path that a shortcut links to (and more) and mkshortcut can create Windows shortcuts.  However, there is currently one limitation.  Windows filenames are in Unicode and have certain other limitations that Posix filenames do or don't have.  The current Cygwin mkshortcut doesn't deal with such Unicode filenames.  However, you can patch it so that it does.</p>
+<p>1. Get source for all Cygwin utils at: http://gnuwin32.sourceforge.net/packages/cygutils.htm</p>
+<div class="field field-type-filefield field-field-blogattachments">
+      <div class="field-label">Attachments:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    <div class="filefield-file clear-block"><div class="filefield-icon field-icon-text-x-diff"><img class="field-icon-text-x-diff"  alt="text/x-diff icon" src="sites/all/modules/3rdparty/filefield/icons/protocons/16x16/mimetypes/text-x-generic.png" /></div><a href="sites/saigonist.com/files/mkshortcut.patch" type="text/x-diff; length=16302">mkshortcut.patch</a></div>        </div>
+              <div class="field-item even">
+                    <div class="filefield-file clear-block"><div class="filefield-icon field-icon-text-x-c++src"><img class="field-icon-text-x-c++src"  alt="text/x-c++src icon" src="sites/all/modules/3rdparty/filefield/icons/protocons/16x16/mimetypes/text-x-generic.png" /></div><a href="sites/saigonist.com/files/mkshortcut.c" type="text/x-c++src; length=18154">mkshortcut.c</a></div>        </div>
+        </div>
+</div>
+
+<a href="content/cygwin-mkshortcut-unicode-windows-filename-support.html">Read the rest of this article...</a>  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_forbidden"><span><a href="user/loginbcf1.html?destination=node%2F7%23comment-form">Login</a> to post comments</span></li>
+<li class="node_read_more"><a href="content/cygwin-mkshortcut-unicode-windows-filename-support.html" title="Read the rest of Cygwin mkshortcut Unicode Windows filename support.">Read more</a></li>
+<li class="disqus_comments last"><span><a href="content/cygwin-mkshortcut-unicode-windows-filename-support.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/7">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+<div id="node-6" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="content/mafia-wars-tournament-las-vegas-uh-oh.html">Mafia Wars tournament in Las Vegas: Uh oh!</a></h2>
+    
+          <div class="meta">Submitted by tomo on September 7, 2010 - 1:38pm</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_6 first"><a href="category/type/tech.html" rel="tag" title="">Tech</a></li>
+<li class="taxonomy_term_14"><a href="category/tags/facebook.html" rel="tag" title="">facebook</a></li>
+<li class="taxonomy_term_13"><a href="category/tags/game.html" rel="tag" title="">game</a></li>
+<li class="taxonomy_term_15 last"><a href="category/tags/zynga.html" rel="tag" title="">zynga</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>Zynga's Mafia Wars Facebook text-based game is experiencing all kinds of performance issues right  now.  And to top if off, if you try to fight in a tournament in Las Vegas you'll see the message:</p>
+<p>"Uh oh. We were unable to retrieve a tournament bracket for you. Please try again later"</p>
+<p>But only after they deduct your stamina and coins!  This happens every 4 hours so it's better to avoid playing in the tournament for now!</p>
+
+  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_forbidden"><span><a href="user/login36eb.html?destination=node%2F6%23comment-form">Login</a> to post comments</span></li>
+<li class="disqus_comments last"><span><a href="content/mafia-wars-tournament-las-vegas-uh-oh.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/6">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+<div id="node-4" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="content/pligg-long-running-queries.html">Pligg long running queries</a></h2>
+    
+          <div class="meta">Submitted by tomo on September 7, 2010 - 2:20am</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_6 first"><a href="category/type/tech.html" rel="tag" title="">Tech</a></li>
+<li class="taxonomy_term_5"><a href="category/tags/mysql.html" rel="tag" title="">mysql</a></li>
+<li class="taxonomy_term_4"><a href="category/tags/pligg.html" rel="tag" title="">pligg</a></li>
+<li class="taxonomy_term_10 last"><a href="category/tags/yalla.html" rel="tag" title="">yalla</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>&nbsp;</p>
+<p>&nbsp;</p>
+<div>For awhile I&#39;ve been plagued with these long running queries on my Pligg site that were running up CPU:</div>
+<div>&nbsp;</div>
+<div><span class="geshifilter"><code class="javascript geshifilter-javascript">SELECT DISTIN</code></span>CT pv_user_id, pv_type, pv_page_id FROM mypligg_pageviews GROUP BY pv_type, pv_page_id, pv</div>
+<div>&nbsp;</div>
+<div>And so I was running the mkill Perl script to kill any queries taking longer than a minute to complete.</div>
+<div>But recently even that stopped working, leaving queries in the Killed state but still running up CPU. &nbsp;They were all stuck in &quot;converting&nbsp;HEAP&nbsp;to&nbsp;MyISAM&quot;. &nbsp;Did some diagnostics:</div>
+<div>&nbsp;</div>
+<div><span class="geshifilter"><code class="javascript geshifilter-javascript">mysql<span style="color: #339933;">&amp;</span>gt<span style="color: #339933;">;</span> SHOW GLOBAL STATUS LIKE <span style="color: #339933;">&amp;</span>#<span style="color: #CC0000;">39</span><span style="color: #339933;">;</span>Created_tmp_tables<span style="color: #339933;">&amp;</span>#<span style="color: #CC0000;">39</span><span style="color: #339933;">;;</span></code></span></div>
+<div><span class="geshifilter"><code class="javascript geshifilter-javascript"><span style="color: #339933;">+--------------------+-------+</span></code></span></div>
+<div><span class="geshifilter"><code class="javascript geshifilter-javascript"><span style="color: #339933;">|</span> Variable_name <span style="color: #339933;">&amp;</span>nbsp<span style="color: #339933;">;</span> <span style="color: #339933;">&amp;</span>nbsp<span style="color: #339933;">;</span> <span style="color: #339933;">&amp;</span>nbsp<span style="color: #339933;">;|</span> Value <span style="color: #339933;">|</span></code></span></div>
+<div><span class="geshifilter"><code class="javascript geshifilter-javascript"><span style="color: #339933;">+--------------------+-------+</span></code></span></div>
+<div><span class="geshifilter"><code class="javascript geshifilter-javascript"><span style="color: #339933;">|</span> Created_tmp_tables <span style="color: #339933;">|</span> <span style="color: #CC0000;">196</span> <span style="color: #339933;">&amp;</span>nbsp<span style="color: #339933;">;</span> <span style="color: #339933;">|</span></code></span></div>
+<div><span class="geshifilter"><code class="javascript geshifilter-javascript"><span style="color: #339933;">+--------------------+-------+</span></code></span></div>
+<div><span class="geshifilter"><code class="javascript geshifilter-javascript"><span style="color: #CC0000;">1</span> row <span style="color: #000066; font-weight: bold;">in</span> <span style="color: #000066; font-weight: bold;">set</span> <span style="color: #009900;">&#40;</span><span style="color: #CC0000;">0.01</span> sec<span style="color: #009900;">&#41;</span></code></span></div>
+<div>&nbsp;</div>
+<div><span class="geshifilter"><code class="javascript geshifilter-javascript">mysql<span style="color: #339933;">&amp;</span>gt<span style="color: #339933;">;</span> SHOW GLOBAL STATUS LIKE <span style="color: #339933;">&amp;</span>#<span style="color: #CC0000;">39</span><span style="color: #339933;">;</span>Created_tmp_disk_tables<span style="color: #339933;">&amp;</span>#<span style="color: #CC0000;">39</span><span style="color: #339933;">;;</span></code></span></div>
+<div><span class="geshifilter"><code class="javascript geshifilter-javascript"><span style="color: #339933;">+-------------------------+-------+</span></code></span></div>
+<div><span class="geshifilter"><code class="javascript geshifilter-javascript"><span style="color: #339933;">|</span> Variable_name <span style="color: #339933;">&amp;</span>nbsp<span style="color: #339933;">;</span> <span style="color: #339933;">&amp;</span>nbsp<span style="color: #339933;">;</span> <span style="color: #339933;">&amp;</span>nbsp<span style="color: #339933;">;</span> <span style="color: #339933;">&amp;</span>nbsp<span style="color: #339933;">;</span> <span style="color: #339933;">&amp;</span>nbsp<span style="color: #339933;">;</span> <span style="color: #339933;">|</span> Value <span style="color: #339933;">|</span></code></span></div>
+<div><span class="geshifilter"><code class="javascript geshifilter-javascript"><span style="color: #339933;">+-------------------------+-------+</span></code></span></div>
+<div><span class="geshifilter"><code class="javascript geshifilter-javascript"><span style="color: #339933;">|</span> Created_tmp_disk_tables <span style="color: #339933;">|</span> <span style="color: #CC0000;">159</span> <span style="color: #339933;">&amp;</span>nbsp<span style="color: #339933;">;</span> <span style="color: #339933;">|</span></code></span></div>
+<div><span class="geshifilter"><code class="javascript geshifilter-javascript"><span style="color: #339933;">+-------------------------+-------+</span></code></span></div>
+<div><span class="geshifilter"><code class="javascript geshifilter-javascript"><span style="color: #CC0000;">1</span> row <span style="color: #000066; font-weight: bold;">in</span> <span style="color: #000066; font-weight: bold;">set</span> <span style="color: #009900;">&#40;</span><span style="color: #CC0000;">0.01</span> sec<span style="color: #009900;">&#41;</span></code></span></div>
+<div>&nbsp;</div>
+<div><span class="geshifilter"><code class="javascript geshifilter-javascript">mysql<span style="color: #339933;">&amp;</span>gt<span style="color: #339933;">;</span> show variables like <span style="color: #339933;">&amp;</span>#<span style="color: #CC0000;">39</span><span style="color: #339933;">;</span>tmp_table_size<span style="color: #339933;">&amp;</span>#<span style="color: #CC0000;">39</span><span style="color: #339933;">;;</span></code></span></div>
+<div><span class="geshifilter"><code class="javascript geshifilter-javascript"><span style="color: #339933;">+----------------+----------+</span></code></span></div>
+<div><span class="geshifilter"><code class="javascript geshifilter-javascript"><span style="color: #339933;">|</span> Variable_name <span style="color: #339933;">&amp;</span>nbsp<span style="color: #339933;">;|</span> Value <span style="color: #339933;">&amp;</span>nbsp<span style="color: #339933;">;</span> <span style="color: #339933;">&amp;</span>nbsp<span style="color: #339933;">;|</span></code></span></div>
+<div><span class="geshifilter"><code class="javascript geshifilter-javascript"><span style="color: #339933;">+----------------+----------+</span></code></span></div>
+<div><span class="geshifilter"><code class="javascript geshifilter-javascript"><span style="color: #339933;">|</span> tmp_table_size <span style="color: #339933;">|</span> <span style="color: #CC0000;">33554432</span> <span style="color: #339933;">|</span></code></span></div>
+<div><span class="geshifilter"><code class="javascript geshifilter-javascript"><span style="color: #339933;">+----------------+----------+</span></code></span></div>
+<div><span class="geshifilter"><code class="javascript geshifilter-javascript"><span style="color: #CC0000;">1</span> row <span style="color: #000066; font-weight: bold;">in</span> <span style="color: #000066; font-weight: bold;">set</span> <span style="color: #009900;">&#40;</span><span style="color: #CC0000;">0.01</span> sec<span style="color: #009900;">&#41;</span></code></span></div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>So it seemed there wasn&#39;t enough memory to perform the conversion without going to disk which is not what we want. &nbsp;So I set&nbsp;tmp_table_size&nbsp;and&nbsp;max_heap_table_size to larger values,&nbsp;max_heap_table_size too because MySQL uses the lesser of the two.</div>
+<div>&nbsp;</div>
+<div><span class="geshifilter"><code class="javascript geshifilter-javascript">mysql<span style="color: #339933;">&amp;</span>gt<span style="color: #339933;">;</span> <span style="color: #000066; font-weight: bold;">set</span> tmp_table_size<span style="color: #339933;">=</span><span style="color: #CC0000;">100000000</span><span style="color: #339933;">;</span></code></span></div>
+<div><span class="geshifilter"><code class="javascript geshifilter-javascript">Query OK<span style="color: #339933;">,</span> <span style="color: #CC0000;">0</span> rows affected <span style="color: #009900;">&#40;</span><span style="color: #CC0000;">0.00</span> sec<span style="color: #009900;">&#41;</span></code></span></div>
+<div>&nbsp;</div>
+<div><span class="geshifilter"><code class="javascript geshifilter-javascript">mysql<span style="color: #339933;">&amp;</span>gt<span style="color: #339933;">;</span> <span style="color: #000066; font-weight: bold;">set</span> <span style="color: #339933;">&amp;</span>nbsp<span style="color: #339933;">;</span>max_heap_table_size<span style="color: #339933;">=</span><span style="color: #CC0000;">100000000</span><span style="color: #339933;">;</span></code></span></div>
+<div><span class="geshifilter"><code class="javascript geshifilter-javascript">Query OK<span style="color: #339933;">,</span> <span style="color: #CC0000;">0</span> rows affected <span style="color: #009900;">&#40;</span><span style="color: #CC0000;">0.01</span> sec<span style="color: #009900;">&#41;</span></code></span></div>
+<div>&nbsp;</div>
+<p>And now we&#39;re golden, CPU back down to normal levels and queries finishing.</p>
+
+<a href="content/pligg-long-running-queries.html">Read the rest of this article...</a>  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_comments"><a href="content/pligg-long-running-queries.html#comments" title="Jump to the first comment of this posting.">1 comment</a></li>
+<li class="node_read_more"><a href="content/pligg-long-running-queries.html" title="Read the rest of Pligg long running queries.">Read more</a></li>
+<li class="disqus_comments last"><span><a href="content/pligg-long-running-queries.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/4">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+<div id="node-5" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="tech/drupal/theme-developer-saving-wrong-temp-directory.html">Theme developer saving to wrong temp directory</a></h2>
+    
+          <div class="meta">Submitted by tomo on September 7, 2010 - 1:36am</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_443 first"><a href="category/type/tech/drupal.html" rel="tag" title="">Drupal</a></li>
+<li class="taxonomy_term_12 last"><a href="category/tags/drupal.html" rel="tag" title="">drupal</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>After importing a database for a Drupal site from a different server, you may see errors such as:</p>
+<p><span class="geshifilter"><code class="javascript geshifilter-javascript">warning<span style="color: #339933;">:</span> file_put_contents<span style="color: #009900;">&#40;</span><span style="color: #339933;">/</span>devel_themer_19527646904c852428ef200<span style="color: #009900;">&#41;</span> <span style="color: #009900;">&#91;</span><span style="color: #000066; font-weight: bold;">function</span>.<span style="color: #660066;">file</span><span style="color: #339933;">-</span>put<span style="color: #339933;">-</span>contents<span style="color: #009900;">&#93;</span><span style="color: #339933;">:</span> failed to open stream<span style="color: #339933;">:</span> Permission denied <span style="color: #000066; font-weight: bold;">in</span> <span style="color: #339933;">/</span>home<span style="color: #339933;">/</span>tomo<span style="color: #339933;">/</span>xxx<span style="color: #339933;">/</span>sites<span style="color: #339933;">/</span>all<span style="color: #339933;">/</span>modules<span style="color: #339933;">/</span>3rdparty<span style="color: #339933;">/</span>devel_themer<span style="color: #339933;">/</span>devel_themer.<span style="color: #660066;">module</span> on line <span style="color: #CC0000;">638</span>.</code></span></p>
+<p>And if you try to select an element:</p>
+<p><span class="geshifilter"><code class="javascript geshifilter-javascript">Ajax variables file not found.</code></span></p>
+<p>What&#39;s going on here is the files aren&#39;t being written to the temp directory which is a Drupal&nbsp;variable stored in the database. &nbsp;Delete the row from the variables table where name is file_directory_temp and then Drupal will automatically set the variable to the correct directory.</p>
+<p><span class="geshifilter"><code class="javascript geshifilter-javascript"><span style="color: #000066; font-weight: bold;">delete</span> from variables where name<span style="color: #339933;">=</span><span style="color: #3366CC;">'file_directory_temp'</span><span style="color: #339933;">;</span></code></span><br />
+or<br />
+<span class="geshifilter"><code class="javascript geshifilter-javascript"><span style="color: #000066; font-weight: bold;">delete</span> from variable where name<span style="color: #339933;">=</span><span style="color: #3366CC;">'file_directory_temp'</span><span style="color: #339933;">;</span></code></span></p>
+
+<a href="tech/drupal/theme-developer-saving-wrong-temp-directory.html">Read the rest of this article...</a>  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_comments"><a href="tech/drupal/theme-developer-saving-wrong-temp-directory.html#comments" title="Jump to the first comment of this posting.">1 comment</a></li>
+<li class="node_read_more"><a href="tech/drupal/theme-developer-saving-wrong-temp-directory.html" title="Read the rest of Theme developer saving to wrong temp directory.">Read more</a></li>
+<li class="disqus_comments last"><span><a href="tech/drupal/theme-developer-saving-wrong-temp-directory.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/5">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+<div id="node-1" class="node">
+
+  <div class="node-header">
+
+          <h2 class="node-title"><a href="content/first-post.html">First post</a></h2>
+    
+          <div class="meta">Submitted by tomo on September 6, 2010 - 11:10pm</div>
+              <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_11 first last"><a href="category/tags/motivation.html" rel="tag" title="">motivation</a></li>
+</ul></div>
+    
+  </div> <!-- /.node-header -->
+
+  <div class="content">
+    
+    <p>I've decided to start blogging to encourage myself to do things worth writing about.</p>
+
+  </div>
+
+  <div class="links-wrapper">
+    <ul class="links inline"><li class="blog_usernames_blog first"><a href="blogs/tomo.html" title="Read tomo&#039;s latest blog entries.">tomo&#039;s blog</a></li>
+<li class="comment_comments"><a href="content/first-post.html#comments" title="Jump to the first comment of this posting.">2 comments</a></li>
+<li class="disqus_comments last"><span><a href="content/first-post.html#disqus_thread" class="comments disqus-comments" title="Jump to the comments of this posting." data-disqus-identifier="node/1">Comments</a></span></li>
+</ul>  </div>
+
+</div>
+<div class="item-list"><ul class="pager"><li class="pager-first first"><a href="blog.html" title="Go to first page" class="active">« first</a></li>
+<li class="pager-previous"><a href="blog3c09.html?page=22" title="Go to previous page" class="active">‹ previous</a></li>
+<li class="pager-ellipsis">…</li>
+<li class="pager-item"><a href="blog5760.html?page=15" title="Go to page 16" class="active">16</a></li>
+<li class="pager-item"><a href="blog42a7.html?page=16" title="Go to page 17" class="active">17</a></li>
+<li class="pager-item"><a href="blog5c43.html?page=17" title="Go to page 18" class="active">18</a></li>
+<li class="pager-item"><a href="blog9683.html?page=18" title="Go to page 19" class="active">19</a></li>
+<li class="pager-item"><a href="blog7537.html?page=19" title="Go to page 20" class="active">20</a></li>
+<li class="pager-item"><a href="blogf62c.html?page=20" title="Go to page 21" class="active">21</a></li>
+<li class="pager-item"><a href="bloge4a7.html?page=21" title="Go to page 22" class="active">22</a></li>
+<li class="pager-item"><a href="blog3c09.html?page=22" title="Go to page 23" class="active">23</a></li>
+<li class="pager-current last">24</li>
+</ul></div>        </div>
+      
+            <a href="blog/feed" class="feed-icon"><img src="misc/feed.png" alt="Syndicate content" title="RSS - blogs" width="16" height="16" /></a>    </div> <!-- /#page -->
+
+
+    <div id="closure">
+      <div id="info">
+        © 2010-2014 Saigonist.       </div>
+
+          </div> <!-- /#closure -->
+
+  </div> <!-- /#main -->
+</div> <!-- /#main-wrapper -->
+
+
+
+    <div id="sidebar-first" class="clear-block last">
+    <div class="region region-sidebar-first">
+      <div id="block-block-10" class="block block-block">
+  <div class="inner">
+  
+    <div class="content">
+      <ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-9556924506572581"
+     data-ad-slot="4371339435"></ins>
+<script>/* Saigonist Skyscraper */
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>    </div>
+  </div>
+</div>
+<div id="block-block-1" class="block block-block">
+  <div class="inner">
+  
+    <div class="content">
+      <style>
+.block-split-left {
+    width: 150px;
+    display: inline-block;
+}
+.block-split-right {
+    width: 200px;
+    height: 200px;
+    display: inline;
+}
+
+</style>
+
+<div class="block-split-left">
+
+<a href="http://feedproxy.google.com/Saigonist" class="feed-icon"><img src="misc/feed.png" alt="Syndicate content" title="Syndicate" width="16" height="16"> Syndicate via RSS</a> 
+
+<a href="http://twitter.com/tomosaigon" class="twitter-follow-button" data-show-count="false">Follow @tomosaigon</a>
+<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+
+<p><a href="http://feeds.feedburner.com/Saigonist"><img src="http://feeds.feedburner.com/~fc/Saigonist?bg=74950A&amp;fg=ffffff&amp;anim=1" height="26" width="88" style="border:0" alt="" /></a></p>
+
+</div>
+
+<div class="block-split-right">
+<ins class="adsbygoogle"
+     style="display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-9556924506572581"
+     data-ad-slot="6281513583"></ins>
+<script>/* Saigonist Side */
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+</div>    </div>
+  </div>
+</div>
+<div id="block-comment-0" class="block block-comment">
+  <div class="inner">
+      <h2>Recent comments</h2>
+  
+    <div class="content">
+      <div class="item-list"><ul><li class="first"><a href="forum/6348/esl-teachers-needed-ho-chi-minh-city.html#comment-4412">Hello,
+I only have a two year</a><br />1 year 11 weeks ago</li>
+<li><a href="forum/6518/looking-name-nightclub.html#comment-4314">There is no way to upload</a><br />2 years 3 days ago</li>
+<li><a href="forum/6542/saigon-pearl-apartment-rent-modern-furniture-cheap-price-2-brs.html#comment-4306">Pls, contact with me if you</a><br />2 years 1 week ago</li>
+<li><a href="forum/6518/looking-name-nightclub.html#comment-4303">Hi, I dont see the pictures</a><br />2 years 3 weeks ago</li>
+<li><a href="forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4167">I think EIS is a better</a><br />2 years 19 weeks ago</li>
+<li><a href="forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4166">You are welcome, thanks all</a><br />2 years 19 weeks ago</li>
+<li><a href="forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4165">:)</a><br />2 years 19 weeks ago</li>
+<li><a href="forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4164">Sorry for late reply. I think</a><br />2 years 19 weeks ago</li>
+<li><a href="forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4163">Hey guys, I have stayed in</a><br />2 years 19 weeks ago</li>
+<li class="last"><a href="forum/6494/international-education-program-ib-program-legal-education-vietnam.html#comment-4162">I think IB is a great</a><br />2 years 19 weeks ago</li>
+</ul></div>    </div>
+  </div>
+</div>
+    </div>
+  </div> <!-- /#sidebar-first -->
+
+
+    </div> <!-- /#main-columns -->
+  </div> <!-- /#main-columns-wrapper -->
+
+
+  <div class="region fat-footer">
+          <div class="region region-footer-1">
+              </div>
+          <div class="region region-footer-2">
+        <div id="block-block-3" class="block block-block">
+  <div class="inner">
+      <h2>About the author</h2>
+  
+    <div class="content">
+      <p>Asian-American <span data-scayt_word="expat" data-scaytid="1">expat</span> living in Vietnam over 3 years. I am involved in tech startups and do <a href="category/tags/drupal.html">Drupal</a> consulting. I choose to live in Saigon and Vietnam and I want to see the city and its people reach their true potential.</p>
+    </div>
+  </div>
+</div>
+<div id="block-block-4" class="block block-block">
+  <div class="inner">
+      <h2>Where is Saigon?</h2>
+  
+    <div class="content">
+      <p>It's not wrong to wonder where in the world Saigon is. </p>
+<p>Saigon is the name of the city now officially known as Ho Chi Minh City. But most people who call Saigon home call their home Saigon and it's mostly tourists who I hear refer to it as Ho Chi Minh City (or Ho Chi Minh Ville for the French).</p>
+<p>After the Vietnam/American War ended in 1975, many place names ceased to exist such as Saigon, South Vietnam, and plenty of street names. </p>
+<p>Tu Do is now Dong Khoi, Thong Nhat is Le Duan. And Tan Son Nhut Airport is now <a href="content/ho-chi-minh-citys-tan-san-nhat-international-airport.html">Tan Son Nhat International Airport</a>. Rue Paul Blanchy has been Hai Ba Trung since the 1950s.</p>
+<p>Those who haven't seen Vietnam for decades will be confused not just by the geographical changes but the incredible amount of development and modernization that has since taken place.</p>
+    </div>
+  </div>
+</div>
+      </div>
+          <div class="region region-footer-3">
+        <div id="block-tagadelic-2" class="block block-tagadelic">
+  <div class="inner">
+      <h2>Tags in Tags</h2>
+  
+    <div class="content">
+      <a href="category/tags/barcamp.html" class="tagadelic level1" rel="tag" title="">barcamp</a> 
+<a href="category/tags/block.html" class="tagadelic level1" rel="tag" title="">block</a> 
+<a href="category/tags/censorship.html" class="tagadelic level1" rel="tag" title="">censorship</a> 
+<a href="category/tags/chrome.html" class="tagadelic level1" rel="tag" title="">chrome</a> 
+<a href="category/tags/drupal.html" class="tagadelic level6" rel="tag" title="">drupal</a> 
+<a href="category/tags/facebook.html" class="tagadelic level3" rel="tag" title="">facebook</a> 
+<a href="category/tags/google.html" class="tagadelic level1" rel="tag" title="">google</a> 
+<a href="category/tags/javascript.html" class="tagadelic level2" rel="tag" title="">javascript</a> 
+<a href="category/tags/module.html" class="tagadelic level1" rel="tag" title="">module</a> 
+<a href="category/tags/travel.html" class="tagadelic level1" rel="tag" title="">travel</a> 
+<a href="category/tags/twitter.html" class="tagadelic level1" rel="tag" title="">twitter</a> 
+<a href="category/tags/views.html" class="tagadelic level1" rel="tag" title="">views</a> 
+<div class='more-link'><a href="tagadelic/chunk/2.html">more tags</a></div>    </div>
+  </div>
+</div>
+<div id="block-statistics-0" class="block block-statistics">
+  <div class="inner">
+      <h2>Most popular posts</h2>
+  
+    <div class="content">
+      <div class="item-list"><h3>All time:</h3><ul><li class="first"><a href="content/cost-living-vietnam-its-really-cheap.html">Cost-of-Living in Vietnam: It&#039;s Really Cheap</a></li>
+<li><a href="content/easy-access-facebook-vietnam-part-deux.html">Easy Access to Facebook in Vietnam, Part Deux</a></li>
+<li><a href="tech/drupal/drupal-add-comment-form-above-comments.html">Drupal Add Comment Form Above Comments</a></li>
+<li><a href="content/bypass-vietnams-block-facebook-or-chinas-block-youtube.html">Bypass Vietnam&#039;s Block on FaceBook - or China&#039;s Block on YouTube</a></li>
+<li><a href="content/simple-download-youtube-html5.html">Simple Way to Download YouTube HTML5 Videos</a></li>
+<li><a href="vietnam/cloud-hosting-and-content-delivery-networks-vietnam.html">Cloud Hosting and Content Delivery Networks from Vietnam</a></li>
+<li><a href="vietnam/hcmc/foreigner-vietnam-during-tet.html">A Foreigner in Vietnam During Tet</a></li>
+<li><a href="pliggmeme.html">Pliggmeme Redux Pligg Theme</a></li>
+<li><a href="b/facebook-vietnam-2012.html">Facebook in Vietnam 2012</a></li>
+<li><a href="content/improved-google-spam-filter.html">Improved Google Spam Filter?</a></li>
+<li><a href="b/buddhism-vietnam.html">Buddhism in Vietnam</a></li>
+<li><a href="content/import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet.html">Import Nokia SMS and Contacts CSV Export to Google Excel Spreadsheet</a></li>
+<li><a href="content/movie-theaters-saigon.html">Movie Theaters in Saigon</a></li>
+<li><a href="content/future-foursquare.html">Future For Foursquare</a></li>
+<li class="last"><a href="b/correct-horse-battery-staple-better-passwords-vietnamese.html">Correct Horse Battery Staple: Better passwords with Vietnamese</a></li>
+</ul></div>    </div>
+  </div>
+</div>
+      </div>
+          <div class="region region-footer-4">
+        <div id="block-views-latest_tech-block_1" class="block block-views">
+  <div class="inner">
+      <h2>Latest Technical Posts</h2>
+  
+    <div class="content">
+      <div class="view view-latest-tech view-id-latest_tech view-display-id-block_1 view-dom-id-1">
+        <div class="view-header">
+      <p>I also post a lot of technical material unrelated to Vietnam that doesn't hit the home page. Starting from November 2015 I am only posting technical articles on my new sub-blog: <a href="http:///tech.saigonist.com">TECH.saigonist.com</a></p>
+    </div>
+  
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="tech/definition-startup-what-isnt-startup.html">Definition of Startup: What isn&#039;t a startup?</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">What is a startup? 
+We're in the middle of a tech boom and it's become fashionable to either work for a startup or to be a startup. But what is a startup? How do you know that company offering you a...</span>
+  </span>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="tech/my-startup-experiences.html">My Startup Experiences</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">I've been involved in start ups for over a decade now. During that time I've worked for companies in varying stage of development. Not all of them were startups. But how can you tell if it is or not...</span>
+  </span>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="vietnam/hcmc/code-retreat-2012-ho-chi-minh-city.html">Code Retreat 2012 - Ho Chi Minh City</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">
+$(document).ready(function(){
+
+$('.geshifilter').hover(function(){console.log(this);console.log($(this));$(this).css('position', 'relative').css('width', '800px').css('z-index', 1000);}, function...</span>
+  </span>
+</li>
+          <li class="views-row views-row-4 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="b/internet-censorship-southeast-asian-countries-myanmar-china-malaysia-thailand-cambodia-vietnam.html">Internet Censorship in Southeast Asian Countries (Myanmar, China, Malaysia, Thailand, Cambodia, Vietnam)</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">Vietnam has been labeled an "enemy of the Internet" by Reporters Without Borders. There have been a lot of cases of bloggers being targeted, harrassed, and arrested. But RSF (Reporters Sans...</span>
+  </span>
+</li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="b/using-3g-internet-cambodia.html">Using 3G Internet in Cambodia</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">On my most recent trip to Cambodia I bought a Cambodian SIM card so that I could both make calls and use the Internet on my smartphone. At the Moc Bai/Bavet border are a number of Khmer people (who...</span>
+  </span>
+</li>
+          <li class="views-row views-row-6 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="b/mailchimp-vs-pommo-mailman-phplist-self-host-or-outsource-your-mailing-list.html">MailChimp vs poMMo, Mailman, Phplist - Self-Host or Outsource Your Mailing List?</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">Use your own mail server or outsource it?
+Let's say you have a rather large mailing list of a few thousand email addresses and, well, sending it out with GMail is no longer cutting it. What are your...</span>
+  </span>
+</li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="vietnam/internet-vietnam-good-bad-ugly.html">Internet in Vietnam - Good, Bad, Ugly</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">If you ask Vietnamese officials, you'll hear such hyperbole as "the Internet service development in Vietnam is in no way inferior to developed countries in the world" (Mai Liem Truc, former Deputy...</span>
+  </span>
+</li>
+          <li class="views-row views-row-8 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="b/pommo-problems.html">poMMo proBLEMs</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">poMMo is free open source mailing list management software. It's written in PHP and pretty basic but does give a decent management interface. However, it's no longer maintained. There is a GitHub...</span>
+  </span>
+</li>
+          <li class="views-row views-row-9 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="b/preventing-repetitive-stress-injuries-programmers-and-writers.html">Preventing Repetitive Stress Injuries for Programmers and Writers</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">My situation
+I'm a career programmer who has suffered from pain in my hands and arms for several years. Like carpal tunnel syndrome, this pain is from damage to tissue (including tendons) caused by...</span>
+  </span>
+</li>
+          <li class="views-row views-row-10 views-row-even views-row-last">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="b/calling-us-free-foreign-countries.html">Calling the US for free from foreign countries</a></span>
+  </span>
+      :   
+  <span class="views-field-body">
+                <span class="field-content">Calling US numbers from the US is pretty trivial and nearly free. But calling from another country means either:
+- paying for long distance from your telephone company
+- using a phone card to call...</span>
+  </span>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>     </div>
+  </div>
+</div>
+<div id="block-views-latest_forum-block_1" class="block block-views">
+  <div class="inner">
+  
+    <div class="content">
+      <div class="view view-latest-forum view-id-latest_forum view-display-id-block_1 view-dom-id-2">
+        <div class="view-header">
+      <h1>Recent activity in the <a href="forums/living-and-working-vietnam.html">expat forum</a>...</h1>
+    </div>
+  
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="forum/6713/we-can-support-you-about-visa-arrival-visa-extension.html">We can support you about &lt;Visa on arrival - Visa extension&gt;</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Nowadays, foreigners have many difficulties in living and working in Vietnam, in which the main...</span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="forum/6712/visa-vietnam-expats.html">VISA VIETNAM FOR EXPATS</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Dear  Sir/Madam
+I'm Ms. Vui - who is special making all of services for expats in Vietnam.
+Pls...</span>
+  </div>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="forum/6709/apartment-rent-cheap-price-ms-linh-0932705239.html">Apartment for rent with cheap price Ms Linh 0932705239</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Masteri apartment for rent with fully furnished or unfurnished #Condominium
+Add: 159 Ha Noi highway...</span>
+  </div>
+</li>
+          <li class="views-row views-row-4 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="forum/6707/best-dishes-christmas.html">Best dishes for Christmas</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">1. Roasted turkey
+Succulent tender turkey meat with moist and flavourful stuffing. Give this...</span>
+  </div>
+</li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="forum/6706/best-dishes-christmas.html">Best dishes for Christmas</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">1. Roasted turkey
+Succulent tender turkey meat with moist and flavourful stuffing. Give this...</span>
+  </div>
+</li>
+          <li class="views-row views-row-6 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="forum/6705/top-places-visit-christmas-hcmc.html">Top places to visit this Christmas in HCMC</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Christmas is coming! Another wonderful season of joy and happiness … and a lot of wonderful places...</span>
+  </div>
+</li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="forum/6703/apartment-rent-masteri-ms-linh-0932705239.html">Apartment for rent in MASTERI  Ms Linh 0932705239</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Masteri apartment for rent with fully furnished or unfurnished #Condominium
+Add: 159 Ha Noi highway...</span>
+  </div>
+</li>
+          <li class="views-row views-row-8 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="forum/6702/apartment-rent-diamond-island-ms-linh-0932705239.html">Apartment for rent in Diamond Island  Ms Linh 0932705239</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Diamond Island  apartment for rent with fully furnished or unfurnished #luxury  #Condominium
+Add:...</span>
+  </div>
+</li>
+          <li class="views-row views-row-9 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="forum/6701/apartment-rent-diamond-island-ms-linh-0932705239.html">Apartment for rent in Diamond Island  Ms Linh 0932705239</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Diamond Island  apartment for rent with fully furnished or unfurnished #luxury  #Condominium
+Add:...</span>
+  </div>
+</li>
+          <li class="views-row views-row-10 views-row-even views-row-last">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="forum/6700/apartment-rent-diamond-island-ms-linh-0932705239.html">Apartment for rent in Diamond Island  Ms Linh 0932705239</a></span>
+  </span>
+  
+  <span class="views-field-comment-count">
+          <label class="views-label-comment-count">
+        (Replies:
+      </label>
+                <span class="field-content">0)</span>
+  </span>
+  
+  <div class="views-field-body">
+                <span class="field-content">Diamond Island  apartment for rent with fully furnished or unfurnished #luxury  #Condominium
+Add:...</span>
+  </div>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>     </div>
+  </div>
+</div>
+      </div>
+      </div>
+
+  <script type="text/javascript" src="sites/saigonist.com/files/advagg_js/js_ae4c45ca17e58eea971e353d18846ebd_1.js"></script>
+<script type="text/javascript" src="sites/saigonist.com/files/advagg_js/js_114add5d22097bf8ea6c5fb53a2ba535_0.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","googleanalytics":{"trackOutgoing":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|avi|csv|doc|exe|flv|gif|gz|jpe?g|js|mp(3|4|e?g)|mov|pdf|phps|png|ppt|rar|sit|tar|torrent|txt|wma|wmv|xls|xml|zip"},"disqusCommentDomain":"saigon"});
+//--><!]]>
+</script>
+
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "CToolsAJAX": { "scripts": { "/sites/saigonist.com/modules/jquery_update/replace/jquery.min.js?X": true, "/misc/drupal.js?X": true, "/sites/saigonist.com/modules/saigonist/gavote.js?X": true, "/sites/saigonist.com/modules/saigonist/saigonist.js?X": true, "/sites/saigonist.com/modules/saigonist/jquery.slicknav.js?X": true, "/sites/saigonist.com/modules/disqus/disqus.js?X": true, "/sites/saigonist.com/modules/ajax/jquery/jquery.a_form.packed.js?X": true, "/sites/saigonist.com/modules/ajax/ajax.js?X": true, "/sites/all/modules/3rdparty/google_analytics/googleanalytics.js?X": true }, "css": { "/modules/aggregator/aggregator.css?X": true, "/modules/node/node.css?X": true, "/modules/poll/poll.css?X": true, "/modules/system/defaults.css?X": true, "/modules/system/system.css?X": true, "/modules/system/system-menus.css?X": true, "/modules/user/user.css?X": true, "/sites/all/modules/3rdparty/cck/theme/content-module.css?X": true, "/sites/all/modules/3rdparty/ctools/css/ctools.css?X": true, "/sites/all/modules/3rdparty/date/date.css?X": true, "/sites/all/modules/3rdparty/date/date_popup/themes/datepicker.css?X": true, "/sites/all/modules/3rdparty/date/date_popup/themes/timeentry.css?X": true, "/sites/all/modules/3rdparty/filefield/filefield.css?X": true, "/sites/all/modules/3rdparty/tagadelic/tagadelic.css?X": true, "/sites/all/modules/3rdparty/x/mollom/mollom.css?X": true, "/sites/saigonist.com/modules/geshifilter/geshifilter.css?X": true, "/modules/forum/forum.css?X": true, "/sites/all/modules/3rdparty/cck/modules/fieldgroup/fieldgroup.css?X": true, "/sites/all/modules/3rdparty/views/css/views.css?X": true, "/sites/saigonist.com/themes/corolla_sg/reset.css?X": true, "/sites/saigonist.com/themes/corolla_sg/base.css?X": true, "/sites/saigonist.com/themes/corolla_sg/style.css?X": true, "/sites/saigonist.com/themes/corolla_sg/drupal-6.css?X": true, "/sites/saigonist.com/themes/corolla_sg/colors.css?X": true, "/sites/saigonist.com/themes/corolla_sg/dynamic_tomo.css?X": true, "/sites/saigonist.com/themes/corolla_sg/slicknav.css?X": true, "/sites/saigonist.com/themes/corolla_sg/tomo.css?X": true, "/sites/saigonist.com/themes/corolla_sg/responsive.css?X": true, "/sites/saigonist.com/themes/corolla_sg/print.css?X": true } } });
+//--><!]]>
+</script>
+<script type="text/javascript" src="sites/saigonist.com/files/advagg_js/js_bd2dccda1712ebf640b9dcbfe9797558_2.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var gaJsHost=(("https:"==document.location.protocol)?"https://ssl.":"http://www.");document.write(unescape("%3Cscript src='"+gaJsHost+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+try{var pageTracker=_gat._getTracker("UA-18406883-1");pageTracker._trackPageview()}catch(err){}
+//--><!]]>
+</script>
+
+</body>
+
+<!-- Mirrored from www.saigonist.com/blog?page=23 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Oct 2018 11:36:05 GMT -->
+</html>

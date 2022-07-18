@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/173/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>taxonomy</title>
+    <link>http://www.saigonist.com/taxonomy/term/173/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Drupal 6 Related Content</title>
+    <link>http://www.saigonist.com/tech/drupal/drupal-6-related-content</link>
+    <description>&lt;p&gt;Similar Entries 2 (6.2) - http://drupal.org/project/similar - doesn&#039;t work. But version 1 works like a charm. Version 2 spits up an error on array_filter. Looking at the code, my guess is it&#039;s related to some new Views plugin code in version 2.&lt;/p&gt;
+&lt;p&gt;Related Block - http://drupal.org/project/related_block - would have been cool too. It&#039;s much like Similar Entries. Unfortunately, the search algorithm is way too narrow. At first, I couldn&#039;t tell if the module was even working. Then by weening the search terms down to 1 (which means it figures out a single relevant term and then searches for only that) I saw some results, but not on many nodes still.&lt;/p&gt;
+&lt;p&gt;Relevant Content - http://drupal.org/project/relevant_content - is nice in theory. Currently, it&#039;s broken. It&#039;s in the middle of a rewrite, but it&#039;s looking more and more unlikely that it will ever get rewritten.&lt;/p&gt;
+&lt;p&gt;Related links - http://drupal.org/project/relatedlinks - is not what it seems. It just finds any referenced links in the content and groups them together. Nothing external.&lt;/p&gt;
+&lt;p&gt;Other modules are term (taxonomy) based. But ideally, you don&#039;t need to specify all the relevant terms, and you don&#039;t need to explicitly say that two terms are related. There should be a more intelligent way.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/drupal-6-related-content#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/block">block</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal6">drupal6</category>
+ <category domain="http://www.saigonist.com/category/tags/module">module</category>
+ <category domain="http://www.saigonist.com/category/tags/search">search</category>
+ <category domain="http://www.saigonist.com/category/tags/taxonomy">taxonomy</category>
+ <pubDate>Thu, 24 Jan 2013 16:09:31 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">971 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Multi-lingual / Localized / Translated Taxonomy in Drupal </title>
+    <link>http://www.saigonist.com/tech/drupal/multi-lingual-localized-translated-taxonomy-drupal</link>
+    <description>&lt;p&gt;Taxonomy is normally pretty simple by default except that it&#039;s also called vocabulary (but never terminology although the tags are called terms) and that it can be attached to nodes as fields (using Content Taxonomy Fields to make CCK fields which gives you a bit more control) or not, or both. &lt;/p&gt;
+&lt;p&gt;Adding language makes it complicated though. Drupal can be said to support languages other than English, multiple-language sites, internationalization and translation. But it&#039;s not always user friendly or clear even to developers. Such is the case with taxonomies.&lt;/p&gt;
+&lt;p&gt;Let&#039;s say you have a site that&#039;s in two languages, English and Vietnamese. You have translated the interface of the site as well as nodes so that URLs are consistent. To switch language you just add the language code to the front of the URL. So you have a taxonomy with terms in your site&#039;s primary or default language. But you want to use the same terms by ID rather than a different set of terms.&lt;/p&gt;
+&lt;p&gt;1) Edit the vocabulary. Set &quot;Localize&quot;. This doesn&#039;t set a language to any terms or anything, they are just assumed to be in the default language already. &lt;/p&gt;
+&lt;p&gt;[Look in term_data and confirm the language column is still empty.]&lt;/p&gt;
+&lt;p&gt;2) Refresh strings in Translate Interface. Now if you search taxonomy for a term it should appear.&lt;/p&gt;
+&lt;p&gt;[Look in locales_source for location = &quot;term:$termid:name&quot; where $termid is the tid of a term in your vocabulary. This means it&#039;s ready to be translated. After translating, it should be in localtes_target with the same lid. But the translation column is a blob so you won&#039;t be able to see the translation directly depending on your mysql client.]&lt;/p&gt;
+&lt;p&gt;3) I recommend installing the Translation Table module instead of searching for each new term in the regular translate interface. Translation table shows up as a new tab in the translate interface and you can select a vocabulary to see all of its terms in one place.&lt;/p&gt;
+&lt;p&gt;4) If you use terms in arguments in URLs you&#039;ll need something further. Otherwise, all URLs will use the term in the site&#039;s default language.&lt;/p&gt;
+&lt;p&gt;5) One last thing: Don&#039;t use t() to translate a term. Use i18ntaxonomy_translate_term_name on a term object (like if you get a vocabulary object from taxonomy_get_tree).&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/multi-lingual-localized-translated-taxonomy-drupal#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/language">language</category>
+ <category domain="http://www.saigonist.com/category/tags/localization">localization</category>
+ <category domain="http://www.saigonist.com/category/tags/taxonomy">taxonomy</category>
+ <category domain="http://www.saigonist.com/category/tags/translation">translation</category>
+ <pubDate>Fri, 19 Oct 2012 13:08:28 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">552 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Build your own FAQ in Drupal</title>
+    <link>http://www.saigonist.com/tech/drupal/build-your-own-faq-drupal</link>
+    <description>&lt;p&gt;Websites, including Drupal sites, often need Frequently Asked Questions and answers to them. Drupal, as a content management system, should manage your question and answer content intelligently. With all the great modules contributed to Drupal&#039;s community you might think there are some good FAQ modules. In my experience, the Drupal FAQ module is too rigid, and therefore unusable for most of my sites. But we can build a FAQ system using basic Drupal building blocks.&lt;/p&gt;
+&lt;p&gt;What we need: taxonomy, blocks, views, a few lines of PHP (that can be stored in the database - no custom module required)&lt;/p&gt;
+&lt;p&gt;1. Content type: Create a new content type. CCK is optional here, as you can just use Title as Question and Body as Answer.&lt;/p&gt;
+&lt;p&gt;2. Vocabulary: Create a new vocabulary called FAQ. Add a few terms if only for testing.&lt;/p&gt;
+&lt;p&gt;3. Devel Generate: Optional - requires Devel module&#039;s devel_generate to generate some test nodes with test questions, answers, and topics. devel_generate can be run from the command line too if you have drush installed - just run &quot;drush genc&quot;. Anyways, generate a few dozen nodes, as many nodes as questions you have. It&#039;ll be easier to mass edit the questions once the nodes have already been generated.&lt;/p&gt;
+&lt;p&gt;4. Views: You&#039;ll need two views although they can also be two displays of a single view, so let&#039;s do that.&lt;/p&gt;
+&lt;p&gt;a. Create a view, filtered by your FAQ content type (and published or published/admin). &lt;/p&gt;
+&lt;p&gt;You will add three node fields:&lt;br /&gt;
+Node: Nid (Nid) [make this field hidden, but its value is used in the rewritten Question field below]&lt;br /&gt;
+Node: Title (Question)&lt;br /&gt;
+Node: Body (Answer)&lt;/p&gt;
+&lt;p&gt;For the Question, rewrite the output to:&lt;br /&gt;
+&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;javascript geshifilter-javascript&quot; style=&quot;font-family:monospace;&quot;&gt;&lt;span style=&quot;color: #339933;&quot;&gt;&amp;lt;&lt;/span&gt;a name&lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #3366CC;&quot;&gt;&amp;quot;q-[nid]&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;a&lt;span style=&quot;color: #339933;&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;title&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;You&#039;ll have on argument, which is the Term (FAQ vocabulary topic) in the URL.&lt;/p&gt;
+&lt;p&gt;- Configure Argument Taxonomy: Term&lt;br /&gt;
+-- Provide default argument&lt;br /&gt;
+--- Default argument type: Taxonomy Term ID from URL&lt;br /&gt;
+-- Validator: (Choose your FAQ vocabulary)&lt;br /&gt;
+-- Argument type: Term name or synonym&lt;br /&gt;
+-- (Optional) Transform spaces to dashes in URL&lt;/p&gt;
+&lt;p&gt;Now turn this default view into a page that&#039;s not overridden in any way. Set the URL to be something that&#039;s NOT your vocabulary name because your URL will conflict with the default taxonomy paths (&quot;taxonomy/term/%&quot; - which Taxonomy sets up path aliases for from each vocabulary with each term - but that page may also be being overridden by a view included by Views by default). So if you want your URLs to be like &quot;/faq/return-policy&quot; then name your Vocabulary like &quot;FAQ Terms&quot; instead of &quot;FAQ&quot;.&lt;/p&gt;
+&lt;p&gt;At this point you should save your new view and be able to go to &quot;/faq/troubleshooting&quot; or whatever. It will give you a list of questions with answers. But usually a FAQ section will also list out all questions at the top with links to answers below. How can we accomplish that?&lt;/p&gt;
+&lt;p&gt;b. Let&#039;s create a new Display that&#039;s a Block. Now override the fields and remove the Answer field. Override the display of the Question to:&lt;br /&gt;
+&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;javascript geshifilter-javascript&quot; style=&quot;font-family:monospace;&quot;&gt;&lt;span style=&quot;color: #339933;&quot;&gt;&amp;lt;&lt;/span&gt;a href&lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #3366CC;&quot;&gt;&amp;quot;#q-[nid]&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;title&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;&amp;lt;/&lt;/span&gt;a&lt;span style=&quot;color: #339933;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Optionally, set a blank title for this field. Then we will have a block that is just a list of questions. But the argument won&#039;t work anymore since it&#039;s a block. So you need to override the argument &quot;Taxonomy: Term&quot;. &lt;/p&gt;
+&lt;p&gt;- Default argument type:&lt;br /&gt;
+-- PHP Code&lt;br /&gt;
+--- &lt;span class=&quot;geshifilter&quot;&gt;&lt;code class=&quot;javascript geshifilter-javascript&quot;&gt;&lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;return&lt;/span&gt; arg&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #CC0000;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;- Validator: Basic validation + Transform dashes in URL to spaces in term name arguments&lt;/p&gt;
+&lt;p&gt;This will find the term &quot;charity&quot; in the path &quot;/faq/charity&quot; and pass it on. &lt;/p&gt;
+&lt;p&gt;5. Now that the block is created, you need to make it display. We want to display it on the top of our first view!&lt;/p&gt;
+&lt;p&gt;This is assuming you have a region in your theme for blocks at the top of content in pages. You could choose another location but it should really appear as the first content you see. But you want this block to appear ONLY on this page! So in block admin, configure the block you just created, and under:&lt;/p&gt;
+&lt;p&gt;Page specific visibility settings&lt;br /&gt;
+- Show block on specific pages:&lt;br /&gt;
+-- [check] Show on only the listed pages.&lt;br /&gt;
+Pages:&lt;br /&gt;
+- Type in &quot;faq/*&quot;&lt;/p&gt;
+&lt;p&gt;Save the block. Now your question list with links to answers further down the page should be appearing at the top of your FAQ pages!&lt;/p&gt;
+&lt;p&gt;7. Next, you need a list of your categories. Sadly, there&#039;s no easy way for Drupal to do this. Views has a view type for taxonomies which is unfortunately not very powerful and so we can&#039;t use it to get links to &quot;/faq/[term]&quot; as it doesn&#039;t allow us to rewrite our own links. It allows you to link to term pages but those pages are rendered by either the Taxonomy module or that default view I mentioned earlier. Trying to override those paths with our own view is a mess, probably due to weighting.&lt;/p&gt;
+&lt;p&gt;Anyways, we can easily create a list of topics with links with a tiny bit of PHP. Create a new block using the Block admin page. In the block body:&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;javascript geshifilter-javascript&quot; style=&quot;font-family:monospace;&quot;&gt;&lt;span style=&quot;color: #339933;&quot;&gt;&amp;lt;?&lt;/span&gt;php
+$tree &lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; taxonomy_get_tree&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;$vocabulary_id&lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt;YOUR_FAQ_VOCABULARY_ID_HERE&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+$html &lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;&amp;lt;ul&amp;gt;&#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+&lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;if&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;$tree&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#123;&lt;/span&gt;
+    foreach &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;$tree as $term&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt; 
+        $html .&lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;&amp;lt;li&amp;gt;&#039;&lt;/span&gt; . &lt;span style=&quot;color: #660066;&quot;&gt;l&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;$term&lt;span style=&quot;color: #339933;&quot;&gt;-&amp;gt;&lt;/span&gt;name&lt;span style=&quot;color: #339933;&quot;&gt;,&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;faq/&#039;&lt;/span&gt; . &lt;span style=&quot;color: #660066;&quot;&gt;str_replace&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #3366CC;&quot;&gt;&#039; &#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;,&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;-&#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;,&lt;/span&gt; mb_strtolower&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;$term&lt;span style=&quot;color: #339933;&quot;&gt;-&amp;gt;&lt;/span&gt;name&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt; . &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;&amp;lt;/li&amp;gt;&#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#125;&lt;/span&gt;
+$html .&lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;&amp;lt;/ul&amp;gt;&#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+&lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;return&lt;/span&gt; $html&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+&lt;span style=&quot;color: #339933;&quot;&gt;?&amp;gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Again, set this block to only appear on &quot;faq/*&quot; pages. Then configure its location into a sidebar or somewhere and you will be displaying links to each of your FAQ topics and you&#039;re done!&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/build-your-own-faq-drupal#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/block">block</category>
+ <category domain="http://www.saigonist.com/category/tags/code">code</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/faq">faq</category>
+ <category domain="http://www.saigonist.com/category/tags/module">module</category>
+ <category domain="http://www.saigonist.com/category/tags/taxonomy">taxonomy</category>
+ <category domain="http://www.saigonist.com/category/tags/views">views</category>
+ <pubDate>Sat, 13 Oct 2012 05:15:20 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">540 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Importing and Exporting Drupal Taxonomy</title>
+    <link>http://www.saigonist.com/tech/drupal/importing-and-exporting-drupal-taxonomy</link>
+    <description>&lt;p&gt;There are multiple modules for importing and exporting Drupal taxonomies (Drupal switches between using the term &quot;taxonomy&quot; and &quot;vocabulary&quot; like a clinical schizophrenic).  Some use CSV format (http://drupal.org/project/taxonomy_csv), others XML (http://drupal.org/project/taxonomy_xml), and still others use a PHP array (http://drupal.org/project/taxonomy_export).&lt;/p&gt;
+&lt;p&gt;Some of these modules use the same paths for the export and import pages but they are different modules and aren&#039;t compatible. If you have both Taxonomy Export and Taxonomy XML installed at the same time they will conflict.&lt;/p&gt;
+&lt;p&gt;Except for CSV, the other import/export modules need you to create documents in a rather wordy XML or PHP code format, which can actually be more work than entering the terms in manually. Some people may use taxonomy import/export for only the taxonomy definition rather than terms. It&#039;s sometimes unclear what happens if you want to re-import duplicate term names later. &lt;/p&gt;
+&lt;p&gt;What worked best for me was using Taxonomy Manager which gives you an improved UI for organizing terms within a vocabulary. I wish it made editing the core fields of a taxonomy more ajax-y but what it does provide is an easy way to add multiple terms at once, a textarea for pasting in a list of terms, and a way to select where the new terms will go. So you can paste in all the top level terms, then paste in all the 2nd level children of the 1st term and select the 1st term to indicate they will all go under it. As long as you don&#039;t have too many different branches, then this can be done fairly easily.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/importing-and-exporting-drupal-taxonomy#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/module">module</category>
+ <category domain="http://www.saigonist.com/category/tags/taxonomy">taxonomy</category>
+ <category domain="http://www.saigonist.com/category/tags/vocabulary">vocabulary</category>
+ <pubDate>Tue, 30 Aug 2011 20:10:42 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">252 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

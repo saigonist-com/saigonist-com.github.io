@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/273/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>climate change</title>
+    <link>http://www.saigonist.com/taxonomy/term/273/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Vietnam / Saigon High Tide Flooding Schedule</title>
+    <link>http://www.saigonist.com/vietnam/hcmc/vietnam-saigon-high-tide-flooding-schedule</link>
+    <description>&lt;p&gt;It&#039;s that time of the year again. Flood time! &lt;/p&gt;
+&lt;p&gt;Saigon and Vietnam&#039;s Mekong Delta generally has two seasons - rainy and wet. But at the end of the year somewhat coinciding with the dry season is high tide season where the highest tide level maxes out some meters above low tide. Each year the effects of high tide on Ho Chi Minh City get worse, not just due to climate change or rising sea levels, but due to 1) urban sprawl taking over former urban flood plains which would have absorbed some rain water (rain water just makes the problem worse but isn&#039;t the root cause) with construction and paving over of land with impermeable surfaces, as well as 2) a general sinking of the city due to (illegal) leaching of underground water supplies reducing the water table level and 3) lost efficiency of canals where piles of trash thrown in the rivers is blocking the flow of water back out&lt;/p&gt;
+&lt;p&gt;This week&#039;s high tide times so you know when your streets will be flooded: (data comes from &lt;a href=&quot;http://www.csg.com.vn/code/e_tidalchart.jsp?cate=show&quot;&gt;Saigon Port&lt;/a&gt; dumped into a Google Doc which is then proxied through this site to overcome cross-site script hacking in order to hide the days outside of this week)&lt;/p&gt;
+&lt;p&gt;&lt;iframe id=&quot;flood-frame&quot; width=&#039;486&#039; height=&#039;210&#039; frameborder=&#039;0&#039; src=&#039;/sites/saigonist/flood-google.html&#039;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;script language=&quot;javascript&quot; type=&quot;text/javascript&quot; src=&quot;/sites/saigonist/files/flood.js&quot;&gt;&lt;/script&gt;</description>
+     <comments>http://www.saigonist.com/vietnam/hcmc/vietnam-saigon-high-tide-flooding-schedule#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam/hcmc">HCMC</category>
+ <category domain="http://www.saigonist.com/category/tags/climate-change">climate change</category>
+ <category domain="http://www.saigonist.com/category/tags/flooding">flooding</category>
+ <category domain="http://www.saigonist.com/category/tags/tide">tide</category>
+ <category domain="http://www.saigonist.com/category/tags/weather">weather</category>
+ <pubDate>Mon, 01 Oct 2012 12:15:28 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">489 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

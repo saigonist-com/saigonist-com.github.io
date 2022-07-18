@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/368/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>satellite</title>
+    <link>http://www.saigonist.com/taxonomy/term/368/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Internet in Vietnam - Good, Bad, Ugly</title>
+    <link>http://www.saigonist.com/vietnam/internet-vietnam-good-bad-ugly</link>
+    <description>&lt;p&gt;If you ask Vietnamese officials, you&#039;ll hear such hyperbole as &quot;the Internet service development in Vietnam is in no way inferior to developed countries in the world&quot; (Mai Liem Truc, former Deputy Minister of Post and Telematics). But when people say such things and thus denying the existence of any problems they are leaving no room for improvement.&lt;/p&gt;
+&lt;p&gt;Yes, we have high speed internet and even fiber to the home (FTTH), both at relatively low costs compared to developed countries, though also not as fast as connections from homes to ISPs in Korea or Japan. We have 3G (but not LTE or 4G) also at very cheap prices - prepaid packages from $2 a month, even cheaper for a week or a day (you have to get used to the idea of being able to buy a single use ketchup packet of shampoo, $1 worth of credit for a phone, and a day&#039;s worth of data). Satellite connections exist although general ISPs don&#039;t offer them. Vietnam even has an indigenous satellite program (but they transmit to Earth at pitiful data rates thus not being suitable for general consumers).&lt;/p&gt;
+&lt;p&gt;But all methods of accessing the Internet are limited by &lt;a href=&quot;http://www.saigonist.com/b/vietnam-internet-international-and-domestic-links&quot;&gt;Vietnam&#039;s links to the outside Internet&lt;/a&gt; where most of the content lies, since homegrown content in Vietnam is lacking compared to the English-language Internet both in quantity and quality. We have limited terrestrial links to China, and otherwise we have to rely on undersea cables from stations in Vung Tau and Da Nang to major regional undersea cables that connect Vietnam to neighboring Hong Kong or Singapore and points beyond. Some of these cables start in Europe and go through the Middle East. Others simply connect us to Japan and then the US.&lt;/p&gt;
+&lt;p&gt;When the Internet isn&#039;t super slow due to &lt;a href=&quot;http://www.saigonist.com/b/cloud-hosting-and-content-delivery-networks-vietnam&quot;&gt;undersea cable cuts&lt;/a&gt;, it could be broken locally for other reasons. Infrastructure is fragile. Wires often catch fire or get cut for other reasons (did I mention rats?). Power goes out. Having a laptop and 3G internet access is a backup plan you&#039;ll use often, but this isn&#039;t reasonable for companies of any size. Being able to say that there are fiber connections and 3G is just a show. The reality is that Vietnam&#039;s Internet is considerably inferior to developed countries qualitatively.&lt;/p&gt;
+&lt;p&gt;On Censorship. One thing I&#039;ve learned from talking to many mainland Chinese people is that they don&#039;t realize Internet censorship is a problem or that it&#039;s a bad or undesirable thing. Although not exactly the same, Vietnamese people similarly don&#039;t take a tone of offense at the idea of the government or really anyone imposing their restrictions on them. Or people take a light view of it, considering the easy of &lt;a href=&quot;http://www.saigonist.com/content/easy-access-facebook-vietnam-part-deux&quot;&gt;circumventing previous Facebook blocks&lt;/a&gt;. But this also leads to the Vietnamese Internet&#039;s lack of local content (and thus overdependence on international links). Creative people are not encouraged to produce content. Writers are jailed. Musicians and film directors have no protection for their works, sometimes even less than foreign works in Vietnam. So anyone who wants to take full advantage of the Internet right now and into the foreseeable future must learn English.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/vietnam/internet-vietnam-good-bad-ugly#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/3g">3g</category>
+ <category domain="http://www.saigonist.com/category/tags/censorship">censorship</category>
+ <category domain="http://www.saigonist.com/category/tags/fiber">fiber</category>
+ <category domain="http://www.saigonist.com/category/tags/internet">internet</category>
+ <category domain="http://www.saigonist.com/category/tags/isp">isp</category>
+ <category domain="http://www.saigonist.com/category/tags/network">network</category>
+ <category domain="http://www.saigonist.com/category/tags/satellite">satellite</category>
+ <pubDate>Tue, 16 Oct 2012 07:15:49 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">546 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

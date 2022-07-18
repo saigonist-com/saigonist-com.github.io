@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/83/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>kernel</title>
+    <link>http://www.saigonist.com/taxonomy/term/83/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>OpenBSD uvm_mapent_alloc: out of static map entries</title>
+    <link>http://www.saigonist.com/content/openbsd-uvmmapentalloc-out-static-map-entries</link>
+    <description>&lt;p&gt;Every few months, I&#039;ve had remote OpenBSD servers die mysteriously, without any visible console messages, and still responding to pings, although higher level networking (http, ssh) are unresponsive.  The crontab I setup to dump output from top (or systat) also stops.  But before the kernel failure load was low and swap was unused.&lt;/p&gt;
+&lt;p&gt;After rebooting and checking dmesg, I see before the most recent reboot:&lt;br /&gt;
+&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;javascript geshifilter-javascript&quot; style=&quot;font-family:monospace;&quot;&gt;uvm_mapent_alloc&lt;span style=&quot;color: #339933;&quot;&gt;:&lt;/span&gt; out of &lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;static&lt;/span&gt; map entries&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Doing some research, it seems like it could be a problem with kmem_map fragmentation, possibly from long-running processes (like apache, which is being used more heavily now).  The problem appears to have been fixed in recent releases of OpenBSD which dynamically increase kmem, but upgrading the server right now isn&#039;t feasible.&lt;/p&gt;
+&lt;p&gt;So the solution is to compile a custom kernel with an increased MAX_KMAPENT added to GENERIC config:&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/content/openbsd-uvmmapentalloc-out-static-map-entries#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/kernel">kernel</category>
+ <category domain="http://www.saigonist.com/category/tags/kmap">kmap</category>
+ <category domain="http://www.saigonist.com/category/tags/kmem">kmem</category>
+ <category domain="http://www.saigonist.com/category/tags/openbsd">openbsd</category>
+ <category domain="http://www.saigonist.com/category/tags/panic">panic</category>
+ <category domain="http://www.saigonist.com/category/tags/uvmmapentalloc">uvm_mapent_alloc</category>
+ <pubDate>Fri, 01 Apr 2011 20:02:59 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">61 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

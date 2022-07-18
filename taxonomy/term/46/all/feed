@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/46/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>content farm</title>
+    <link>http://www.saigonist.com/taxonomy/term/46/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Improved Google Spam Filter?</title>
+    <link>http://www.saigonist.com/content/improved-google-spam-filter</link>
+    <description>&lt;p&gt;Google, in response to the flood of recent concern about spam/content farms showing up in their results, have just announced a big change in their system of algorithms which calculate page rankings.  They had previously published a Chrome plugin that lets you manually block results, and Google says the new algorithm blocks some 84% of the same sites that people were blocking with the plugin.  I guess some people were controversially blocking non-spammy sites, rather than guess that Google&#039;s algorithm isn&#039;t good enough.  Or isn&#039;t it?&lt;/p&gt;
+&lt;p&gt;Matt Cutts, the main anti-spam guy at Google, says the new algorithm change affects 11.8% of queries.  Since the change is only effective in the US right now and I can browse from both Vietnam and the US, we can compare results and some one in eight queries should be improved.&lt;/p&gt;
+&lt;p&gt;So I tested &quot;dog shampoo&quot; out of the blue.  I have never had a dog because I think they smell.&lt;/p&gt;
+&lt;p&gt;In Vietnam, high ranking results included drnaturalvet.com which had a low quality page of filler about dog shampoo and dogshampoo.info which is clearly a made-for-adsense site.  In the US, the drnaturalvet link is much lower, but dogshampoo.info maintains the same high position.  A link to content farm ehow.com is also lower now. And a link to dogshampoo.co.uk, a made-for-adsense site with nothing about dog shampoo at the time of indexing (see cache) is now gone too.&lt;/p&gt;
+&lt;p&gt;A search for winrar came up with fairly similar results in either country, and both maintained links to spam sites like software.informer.com.&lt;/p&gt;
+&lt;p&gt;A search for &quot;tightvnc server authentication successful closed connection&quot; punished duplicate content site pinoytech.org slightly but another duplicate/copy site efreedom.com maintained its position in the top 20.  Both copy the StackExchange site SuperUser.com.&lt;/p&gt;
+&lt;p&gt;So it seems that the new algorithm change is an improvement, but I don&#039;t think it goes far enough to filter spammy results.  While it may be a slight setback for those guys, they are still in the running and will be emboldened to try to rank higher.&lt;/p&gt;
+&lt;p&gt;There may still be a need for users to crowdsource a database of filtered spam sites until further algorithm improvements.&lt;/p&gt;
+&lt;p&gt;Note: The Atlantic did a similar test from India on &quot;is botox safe&quot; and &quot;drywall dust&quot; and found their results to be much improved.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/content/improved-google-spam-filter#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/content-farm">content farm</category>
+ <category domain="http://www.saigonist.com/category/tags/google">google</category>
+ <category domain="http://www.saigonist.com/category/tags/serp">serp</category>
+ <category domain="http://www.saigonist.com/category/tags/spam">spam</category>
+ <pubDate>Sat, 26 Feb 2011 15:08:42 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">39 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Google Spam / Content Farm Filter</title>
+    <link>http://www.saigonist.com/content/google-spam-content-farm-filter</link>
+    <description>&lt;p&gt;There&#039;s been a lot of talk about the decrease in quality of Google search results over the years due to spammers / content farms with strong SEO skills.  I&#039;m glad I&#039;m not the one who&#039;s been annoyed by this.&lt;/p&gt;
+&lt;p&gt;Google should know which sites are spam, content farms, or duplicated content.  That they aren&#039;t properly filtering or demoting them could be due to a conflict of interest - they make money from the ads on those crap sites.&lt;/p&gt;
+&lt;p&gt;But we, as individuals, can easily distinguish the spam results from the quality ones and we do so everyday.  If only there were a way to stop duplicating this effort.&lt;/p&gt;
+&lt;p&gt;If Google won&#039;t do this for us, then we can do this ourselves.&lt;/p&gt;
+&lt;p&gt;Here&#039;s what I want:&lt;br /&gt;
+1. When I&#039;ve been tricked into opening an ad-filled page without meaningful content, I want to go back to Google and mark that link as &quot;spam&quot;, have that noted somewhere in the cloud so I can access it from any computer, and have future search queries filter out that link.&lt;/p&gt;
+&lt;p&gt;2. I probably don&#039;t want to see any pages from that domain show up on any other queries.&lt;/p&gt;
+&lt;p&gt;3. I probably don&#039;t want to see any pages that my friends have also marked as spam.&lt;/p&gt;
+&lt;p&gt;4. I probably don&#039;t want to see any pages that friends of my friends have also marked as spam.&lt;/p&gt;
+&lt;p&gt;5. I may even want to befriend / &quot;follow&quot; strangers just because they&#039;re good at marking spam.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/content/google-spam-content-farm-filter#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/chrome">chrome</category>
+ <category domain="http://www.saigonist.com/category/tags/content-farm">content farm</category>
+ <category domain="http://www.saigonist.com/category/tags/google">google</category>
+ <category domain="http://www.saigonist.com/category/tags/spam">spam</category>
+ <pubDate>Fri, 21 Jan 2011 08:06:22 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">30 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

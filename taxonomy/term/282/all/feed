@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/282/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>hacking</title>
+    <link>http://www.saigonist.com/taxonomy/term/282/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Phone Phreaking in 2012 - Cell Phones and PBXes</title>
+    <link>http://www.saigonist.com/b/phone-phreaking-2012-cell-phones-and-pbxes</link>
+    <description>&lt;p&gt;Gone are the days of whistling a &lt;strong&gt;2600 Hz&lt;/strong&gt; tone into your rotary phone. Or the era of using redboxes to get free calls from payphones - where can you find a payphone anymore nowadays? So where have all the phreakers gone? Who even remembers what phone phreaking means, and what the significance of &lt;strong&gt;Cap&#039;n Crunch cereal&lt;/strong&gt; is?&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;float: right&quot;&gt;&lt;img src=&quot;http://www.saigonist.com/sites/saigonist.com/files/dienthoaicongcong.jpeg&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Vietnam, like many developing countries, is a country where wireless infrastructure, cellular networks and wifi, &lt;strong&gt;leapfrogged&lt;/strong&gt; traditional wired networks: telephone, cable TV. Payphones (or &quot;&lt;strong&gt;cardphones&lt;/strong&gt;&quot; which used prepaid cards since coins were inconsistently minted and still not always accepted as legal tender in Vietnam), which became increasingly common in the late 90s, are nearly extinct in Vietnam now due to mobile phones. &lt;/p&gt;
+&lt;p&gt;Throughout the world, phone systems have been converted from analog to digital.  From a phreaking standpoint, it&#039;s easier for the phone companies to secure their systems as they don&#039;t need to use in-band methods (using the channel for system operators as what&#039;s used by customers) of managing their systems. Even the cellular networks are all digital and encrypted now so you can no longer just snoop in on your neighbor&#039;s conversations using a special phone (or clone another user&#039;s ESN on the old AMPS networks). Unfortunately, this means there is no tone or sound that you can play into your mobile handset in order to get free calls or anything else.&lt;/p&gt;
+&lt;p&gt;Nowadays, &lt;strong&gt;&lt;a href=&quot;http://www.saigonist.com/b/calling-us-free-foreign-countries&quot;&gt;free long distance calling&lt;/a&gt;&lt;/strong&gt; - for decades the big prize for phreakers - is ubiquitous. PBXs are freely downloadable software that anyone can run. And we don&#039;t even need physical phones to make phone calls anymore - we have software phones using Voice over IP (VoIP) which can call the plain old telephone system or simply call other softphones on the Internet.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;So what does modern phone phreaking mean?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;: VoIP hacking, virtual PBX hacking, voicemail hacking (not really phreaking, just unauthorized access of systems), femtocell hacking for the truly adventurous, and GSM decryption for the cryptos with a lot of computing resources.&lt;/p&gt;
+&lt;h2&gt;Caller ID spoofing&lt;/h2&gt;
+&lt;p&gt;Caller ID is a feature that&#039;s in all cell phones, and many land lines also have this ability to see the phone number of the person that&#039;s calling you. This is how you know to answer your mother&#039;s phone call and ignore your girlfriend&#039;s, or the other way around. But did you know you could control what number is seen by the called party? &lt;/p&gt;
+&lt;p&gt;How? Example: One way is to have a real phone company set your forwarding number, which is a fake origin, and then it will be used as your caller ID value when you call out from your (VoIP) phone. Another way is to route calls through your own PBX (Asterisk).&lt;/p&gt;
+&lt;h2&gt;PBX hacking&lt;/h2&gt;
+&lt;p&gt;Back in the day when PBXs were only affordable to large corporations and getting access to one meant you had great resources available to you like calling out to long distance numbers for free. But now there are cheap and even free open source virtual PBX solutions that run on normal PCs running Linux like Asterisk. And of course these can be hacked. If you&#039;re running Asterisk you run the risk of remote hackers DoSing your server or hacking the Linux server that&#039;s running Asterisk. Once they&#039;re on there they can also have their way with the PBX.&lt;/p&gt;
+&lt;h2&gt;Femtocell hacking&lt;/h2&gt;
+&lt;p&gt;Femtocells are stations that are set up to provide buildings or rural areas which have weak signals with access to cellular networks via internet connections. Subscribers can buy femtocells from their phone companies and set them up themselves - and can even take their femtocell with them to a foreign country (yes!) and have access to their home country&#039;s phone network without incurring roaming charges. These femtocells, whose manufacturer varies by telco, may be running Linux and may be hackable (rootable) and if so can be used to eavesdrop on calls and SMSs as well as spoof and use credits from subscribers&#039; accounts without authorization. It&#039;s like taking over a cell tower. But not all telcos even offer these for sale and it&#039;s not enough for you to just get one from a manufacturer.&lt;/p&gt;
+&lt;h2&gt;GSM encryption cracking&lt;/h2&gt;
+&lt;p&gt;In the old days of cell phones you could easily listen in on calls made around you. But since GSM the call traffic is encrypted from the phone to the cell tower. However, it can be possible to crack weak A5/1 GSM encryption using something called COPACOBANA. Or you could probably use Amazon EC2 to affordably and instantly bring up the enormous CPU resources combined with some rainbow tables needed to crack the cipher. Don&#039;t assume that your mobile phone calls are secure.&lt;/p&gt;
+&lt;h2&gt;Voicemail hacking&lt;/h2&gt;
+&lt;p&gt;Voicemail (VMB) hacking isn&#039;t that new. And not all phone providers even offer voicemail services on their lines. But for those who do it&#039;s often easy to get into another subscriber&#039;s mailbox. Spoof your caller ID to look like theirs and often you won&#039;t be asked for any passcode to enter your voicemail. Other ways are to guess or social engineer the PIN code which you can then use to access the mailbox. Old voicemail systems used to have default codes which you could use to have fun like creating your own VMBs.&lt;/p&gt;
+&lt;p&gt;See: &lt;a href=&quot;http://en.wikipedia.org/wiki/News_International_phone_hacking_scandal&quot; title=&quot;http://en.wikipedia.org/wiki/News_International_phone_hacking_scandal&quot;&gt;http://en.wikipedia.org/wiki/News_International_phone_hacking_scandal&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Another kind of hacking: mobile phone rooting and modification&lt;/h2&gt;
+&lt;p&gt;Generally, when I use the word &quot;hacking&quot; above it refers to unauthorized access of systems. But sometimes the system you want to &quot;hack&quot; is your own property. Mobile phones today are powerful computers running advanced software based on open source code. But it doesn&#039;t mean that the manufacturers want to give you free reign or access to what&#039;s inside. Fortunately, hacker communities exist to find holes in our phones which enable them to be &quot;rooted&quot; after which we can control the software running on them and by controlling the software we can control our hardware.&lt;/p&gt;
+&lt;p&gt;As always, especially in Vietnam, protect your accounts and privacy when online with an &lt;a href=&quot;http://goo.gl/365uC&quot;&gt;encrypted connection to a VPN&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&quot;field field-type-filefield field-field-blogattachments&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Attachments:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file clear-block&quot;&gt;&lt;div class=&quot;filefield-icon field-icon-image-jpeg&quot;&gt;&lt;img class=&quot;field-icon-image-jpeg&quot;  alt=&quot;image/jpeg icon&quot; src=&quot;http://www.saigonist.com/sites/all/modules/3rdparty/filefield/icons/protocons/16x16/mimetypes/image-x-generic.png&quot; /&gt;&lt;/div&gt;&lt;a href=&quot;http://www.saigonist.com/sites/saigonist.com/files/dienthoaicongcong.jpeg&quot; type=&quot;image/jpeg; length=11410&quot;&gt;dienthoaicongcong.jpeg&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+     <comments>http://www.saigonist.com/b/phone-phreaking-2012-cell-phones-and-pbxes#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/android">android</category>
+ <category domain="http://www.saigonist.com/category/tags/encryption">encryption</category>
+ <category domain="http://www.saigonist.com/category/tags/gsm">gsm</category>
+ <category domain="http://www.saigonist.com/category/tags/hacking">hacking</category>
+ <category domain="http://www.saigonist.com/category/tags/password">password</category>
+ <category domain="http://www.saigonist.com/category/tags/pbx">pbx</category>
+ <category domain="http://www.saigonist.com/category/tags/phone">phone</category>
+ <category domain="http://www.saigonist.com/category/tags/phreak">phreak</category>
+ <category domain="http://www.saigonist.com/category/tags/skype">skype</category>
+ <category domain="http://www.saigonist.com/category/tags/voicemail">voicemail</category>
+ <category domain="http://www.saigonist.com/category/tags/voip">voip</category>
+ <pubDate>Mon, 15 Oct 2012 23:44:55 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">493 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Wifi Security at Home and at Cafes</title>
+    <link>http://www.saigonist.com/b/wifi-security-home-and-cafes</link>
+    <description>&lt;p&gt;Vietnam is blessed with free wifi at nearly any cafe even if it doesn&#039;t always work as advertised, like most things in Vietnam. Vietnam is also blessed with cafes on nearly every block. So finding a wireless access point to get online is pretty easy for anyone traveling or living in Vietnam.&lt;/p&gt;
+&lt;h2&gt;Hackers can see what websites you&#039;re visiting and then log into those websites as you&lt;/h2&gt;
+&lt;p&gt;The problem is security. Many times cafe owners will leave their wifi access points completely open without needing a password to get on. This makes it basically trivial for a hacker to sniff the airwaves and see everything on the network. If you are on such a network you should secure your connection with an SSH tunnel or a VPN. &lt;/p&gt;
+&lt;p&gt;If they do have a password, they may be using older security schemes like WEP or WPA, rather than WPA2. Without WPA2 or more secure systems that require the network owner setting up an authentication server (too much to ask for any cafe owner) it is also possible to break the encryption. &lt;/p&gt;
+&lt;h2&gt;Security setting: WPA2&lt;/h2&gt;
+&lt;p&gt;For now, insist on at least WPA2. If you&#039;re setting up wifi at your house and you don&#039;t want people to sniff your traffic, use WPA2 with a long random password and be sure to change the SSID from the default network name provided by the manufacturer. (The reason that using a default SSID is less secure is that rainbow tables exist for these, making password cracking potentially easy.)&lt;/p&gt;
+&lt;p&gt;Using WPA2 means that it&#039;s harder for crackers to guess your network&#039;s password and then either use your network connection or sniff your traffic. But if you give out your password, anyone with the password can do the same. With WPA2 it&#039;s harder for other people to sniff your traffic, but there are ways (ARP poisoning) around it. You should thus still create an encrypted connection (for normal people I would recommend using a VPN) to an outside server and tunnel your traffic over that connection.&lt;/p&gt;
+&lt;p&gt;Besides sniffing your traffic, a hacker who steals your cookies can then login to websites which you&#039;re currently logged in by pretending to be your computer. So they could post on Facebook as you, send emails as you from Gmail, or worse. &lt;/p&gt;
+&lt;h2&gt;MAC Address Filtering&lt;/h2&gt;
+&lt;p&gt;What else can you do on your home wifi network? Since you usually know what computers you want to allow to access the wifi router, you can set it so only known computers are allowed on the network by using MAC address filtering. The MAC address the hardware address built into your wireless card or in the wireless hardware of a laptop and it&#039;s very difficult to lie about what your MAC address is so this will help keep the riff raff out.&lt;/p&gt;
+&lt;p&gt;Advanced users can install DD-WRT or OpenWRT firmwares onto their wireless access point, thus enabling tons of extra features and the ability for finer grained security controls.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/wifi-security-home-and-cafes#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/cafe">cafe</category>
+ <category domain="http://www.saigonist.com/category/tags/encryption">encryption</category>
+ <category domain="http://www.saigonist.com/category/tags/hacking">hacking</category>
+ <category domain="http://www.saigonist.com/category/tags/security">security</category>
+ <category domain="http://www.saigonist.com/category/tags/sniffing">sniffing</category>
+ <category domain="http://www.saigonist.com/category/tags/wifi">wifi</category>
+ <pubDate>Mon, 08 Oct 2012 15:39:40 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">530 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

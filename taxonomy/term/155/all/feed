@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/155/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>vietnamese</title>
+    <link>http://www.saigonist.com/taxonomy/term/155/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Writing Vietnamese - Automatically write accent marks </title>
+    <link>http://www.saigonist.com/vietnam/writing-vietnamese-automatically-write-accent-marks</link>
+    <description>&lt;p&gt;Writing Vietnamese is a pain. You have several different input systems to choose from (VNI, Telex, VIQR, etc.) and they all require some effort to memorize and get used to. But as it turns out most Vietnamese text can be understood without those accent (diacritic) marks at all. Vietnamese people are accustomed to texting (sms) each other using Vietnamese words written without marks - because their phones often don&#039;t support Vietnamese characters. But it&#039;s better to have the marks and emails and posts on forums often do. GMail even supports a Vietnamese software keyboard built into the interface now.&lt;/p&gt;
+&lt;p&gt;But if Vietnamese people can understand Vietnamese without diacritics, can computers? Turns out there is software that can take unaccented Vietnamese text and ADD the diacritics!&lt;/p&gt;
+&lt;p&gt;Let&#039;s take some text:&lt;/p&gt;
+&lt;pre&gt;
+Chuyến phiêu lưu khám phá bỏ nhà ra đi đầu tiên của bạn vào năm bao nhiêu tuổi? 
+- Nghĩ lại thì thấy hồi xưa mỗi lần mà bị mẹ la là hay giận, bỏ nhà đi lắm, vì lúc nào cũng nghĩ mình đúng hết. Giận thì giận nhưng mà đi lang thang rồi lại về, hoặc về trong tình trạng được tìm thấy và lại tiếp tục bị mắng :D
+&lt;/pre&gt;&lt;p&gt;
+Then we strip the accents and put it into a few websites to see the results.&lt;/p&gt;
+&lt;h2&gt;http://vietnameseaccent.com/&lt;/h2&gt;
+&lt;p&gt;Chuyến phiêu lưu khám phá bỏ nhà ra đi đầu tiên của bạn vào năm bao nhiêu tuổi?&lt;br /&gt;
+- Nghĩ lại thì thấy hồi xưa mỗi lần mà bị mẹ là lạ hay gián, bỏ nhà đi làm, vì lúc nào cũng nghĩ mình dùng hết. Gian thi giản nhưng mà đi lang thang rồi lại về, hoặc vê tròn&lt;/p&gt;
+&lt;h2&gt;http://vietlabs.com/vietizer.html&lt;/h2&gt;
+&lt;p&gt;chuyến phiêu lưu khám phá bỏ nhà ra đi đầu tiên của bạn vào năm bao nhiêu tuổi?&lt;br /&gt;
+- nghĩ lại thì thấy hồi xưa mỗi lần mà bị mẹ là là hay gian, bộ nhà đi làm, vì lúc nào cũng nghĩ mình đứng hết.&lt;br /&gt;
+gian thì giản nhưng mà đi lang thang rồi lại về, hoặc về trọn&lt;/p&gt;
+&lt;h2&gt;http://www.easyvn.com/tiengviet/index.php&lt;/h2&gt;
+&lt;p&gt;Chuyến phiêu lưu khám phá bỏ nhà ra đi đầu tiên của bạn vào năm bao nhiêu tuổi?&lt;br /&gt;
+- Nghĩ lại thì thấy hồi xưa mỗi lần mà bị mẹ là là hay giận, bỏ nhà đi lắm, vì lúc nào cũng nghĩ mình đúng het. Gian thì giận nhưng mà đi lang thang rồi lại về, hoặc về tron&lt;/p&gt;
+&lt;p&gt;The results are nearly the same except for the last word: &#039;tron&#039;. This is because the real word is &quot;trong&quot; but it got cut off in the de-accenting process! So each different software took a different guess as to what the word was, but it was the wrong word to begin with. &lt;/p&gt;
+&lt;p&gt;All in all, they do a pretty good job and probably better than even some native Vietnamese speakers due to the fact that some tones are mixed up!&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/vietnam/writing-vietnamese-automatically-write-accent-marks#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/computational-linguistics">computational linguistics</category>
+ <category domain="http://www.saigonist.com/category/tags/diacritics">diacritics</category>
+ <category domain="http://www.saigonist.com/category/tags/language">language</category>
+ <category domain="http://www.saigonist.com/category/tags/vietnamese">vietnamese</category>
+ <category domain="http://www.saigonist.com/category/tags/vni">vni</category>
+ <pubDate>Wed, 16 May 2012 10:13:27 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">340 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Correct Horse Battery Staple: Better passwords with Vietnamese</title>
+    <link>http://www.saigonist.com/b/correct-horse-battery-staple-better-passwords-vietnamese</link>
+    <description>&lt;p&gt;Inspired by &lt;a href=&quot;http://xkcd.com/936/&quot;&gt;XKCD&lt;/a&gt;, this is a password generator for those of you who know English and Vietnamese or another language.  Once a random set of words in your languages has been generated, images for those words will be shown to help you visually remember your new password.  If the random password seems too hard to remember, you can always spin the wheel a second time!&lt;/p&gt;
+
+&lt;p&gt;Each time you click, 4 random words from the selected languages will be loaded.   I chose the number 4 so as to not overload Google Image search, so you may want to run it twice to get 5 or more words for added security.  I find that the images help to visually remember the password.&lt;/p&gt;
+
+&lt;p&gt;If you still want a password like &quot;!Agt:m%p&amp;gt;&quot; then it&#039;s also an option below.&lt;/p&gt;
+
+
+&lt;script src=&quot;http://www.google.com/jsapi&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt; 
+//google.load(&#039;search&#039;, &#039;1&#039;, {language : &#039;en&#039;});
+google.load(&#039;search&#039;, &#039;1&#039;);
+google.setOnLoadCallback(function() {
+    var customSearchControl = new google.search.CustomSearchControl(&#039;001734930679036747320:6mvf3jwwxfu&#039;);
+    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+}, true);
+
+
+var imageSearch;
+
+function searchComplete(foo) {
+    words = Array.prototype.slice.call(arguments);
+
+    for (var i = 1; i &lt;= imageSearch.results.length; i++) {
+        var newImg = document.createElement(&#039;img&#039;);
+        newImg.src = imageSearch.results[i-1].tbUrl;
+        var newDiv = document.createElement(&#039;div&#039;);
+        newDiv.className = &#039;foreignpass-img-wrapper&#039;;
+        newDiv.appendChild(newImg);
+        $(&#039;#foreignpass-images-&#039; + i).append(newDiv);
+    }
+
+    //$(&#039;#foreignpass-passimages&#039;).append(newDiv);
+    if (words.length &gt; 0)
+        google_images(words);
+}
+
+// words is a list of words. we are called recursively by searchComplete
+function google_images(words) {
+    var word = words.shift();
+    imageSearch = new google.search.ImageSearch();
+    imageSearch.setSearchCompleteCallback(this, searchComplete, words);
+    //imageSearch..setResultSetSize(1);
+    imageSearch.execute(word);
+}
+      
+&lt;/script&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;http://www.google.com/cse/style/look/default.css&quot; type=&quot;text/css&quot; /&gt;
+&lt;style type=&quot;text/css&quot; media=&quot;all&quot;&gt;    
+    .cb-enable, .cb-disable, .cb-enable span, .cb-disable span { background: url(/sites/saigonist.com/modules/foreignpass/images/switch.gif) repeat-x; display: block; float: left; }
+    .cb-enable span, .cb-disable span { line-height: 30px; display: block; background-repeat: no-repeat; font-weight: bold; }
+    .cb-enable span { background-position: left -90px; padding: 0 10px; }
+    .cb-disable span { background-position: right -180px;padding: 0 10px; }
+    .cb-disable.selected { background-position: 0 -30px; }
+    .cb-disable.selected span { background-position: right -210px; color: #fff; }
+    .cb-enable.selected { background-position: 0 -60px; }
+    .cb-enable.selected span { background-position: left -150px; color: #fff; }
+    .switch label { cursor: pointer; }
+    .switch input { display: none; }
+
+
+.foreignpass-languages { height: 150px; text-align: center; }
+.foreignpass-language { float: left; width: 90px; }
+.foreignpass-language h3 { margin: -10px 0 0; }
+.foreignpass-language p { margin: 0 0 0 9px; }    
+.field switch { height: 27px; }
+.foreignpass-img-wrapper {
+    margin: 5px; 
+    display: inline-block; 
+    box-shadow: 2px 2px 6px black; 
+}
+.foreignpass-img-wrapper img {
+    border: 5px solid #EEE;
+    border-bottom: none;
+}
+
+#foreignpass-pass {
+    font-size: 2em;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 1px #CCC;
+}    
+#foreignpass-string9 {
+    font-size: 2em;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 1px #CCC;
+}    
+
+
+#foreignpass-images-1 {}
+#foreignpass-images-2 { display: none; }
+#foreignpass-images-3 { display: none; }
+#foreignpass-images-4 { display: none; }
+
+&lt;/style&gt;
+&lt;div id=&quot;foreignpass-content&quot;&gt;
+    &lt;div class=&quot;block&quot;&gt;
+      &lt;form id=&quot;foreignpass-form&quot;&gt;
+        &lt;h2&gt;Choose Languages&lt;/h2&gt;
+
+        &lt;div class=&quot;foreignpass-languages&quot;&gt;
+                &lt;div class=&quot;foreignpass-language&quot;&gt;
+      &lt;img src=&quot;/sites/saigonist.com/modules/foreignpass/images/en.png&quot;&gt;
+      &lt;h3&gt;English&lt;/h3&gt;
+      &lt;p class=&quot;field switch&quot;&gt;
+        &lt;label class=&quot;cb-enable selected&quot;&gt;&lt;span&gt;On&lt;/span&gt;&lt;/label&gt;
+        &lt;label class=&quot;cb-disable &quot;&gt;&lt;span&gt;Off&lt;/span&gt;&lt;/label&gt;
+        &lt;input type=&quot;checkbox&quot; id=&quot;checkbox_en&quot; class=&quot;checkbox&quot; name=&quot;en&quot; checked /&gt;
+      &lt;/p&gt;
+    &lt;/div&gt;    &lt;div class=&quot;foreignpass-language&quot;&gt;
+      &lt;img src=&quot;/sites/saigonist.com/modules/foreignpass/images/vn.png&quot;&gt;
+      &lt;h3&gt;Vietnamese&lt;/h3&gt;
+      &lt;p class=&quot;field switch&quot;&gt;
+        &lt;label class=&quot;cb-enable &quot;&gt;&lt;span&gt;On&lt;/span&gt;&lt;/label&gt;
+        &lt;label class=&quot;cb-disable selected&quot;&gt;&lt;span&gt;Off&lt;/span&gt;&lt;/label&gt;
+        &lt;input type=&quot;checkbox&quot; id=&quot;checkbox_vn&quot; class=&quot;checkbox&quot; name=&quot;vn&quot;  /&gt;
+      &lt;/p&gt;
+    &lt;/div&gt;    &lt;div class=&quot;foreignpass-language&quot;&gt;
+      &lt;img src=&quot;/sites/saigonist.com/modules/foreignpass/images/jp.png&quot;&gt;
+      &lt;h3&gt;Japanese&lt;/h3&gt;
+      &lt;p class=&quot;field switch&quot;&gt;
+        &lt;label class=&quot;cb-enable &quot;&gt;&lt;span&gt;On&lt;/span&gt;&lt;/label&gt;
+        &lt;label class=&quot;cb-disable selected&quot;&gt;&lt;span&gt;Off&lt;/span&gt;&lt;/label&gt;
+        &lt;input type=&quot;checkbox&quot; id=&quot;checkbox_jp&quot; class=&quot;checkbox&quot; name=&quot;jp&quot;  /&gt;
+      &lt;/p&gt;
+    &lt;/div&gt;    &lt;div class=&quot;foreignpass-language&quot;&gt;
+      &lt;img src=&quot;/sites/saigonist.com/modules/foreignpass/images/de.png&quot;&gt;
+      &lt;h3&gt;German&lt;/h3&gt;
+      &lt;p class=&quot;field switch&quot;&gt;
+        &lt;label class=&quot;cb-enable &quot;&gt;&lt;span&gt;On&lt;/span&gt;&lt;/label&gt;
+        &lt;label class=&quot;cb-disable selected&quot;&gt;&lt;span&gt;Off&lt;/span&gt;&lt;/label&gt;
+        &lt;input type=&quot;checkbox&quot; id=&quot;checkbox_de&quot; class=&quot;checkbox&quot; name=&quot;de&quot;  /&gt;
+      &lt;/p&gt;
+    &lt;/div&gt;    &lt;div class=&quot;foreignpass-language&quot;&gt;
+      &lt;img src=&quot;/sites/saigonist.com/modules/foreignpass/images/fr.png&quot;&gt;
+      &lt;h3&gt;French&lt;/h3&gt;
+      &lt;p class=&quot;field switch&quot;&gt;
+        &lt;label class=&quot;cb-enable &quot;&gt;&lt;span&gt;On&lt;/span&gt;&lt;/label&gt;
+        &lt;label class=&quot;cb-disable selected&quot;&gt;&lt;span&gt;Off&lt;/span&gt;&lt;/label&gt;
+        &lt;input type=&quot;checkbox&quot; id=&quot;checkbox_fr&quot; class=&quot;checkbox&quot; name=&quot;fr&quot;  /&gt;
+      &lt;/p&gt;
+    &lt;/div&gt;    
+        &lt;/div&gt;
+
+        &lt;input class=&quot;form-button&quot; type=&quot;submit&quot; value=&quot;Generate a password&quot;&gt;
+      &lt;/form&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;block&quot;&gt;
+        &lt;h2&gt;Your Random Password&lt;/h2&gt;
+
+        &lt;div&gt;
+            &lt;span id=&quot;foreignpass-pass&quot;&gt;Click that button up there!&lt;!-- elephant ác mộng 川崎 pants sadness--&gt;&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div id=&quot;foreignpass-passimages&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;block&quot;&gt;
+      &lt;form id=&quot;foreignpass-random9&quot;&gt;
+        &lt;h2&gt;Or use this harder to remember but shorter string of 9 characters&lt;/h2&gt;
+        &lt;div&gt;
+            &lt;span id=&quot;foreignpass-string9&quot;&gt;&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+             &lt;input class=&quot;form-button&quot; type=&quot;submit&quot; value=&quot;Generate a hard to remember password&quot;&gt;
+        &lt;/div&gt;
+      &lt;/form&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The other day there was an &lt;a href=&quot;http://xkcd.com/936/&quot;&gt;XKCD&lt;/a&gt; strip about password security.  The idea is that we&#039;ve been trained over the years to use passwords like &#039;Tr0ub4dor&amp;3&#039; because they mix upper and lower case, use numbers, and special characters.  But a password like that is based on a common English word using a common substitution pattern (l33tsp34k) of letters for numbers and is much easier for a hacker to guess than four random words like &#039;correct horse battery staple&#039;, which is longer but much easier to remember.&lt;/p&gt;
+
+&lt;p&gt;A good password should be random.  Humans aren&#039;t random and &#039;Tr0ub4dor&#039; looks random enough but it isn&#039;t.  Even translating the word into a foreign language is by itself weak.  Generally, if you come up with the password yourself then it&#039;s not anything close to random.  &lt;/p&gt;
+
+&lt;p&gt;Plenty of software exists to come up with passwords made up of random characters.  The problem is that these passwords weren&#039;t meant to be memorized.  Writing your password down somewhere sort of defeats the purpose.&lt;/p&gt;
+
+&lt;p&gt;So four random English words makes a pretty good password, but is still hard to remember if they are obscure and unfamiliar words.  Out of the over one hundred thousand words in an English dictionary a few thousand are commonly used.&lt;/p&gt;
+
+&lt;p&gt;So a few thousand English words are generally useful.  But those of us who are bilingual can basically double the size of the vocabulary used!  This foreign language random password generator seeks to take advantage of that numerical weapon, and with a large number of possible languages (and even more language combinations), even if a hacker got an encrypted password file it would be as hard to crack as a random 9-character totally impossible to remember string.&lt;/p&gt;
+
+&lt;p&gt;You can increase the security of your password further by using a &quot;salt&quot; random string (non-dictionary word) that you remember and always use with your passwords, and by adding punctuation in one of the words.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: There is now a Chrome extension that makes creating passwords on the fly really fast and easy!  &lt;a href=&quot;https://chrome.google.com/webstore/detail/mppopcldmfbiecahpbhccgicchbjdcli&quot;&gt;Check out the Correct Horse Battery Staple Google Chrome Extension&lt;/a&gt;&lt;/p&gt;</description>
+     <comments>http://www.saigonist.com/b/correct-horse-battery-staple-better-passwords-vietnamese#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/password">password</category>
+ <category domain="http://www.saigonist.com/category/tags/security">security</category>
+ <category domain="http://www.saigonist.com/category/tags/vietnamese">vietnamese</category>
+ <pubDate>Sun, 14 Aug 2011 18:13:21 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">242 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

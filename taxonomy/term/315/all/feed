@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/315/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>database</title>
+    <link>http://www.saigonist.com/taxonomy/term/315/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Increase Drupal Maximum URL Alias Length</title>
+    <link>http://www.saigonist.com/tech/drupal/increase-drupal-maximum-url-alias-length</link>
+    <description>&lt;p&gt;Drupal URLs can be pretty long. But practically, there&#039;s a limit in the database of 128 characters, even though browsers and web servers can support much longer URLs. With new versions of Path Auto, the schema is checked for alias column size. Then aliases longer than 128 characters are supported. This requires no hacking!&lt;/p&gt;
+&lt;p&gt;To change this, without just manually altering the length of the column in your database, you can use the following code in your own module:&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;php geshifilter-php&quot; style=&quot;font-family:monospace;&quot;&gt;&lt;span style=&quot;color: #009933; font-style: italic;&quot;&gt;/**
+* Implementation of hook_schema_alter().
+*/&lt;/span&gt;
+&lt;span style=&quot;color: #000000; font-weight: bold;&quot;&gt;function&lt;/span&gt; yourmodulename_schema_alter&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: #000088;&quot;&gt;$schema&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#123;&lt;/span&gt;
+  &lt;span style=&quot;color: #000088;&quot;&gt;$schema&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;&lt;span style=&quot;color: #0000ff;&quot;&gt;&#039;url_alias&#039;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;&lt;span style=&quot;color: #0000ff;&quot;&gt;&#039;fields&#039;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;&lt;span style=&quot;color: #0000ff;&quot;&gt;&#039;dst&#039;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;&lt;span style=&quot;color: #0000ff;&quot;&gt;&#039;length&#039;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt; &lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #cc66cc;&quot;&gt;255&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Long URLs aren&#039;t very human friendly but even the oldest browsers can support URLs more than 2048 characters in length. Browsers support long paths, web servers support them, proxies support them, and mail clients either support them or break around 80 characters anyways. This doesn&#039;t mean you should carelessly throw around long URLs, but if you&#039;re generating them automatically then you don&#039;t need to cut them at an artificially low limit anymore.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/increase-drupal-maximum-url-alias-length#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/clean-url">clean url</category>
+ <category domain="http://www.saigonist.com/category/tags/database">database</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/module">module</category>
+ <category domain="http://www.saigonist.com/category/tags/path-redirect">path redirect</category>
+ <category domain="http://www.saigonist.com/category/tags/pathauto">pathauto</category>
+ <category domain="http://www.saigonist.com/category/tags/seo">seo</category>
+ <pubDate>Tue, 09 Oct 2012 17:47:58 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">532 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

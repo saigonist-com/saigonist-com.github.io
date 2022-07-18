@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/80/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>spreadsheet</title>
+    <link>http://www.saigonist.com/taxonomy/term/80/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Drupal module idea: embed Google spreadsheet CCK field</title>
+    <link>http://www.saigonist.com/b/drupal-module-idea-embed-google-spreadsheet-cck-field</link>
+    <description>&lt;p&gt;How can we store tables or spreadsheets in Drupal content nodes?&lt;/p&gt;
+&lt;p&gt;Drupal is a Content Management System as well as a &lt;strong&gt;Content Management Framework&lt;/strong&gt;. It&#039;s meant for facilitating the creation and editing of content, where content doesn&#039;t just mean simple text. CCK allows Drupal site managers to easily enable complex data types for their content. But sometimes it&#039;s not so easy to manage lots of simple data in the way that a spreadsheet (meaning Excel or Google Spreadsheet) easily manages many rows and columns of related data.&lt;/p&gt;
+&lt;p&gt;Sometimes you really want &lt;strong&gt;tabular data&lt;/strong&gt; and you may not know for sure how many rows or columns you&#039;ll want beforehand, which is never a problem for Excel or Google Spreadsheet (which is also why sometimes people abuse Excel as a general purpose database). Maybe you are importing spreadsheets or are using spreadsheets with many rows and columns, and only want to use a section of the spreadsheet. Maybe you need to use spreadsheets because you are using formulas and want to do some graphing based on some numbers too. In fact, Excel can do much more. Rather than hoping all of those use cases will make it into a Drupal module anytime soon, wouldn&#039;t it be nice if you could just &lt;strong&gt;embed a spreadsheet in a node&lt;/strong&gt;?&lt;/p&gt;
+&lt;p&gt;There are some &lt;a href=&quot;http://www.saigonist.com/b/attaching-tablematrixarray-drupal-node&quot;&gt;modules for attaching tables or tabular data to nodes&lt;/a&gt;  but in the end the interface can be a bit unwieldy.  I discussed building something like a spreadsheet to quickly edit many values and below I present a &lt;strong&gt;demonstration&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;What is already available that we could use to attach spreadsheets or something similar to nodes?&lt;/p&gt;
+&lt;p&gt;1. You could: Configure a Google spreadsheet that&#039;s either public or somehow accessed via a Google api, perhaps using OAuth2 or just assuming the viewer also has edit access to the spreadsheet. Google already lets you embed spreadsheets including the editable spreadsheet but they don&#039;t let you limit the view of the spreadsheet (limiting the view still lets everyone access the whole spreadsheet by changing the URL). &lt;/p&gt;
+&lt;p&gt;We would also need new nodes to automatically create sheets in the spreadsheet or new spreadsheets altogether and embed them in node edit. This would need to use their APIs since the embeddable Google Spreadsheets require an existing spreadsheet, otherwise this step needs to be done manually for each node - a new Google spreadsheet created per node.&lt;/p&gt;
+&lt;p&gt;This &lt;a href=&quot;https://github.com/evolvingweb/redmine_google_docs&quot;&gt;Redmine Google Docs plugin&lt;/a&gt; takes a similar approach and shows how the resulting data could be embedded.&lt;/p&gt;
+&lt;p&gt;(This &lt;a href=&quot;http://www.mediawikiwidgets.org/Google_Spreadsheet&quot;MediaWiki Google Spreadsheet widget&lt;/a&gt; might be worth investigating as well.)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2. Another approach would be to take an existing JavaScript or Java spreadsheet that could be embedded. This could be exactly what you want if you need the full functionality of Excel in each node. One such online spreadsheet is &lt;a href=&quot;http://code.google.com/p/zkspreadsheet/&quot;&gt;ZK Spreadsheet&lt;/a&gt; which is written in Java, and would let you have full formula and charting support.&lt;/p&gt;
+&lt;p&gt;3. Embed a widget like the form below as a CCK field in a node. It would be a new CCK field type where the editing widget is the below spreadsheet-like table and the display widget might be the same thing, an uneditable table, or the raw JSON string representation. In the database, the actual value of the field would be JSON (unless you wanted to use PHP&#039;s serialize() which would require POSTing values first instead of just posting the json value). This means you wouldn&#039;t relate or compare this field to anything else, as with any serialized data in a database. You could come up with some other schema involving columns and rows to store the table&#039;s values for each field in a node but I&#039;m not sure it&#039;s worthwhile.&lt;/p&gt;
+&lt;p&gt;I created this demonstration but haven&#039;t turned it into a Drupal module. There is code to dump the edited values into a single JSON value to be stored in the database but the storage would be module-specific. &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.saigonist.com/sites/saigonist/files/spread.js&quot;&gt;Get the JavaScript&lt;/a&gt; - then combine it with &lt;a href=&quot;http://www.saigonist.com/sites/saigonist/files/spread.html&quot;&gt;html and CSS&lt;/a&gt;, which you also see below.&lt;/p&gt;
+&lt;!-- copy from here --&gt;&lt;!-- copy from here --&gt;&lt;style&gt;
+#saigonist-spread {
+width: 800px;
+background-color: white;
+border: 1px solid;
+z-index: 1000;
+position: relative;
+}
+
+#saigonist-spread input {
+border: 1px solid #ccc;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+
+.saigonist-spread-row-head &gt; div,
+.saigonist-spread-row &gt; div {
+float: left;
+width: 122px;
+}
+
+#saigonist-spread .saigonist-spread-col-0 {
+width: 20px;
+}
+
+.saigonist-spread-row {
+clear: both;
+}
+
+.saigonist-spread-plus {
+cursor: pointer;
+}
+
+&lt;/style&gt;&lt;script src=&quot;http://www.saigonist.com/sites/saigonist/files/spread.js&quot;&gt;
+&lt;/script&gt;&lt;div id=&quot;saigonist-spread&quot;&gt;
+&lt;div class=&quot;saigonist-spread-row-head&quot;&gt;
+&lt;div class=&quot;saigonist-spread-col-0&quot;&gt;&lt;span id=&quot;saigonist-spread-cell-0-0&quot;&gt;.&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-1&quot;&gt;&lt;span&gt;A&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-2&quot;&gt;&lt;span&gt;B&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-3&quot;&gt;&lt;span&gt;C&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-max saigonist-spread-plus&quot;&gt;&lt;span onclick=&quot;saigonist_spread_add_col()&quot;&gt;+&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-rows&quot;&gt;
+&lt;div id=&quot;saigonist-spread-row-1&quot; class=&quot;saigonist-spread-row&quot;&gt;
+&lt;div class=&quot;saigonist-spread-col-0&quot;&gt;1&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-1&quot;&gt;&lt;input type=&quot;text&quot; length=&quot;10&quot; name=&quot;saigonist-spread-cell-1-1&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-2&quot;&gt;&lt;input type=&quot;text&quot; length=&quot;10&quot; name=&quot;saigonist-spread-cell-1-2&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-3&quot;&gt;&lt;input type=&quot;text&quot; length=&quot;10&quot; name=&quot;saigonist-spread-cell-1-3&quot; /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;saigonist-spread-row-2&quot; class=&quot;saigonist-spread-row&quot;&gt;
+&lt;div class=&quot;saigonist-spread-col-0&quot;&gt;2&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-1&quot;&gt;&lt;input type=&quot;text&quot; length=&quot;10&quot; name=&quot;saigonist-spread-cell-2-1&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-2&quot;&gt;&lt;input type=&quot;text&quot; length=&quot;10&quot; name=&quot;saigonist-spread-cell-2-2&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-3&quot;&gt;&lt;input type=&quot;text&quot; length=&quot;10&quot; name=&quot;saigonist-spread-cell-2-3&quot; /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;saigonist-spread-row-3&quot; class=&quot;saigonist-spread-row&quot;&gt;
+&lt;div class=&quot;saigonist-spread-col-0&quot;&gt;3&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-1&quot;&gt;&lt;input type=&quot;text&quot; length=&quot;10&quot; name=&quot;saigonist-spread-cell-3-1&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-2&quot;&gt;&lt;input type=&quot;text&quot; length=&quot;10&quot; name=&quot;saigonist-spread-cell-3-2&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-3&quot;&gt;&lt;input type=&quot;text&quot; length=&quot;10&quot; name=&quot;saigonist-spread-cell-3-3&quot; /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-row&quot;&gt;
+&lt;div class=&quot;saigonist-spread-col-0 saigonist-spread-plus&quot;&gt;&lt;span onclick=&quot;saigonist_spread_add_row()&quot;&gt;+&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;JSON: &quot;&lt;br /&gt;
+&lt;div id=&quot;saigonist-spread-value-json&quot;&gt;&lt;/div&gt;
+&lt;p&gt;&quot;&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+</description>
+     <comments>http://www.saigonist.com/b/drupal-module-idea-embed-google-spreadsheet-cck-field#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/google">google</category>
+ <category domain="http://www.saigonist.com/category/tags/javascript">javascript</category>
+ <category domain="http://www.saigonist.com/category/tags/module">module</category>
+ <category domain="http://www.saigonist.com/category/tags/spreadsheet">spreadsheet</category>
+ <pubDate>Sun, 30 Sep 2012 15:28:46 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">228 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Import Nokia SMS and Contacts CSV Export to Google Excel Spreadsheet</title>
+    <link>http://www.saigonist.com/content/import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet</link>
+    <description>&lt;p&gt;Using Nokia&#039;s PC Suite, one can export SMS messages from one&#039;s phone (maybe only their smartphones with USB).  The format is CSV but the output is basically unreadable due to PC Suite bugs.  Only a phone number is exported per message, no contact name.  But more importantly, the CSV output is broken -- double quotes aren&#039;t properly escaped.&lt;/p&gt;
+&lt;p&gt;I think it&#039;s useful to be able to browse old messages online, say in a Google spreadsheet.  But to do that, we need to rewrite PC Suite&#039;s output a bit.&lt;/p&gt;
+&lt;p&gt;[I didn&#039;t know anything about scripting Excel (or Google&#039;s spreadsheet which is basically Excel) but I did want to look up some old messages because I couldn&#039;t remember somebody&#039;s birthday.  After importing messages from a year ago to Google docs, I could read messages between my friend and I around that day to find out exactly.]&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/content/import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/csv">csv</category>
+ <category domain="http://www.saigonist.com/category/tags/excel">excel</category>
+ <category domain="http://www.saigonist.com/category/tags/nokia">nokia</category>
+ <category domain="http://www.saigonist.com/category/tags/pc-suite">pc suite</category>
+ <category domain="http://www.saigonist.com/category/tags/smartphone">smartphone</category>
+ <category domain="http://www.saigonist.com/category/tags/spreadsheet">spreadsheet</category>
+ <pubDate>Thu, 24 Mar 2011 22:03:49 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">59 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

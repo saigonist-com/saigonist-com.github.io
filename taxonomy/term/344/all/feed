@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/344/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>lifehack</title>
+    <link>http://www.saigonist.com/taxonomy/term/344/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Calling the US for free from foreign countries</title>
+    <link>http://www.saigonist.com/b/calling-us-free-foreign-countries</link>
+    <description>&lt;p&gt;Calling US numbers from the US is pretty trivial and nearly free. But calling from another country means either:&lt;br /&gt;
+- paying for long distance from your telephone company&lt;br /&gt;
+- using a phone card to call the US&lt;br /&gt;
+- calling via Skype out (like 2 cents per minute)&lt;br /&gt;
+- call out via Google Voice - FREE!&lt;/p&gt;
+&lt;p&gt;Yes, for the time being Google Voice lets users call US phone numbers for free from their phone. However, to do that you need to be in the US or make Google think your computer is on an American network. You can easily do this by logging into Gmail while connected to a VPN (like StrongVPN) which will make Google think you&#039;re in the States (due to using your VPN&#039;s IP address) and then give you the option to dial out from within Gmail.&lt;/p&gt;
+&lt;p&gt;So Google Voice is obviously the preferable way to make calls if you don&#039;t want to give Skype (and Microsoft) money. But what if you want to receive calls too? &lt;/p&gt;
+&lt;p&gt;Of course you can pay a monthly subscription fee to Skype to get a Skype in phone number which will ring your Skype account or forward to a phone. You could also set up your own VoIP service, buy a DID (direct inward dialing) number from someone and have Asterisk set up on a Linux server somewhere.&lt;/p&gt;
+&lt;p&gt;You can also have Google Voice receive calls with a personal Google number. However, it needs to actually forward to another phone number - if you&#039;re a real American living in the US then you should have a cell phone or home phone line to forward to.&lt;/p&gt;
+&lt;p&gt;The problem is when you&#039;re an expat living in Vietnam. You can&#039;t set up Google Voice to forward to your local number. But what you can do is set up a free New York state-based DID incoming phone number (your free number there is limited to being a NY number but you will just be forwarding your Google number to it anyways so it shouldn&#039;t matter - you can choose Google Voice phone numbers from any area code) at CallCentric or somewhere else. This will also be your phone number, but you can use it only for the free unlimited incoming calls. You&#039;ll forward your Google Voice number to this DID number but then use Google Voice (you need to install a plugin to be able to call out from Gmail) to call out for free, at least until the end of the year. To answer your DID number (from CallCentric) you&#039;ll need to be running sip phone software and be online. The best thing is you can set up your smartphone (and Symbian Nokia phones) to be your sip phone so anytime your phone is online you can receive calls when people call your Google Voice number!&lt;/p&gt;
+&lt;p&gt;If you don&#039;t receive calls with your Google Voice number you can still receive voice messages which are then transcribed and emailed to you.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/calling-us-free-foreign-countries#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/google">google</category>
+ <category domain="http://www.saigonist.com/category/tags/lifehack">lifehack</category>
+ <category domain="http://www.saigonist.com/category/tags/phone">phone</category>
+ <category domain="http://www.saigonist.com/category/tags/skype">skype</category>
+ <pubDate>Sat, 13 Oct 2012 17:01:08 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">542 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

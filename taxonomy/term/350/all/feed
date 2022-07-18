@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/350/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>404</title>
+    <link>http://www.saigonist.com/taxonomy/term/350/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Drupal Links in Content</title>
+    <link>http://www.saigonist.com/tech/drupal/drupal-links-content</link>
+    <description>&lt;p&gt;Problem: In your blog posts you have a lot of links to other pages on your site, then one day you decide to change the URL pattern for all nodes on your site, or you change the pattern and slowly update paths to nodes by editing and saving them. Unfortunately, you had hard-coded paths in your content bodies and now they are all leading to 404 pages. What to do?&lt;/p&gt;
+&lt;p&gt;1) Link checker (linkchecker) module will find the broken links. This is something you may need to use.&lt;/p&gt;
+&lt;p&gt;2) Path Finder is a module that turns your node links into permalinks with node id (slug) at the front of the URL so that any future change to title which results in a different URL still leads to the same node via the node id. Example: http://www.example.com/837/latest-news/my-descriptive-seo-friendly-url&lt;/p&gt;
+&lt;p&gt;Of course, this doesn&#039;t help you once you already have a bunch of nodes and content linking to them, but it&#039;s one strategy to start with. Then if you do change the titles or patterns of your nodes, as long as the node id / slug is still at the beginning of the url, then you won&#039;t get any 404 errors, although you&#039;ll then have multiple URLs pointing to the same content. So this isn&#039;t ideal.&lt;/p&gt;
+&lt;p&gt;3) Turn on Pathologic: &quot;Pathologic is an input filter which can correct paths in links and images in your Drupal content in situations which would otherwise cause them to “break;” for example, if the URL of the site changes, or the content was moved to a different server.  Pathologic is designed to be a simple, set-it-and-forget-it utility. You don&#039;t need to enter any special “tags,” path prefixes, or other non-content noise into your content to trigger Pathologic to work; it finds paths it can manage in your content automatically.&quot;&lt;/p&gt;
+&lt;p&gt;4) If you just need to remove a base path (like http://www.domain.com:8080) from all URLs, then URL Replace Filter (url_replace_filter) will suffice.&lt;/p&gt;
+&lt;p&gt;5) If you need to do more complicated search and replace on URLs, and want to use regular expressions, then use Search and Replace Scanner (scanner).&lt;/p&gt;
+&lt;p&gt;Finally, use Global Redirect to always have a single canonical path for each piece of content.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/drupal-links-content#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/404">404</category>
+ <category domain="http://www.saigonist.com/category/tags/broken-links">broken links</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/module">module</category>
+ <category domain="http://www.saigonist.com/category/tags/search">search</category>
+ <category domain="http://www.saigonist.com/category/tags/seo">seo</category>
+ <pubDate>Wed, 10 Oct 2012 20:01:15 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">536 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

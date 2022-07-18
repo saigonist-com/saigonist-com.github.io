@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/367/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>3g</title>
+    <link>http://www.saigonist.com/taxonomy/term/367/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Using 3G Internet in Cambodia</title>
+    <link>http://www.saigonist.com/b/using-3g-internet-cambodia</link>
+    <description>&lt;p&gt;On my most recent trip to Cambodia I bought a Cambodian SIM card so that I could both make calls and use the Internet on my smartphone. At the Moc Bai/Bavet border are a number of Khmer people (who speak Vietnamese) hanging around offering to change money into Cambodian Riel from Vietnam Dong (or US dollars). They also sell sim cards for around 60k VND ($3) which gives you a few dollars worth of calls. They can also cut the SIMs into microsims for iPhones. &lt;/p&gt;
+&lt;p&gt;I got a MetFone sim but my Vietnamese Mobifone sim actually worked while in Bavet and didn&#039;t lose signal until we were a few kilometers from the border. When I eventually lost signal and switched in the new MetFone sim, however, I wasn&#039;t able to get on the internet with either GPRS or 3G. And even when I arrived in Phnom Penh I couldn&#039;t find anyone who knew how to activate 3G and MetFone&#039;s website was not accessible.&lt;/p&gt;
+&lt;p&gt;Here are the instructions for anyone who wants to activate 3G on their MetFone sim card.&lt;/p&gt;
+&lt;p&gt;1) Send &quot;3G ON&quot; or just &quot;ON&quot; as a sms to the number 133. This enables 3G for your account. But you still need to set up your phone to use their APN.&lt;/p&gt;
+&lt;p&gt;2) You can have MetFone configure your smartphone by sending a special configuration file but you need to know the name of your handset according to MetFone. You can guess it but if you guess wrong you won&#039;t receive anything or you&#039;ll receive a configuration file for the wrong phone.&lt;/p&gt;
+&lt;p&gt;Send &quot;MI &quot; to the number 111. For a Sony Ericsson P900 the handset code is P900. For an LG Optimus Black the code is P970. It is the code name your manufacturer uses for your phone.&lt;/p&gt;
+&lt;p&gt;3) If you can&#039;t figure out the right handset code or MetFone doesn&#039;t know about your phone then you can configure it manually.&lt;/p&gt;
+&lt;p&gt;Go into your connection settings and set up an APN.&lt;br /&gt;
+&lt;code&gt;&lt;br /&gt;
+           Input information APN: Metfone&lt;br /&gt;
+           Username:        Metfone&lt;br /&gt;
+           Password:        No&lt;br /&gt;
+           Input code 1111 ( if handset request) and reset again.&lt;br /&gt;
+&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;0) When you need to check your balance to see how many phone credits or how many kilobytes of data you can transfer, dial the code &quot;*097#&quot;. This will send a command to your carrier and you&#039;ll get a message back immediately.&lt;/p&gt;
+&lt;p&gt;You may also need to reset your phone after enabling 3G or setting up your APN.&lt;/p&gt;
+&lt;p&gt;Note that 3G coverage in Cambodia is very spotty compared to Vietnam (even though MetFone is from Vietnamese military company Viettel). Speed can be decent but you may lose connection even without moving. This applies to Phnom Penh. Like Vietnam, most hotels have free wifi although many cheap guesthouses don&#039;t. When looking around for hotels in Phnom Penh be sure to ask first. My tips for &lt;a href=&quot;http://www.saigonist.com/b/how-find-hotel-vietnam-and-save-money&quot;&gt;finding a hotel in Vietnam&lt;/a&gt; also applies to Cambodia.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/using-3g-internet-cambodia#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/3g">3g</category>
+ <category domain="http://www.saigonist.com/category/tags/cambodia">cambodia</category>
+ <category domain="http://www.saigonist.com/category/tags/internet">internet</category>
+ <category domain="http://www.saigonist.com/category/tags/metfone">metfone</category>
+ <category domain="http://www.saigonist.com/category/tags/mobile">mobile</category>
+ <category domain="http://www.saigonist.com/category/tags/phnom-penh">phnom penh</category>
+ <pubDate>Fri, 19 Oct 2012 04:45:59 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">550 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Internet in Vietnam - Good, Bad, Ugly</title>
+    <link>http://www.saigonist.com/vietnam/internet-vietnam-good-bad-ugly</link>
+    <description>&lt;p&gt;If you ask Vietnamese officials, you&#039;ll hear such hyperbole as &quot;the Internet service development in Vietnam is in no way inferior to developed countries in the world&quot; (Mai Liem Truc, former Deputy Minister of Post and Telematics). But when people say such things and thus denying the existence of any problems they are leaving no room for improvement.&lt;/p&gt;
+&lt;p&gt;Yes, we have high speed internet and even fiber to the home (FTTH), both at relatively low costs compared to developed countries, though also not as fast as connections from homes to ISPs in Korea or Japan. We have 3G (but not LTE or 4G) also at very cheap prices - prepaid packages from $2 a month, even cheaper for a week or a day (you have to get used to the idea of being able to buy a single use ketchup packet of shampoo, $1 worth of credit for a phone, and a day&#039;s worth of data). Satellite connections exist although general ISPs don&#039;t offer them. Vietnam even has an indigenous satellite program (but they transmit to Earth at pitiful data rates thus not being suitable for general consumers).&lt;/p&gt;
+&lt;p&gt;But all methods of accessing the Internet are limited by &lt;a href=&quot;http://www.saigonist.com/b/vietnam-internet-international-and-domestic-links&quot;&gt;Vietnam&#039;s links to the outside Internet&lt;/a&gt; where most of the content lies, since homegrown content in Vietnam is lacking compared to the English-language Internet both in quantity and quality. We have limited terrestrial links to China, and otherwise we have to rely on undersea cables from stations in Vung Tau and Da Nang to major regional undersea cables that connect Vietnam to neighboring Hong Kong or Singapore and points beyond. Some of these cables start in Europe and go through the Middle East. Others simply connect us to Japan and then the US.&lt;/p&gt;
+&lt;p&gt;When the Internet isn&#039;t super slow due to &lt;a href=&quot;http://www.saigonist.com/b/cloud-hosting-and-content-delivery-networks-vietnam&quot;&gt;undersea cable cuts&lt;/a&gt;, it could be broken locally for other reasons. Infrastructure is fragile. Wires often catch fire or get cut for other reasons (did I mention rats?). Power goes out. Having a laptop and 3G internet access is a backup plan you&#039;ll use often, but this isn&#039;t reasonable for companies of any size. Being able to say that there are fiber connections and 3G is just a show. The reality is that Vietnam&#039;s Internet is considerably inferior to developed countries qualitatively.&lt;/p&gt;
+&lt;p&gt;On Censorship. One thing I&#039;ve learned from talking to many mainland Chinese people is that they don&#039;t realize Internet censorship is a problem or that it&#039;s a bad or undesirable thing. Although not exactly the same, Vietnamese people similarly don&#039;t take a tone of offense at the idea of the government or really anyone imposing their restrictions on them. Or people take a light view of it, considering the easy of &lt;a href=&quot;http://www.saigonist.com/content/easy-access-facebook-vietnam-part-deux&quot;&gt;circumventing previous Facebook blocks&lt;/a&gt;. But this also leads to the Vietnamese Internet&#039;s lack of local content (and thus overdependence on international links). Creative people are not encouraged to produce content. Writers are jailed. Musicians and film directors have no protection for their works, sometimes even less than foreign works in Vietnam. So anyone who wants to take full advantage of the Internet right now and into the foreseeable future must learn English.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/vietnam/internet-vietnam-good-bad-ugly#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/3g">3g</category>
+ <category domain="http://www.saigonist.com/category/tags/censorship">censorship</category>
+ <category domain="http://www.saigonist.com/category/tags/fiber">fiber</category>
+ <category domain="http://www.saigonist.com/category/tags/internet">internet</category>
+ <category domain="http://www.saigonist.com/category/tags/isp">isp</category>
+ <category domain="http://www.saigonist.com/category/tags/network">network</category>
+ <category domain="http://www.saigonist.com/category/tags/satellite">satellite</category>
+ <pubDate>Tue, 16 Oct 2012 07:15:49 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">546 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

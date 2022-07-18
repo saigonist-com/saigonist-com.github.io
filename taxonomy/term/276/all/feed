@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/276/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>adsense</title>
+    <link>http://www.saigonist.com/taxonomy/term/276/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Using Google AdSense in Drupal</title>
+    <link>http://www.saigonist.com/tech/drupal/using-google-adsense-drupal</link>
+    <description>&lt;p&gt;Recently I attended a BarCamp where there was a session about &lt;strong&gt;monetizing blogs&lt;/strong&gt; for a very modest monthly income, although an amount that amounts to a lot for a local blogger. With Drupal, setting up Google AdSense content is easy. &lt;/p&gt;
+&lt;p&gt;First, just copy the code generated from Adsense into a new block using the block admin interface. Be sure to save the node with the PHP Input Filter (you may need to give yourself permission in admin/permissions to use this powerful filter). Full HTML filter is &lt;strong&gt;not sufficient&lt;/strong&gt; for AdSense code as it will break the finicky JavaScript, so use PHP which performs no filtering or transformations or &lt;strong&gt;create a new input filter&lt;/strong&gt; that does no filtering.&lt;/p&gt;
+&lt;p&gt;You may want to create a special &lt;strong&gt;region&lt;/strong&gt; (by editing the .info file for your theme and adding a new line, then refreshing cache to see it in the dropdown in blocks admin) for your ads otherwise use an existing region to place the block. If you already have regions like a sidebar that has space for content in the same dimensions (especially width) as your chosen AdSense ad then you won&#039;t need to do anything. If you want to optimize your ads though it&#039;s recommended, even by Google themselves, to choose larger ad sizes - especially &lt;strong&gt;large square ads&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;For placing the node somewhere within the node&#039;s content, it&#039;s trickier as you can&#039;t place it use the block admin interface which only deals with regions that are defined in .info and made available via preprocess functions to your page.tpl.php. You can still use blocks to contain the code though. So create a new block, then look for the number in the URL which is the block id. Then you can manually place that block&#039;s content anywhere with this code:&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;javascript geshifilter-javascript&quot; style=&quot;font-family:monospace;&quot;&gt;$block &lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; module_invoke&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;block&#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;,&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;block&#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;,&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;view&#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;,&lt;/span&gt; &lt;span style=&quot;color: #339933;&quot;&gt;&amp;lt;&lt;/span&gt;BLOCK_ID_HERE&lt;span style=&quot;color: #339933;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+print $block&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;&lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;content&#039;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;When publishing your ad blocks, if they don&#039;t appear at first and you see &lt;strong&gt;&quot;Bad Request 400&quot;&lt;/strong&gt; in Chrome&#039;s Developer JavaScript Console, you can try waiting and may magically go away after awhile. That&#039;s what happened to me.&lt;/p&gt;
+&lt;p&gt;There&#039;s also an AdSense module (http://drupal.org/project/adsense) which makes this all a bit easier, but as you can see it&#039;s not hard at all to do manually, which means one less module on your system to complicate things.&lt;/p&gt;
+&lt;p&gt;But here are some other things the Drupal AdSense module can do:&lt;/p&gt;
+&lt;p&gt;&lt;cite&gt;&lt;br /&gt;
+The module provides easy-to-use ad blocks.&lt;br /&gt;
+You can easily disable the ads for certain roles.&lt;br /&gt;
+Provides simple controls for troubleshooting the ads before going live with the site.&lt;br /&gt;
+If Google changes some minor details in the script in , your script can be updated site-wide just by upgrading the module.&lt;br /&gt;
+If you want to do ad revenue sharing, there&#039;s really no other option&lt;br /&gt;
+&lt;/cite&gt;&lt;/p&gt;
+&lt;p&gt;This technique can be used for other online advertising networks besides Google AdSense. It could just as easily be used for Amazon.com&#039;s affiliate program. If you&#039;re in Vietnam you might consider one of the burgeoning number of Vietnamese online ad networks, although they won&#039;t have anything like the inventory of Google.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/using-google-adsense-drupal#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/adsense">adsense</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/google">google</category>
+ <category domain="http://www.saigonist.com/category/tags/money">money</category>
+ <pubDate>Mon, 08 Oct 2012 15:11:54 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">491 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Vietnam Online Ad Networks</title>
+    <link>http://www.saigonist.com/vietnam/vietnam-online-ad-networks</link>
+    <description>&lt;h2&gt;What to do if you&#039;re a content provider in Vietnam?&lt;/h2&gt;
+&lt;p&gt; If you&#039;re fairly established as a Party-affiliated Vietnamese newspaper then you have probably been selling banner ads for years on your online properties. Maybe you have enough online properties that they constitute a small ad hoc online ad network which you can sell to advertisers. If you&#039;re smaller than that then you should be concentrating on producing content rather than developing the ad selling product. So you&#039;d need to find some service to take care of selling your available ad space inventory.&lt;/p&gt;
+&lt;h2&gt;How online ads are sold outside of Vietnam&lt;/h2&gt;
+&lt;p&gt;The first online ad marketplace that should come to anyone&#039;s mind is Google with its AdWords and AdSense products (which complement each other as supply and demand). I&#039;ve played around with Google AdSense (the advertising product for publishers) on this site but it may not be appropriate for Vietnamese publishers. As an American it&#039;s easy for me to connect to the US financial system. Vietnamese people would have trouble opening up a US bank and the Vietnamese banking system is barely connected to itself (making homegrown PayPal clones even more difficult to pull off) much less to the US or international banking system. It&#039;s hard to move money into and out of Vietnam, although regulations make inflows of cash much easier than outflows. And due to the large amount of fraud originating from Vietnam it&#039;s hard to get outsiders to allow normal Vietnamese people to receive money, since once it enters Vietnam it&#039;s hard to get it back out if there are any problems, outside of the remittance networks. Until very recently it wasn&#039;t possible to use PayPal as a Vietnamese person here and it&#039;s still extremely rare.&lt;/p&gt;
+&lt;p&gt;If you&#039;re one of Vietnam&#039;s major publishers then you don&#039;t care too much about homegrown ad networks since they only reduce your monopoly on ad space, while pushing down prices and encouraging transparency which could force you to be more honest about your product and push prices down even further.&lt;/p&gt;
+&lt;h2&gt;Vietnamese ad networks for Vietnamese content websites!&lt;/h2&gt;
+&lt;p&gt;But having more available ad networks to Vietnamese content producers helps develop a strong web ecosystem for and by Vietnamese people, giving them ways to earn money both domestically and from foreign companies wanting to market to Vietnam. Blogs and other content websites could potentially give Vietnam&#039;s economy a tiny push in the right direction although currently it&#039;s risky to plan a business around content websites in Vietnam for a number of reasons and monetization is just one of them. (Just recently, Zing, a large content network with news, a social network, and lots of downloadable but unlicensed (pirated) music got dropped by major advertisers like Samsung, Coca Cola, Canon, Yamaha, Intel, etc. precisely because of the latter - they didn&#039;t want to associate themselves with an illegal music downloading site, but without the mp3s it would be hard for Zing to get traffic.)&lt;/p&gt;
+&lt;p&gt;So without further ado here are the online ad networks in and targeting Vietnam:&lt;/p&gt;
+&lt;p&gt;- ComScore put Innity in first place (of only two measured competitors?) for ad network size in Vietnam in February of 2011 with 900,000 average daily visitors. I really can&#039;t say whether Innity, from Malaysia and serving all of Southeast Asia, is the biggest ad network running in Vietnam.&lt;/p&gt;
+&lt;p&gt;- VietAd, part of IDG Vietnam&#039;s portfolio, running since May of 2007. According to them:&lt;br /&gt;
+  &quot;VietAd Ad-Network is an intermediate system connecting sellers and buyers of online advertising. In other words, VietAd operates as an trading platform helping website owners to sell advertising, individuals and enterprises to advertises; both of them can save time and cost while they still have effective advertising campaigns.&quot;&lt;/p&gt;
+&lt;p&gt;  &quot;After more than two years on the market, VietAd attracted nearly 1,000 quality media, news, commentary and entertainment websites in Vietnam, served more than 3 billion Ad views and reached 400 million website hits per month.&quot;&lt;/p&gt;
+&lt;p&gt;- AdMarket, a product from AdMicro which is part of BarCamp Saigon sponsor VC Corp. (not to be confused with MicroAd which just entered Vietnam from Japan). Online advertising from 900đ/click and reaching up to 25 million people.&lt;/p&gt;
+&lt;p&gt;- AdNet.vn from PeaceSoft (NganLuong, eBay.vn, ChoDienTu)&lt;/p&gt;
+&lt;p&gt;- Ambient Digital Network (minimum payout payment of 300,000 VND) based in Ho Chi Minh City.&lt;/p&gt;
+&lt;p&gt;- VietBUZZad&lt;/p&gt;
+&lt;p&gt;- AdMax Network in South East Asia, based in Singapore&lt;/p&gt;
+&lt;p&gt;- AdBay, partner of PeaceSoft and VietBUZZad.&lt;/p&gt;
+&lt;p&gt;- AdBay.vn in Hanoi&lt;/p&gt;
+&lt;p&gt;- CleverAds, a local Google AdWords partner who helps companies set up their AdWords campaigns, also claim to have their own AdNetwork.&lt;/p&gt;
+&lt;p&gt;- Some hints of an ad network (Fmob) coming from Joomlart. Will have to ask him about that soon.&lt;/p&gt;
+&lt;p&gt;- New from FPT, eClick.vn&lt;/p&gt;
+&lt;p&gt;As mentioned, large news sites have their own ad networks. I skipped some really pathetically small ad networks. If you have anything to share about the ad networks listed above -please- post a comment. :) &lt;/p&gt;
+&lt;p&gt;One question I have and I welcome any theories:&lt;br /&gt;
+How long before MJ Group (NhomMua, DiaDiem) or Rocket Internet, both big consumers of online ad space in Vietnam, decide to roll their own ad networks?&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/vietnam/vietnam-online-ad-networks#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/adsense">adsense</category>
+ <category domain="http://www.saigonist.com/category/tags/advertising">advertising</category>
+ <category domain="http://www.saigonist.com/category/tags/adwords">adwords</category>
+ <category domain="http://www.saigonist.com/category/tags/google">google</category>
+ <category domain="http://www.saigonist.com/category/tags/iab">iab</category>
+ <category domain="http://www.saigonist.com/category/tags/marketing">marketing</category>
+ <pubDate>Mon, 08 Oct 2012 15:10:55 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">490 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/189/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>outsourcing</title>
+    <link>http://www.saigonist.com/taxonomy/term/189/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>The Business Case for Drupal in Vietnam</title>
+    <link>http://www.saigonist.com/tech/drupal/business-case-drupal-vietnam</link>
+    <description>&lt;p&gt;Today I spent the day hacking on the WordPress site for BarCampSaigon. I&#039;m no expert on WordPress but trying to hack a theme with it makes me appreciate Drupal so much more. WordPress does have an &quot;API&quot; or at least some documented functions which are used internally which can also be used by developers but it&#039;s certainly not designed with developers in mind. Wordpress is great for bloggers. Drupal is great for developers and users who need something more than a blog will have to choose between working with Drupal or fighting against WordPress. :-)&lt;/p&gt;
+&lt;p&gt;Due to two recent conferences, BarCamp Hanoi and the opening of DrupalVietnam.org, I put together a presentation called &quot;The Business Case for Drupal in Vietnam&quot;.  I&#039;ll blog about those two events later.&lt;/p&gt;
+&lt;p&gt;I targeted two main groups: outsourcing companies based in Vietnam who want to attract more clients abroad, and any software development shop in Vietnam who is deciding what technology to use to develop websites. There is a third group, who are those companies with simpler website needs who perhaps only need one website and are not in the business of making websites.&lt;/p&gt;
+&lt;p&gt;I go over a number of common concerns that customers outside of Vietnam might have which Vietnamese companies might not expect. One point is being vendor agnostic when developing what is essentially a CMS. I make a strong point that one should never fall to the temptation of developing your own in-house CMS and as a consumer, you should stay far away from such &quot;bespoke&quot; solutions in the modern age where content management frameworks such as Drupal exist.  I also think Drupal represents a strong brand name that is not well-known yet in Vietnam, but we all know how much Vietnamese people love brands.&lt;/p&gt;
+&lt;p&gt;On the supply side, I talk about why Drupal is a decent choice for Vietnamese developers, similar to any web developer. But the main recent news is that there is finally Drupal training being made available in Vietnam, much like for Joomla, and that PHP is widely known in Vietnam not just because there are books on it in the Vietnamese language, and that there is now a core Drupal community in Vietnam represented by DrupalVietnam.org (which I somehow became vice president of).&lt;/p&gt;
+&lt;p&gt;In general, I say go with your strengths. If web development is not your strength, then hire someone proper to do it for you while you focus on your core business. If web development is your business, make better use of your developers by using a CMS. &lt;/p&gt;
+&lt;p&gt;Anyways, here&#039;s the presentation.&lt;/p&gt;
+&lt;div style=&quot;width:425px&quot; id=&quot;__ss_12811831&quot;&gt;&lt;strong style=&quot;display:block;margin:12px 0 4px&quot;&gt;&lt;a href=&quot;http://www.slideshare.net/tomosaigon/business-case-for-drupal-in-vietnam&quot; title=&quot;Business Case for Drupal in Vietnam&quot;&gt;Business Case for Drupal in Vietnam&lt;/a&gt;&lt;/strong&gt;
+&lt;object id=&quot;__sse12811831&quot; width=&quot;425&quot; height=&quot;355&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=drupalbizcase3-120505114740-phpapp02&amp;stripped_title=business-case-for-drupal-in-vietnam&amp;userName=tomosaigon&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot; /&gt;&lt;param name=&quot;wmode&quot; value=&quot;transparent&quot; /&gt;&lt;embed name=&quot;__sse12811831&quot; src=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=drupalbizcase3-120505114740-phpapp02&amp;stripped_title=business-case-for-drupal-in-vietnam&amp;userName=tomosaigon&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; wmode=&quot;transparent&quot; width=&quot;425&quot; height=&quot;355&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;div style=&quot;padding:5px 0 12px&quot;&gt;View more &lt;a href=&quot;http://www.slideshare.net/&quot;&gt;presentations&lt;/a&gt; from &lt;a href=&quot;http://www.slideshare.net/tomosaigon&quot;&gt;tomosaigon&lt;/a&gt;.&lt;/div&gt;
+&lt;/div&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/business-case-drupal-vietnam#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/tags/barcamp">barcamp</category>
+ <category domain="http://www.saigonist.com/category/tags/cms">cms</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/outsourcing">outsourcing</category>
+ <pubDate>Sat, 05 May 2012 16:51:28 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">332 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Software Outsourcing to Vietnam: A Major Challenge</title>
+    <link>http://www.saigonist.com/b/software-outsourcing-vietnam-major-challenge</link>
+    <description>&lt;p&gt;This post comes out of a conversation I had with my friend Prithvi, who has years of experience in the outsourcing industry both here and in China and other countries.&lt;/p&gt;
+&lt;p&gt;Outsourcing is a huge industry here in Vietnam.  It solves several problems for Vietnam.  First, it brings in much needed income.  Second, it does so without requiring a high ratio of expensive imported inputs (compare this to making shoes which are exported for a cheap price, but most of the costs come from materials which must be imported).  Third, it helps advance domestic use of technology, which should make all industries more efficient.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/software-outsourcing-vietnam-major-challenge#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/education">education</category>
+ <category domain="http://www.saigonist.com/category/tags/english">english</category>
+ <category domain="http://www.saigonist.com/category/tags/outsourcing">outsourcing</category>
+ <category domain="http://www.saigonist.com/category/tags/viet-kieu">viet kieu</category>
+ <pubDate>Fri, 02 Dec 2011 16:10:16 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">276 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

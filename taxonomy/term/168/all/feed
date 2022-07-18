@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/168/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>subversion</title>
+    <link>http://www.saigonist.com/taxonomy/term/168/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Slice and Split a Subversion Repository</title>
+    <link>http://www.saigonist.com/b/slice-and-split-subversion-repository</link>
+    <description>&lt;p&gt;Moving a directory out of a SVN repository: I had to do this recently. It&#039;s not a black art. It&#039;s not exactly built into subversion, but can be done using basic svn tools. In fact, instructions are in the SVN book (relevant page).&lt;/p&gt;
+&lt;p&gt;It&#039;s a simple as:&lt;br /&gt;
+1) svnadmin dump /path/to/repos &amp;gt; myrepos-dumpfile&lt;br /&gt;
+2) svndumpfilter include somedir1 somedir3 somedir5 &amp;lt; myrepos-dumpfile &amp;gt; somedirs-dumpfile&lt;br /&gt;
+3) svnadmin create repos; svnadmin load repos &amp;lt; somedirs-dumpfile&lt;/p&gt;
+&lt;p&gt;That will re-create your repository with just the directories you want to keep.  Then you would svndumpfilter again on the original dumpfile for any repositories you want to create out of specific directories (e.g. somedir2).  &lt;/p&gt;
+&lt;p&gt;If you follow the book&#039;s instructions about ignoring UUID when restoring (--ignore-uuid) then you won&#039;t be able to use the recreated repository from places where it&#039;s currently checked out, i.e. you would have to check out again.  This might make sense if you had checked out directories that are no longer in the main repository.  Naturally, for any of those directoryies, you will have to check out fresh using the new repositories.&lt;/p&gt;
+&lt;p&gt;Once you&#039;ve restored, you&#039;ll notice that there are &quot;phantom revisions&quot; for revision numbers corresponding to commits for directories no longer in the tree.  You could use &quot;—drop-empty-revs --renumber-revs&quot; when svndumpfilter&#039;ing but I guess this would also screw up any trees that were already checked out.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/slice-and-split-subversion-repository#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/revision-control">revision control</category>
+ <category domain="http://www.saigonist.com/category/tags/subversion">subversion</category>
+ <category domain="http://www.saigonist.com/category/tags/svn">svn</category>
+ <pubDate>Sat, 27 Aug 2011 21:44:26 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">248 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/203/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>privacy</title>
+    <link>http://www.saigonist.com/taxonomy/term/203/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Fix Facebook links and browse privately at the same time</title>
+    <link>http://www.saigonist.com/b/fix-facebook-links-and-browse-privately-same-time</link>
+    <description>&lt;p&gt;Did you know that Facebook was tracking all the links you clicked? If you&#039;ve ever tried to copy a link from Facebook to another site then you&#039;d see that the link always started with &lt;a href=&quot;http://www.facebook.com&quot; title=&quot;www.facebook.com&quot;&gt;www.facebook.com&lt;/a&gt; which is how they track what pages you&#039;re visiting.  &lt;/p&gt;
+&lt;p&gt;In Vietnam, this is more than just a privacy problem.  Because Facebook access intermittently requires &lt;a href=&quot;http://www.saigonist.com/content/easy-access-facebook-vietnam-part-deux&quot;&gt;workarounds&lt;/a&gt; to connect, those links can be useless even if we can see the actual website URL right there. This is because, by showing you the real website URL, Facebook makes you think they aren&#039;t doing anything tricky by adding a tracking ID to the URL and forcing you to go through Facebook to browse to the site.&lt;/p&gt;
+&lt;p&gt;So what can you do to make your life easier as well as private?&lt;/p&gt;
+&lt;p&gt;Install the &lt;a href=&quot;https://chrome.google.com/webstore/detail/omkknlonjipnallbpmboackchhnocedb&quot;&gt;Facebook Link Tracking Disabler&lt;/a&gt; free from the Chrome Web Store.&lt;/p&gt;
+&lt;p&gt;--&lt;/p&gt;
+&lt;p&gt;Bonus: Are you tired of people using Facebook apps to post news stories which then require you to install the app to actually read the article?  If you haven&#039;t already filtered all of those out of your feed then you should at least install the &lt;a href=&quot;https://chrome.google.com/webstore/detail/ofblfbpdngokklccponchjpfcakgllih&quot;&gt;Facebook Article Grabber&lt;/a&gt; extension to convert those stories into real URLs.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/fix-facebook-links-and-browse-privately-same-time#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/chrome">chrome</category>
+ <category domain="http://www.saigonist.com/category/tags/extension">extension</category>
+ <category domain="http://www.saigonist.com/category/tags/facebook">facebook</category>
+ <category domain="http://www.saigonist.com/category/tags/privacy">privacy</category>
+ <pubDate>Mon, 27 Feb 2012 07:32:53 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">297 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/49/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>isp</title>
+    <link>http://www.saigonist.com/taxonomy/term/49/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Internet in Vietnam - Good, Bad, Ugly</title>
+    <link>http://www.saigonist.com/vietnam/internet-vietnam-good-bad-ugly</link>
+    <description>&lt;p&gt;If you ask Vietnamese officials, you&#039;ll hear such hyperbole as &quot;the Internet service development in Vietnam is in no way inferior to developed countries in the world&quot; (Mai Liem Truc, former Deputy Minister of Post and Telematics). But when people say such things and thus denying the existence of any problems they are leaving no room for improvement.&lt;/p&gt;
+&lt;p&gt;Yes, we have high speed internet and even fiber to the home (FTTH), both at relatively low costs compared to developed countries, though also not as fast as connections from homes to ISPs in Korea or Japan. We have 3G (but not LTE or 4G) also at very cheap prices - prepaid packages from $2 a month, even cheaper for a week or a day (you have to get used to the idea of being able to buy a single use ketchup packet of shampoo, $1 worth of credit for a phone, and a day&#039;s worth of data). Satellite connections exist although general ISPs don&#039;t offer them. Vietnam even has an indigenous satellite program (but they transmit to Earth at pitiful data rates thus not being suitable for general consumers).&lt;/p&gt;
+&lt;p&gt;But all methods of accessing the Internet are limited by &lt;a href=&quot;http://www.saigonist.com/b/vietnam-internet-international-and-domestic-links&quot;&gt;Vietnam&#039;s links to the outside Internet&lt;/a&gt; where most of the content lies, since homegrown content in Vietnam is lacking compared to the English-language Internet both in quantity and quality. We have limited terrestrial links to China, and otherwise we have to rely on undersea cables from stations in Vung Tau and Da Nang to major regional undersea cables that connect Vietnam to neighboring Hong Kong or Singapore and points beyond. Some of these cables start in Europe and go through the Middle East. Others simply connect us to Japan and then the US.&lt;/p&gt;
+&lt;p&gt;When the Internet isn&#039;t super slow due to &lt;a href=&quot;http://www.saigonist.com/b/cloud-hosting-and-content-delivery-networks-vietnam&quot;&gt;undersea cable cuts&lt;/a&gt;, it could be broken locally for other reasons. Infrastructure is fragile. Wires often catch fire or get cut for other reasons (did I mention rats?). Power goes out. Having a laptop and 3G internet access is a backup plan you&#039;ll use often, but this isn&#039;t reasonable for companies of any size. Being able to say that there are fiber connections and 3G is just a show. The reality is that Vietnam&#039;s Internet is considerably inferior to developed countries qualitatively.&lt;/p&gt;
+&lt;p&gt;On Censorship. One thing I&#039;ve learned from talking to many mainland Chinese people is that they don&#039;t realize Internet censorship is a problem or that it&#039;s a bad or undesirable thing. Although not exactly the same, Vietnamese people similarly don&#039;t take a tone of offense at the idea of the government or really anyone imposing their restrictions on them. Or people take a light view of it, considering the easy of &lt;a href=&quot;http://www.saigonist.com/content/easy-access-facebook-vietnam-part-deux&quot;&gt;circumventing previous Facebook blocks&lt;/a&gt;. But this also leads to the Vietnamese Internet&#039;s lack of local content (and thus overdependence on international links). Creative people are not encouraged to produce content. Writers are jailed. Musicians and film directors have no protection for their works, sometimes even less than foreign works in Vietnam. So anyone who wants to take full advantage of the Internet right now and into the foreseeable future must learn English.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/vietnam/internet-vietnam-good-bad-ugly#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/3g">3g</category>
+ <category domain="http://www.saigonist.com/category/tags/censorship">censorship</category>
+ <category domain="http://www.saigonist.com/category/tags/fiber">fiber</category>
+ <category domain="http://www.saigonist.com/category/tags/internet">internet</category>
+ <category domain="http://www.saigonist.com/category/tags/isp">isp</category>
+ <category domain="http://www.saigonist.com/category/tags/network">network</category>
+ <category domain="http://www.saigonist.com/category/tags/satellite">satellite</category>
+ <pubDate>Tue, 16 Oct 2012 07:15:49 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">546 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Vietnam Internet International and Domestic Links</title>
+    <link>http://www.saigonist.com/vietnam/vietnam-internet-international-and-domestic-links</link>
+    <description>&lt;p&gt;Telecommunications in Vietnam visualized with some network maps showing both international and domestic peering arrangements between ISPs. Bookmark this page and I&#039;ll add more maps as I find them.&lt;/p&gt;
+&lt;p&gt;For international bandwidth VNPT (VDC) is important. For domestic internet look for connections through VNIX.  &lt;a href=&quot;http://www.saigonist.com/content/vietnam-isps&quot;&gt;VNPT, FPT, Viettel, NetNam, SPT&lt;/a&gt;, even VinaGame and Google.&lt;/p&gt;
+&lt;p&gt;&lt;img width=&quot;500&quot; src=&quot;http://www.saigonist.com/sites/saigonist.com/files/So%20do%20huong%20ket%20noi%20cua%20VDC_0.JPG&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img width=&quot;500&quot; src=&quot;http://www.saigonist.com/sites/saigonist.com/files/viettel-international.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img width=&quot;500&quot; src=&quot;http://www.saigonist.com/sites/saigonist.com/files/viettel-international.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img width=&quot;500&quot; src=&quot;http://www.saigonist.com/sites/saigonist.com/files/DNS-SD-VNIX-20120905.gif&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.saigonist.com/content/server-colocation-and-vps-hosting-vietnam&quot;&gt;Information about server hosting in Vietnam&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.saigonist.com/b/cloud-hosting-and-content-delivery-networks-vietnam&quot;&gt;Information about cloud hosting and content delivery network access from Vietnam&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;field field-type-filefield field-field-blogattachments&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Attachments:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file clear-block&quot;&gt;&lt;div class=&quot;filefield-icon field-icon-image-jpeg&quot;&gt;&lt;img class=&quot;field-icon-image-jpeg&quot;  alt=&quot;image/jpeg icon&quot; src=&quot;http://www.saigonist.com/sites/all/modules/3rdparty/filefield/icons/protocons/16x16/mimetypes/image-x-generic.png&quot; /&gt;&lt;/div&gt;&lt;a href=&quot;http://www.saigonist.com/sites/saigonist.com/files/So do huong ket noi cua VDC_0.JPG&quot; type=&quot;image/jpeg; length=53222&quot;&gt;So do huong ket noi cua VDC.JPG&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+              &lt;div class=&quot;field-item even&quot;&gt;
+                    &lt;div class=&quot;filefield-file clear-block&quot;&gt;&lt;div class=&quot;filefield-icon field-icon-image-jpeg&quot;&gt;&lt;img class=&quot;field-icon-image-jpeg&quot;  alt=&quot;image/jpeg icon&quot; src=&quot;http://www.saigonist.com/sites/all/modules/3rdparty/filefield/icons/protocons/16x16/mimetypes/image-x-generic.png&quot; /&gt;&lt;/div&gt;&lt;a href=&quot;http://www.saigonist.com/sites/saigonist.com/files/viettel-international.jpg&quot; type=&quot;image/jpeg; length=96761&quot;&gt;viettel-international.jpg&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+              &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file clear-block&quot;&gt;&lt;div class=&quot;filefield-icon field-icon-image-gif&quot;&gt;&lt;img class=&quot;field-icon-image-gif&quot;  alt=&quot;image/gif icon&quot; src=&quot;http://www.saigonist.com/sites/all/modules/3rdparty/filefield/icons/protocons/16x16/mimetypes/image-x-generic.png&quot; /&gt;&lt;/div&gt;&lt;a href=&quot;http://www.saigonist.com/sites/saigonist.com/files/DNS-SD-VNIX-20120905.gif&quot; type=&quot;image/gif; length=59389&quot;&gt;DNS-SD-VNIX-20120905.gif&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+              &lt;div class=&quot;field-item even&quot;&gt;
+                    &lt;div class=&quot;filefield-file clear-block&quot;&gt;&lt;div class=&quot;filefield-icon field-icon-image-jpeg&quot;&gt;&lt;img class=&quot;field-icon-image-jpeg&quot;  alt=&quot;image/jpeg icon&quot; src=&quot;http://www.saigonist.com/sites/all/modules/3rdparty/filefield/icons/protocons/16x16/mimetypes/image-x-generic.png&quot; /&gt;&lt;/div&gt;&lt;a href=&quot;http://www.saigonist.com/sites/saigonist.com/files/viettel-backbone.jpg&quot; type=&quot;image/jpeg; length=86602&quot;&gt;viettel-backbone.jpg&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+     <comments>http://www.saigonist.com/vietnam/vietnam-internet-international-and-domestic-links#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/internet">internet</category>
+ <category domain="http://www.saigonist.com/category/tags/isp">isp</category>
+ <category domain="http://www.saigonist.com/category/tags/telecom">telecom</category>
+ <category domain="http://www.saigonist.com/category/tags/undersea-cable">undersea cable</category>
+ <category domain="http://www.saigonist.com/category/tags/vdc">vdc</category>
+ <category domain="http://www.saigonist.com/category/tags/vnix">vnix</category>
+ <category domain="http://www.saigonist.com/category/tags/vnpt">vnpt</category>
+ <pubDate>Wed, 19 Sep 2012 02:36:53 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">484 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Cloud Hosting and Content Delivery Networks from Vietnam</title>
+    <link>http://www.saigonist.com/vietnam/cloud-hosting-and-content-delivery-networks-vietnam</link>
+    <description>&lt;p&gt;I&#039;ve been doing some testing on a plethora of content delivery networks using cloudharmony.com&#039;s speedtest service. Testing from &lt;a href=&quot;http://www.saigonist.com/content/vietnam-isps&quot;&gt;multiple ISPs in Vietnam&lt;/a&gt;, during the most &lt;a href=&quot;#aag-cable-cut&quot;&gt;recent undersea cable outage&lt;/a&gt;, it becomes clear that, although none of the CDNs publicly have &lt;a href=&quot;http://www.saigonist.com/b/vietnam-internet-international-and-domestic-links&quot;&gt;datacenters in Vietnam&lt;/a&gt;, a small handfull of networks like Edgecast CDN (via &lt;a href=&quot;http://www.speedyrails.com/&quot; title=&quot;http://www.speedyrails.com/&quot;&gt;http://www.speedyrails.com/&lt;/a&gt;) come out on top as winners (except for an anomalous reading of small file size downloading from one ISP). In these tests, performance of poor hosts relative to the top was as much as 20 times slower, meaning CDN selection without taking into consideration the real world results in Vietnam can mean you&#039;re throwing a lot of money away. Poorly performing content delivery networks were more or less not any faster than hosting in the US.&lt;/p&gt;
+&lt;p&gt;Limelight CDN also had some of the best overall results, better than Edgecast in some cases.&lt;/p&gt;
+&lt;p&gt;VoxCAST CDN had a surprisingly low latency time suggesting it could be closer to Vietnam than anything in Singapore, but VoxCAST (Internap) do have a Singaporean datacenter which is probably just faster than other points in Singapore. Unfortunately, the transfer speeds were too low. Internap&#039;s CDN taken into consideration alone fared poorly. Edgecast state they use Equinix Singapore Exchange so it may be worth looking into colocating there.&lt;/p&gt;
+&lt;p&gt;Windows Azure CDN had some promising results in some tests whereas other tests failed. I didn&#039;t investigate further when CDNs failed, assuming they should not fail.&lt;/p&gt;
+&lt;p&gt;What may be more surprising is who isn&#039;t the winner here: Amazon&lt;/p&gt;
+&lt;p&gt;Amazon EC2 instances in both Singapore and Tokyo (just for comparison) performed poorly both in terms of latency and throughput. Amazon&#039;s CloudFront service did no better.&lt;/p&gt;
+&lt;p&gt;&lt;a name=&quot;aag-cable-cut&quot;&gt;Asia-America Gateway undersea cable outage&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;At the time of writing, the AAG internet cable that connects to Vietnam at Vung Tau&#039;s landing station, thus providing FPT (although Viettel and VNPT do also use AAG) in Ho Chi Minh City and its subscribers with international bandwidth to Hong Kong, Singapore, and points beyond in the US, has been cut or damaged again. The cable experiences cuts both at the Vung Tau cable landing station as well as in the main trunk when all traffic along the cable would be affected. It is one of several international links to Vietnamese ISPs such as SEA-ME-WE 3 (but not SEA-ME-WE 4) which connects to Vietnam in Da Nang and links Southeast Asia with East Asia, Australia, the Middle East, and Western Europe. TVH and TGN-Intra Asia Cable System also land in Vung Tau connecting Southern Vietnam to the greater Internet. Vietnam also has terrestrial internet connections to China.&lt;/p&gt;
+&lt;p&gt;[Update: The AAG cable is being repaired from October 25, 2012 until November 4.]&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/vietnam/cloud-hosting-and-content-delivery-networks-vietnam#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/cable">cable</category>
+ <category domain="http://www.saigonist.com/category/tags/cdn">cdn</category>
+ <category domain="http://www.saigonist.com/category/tags/cloud">cloud</category>
+ <category domain="http://www.saigonist.com/category/tags/hosting">hosting</category>
+ <category domain="http://www.saigonist.com/category/tags/internet">internet</category>
+ <category domain="http://www.saigonist.com/category/tags/isp">isp</category>
+ <category domain="http://www.saigonist.com/category/tags/latency">latency</category>
+ <category domain="http://www.saigonist.com/category/tags/network">network</category>
+ <category domain="http://www.saigonist.com/category/tags/server">server</category>
+ <category domain="http://www.saigonist.com/category/tags/submarine">submarine</category>
+ <category domain="http://www.saigonist.com/category/tags/topology">topology</category>
+ <pubDate>Sat, 25 Aug 2012 05:52:45 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">471 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Vietnam ISPs</title>
+    <link>http://www.saigonist.com/content/vietnam-isps</link>
+    <description>&lt;p&gt;With the recent instability in Facebook access and some people reporting it blocked on one ISP or area of Vietnam while others can access it just fine... Is it time for you to rethink your choice in internet service provider?&lt;/p&gt;
+&lt;p&gt;There are a dozen or so ISPs in Vietnam but I&#039;ve only looked at the biggest: Viettel, VNPT, FPT, SPT, and Netnam.  They also all provide fiber internet (FTTH - fiber to the home) and not just ADSL.  Here are their prices for selected packages:&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/content/vietnam-isps#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/tags/facebook">facebook</category>
+ <category domain="http://www.saigonist.com/category/tags/isp">isp</category>
+ <pubDate>Wed, 16 Feb 2011 09:19:58 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">37 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Server Colocation and VPS Hosting in Vietnam</title>
+    <link>http://www.saigonist.com/content/server-colocation-and-vps-hosting-vietnam</link>
+    <description>&lt;p&gt;I used to run a hosting company back in the states.  I wouldn&#039;t want to get into that business again as it&#039;s capital-intensive (for a tech company) and highly competitive.&lt;/p&gt;
+&lt;p&gt;Looking at the server colocation market in Vietnam it seems small and expensive for what you get, and maybe there is far more demand from Vietnam-based businesses to host in the US because that&#039;s where their customers are.  But companies that aim for the domestic market need to consider hosting locally since the Internet link to the US is relatively narrow and expensive with high latency.&lt;/p&gt;
+&lt;p&gt;When I searched for colocation servers in Vietnam, the #1 result, vn84.com, was down; webhosting.com.vn&#039;s account has been suspended;  aacecom.net is now a parked domain just showing ads.  Not very good results.&lt;/p&gt;
+&lt;p&gt;After distilling the first 100 or so results on Google:&lt;/p&gt;
+&lt;p&gt;&lt;iframe width=&#039;500&#039; height=&#039;200&#039; frameborder=&#039;0&#039; src=&#039;https://spreadsheets.google.com/pub?key=0AgvB-IYnTjzRdFBTSGk5Ry00QWw3V3ZQLXQ5NmtrZkE&amp;amp;hl=en&amp;amp;output=html&amp;amp;widget=true&#039;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;Conclusion: FPT is definitely a stable business, yet prices aren&#039;t out of line, with higher upload speeds.  It&#039;s always best to avoid anything priced in USD since the Vietnam dong is certainly going to weaken against the dollar soon.  But even the cheapest colo at 1.3 million VND is more than I can lease a dedicated server for in the US.&lt;/p&gt;
+&lt;p&gt;So how much are dedicated servers at these places?&lt;/p&gt;
+&lt;p&gt;&lt;iframe width=&#039;500&#039; height=&#039;200&#039; frameborder=&#039;0&#039; src=&#039;https://spreadsheets.google.com/pub?key=0AgvB-IYnTjzRdEhtdldjUU5vTm0yRWxqLVBfOTllZkE&amp;amp;hl=en&amp;amp;single=true&amp;amp;gid=0&amp;amp;output=html&amp;amp;widget=true&#039;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;Oddly, for pavietnam.com the price to lease a dedicated server is cheaper than to buy and colo your own!&lt;/p&gt;
+&lt;p&gt;Virtual Private Servers are another option.  Let&#039;s compare:&lt;/p&gt;
+&lt;p&gt;&lt;iframe width=&#039;500&#039; height=&#039;200&#039; frameborder=&#039;0&#039; src=&#039;https://spreadsheets.google.com/pub?key=0AgvB-IYnTjzRdHVNaVkwMkpGNnZQZDcxUlk1aXd3Q0E&amp;amp;hl=en&amp;amp;single=true&amp;amp;gid=0&amp;amp;output=html&amp;amp;widget=true&#039;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;They come out to roughly a third of the cost to colo.  You&#039;d be better off finding a friend to chip in and get pavietnam&#039;s dedicated server deal.&lt;/p&gt;
+&lt;p&gt;UPDATE April 3, 2012:&lt;br /&gt;
+There are a lot of small providers in Vietnam outside of the big ones listed above.  If you want to check some out, many even have free trials. Check out the forum at vn-zoom.com if you can read Vietnamese.&lt;/p&gt;
+&lt;p&gt;For colocation, Viettel&#039;s IDC &quot;Sóng Thần&quot; datacenter in Binh Duong is the largest in Vietnam, and possibly all of southeast Asia.&lt;/p&gt;
+&lt;p&gt;When considering Singapore as an alternative hosting center, be aware that generally prices for VPSs in Singapore are significantly higher than what you would pay in the US, while latency is still around an order of magnitude (10x) that of a Vietnam-based host, while still 1/2 to 1/3 of a North American host. YMMV.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/content/server-colocation-and-vps-hosting-vietnam#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/colo">colo</category>
+ <category domain="http://www.saigonist.com/category/tags/internet">internet</category>
+ <category domain="http://www.saigonist.com/category/tags/isp">isp</category>
+ <category domain="http://www.saigonist.com/category/tags/vps">vps</category>
+ <pubDate>Sun, 23 Jan 2011 11:30:41 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">32 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

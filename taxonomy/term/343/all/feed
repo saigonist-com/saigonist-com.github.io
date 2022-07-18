@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/343/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>skype</title>
+    <link>http://www.saigonist.com/taxonomy/term/343/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Phone Phreaking in 2012 - Cell Phones and PBXes</title>
+    <link>http://www.saigonist.com/b/phone-phreaking-2012-cell-phones-and-pbxes</link>
+    <description>&lt;p&gt;Gone are the days of whistling a &lt;strong&gt;2600 Hz&lt;/strong&gt; tone into your rotary phone. Or the era of using redboxes to get free calls from payphones - where can you find a payphone anymore nowadays? So where have all the phreakers gone? Who even remembers what phone phreaking means, and what the significance of &lt;strong&gt;Cap&#039;n Crunch cereal&lt;/strong&gt; is?&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;float: right&quot;&gt;&lt;img src=&quot;http://www.saigonist.com/sites/saigonist.com/files/dienthoaicongcong.jpeg&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Vietnam, like many developing countries, is a country where wireless infrastructure, cellular networks and wifi, &lt;strong&gt;leapfrogged&lt;/strong&gt; traditional wired networks: telephone, cable TV. Payphones (or &quot;&lt;strong&gt;cardphones&lt;/strong&gt;&quot; which used prepaid cards since coins were inconsistently minted and still not always accepted as legal tender in Vietnam), which became increasingly common in the late 90s, are nearly extinct in Vietnam now due to mobile phones. &lt;/p&gt;
+&lt;p&gt;Throughout the world, phone systems have been converted from analog to digital.  From a phreaking standpoint, it&#039;s easier for the phone companies to secure their systems as they don&#039;t need to use in-band methods (using the channel for system operators as what&#039;s used by customers) of managing their systems. Even the cellular networks are all digital and encrypted now so you can no longer just snoop in on your neighbor&#039;s conversations using a special phone (or clone another user&#039;s ESN on the old AMPS networks). Unfortunately, this means there is no tone or sound that you can play into your mobile handset in order to get free calls or anything else.&lt;/p&gt;
+&lt;p&gt;Nowadays, &lt;strong&gt;&lt;a href=&quot;http://www.saigonist.com/b/calling-us-free-foreign-countries&quot;&gt;free long distance calling&lt;/a&gt;&lt;/strong&gt; - for decades the big prize for phreakers - is ubiquitous. PBXs are freely downloadable software that anyone can run. And we don&#039;t even need physical phones to make phone calls anymore - we have software phones using Voice over IP (VoIP) which can call the plain old telephone system or simply call other softphones on the Internet.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;So what does modern phone phreaking mean?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer&lt;/strong&gt;: VoIP hacking, virtual PBX hacking, voicemail hacking (not really phreaking, just unauthorized access of systems), femtocell hacking for the truly adventurous, and GSM decryption for the cryptos with a lot of computing resources.&lt;/p&gt;
+&lt;h2&gt;Caller ID spoofing&lt;/h2&gt;
+&lt;p&gt;Caller ID is a feature that&#039;s in all cell phones, and many land lines also have this ability to see the phone number of the person that&#039;s calling you. This is how you know to answer your mother&#039;s phone call and ignore your girlfriend&#039;s, or the other way around. But did you know you could control what number is seen by the called party? &lt;/p&gt;
+&lt;p&gt;How? Example: One way is to have a real phone company set your forwarding number, which is a fake origin, and then it will be used as your caller ID value when you call out from your (VoIP) phone. Another way is to route calls through your own PBX (Asterisk).&lt;/p&gt;
+&lt;h2&gt;PBX hacking&lt;/h2&gt;
+&lt;p&gt;Back in the day when PBXs were only affordable to large corporations and getting access to one meant you had great resources available to you like calling out to long distance numbers for free. But now there are cheap and even free open source virtual PBX solutions that run on normal PCs running Linux like Asterisk. And of course these can be hacked. If you&#039;re running Asterisk you run the risk of remote hackers DoSing your server or hacking the Linux server that&#039;s running Asterisk. Once they&#039;re on there they can also have their way with the PBX.&lt;/p&gt;
+&lt;h2&gt;Femtocell hacking&lt;/h2&gt;
+&lt;p&gt;Femtocells are stations that are set up to provide buildings or rural areas which have weak signals with access to cellular networks via internet connections. Subscribers can buy femtocells from their phone companies and set them up themselves - and can even take their femtocell with them to a foreign country (yes!) and have access to their home country&#039;s phone network without incurring roaming charges. These femtocells, whose manufacturer varies by telco, may be running Linux and may be hackable (rootable) and if so can be used to eavesdrop on calls and SMSs as well as spoof and use credits from subscribers&#039; accounts without authorization. It&#039;s like taking over a cell tower. But not all telcos even offer these for sale and it&#039;s not enough for you to just get one from a manufacturer.&lt;/p&gt;
+&lt;h2&gt;GSM encryption cracking&lt;/h2&gt;
+&lt;p&gt;In the old days of cell phones you could easily listen in on calls made around you. But since GSM the call traffic is encrypted from the phone to the cell tower. However, it can be possible to crack weak A5/1 GSM encryption using something called COPACOBANA. Or you could probably use Amazon EC2 to affordably and instantly bring up the enormous CPU resources combined with some rainbow tables needed to crack the cipher. Don&#039;t assume that your mobile phone calls are secure.&lt;/p&gt;
+&lt;h2&gt;Voicemail hacking&lt;/h2&gt;
+&lt;p&gt;Voicemail (VMB) hacking isn&#039;t that new. And not all phone providers even offer voicemail services on their lines. But for those who do it&#039;s often easy to get into another subscriber&#039;s mailbox. Spoof your caller ID to look like theirs and often you won&#039;t be asked for any passcode to enter your voicemail. Other ways are to guess or social engineer the PIN code which you can then use to access the mailbox. Old voicemail systems used to have default codes which you could use to have fun like creating your own VMBs.&lt;/p&gt;
+&lt;p&gt;See: &lt;a href=&quot;http://en.wikipedia.org/wiki/News_International_phone_hacking_scandal&quot; title=&quot;http://en.wikipedia.org/wiki/News_International_phone_hacking_scandal&quot;&gt;http://en.wikipedia.org/wiki/News_International_phone_hacking_scandal&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Another kind of hacking: mobile phone rooting and modification&lt;/h2&gt;
+&lt;p&gt;Generally, when I use the word &quot;hacking&quot; above it refers to unauthorized access of systems. But sometimes the system you want to &quot;hack&quot; is your own property. Mobile phones today are powerful computers running advanced software based on open source code. But it doesn&#039;t mean that the manufacturers want to give you free reign or access to what&#039;s inside. Fortunately, hacker communities exist to find holes in our phones which enable them to be &quot;rooted&quot; after which we can control the software running on them and by controlling the software we can control our hardware.&lt;/p&gt;
+&lt;p&gt;As always, especially in Vietnam, protect your accounts and privacy when online with an &lt;a href=&quot;http://goo.gl/365uC&quot;&gt;encrypted connection to a VPN&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&quot;field field-type-filefield field-field-blogattachments&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Attachments:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file clear-block&quot;&gt;&lt;div class=&quot;filefield-icon field-icon-image-jpeg&quot;&gt;&lt;img class=&quot;field-icon-image-jpeg&quot;  alt=&quot;image/jpeg icon&quot; src=&quot;http://www.saigonist.com/sites/all/modules/3rdparty/filefield/icons/protocons/16x16/mimetypes/image-x-generic.png&quot; /&gt;&lt;/div&gt;&lt;a href=&quot;http://www.saigonist.com/sites/saigonist.com/files/dienthoaicongcong.jpeg&quot; type=&quot;image/jpeg; length=11410&quot;&gt;dienthoaicongcong.jpeg&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+     <comments>http://www.saigonist.com/b/phone-phreaking-2012-cell-phones-and-pbxes#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/android">android</category>
+ <category domain="http://www.saigonist.com/category/tags/encryption">encryption</category>
+ <category domain="http://www.saigonist.com/category/tags/gsm">gsm</category>
+ <category domain="http://www.saigonist.com/category/tags/hacking">hacking</category>
+ <category domain="http://www.saigonist.com/category/tags/password">password</category>
+ <category domain="http://www.saigonist.com/category/tags/pbx">pbx</category>
+ <category domain="http://www.saigonist.com/category/tags/phone">phone</category>
+ <category domain="http://www.saigonist.com/category/tags/phreak">phreak</category>
+ <category domain="http://www.saigonist.com/category/tags/skype">skype</category>
+ <category domain="http://www.saigonist.com/category/tags/voicemail">voicemail</category>
+ <category domain="http://www.saigonist.com/category/tags/voip">voip</category>
+ <pubDate>Mon, 15 Oct 2012 23:44:55 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">493 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Calling the US for free from foreign countries</title>
+    <link>http://www.saigonist.com/b/calling-us-free-foreign-countries</link>
+    <description>&lt;p&gt;Calling US numbers from the US is pretty trivial and nearly free. But calling from another country means either:&lt;br /&gt;
+- paying for long distance from your telephone company&lt;br /&gt;
+- using a phone card to call the US&lt;br /&gt;
+- calling via Skype out (like 2 cents per minute)&lt;br /&gt;
+- call out via Google Voice - FREE!&lt;/p&gt;
+&lt;p&gt;Yes, for the time being Google Voice lets users call US phone numbers for free from their phone. However, to do that you need to be in the US or make Google think your computer is on an American network. You can easily do this by logging into Gmail while connected to a VPN (like StrongVPN) which will make Google think you&#039;re in the States (due to using your VPN&#039;s IP address) and then give you the option to dial out from within Gmail.&lt;/p&gt;
+&lt;p&gt;So Google Voice is obviously the preferable way to make calls if you don&#039;t want to give Skype (and Microsoft) money. But what if you want to receive calls too? &lt;/p&gt;
+&lt;p&gt;Of course you can pay a monthly subscription fee to Skype to get a Skype in phone number which will ring your Skype account or forward to a phone. You could also set up your own VoIP service, buy a DID (direct inward dialing) number from someone and have Asterisk set up on a Linux server somewhere.&lt;/p&gt;
+&lt;p&gt;You can also have Google Voice receive calls with a personal Google number. However, it needs to actually forward to another phone number - if you&#039;re a real American living in the US then you should have a cell phone or home phone line to forward to.&lt;/p&gt;
+&lt;p&gt;The problem is when you&#039;re an expat living in Vietnam. You can&#039;t set up Google Voice to forward to your local number. But what you can do is set up a free New York state-based DID incoming phone number (your free number there is limited to being a NY number but you will just be forwarding your Google number to it anyways so it shouldn&#039;t matter - you can choose Google Voice phone numbers from any area code) at CallCentric or somewhere else. This will also be your phone number, but you can use it only for the free unlimited incoming calls. You&#039;ll forward your Google Voice number to this DID number but then use Google Voice (you need to install a plugin to be able to call out from Gmail) to call out for free, at least until the end of the year. To answer your DID number (from CallCentric) you&#039;ll need to be running sip phone software and be online. The best thing is you can set up your smartphone (and Symbian Nokia phones) to be your sip phone so anytime your phone is online you can receive calls when people call your Google Voice number!&lt;/p&gt;
+&lt;p&gt;If you don&#039;t receive calls with your Google Voice number you can still receive voice messages which are then transcribed and emailed to you.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/calling-us-free-foreign-countries#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/google">google</category>
+ <category domain="http://www.saigonist.com/category/tags/lifehack">lifehack</category>
+ <category domain="http://www.saigonist.com/category/tags/phone">phone</category>
+ <category domain="http://www.saigonist.com/category/tags/skype">skype</category>
+ <pubDate>Sat, 13 Oct 2012 17:01:08 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">542 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

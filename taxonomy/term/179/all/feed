@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/179/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>bash</title>
+    <link>http://www.saigonist.com/taxonomy/term/179/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>AutoMySQLBackup</title>
+    <link>http://www.saigonist.com/b/automysqlbackup</link>
+    <description>&lt;p&gt;I&#039;m using AutoMySQLBackup v2.5 and haven&#039;t upgraded to v3.0 because the new version splits out config from code (nice) but also expects you to put everything in /etc (not nice).  It&#039;s a fairly simple script made complicated by this new version which even includes an installer script now, which is more reason to keep with the old version.&lt;/p&gt;
+&lt;p&gt;Some changes I made:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;geshifilter&quot;&gt;&lt;code class=&quot;javascript geshifilter-javascript&quot;&gt;OPT&lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #3366CC;&quot;&gt;&amp;quot; --quote-names --opt --skip-lock-tables&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I&#039;m running this script out of cron and I don&#039;t want to lock tables which the web server is serving, even if it means some rows will be out of sync.&lt;/p&gt;
+&lt;p&gt;Then I change all &quot;rm -fv&quot; to &quot;rm -f&quot; because OpenBSD rm doesn&#039;t have a &quot;-v&quot; option, which if my assumption is correct means &quot;verbose&quot; and it&#039;s not useful in this script.&lt;/p&gt;
+&lt;p&gt;Since my databases aren&#039;t so small anymore, I&#039;ve had to set MAXATTSIZE=&quot;20000&quot;.  I also want to filter certain tables (big ones that never change, cache and log tables) and AutoMySQLBackup 3.0 has a new setting CONFIG_table_exclude for this.&lt;/p&gt;
+&lt;p&gt;The section of new code that does this is:&lt;br /&gt;
+&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;javascript geshifilter-javascript&quot; style=&quot;font-family:monospace;&quot;&gt;    &lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;if&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;$&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#123;&lt;/span&gt;#CONFIG_table_exclude&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;@&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#125;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt; then
+      &lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;for&lt;/span&gt; i &lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;in&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&amp;quot;${CONFIG_table_exclude[@]}&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt; &lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;do&lt;/span&gt;
+	opt&lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&amp;quot;${opt[@]}&amp;quot;&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&amp;quot;--ignore-table=$i&amp;quot;&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;
+      done
+    fi&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;In 2.5 we can add these tables manually to the OPT variable after the &quot;&lt;br /&gt;
+OPT&quot; line, e.g.&lt;br /&gt;
+&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;javascript geshifilter-javascript&quot; style=&quot;font-family:monospace;&quot;&gt;$OPT&lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #3366CC;&quot;&gt;&amp;quot;$OPT --ignore-table=foo.bar --ignore-table=foo.baz&amp;quot;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;This saves a lot of disk space and space in my Gmail account used for storing backups.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/automysqlbackup#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/backup">backup</category>
+ <category domain="http://www.saigonist.com/category/tags/bash">bash</category>
+ <category domain="http://www.saigonist.com/category/tags/mysql">mysql</category>
+ <category domain="http://www.saigonist.com/category/tags/script">script</category>
+ <pubDate>Sat, 08 Oct 2011 18:09:20 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">260 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

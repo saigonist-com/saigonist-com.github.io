@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/281/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>money</title>
+    <link>http://www.saigonist.com/taxonomy/term/281/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Using Google AdSense in Drupal</title>
+    <link>http://www.saigonist.com/tech/drupal/using-google-adsense-drupal</link>
+    <description>&lt;p&gt;Recently I attended a BarCamp where there was a session about &lt;strong&gt;monetizing blogs&lt;/strong&gt; for a very modest monthly income, although an amount that amounts to a lot for a local blogger. With Drupal, setting up Google AdSense content is easy. &lt;/p&gt;
+&lt;p&gt;First, just copy the code generated from Adsense into a new block using the block admin interface. Be sure to save the node with the PHP Input Filter (you may need to give yourself permission in admin/permissions to use this powerful filter). Full HTML filter is &lt;strong&gt;not sufficient&lt;/strong&gt; for AdSense code as it will break the finicky JavaScript, so use PHP which performs no filtering or transformations or &lt;strong&gt;create a new input filter&lt;/strong&gt; that does no filtering.&lt;/p&gt;
+&lt;p&gt;You may want to create a special &lt;strong&gt;region&lt;/strong&gt; (by editing the .info file for your theme and adding a new line, then refreshing cache to see it in the dropdown in blocks admin) for your ads otherwise use an existing region to place the block. If you already have regions like a sidebar that has space for content in the same dimensions (especially width) as your chosen AdSense ad then you won&#039;t need to do anything. If you want to optimize your ads though it&#039;s recommended, even by Google themselves, to choose larger ad sizes - especially &lt;strong&gt;large square ads&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;For placing the node somewhere within the node&#039;s content, it&#039;s trickier as you can&#039;t place it use the block admin interface which only deals with regions that are defined in .info and made available via preprocess functions to your page.tpl.php. You can still use blocks to contain the code though. So create a new block, then look for the number in the URL which is the block id. Then you can manually place that block&#039;s content anywhere with this code:&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;javascript geshifilter-javascript&quot; style=&quot;font-family:monospace;&quot;&gt;$block &lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; module_invoke&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;block&#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;,&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;block&#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;,&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;view&#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;,&lt;/span&gt; &lt;span style=&quot;color: #339933;&quot;&gt;&amp;lt;&lt;/span&gt;BLOCK_ID_HERE&lt;span style=&quot;color: #339933;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+print $block&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;&lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;content&#039;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;When publishing your ad blocks, if they don&#039;t appear at first and you see &lt;strong&gt;&quot;Bad Request 400&quot;&lt;/strong&gt; in Chrome&#039;s Developer JavaScript Console, you can try waiting and may magically go away after awhile. That&#039;s what happened to me.&lt;/p&gt;
+&lt;p&gt;There&#039;s also an AdSense module (http://drupal.org/project/adsense) which makes this all a bit easier, but as you can see it&#039;s not hard at all to do manually, which means one less module on your system to complicate things.&lt;/p&gt;
+&lt;p&gt;But here are some other things the Drupal AdSense module can do:&lt;/p&gt;
+&lt;p&gt;&lt;cite&gt;&lt;br /&gt;
+The module provides easy-to-use ad blocks.&lt;br /&gt;
+You can easily disable the ads for certain roles.&lt;br /&gt;
+Provides simple controls for troubleshooting the ads before going live with the site.&lt;br /&gt;
+If Google changes some minor details in the script in , your script can be updated site-wide just by upgrading the module.&lt;br /&gt;
+If you want to do ad revenue sharing, there&#039;s really no other option&lt;br /&gt;
+&lt;/cite&gt;&lt;/p&gt;
+&lt;p&gt;This technique can be used for other online advertising networks besides Google AdSense. It could just as easily be used for Amazon.com&#039;s affiliate program. If you&#039;re in Vietnam you might consider one of the burgeoning number of Vietnamese online ad networks, although they won&#039;t have anything like the inventory of Google.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/using-google-adsense-drupal#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/adsense">adsense</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/google">google</category>
+ <category domain="http://www.saigonist.com/category/tags/money">money</category>
+ <pubDate>Mon, 08 Oct 2012 15:11:54 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">491 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

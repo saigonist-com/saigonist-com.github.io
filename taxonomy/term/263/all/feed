@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/263/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>vocabulary</title>
+    <link>http://www.saigonist.com/taxonomy/term/263/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Importing and Exporting Drupal Taxonomy</title>
+    <link>http://www.saigonist.com/tech/drupal/importing-and-exporting-drupal-taxonomy</link>
+    <description>&lt;p&gt;There are multiple modules for importing and exporting Drupal taxonomies (Drupal switches between using the term &quot;taxonomy&quot; and &quot;vocabulary&quot; like a clinical schizophrenic).  Some use CSV format (http://drupal.org/project/taxonomy_csv), others XML (http://drupal.org/project/taxonomy_xml), and still others use a PHP array (http://drupal.org/project/taxonomy_export).&lt;/p&gt;
+&lt;p&gt;Some of these modules use the same paths for the export and import pages but they are different modules and aren&#039;t compatible. If you have both Taxonomy Export and Taxonomy XML installed at the same time they will conflict.&lt;/p&gt;
+&lt;p&gt;Except for CSV, the other import/export modules need you to create documents in a rather wordy XML or PHP code format, which can actually be more work than entering the terms in manually. Some people may use taxonomy import/export for only the taxonomy definition rather than terms. It&#039;s sometimes unclear what happens if you want to re-import duplicate term names later. &lt;/p&gt;
+&lt;p&gt;What worked best for me was using Taxonomy Manager which gives you an improved UI for organizing terms within a vocabulary. I wish it made editing the core fields of a taxonomy more ajax-y but what it does provide is an easy way to add multiple terms at once, a textarea for pasting in a list of terms, and a way to select where the new terms will go. So you can paste in all the top level terms, then paste in all the 2nd level children of the 1st term and select the 1st term to indicate they will all go under it. As long as you don&#039;t have too many different branches, then this can be done fairly easily.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/importing-and-exporting-drupal-taxonomy#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/module">module</category>
+ <category domain="http://www.saigonist.com/category/tags/taxonomy">taxonomy</category>
+ <category domain="http://www.saigonist.com/category/tags/vocabulary">vocabulary</category>
+ <pubDate>Tue, 30 Aug 2011 20:10:42 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">252 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

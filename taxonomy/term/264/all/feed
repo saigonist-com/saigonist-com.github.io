@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/264/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>module</title>
+    <link>http://www.saigonist.com/taxonomy/term/264/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Drupal 6 Related Content</title>
+    <link>http://www.saigonist.com/tech/drupal/drupal-6-related-content</link>
+    <description>&lt;p&gt;Similar Entries 2 (6.2) - http://drupal.org/project/similar - doesn&#039;t work. But version 1 works like a charm. Version 2 spits up an error on array_filter. Looking at the code, my guess is it&#039;s related to some new Views plugin code in version 2.&lt;/p&gt;
+&lt;p&gt;Related Block - http://drupal.org/project/related_block - would have been cool too. It&#039;s much like Similar Entries. Unfortunately, the search algorithm is way too narrow. At first, I couldn&#039;t tell if the module was even working. Then by weening the search terms down to 1 (which means it figures out a single relevant term and then searches for only that) I saw some results, but not on many nodes still.&lt;/p&gt;
+&lt;p&gt;Relevant Content - http://drupal.org/project/relevant_content - is nice in theory. Currently, it&#039;s broken. It&#039;s in the middle of a rewrite, but it&#039;s looking more and more unlikely that it will ever get rewritten.&lt;/p&gt;
+&lt;p&gt;Related links - http://drupal.org/project/relatedlinks - is not what it seems. It just finds any referenced links in the content and groups them together. Nothing external.&lt;/p&gt;
+&lt;p&gt;Other modules are term (taxonomy) based. But ideally, you don&#039;t need to specify all the relevant terms, and you don&#039;t need to explicitly say that two terms are related. There should be a more intelligent way.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/drupal-6-related-content#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/block">block</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal6">drupal6</category>
+ <category domain="http://www.saigonist.com/category/tags/module">module</category>
+ <category domain="http://www.saigonist.com/category/tags/search">search</category>
+ <category domain="http://www.saigonist.com/category/tags/taxonomy">taxonomy</category>
+ <pubDate>Thu, 24 Jan 2013 16:09:31 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">971 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Controlling visibility of block content by CCK field value</title>
+    <link>http://www.saigonist.com/tech/drupal/controlling-visibility-block-content-cck-field-value</link>
+    <description>&lt;p&gt;Say you have a bunch of blocks and you want them to be displayed on certain nodes of varying content type based on some criteria like the content type and some CCK fields or taxonomy. You can&#039;t do this with the stock block visibility settings without writing custom PHP code. &lt;/p&gt;
+&lt;p&gt;But we can implement it using some existing basic Drupal building blocks: CCK and Views&lt;/p&gt;
+&lt;p&gt;1. Create a content type called Visibility Block. &lt;/p&gt;
+&lt;p&gt;You might have a field for content type where the possible values are returned from code which returns an array of the content types (using function node_get_types()).&lt;/p&gt;
+&lt;p&gt;2. Then for any fields you want to match, you&#039;ll have the same fields in this content type. For example, if one of your content types has a textfield and the possible values are 1, 2, 3, then do the same for Visibility Block. &lt;/p&gt;
+&lt;p&gt;When you create a Visibility Block, you&#039;ll have your block content in the body as normal (optionally you could use Block Reference and create blocks like usual and then link to them in the node instead, but I see no point in the extra effort and redirection), then select the conditions for the pseudo-block being visible.&lt;/p&gt;
+&lt;p&gt;3. Now create a view called Visibility Blocks Viewed. You&#039;ll create block displays, one for each content type that you have a Visibility Block set for which may only be one or two of your c-types. &lt;/p&gt;
+&lt;p&gt;Create an overridden argument each block display for the content type -field- in Visibility Block. You want to match the content type of the viewed node with the field in the Visibility Block, which are not the same type of thing. So you&#039;ll need to convert the argument in code.&lt;/p&gt;
+&lt;p&gt;You&#039;ll call menu_get_object() to get the $node because it&#039;s better than &quot;$node = node_load(arg(1));&quot;. For the chosen c-type for that block display you will check that the implied node&#039;s c-type is what ever type you want to show in this block display because you will also check any fields that are specific to this c-type. Use PHP to supply a value since no argument will be passed in, and have the code load the current node and return the type. Then use PHP for the Validator Options and if the c-type doesn&#039;t match then you will display empty text. If you have multiple c-types which share CCK fields then you can put them into a single block display. &lt;/p&gt;
+&lt;p&gt;4. For each content type, in the chosen block display you will create a new argument for each compared against CCK field. You will pick a field from V-block and then use PHP to return a default value of the currently viewed node&#039;s field&#039;s value. You won&#039;t need to do Validation on these arguments.&lt;/p&gt;
+&lt;p&gt;5. Finally, you may want to limit the number of nodes returned, maybe just one. Now give this block a title and save it and configure its region in the normal block admin.&lt;/p&gt;
+&lt;p&gt;--&lt;/p&gt;
+&lt;h2&gt;Why not the normal block visibility settings?&lt;/h2&gt;
+&lt;p&gt;Because there you can&#039;t even configure by content type (anymore in D6). You can configure by path glob and by PHP code which overrides the path glob field (including in the database).&lt;/p&gt;
+&lt;p&gt;So under &quot;Page specific visibility settings&quot;, set to &quot;Show if the following PHP code returns TRUE (PHP-mode, experts only).&quot;, the field is blocks.pages. Essentially, PHP code works by overriding the pages list.&lt;/p&gt;
+&lt;h2&gt;Why not use Block Page Visibility?&lt;/h2&gt;
+&lt;blockquote&gt;&lt;p&gt;
+Block Page Visibility (&lt;a href=&quot;http://drupal.org/project/bpv&quot; title=&quot;http://drupal.org/project/bpv&quot;&gt;http://drupal.org/project/bpv&lt;/a&gt;) enables site developers to centralize the display of blocks to a single PHP function. It is an alternative to controlling display via each block&#039;s configure form. The more &quot;sometimes on, sometimes off blocks&quot; that a site uses, the more useful this module becomes.
+&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;This takes over the visibility settings of all your blocks by calling:&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;javascript geshifilter-javascript&quot; style=&quot;font-family:monospace;&quot;&gt;$sql &lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;UPDATE blocks SET visibility = 2, pages = CONCAT(&amp;quot;&amp;lt;&amp;quot;, &amp;quot;?&amp;quot;, &amp;quot;php &amp;quot;, &amp;quot;return bpv_is_visible(&lt;span style=&quot;color: #000099; font-weight: bold;&quot;&gt;\&#039;&lt;/span&gt;&amp;quot;, module, &amp;quot;-&amp;quot;, delta, &amp;quot;&lt;span style=&quot;color: #000099; font-weight: bold;&quot;&gt;\&#039;&lt;/span&gt;); &amp;quot;, &amp;quot;?&amp;quot;, &amp;quot;&amp;gt;&amp;quot;) WHERE status=1 AND theme=&lt;span style=&quot;color: #000099; font-weight: bold;&quot;&gt;\&#039;&lt;/span&gt;%s&lt;span style=&quot;color: #000099; font-weight: bold;&quot;&gt;\&#039;&lt;/span&gt;&#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Sometimes it&#039;s easier to configure a block by just whether you&#039;re logged in, or whether you&#039;re on the front page. &lt;/p&gt;
+&lt;p&gt;This module doesn&#039;t give you any finer grained controls. And you have to configure every block in code. You also lose all your current block visibility settings once you install this module. To use this module you have to implement your own bpv_config or bpv_configuration (I think it&#039;s a bug that it&#039;s looking for bpv_configuration but actually uses bpv_config).&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/controlling-visibility-block-content-cck-field-value#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/block">block</category>
+ <category domain="http://www.saigonist.com/category/tags/cck">cck</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/module">module</category>
+ <category domain="http://www.saigonist.com/category/tags/php">php</category>
+ <category domain="http://www.saigonist.com/category/tags/views">views</category>
+ <pubDate>Tue, 30 Oct 2012 13:46:49 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">558 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Build your own FAQ in Drupal</title>
+    <link>http://www.saigonist.com/tech/drupal/build-your-own-faq-drupal</link>
+    <description>&lt;p&gt;Websites, including Drupal sites, often need Frequently Asked Questions and answers to them. Drupal, as a content management system, should manage your question and answer content intelligently. With all the great modules contributed to Drupal&#039;s community you might think there are some good FAQ modules. In my experience, the Drupal FAQ module is too rigid, and therefore unusable for most of my sites. But we can build a FAQ system using basic Drupal building blocks.&lt;/p&gt;
+&lt;p&gt;What we need: taxonomy, blocks, views, a few lines of PHP (that can be stored in the database - no custom module required)&lt;/p&gt;
+&lt;p&gt;1. Content type: Create a new content type. CCK is optional here, as you can just use Title as Question and Body as Answer.&lt;/p&gt;
+&lt;p&gt;2. Vocabulary: Create a new vocabulary called FAQ. Add a few terms if only for testing.&lt;/p&gt;
+&lt;p&gt;3. Devel Generate: Optional - requires Devel module&#039;s devel_generate to generate some test nodes with test questions, answers, and topics. devel_generate can be run from the command line too if you have drush installed - just run &quot;drush genc&quot;. Anyways, generate a few dozen nodes, as many nodes as questions you have. It&#039;ll be easier to mass edit the questions once the nodes have already been generated.&lt;/p&gt;
+&lt;p&gt;4. Views: You&#039;ll need two views although they can also be two displays of a single view, so let&#039;s do that.&lt;/p&gt;
+&lt;p&gt;a. Create a view, filtered by your FAQ content type (and published or published/admin). &lt;/p&gt;
+&lt;p&gt;You will add three node fields:&lt;br /&gt;
+Node: Nid (Nid) [make this field hidden, but its value is used in the rewritten Question field below]&lt;br /&gt;
+Node: Title (Question)&lt;br /&gt;
+Node: Body (Answer)&lt;/p&gt;
+&lt;p&gt;For the Question, rewrite the output to:&lt;br /&gt;
+&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;javascript geshifilter-javascript&quot; style=&quot;font-family:monospace;&quot;&gt;&lt;span style=&quot;color: #339933;&quot;&gt;&amp;lt;&lt;/span&gt;a name&lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #3366CC;&quot;&gt;&amp;quot;q-[nid]&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;a&lt;span style=&quot;color: #339933;&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;title&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;You&#039;ll have on argument, which is the Term (FAQ vocabulary topic) in the URL.&lt;/p&gt;
+&lt;p&gt;- Configure Argument Taxonomy: Term&lt;br /&gt;
+-- Provide default argument&lt;br /&gt;
+--- Default argument type: Taxonomy Term ID from URL&lt;br /&gt;
+-- Validator: (Choose your FAQ vocabulary)&lt;br /&gt;
+-- Argument type: Term name or synonym&lt;br /&gt;
+-- (Optional) Transform spaces to dashes in URL&lt;/p&gt;
+&lt;p&gt;Now turn this default view into a page that&#039;s not overridden in any way. Set the URL to be something that&#039;s NOT your vocabulary name because your URL will conflict with the default taxonomy paths (&quot;taxonomy/term/%&quot; - which Taxonomy sets up path aliases for from each vocabulary with each term - but that page may also be being overridden by a view included by Views by default). So if you want your URLs to be like &quot;/faq/return-policy&quot; then name your Vocabulary like &quot;FAQ Terms&quot; instead of &quot;FAQ&quot;.&lt;/p&gt;
+&lt;p&gt;At this point you should save your new view and be able to go to &quot;/faq/troubleshooting&quot; or whatever. It will give you a list of questions with answers. But usually a FAQ section will also list out all questions at the top with links to answers below. How can we accomplish that?&lt;/p&gt;
+&lt;p&gt;b. Let&#039;s create a new Display that&#039;s a Block. Now override the fields and remove the Answer field. Override the display of the Question to:&lt;br /&gt;
+&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;javascript geshifilter-javascript&quot; style=&quot;font-family:monospace;&quot;&gt;&lt;span style=&quot;color: #339933;&quot;&gt;&amp;lt;&lt;/span&gt;a href&lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #3366CC;&quot;&gt;&amp;quot;#q-[nid]&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;title&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;&amp;lt;/&lt;/span&gt;a&lt;span style=&quot;color: #339933;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Optionally, set a blank title for this field. Then we will have a block that is just a list of questions. But the argument won&#039;t work anymore since it&#039;s a block. So you need to override the argument &quot;Taxonomy: Term&quot;. &lt;/p&gt;
+&lt;p&gt;- Default argument type:&lt;br /&gt;
+-- PHP Code&lt;br /&gt;
+--- &lt;span class=&quot;geshifilter&quot;&gt;&lt;code class=&quot;javascript geshifilter-javascript&quot;&gt;&lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;return&lt;/span&gt; arg&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #CC0000;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;- Validator: Basic validation + Transform dashes in URL to spaces in term name arguments&lt;/p&gt;
+&lt;p&gt;This will find the term &quot;charity&quot; in the path &quot;/faq/charity&quot; and pass it on. &lt;/p&gt;
+&lt;p&gt;5. Now that the block is created, you need to make it display. We want to display it on the top of our first view!&lt;/p&gt;
+&lt;p&gt;This is assuming you have a region in your theme for blocks at the top of content in pages. You could choose another location but it should really appear as the first content you see. But you want this block to appear ONLY on this page! So in block admin, configure the block you just created, and under:&lt;/p&gt;
+&lt;p&gt;Page specific visibility settings&lt;br /&gt;
+- Show block on specific pages:&lt;br /&gt;
+-- [check] Show on only the listed pages.&lt;br /&gt;
+Pages:&lt;br /&gt;
+- Type in &quot;faq/*&quot;&lt;/p&gt;
+&lt;p&gt;Save the block. Now your question list with links to answers further down the page should be appearing at the top of your FAQ pages!&lt;/p&gt;
+&lt;p&gt;7. Next, you need a list of your categories. Sadly, there&#039;s no easy way for Drupal to do this. Views has a view type for taxonomies which is unfortunately not very powerful and so we can&#039;t use it to get links to &quot;/faq/[term]&quot; as it doesn&#039;t allow us to rewrite our own links. It allows you to link to term pages but those pages are rendered by either the Taxonomy module or that default view I mentioned earlier. Trying to override those paths with our own view is a mess, probably due to weighting.&lt;/p&gt;
+&lt;p&gt;Anyways, we can easily create a list of topics with links with a tiny bit of PHP. Create a new block using the Block admin page. In the block body:&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;javascript geshifilter-javascript&quot; style=&quot;font-family:monospace;&quot;&gt;&lt;span style=&quot;color: #339933;&quot;&gt;&amp;lt;?&lt;/span&gt;php
+$tree &lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; taxonomy_get_tree&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;$vocabulary_id&lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt;YOUR_FAQ_VOCABULARY_ID_HERE&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+$html &lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;&amp;lt;ul&amp;gt;&#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+&lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;if&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;$tree&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#123;&lt;/span&gt;
+    foreach &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;$tree as $term&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt; 
+        $html .&lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;&amp;lt;li&amp;gt;&#039;&lt;/span&gt; . &lt;span style=&quot;color: #660066;&quot;&gt;l&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;$term&lt;span style=&quot;color: #339933;&quot;&gt;-&amp;gt;&lt;/span&gt;name&lt;span style=&quot;color: #339933;&quot;&gt;,&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;faq/&#039;&lt;/span&gt; . &lt;span style=&quot;color: #660066;&quot;&gt;str_replace&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #3366CC;&quot;&gt;&#039; &#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;,&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;-&#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;,&lt;/span&gt; mb_strtolower&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;$term&lt;span style=&quot;color: #339933;&quot;&gt;-&amp;gt;&lt;/span&gt;name&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt; . &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;&amp;lt;/li&amp;gt;&#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#125;&lt;/span&gt;
+$html .&lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;&amp;lt;/ul&amp;gt;&#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+&lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;return&lt;/span&gt; $html&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+&lt;span style=&quot;color: #339933;&quot;&gt;?&amp;gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Again, set this block to only appear on &quot;faq/*&quot; pages. Then configure its location into a sidebar or somewhere and you will be displaying links to each of your FAQ topics and you&#039;re done!&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/build-your-own-faq-drupal#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/block">block</category>
+ <category domain="http://www.saigonist.com/category/tags/code">code</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/faq">faq</category>
+ <category domain="http://www.saigonist.com/category/tags/module">module</category>
+ <category domain="http://www.saigonist.com/category/tags/taxonomy">taxonomy</category>
+ <category domain="http://www.saigonist.com/category/tags/views">views</category>
+ <pubDate>Sat, 13 Oct 2012 05:15:20 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">540 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Multiple Simultaneous Node Editing Forms in Drupal</title>
+    <link>http://www.saigonist.com/tech/drupal/multiple-simultaneous-node-editing-forms-drupal</link>
+    <description>&lt;p&gt;Mass editing nodes in Drupal can be a chore. If you just want to edit some attribute and set it to a single value for many different nodes then Views Bulk Operations can help. But you may instead want to make some quick changes to the titles, bodies, and CCK fields of a bunch of nodes of a certain type. The default way would be to open each node in a browser tab, go to their edit forms, and then operate on each one individually. Can we come up with a better way?&lt;/p&gt;
+&lt;p&gt;Multi Node Edit is a module that sounds like it could help. It promises to give you a page with many node edit forms. Unfortunately, this is not the case. By itself, this module is not usable to users. If you write some code to use it like a library you might be able to create a page with many node edit forms on it. &lt;/p&gt;
+&lt;p&gt;Recommendation: This module isn&#039;t useful to most people. It might be useful if you&#039;re writing code for a custom page.&lt;/p&gt;
+&lt;p&gt;Editview (editview) is the easiest to use, you just build Views and select &#039;Style&#039; of &#039;Editview&#039; in one of your displays. It works on the whole display, so all fields become editable. Unfortunately, you can&#039;t control this. Some fields shouldn&#039;t be editable, and so sometimes they just don&#039;t appear at all. Other times you may want to view a field but not edit it. Unfortunately, this isn&#039;t possible, even when using Global fields. [This issue is tracked here: http://drupal.org/node/635076] &lt;/p&gt;
+&lt;p&gt;* In my case, I just wanted to get a link to edit the node. I accomplished this by adding a Node: Path field which shows the path/alias editing form.&lt;/p&gt;
+&lt;p&gt;Recommendation: Use Editview if you&#039;re comfortable with building Views. Then you can construct a view of the fields you want to edit, and make it easy to filter the nodes you want to edit. &lt;/p&gt;
+&lt;p&gt;Editable Fields (editablefields) - 6.2 doesn&#039;t integrate with Views, despite the README. 6.3 does integrate but not the way explained in the README.txt. There is no added View type to choose when creating views. The exported content types used for demonstration don&#039;t import either. Most fields aren&#039;t editable, but if they are there will be a new checkbox for editable with some options. However, the 6.3 version of the module is still quite buggy so it doesn&#039;t work at all. &lt;/p&gt;
+&lt;p&gt;Recommendation: Avoid Editablefields module for now unless you want to just edit fields in the node display.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/multiple-simultaneous-node-editing-forms-drupal#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/module">module</category>
+ <category domain="http://www.saigonist.com/category/tags/node-edit">node edit</category>
+ <category domain="http://www.saigonist.com/category/tags/views">views</category>
+ <pubDate>Thu, 11 Oct 2012 11:44:39 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">538 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Drupal Links in Content</title>
+    <link>http://www.saigonist.com/tech/drupal/drupal-links-content</link>
+    <description>&lt;p&gt;Problem: In your blog posts you have a lot of links to other pages on your site, then one day you decide to change the URL pattern for all nodes on your site, or you change the pattern and slowly update paths to nodes by editing and saving them. Unfortunately, you had hard-coded paths in your content bodies and now they are all leading to 404 pages. What to do?&lt;/p&gt;
+&lt;p&gt;1) Link checker (linkchecker) module will find the broken links. This is something you may need to use.&lt;/p&gt;
+&lt;p&gt;2) Path Finder is a module that turns your node links into permalinks with node id (slug) at the front of the URL so that any future change to title which results in a different URL still leads to the same node via the node id. Example: http://www.example.com/837/latest-news/my-descriptive-seo-friendly-url&lt;/p&gt;
+&lt;p&gt;Of course, this doesn&#039;t help you once you already have a bunch of nodes and content linking to them, but it&#039;s one strategy to start with. Then if you do change the titles or patterns of your nodes, as long as the node id / slug is still at the beginning of the url, then you won&#039;t get any 404 errors, although you&#039;ll then have multiple URLs pointing to the same content. So this isn&#039;t ideal.&lt;/p&gt;
+&lt;p&gt;3) Turn on Pathologic: &quot;Pathologic is an input filter which can correct paths in links and images in your Drupal content in situations which would otherwise cause them to “break;” for example, if the URL of the site changes, or the content was moved to a different server.  Pathologic is designed to be a simple, set-it-and-forget-it utility. You don&#039;t need to enter any special “tags,” path prefixes, or other non-content noise into your content to trigger Pathologic to work; it finds paths it can manage in your content automatically.&quot;&lt;/p&gt;
+&lt;p&gt;4) If you just need to remove a base path (like http://www.domain.com:8080) from all URLs, then URL Replace Filter (url_replace_filter) will suffice.&lt;/p&gt;
+&lt;p&gt;5) If you need to do more complicated search and replace on URLs, and want to use regular expressions, then use Search and Replace Scanner (scanner).&lt;/p&gt;
+&lt;p&gt;Finally, use Global Redirect to always have a single canonical path for each piece of content.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/drupal-links-content#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/404">404</category>
+ <category domain="http://www.saigonist.com/category/tags/broken-links">broken links</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/module">module</category>
+ <category domain="http://www.saigonist.com/category/tags/search">search</category>
+ <category domain="http://www.saigonist.com/category/tags/seo">seo</category>
+ <pubDate>Wed, 10 Oct 2012 20:01:15 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">536 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Increase Drupal Maximum URL Alias Length</title>
+    <link>http://www.saigonist.com/tech/drupal/increase-drupal-maximum-url-alias-length</link>
+    <description>&lt;p&gt;Drupal URLs can be pretty long. But practically, there&#039;s a limit in the database of 128 characters, even though browsers and web servers can support much longer URLs. With new versions of Path Auto, the schema is checked for alias column size. Then aliases longer than 128 characters are supported. This requires no hacking!&lt;/p&gt;
+&lt;p&gt;To change this, without just manually altering the length of the column in your database, you can use the following code in your own module:&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;php geshifilter-php&quot; style=&quot;font-family:monospace;&quot;&gt;&lt;span style=&quot;color: #009933; font-style: italic;&quot;&gt;/**
+* Implementation of hook_schema_alter().
+*/&lt;/span&gt;
+&lt;span style=&quot;color: #000000; font-weight: bold;&quot;&gt;function&lt;/span&gt; yourmodulename_schema_alter&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: #000088;&quot;&gt;$schema&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#123;&lt;/span&gt;
+  &lt;span style=&quot;color: #000088;&quot;&gt;$schema&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;&lt;span style=&quot;color: #0000ff;&quot;&gt;&#039;url_alias&#039;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;&lt;span style=&quot;color: #0000ff;&quot;&gt;&#039;fields&#039;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;&lt;span style=&quot;color: #0000ff;&quot;&gt;&#039;dst&#039;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;&lt;span style=&quot;color: #0000ff;&quot;&gt;&#039;length&#039;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt; &lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #cc66cc;&quot;&gt;255&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Long URLs aren&#039;t very human friendly but even the oldest browsers can support URLs more than 2048 characters in length. Browsers support long paths, web servers support them, proxies support them, and mail clients either support them or break around 80 characters anyways. This doesn&#039;t mean you should carelessly throw around long URLs, but if you&#039;re generating them automatically then you don&#039;t need to cut them at an artificially low limit anymore.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/increase-drupal-maximum-url-alias-length#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/clean-url">clean url</category>
+ <category domain="http://www.saigonist.com/category/tags/database">database</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/module">module</category>
+ <category domain="http://www.saigonist.com/category/tags/path-redirect">path redirect</category>
+ <category domain="http://www.saigonist.com/category/tags/pathauto">pathauto</category>
+ <category domain="http://www.saigonist.com/category/tags/seo">seo</category>
+ <pubDate>Tue, 09 Oct 2012 17:47:58 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">532 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Drupal module idea: embed Google spreadsheet CCK field</title>
+    <link>http://www.saigonist.com/b/drupal-module-idea-embed-google-spreadsheet-cck-field</link>
+    <description>&lt;p&gt;How can we store tables or spreadsheets in Drupal content nodes?&lt;/p&gt;
+&lt;p&gt;Drupal is a Content Management System as well as a &lt;strong&gt;Content Management Framework&lt;/strong&gt;. It&#039;s meant for facilitating the creation and editing of content, where content doesn&#039;t just mean simple text. CCK allows Drupal site managers to easily enable complex data types for their content. But sometimes it&#039;s not so easy to manage lots of simple data in the way that a spreadsheet (meaning Excel or Google Spreadsheet) easily manages many rows and columns of related data.&lt;/p&gt;
+&lt;p&gt;Sometimes you really want &lt;strong&gt;tabular data&lt;/strong&gt; and you may not know for sure how many rows or columns you&#039;ll want beforehand, which is never a problem for Excel or Google Spreadsheet (which is also why sometimes people abuse Excel as a general purpose database). Maybe you are importing spreadsheets or are using spreadsheets with many rows and columns, and only want to use a section of the spreadsheet. Maybe you need to use spreadsheets because you are using formulas and want to do some graphing based on some numbers too. In fact, Excel can do much more. Rather than hoping all of those use cases will make it into a Drupal module anytime soon, wouldn&#039;t it be nice if you could just &lt;strong&gt;embed a spreadsheet in a node&lt;/strong&gt;?&lt;/p&gt;
+&lt;p&gt;There are some &lt;a href=&quot;http://www.saigonist.com/b/attaching-tablematrixarray-drupal-node&quot;&gt;modules for attaching tables or tabular data to nodes&lt;/a&gt;  but in the end the interface can be a bit unwieldy.  I discussed building something like a spreadsheet to quickly edit many values and below I present a &lt;strong&gt;demonstration&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;What is already available that we could use to attach spreadsheets or something similar to nodes?&lt;/p&gt;
+&lt;p&gt;1. You could: Configure a Google spreadsheet that&#039;s either public or somehow accessed via a Google api, perhaps using OAuth2 or just assuming the viewer also has edit access to the spreadsheet. Google already lets you embed spreadsheets including the editable spreadsheet but they don&#039;t let you limit the view of the spreadsheet (limiting the view still lets everyone access the whole spreadsheet by changing the URL). &lt;/p&gt;
+&lt;p&gt;We would also need new nodes to automatically create sheets in the spreadsheet or new spreadsheets altogether and embed them in node edit. This would need to use their APIs since the embeddable Google Spreadsheets require an existing spreadsheet, otherwise this step needs to be done manually for each node - a new Google spreadsheet created per node.&lt;/p&gt;
+&lt;p&gt;This &lt;a href=&quot;https://github.com/evolvingweb/redmine_google_docs&quot;&gt;Redmine Google Docs plugin&lt;/a&gt; takes a similar approach and shows how the resulting data could be embedded.&lt;/p&gt;
+&lt;p&gt;(This &lt;a href=&quot;http://www.mediawikiwidgets.org/Google_Spreadsheet&quot;MediaWiki Google Spreadsheet widget&lt;/a&gt; might be worth investigating as well.)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2. Another approach would be to take an existing JavaScript or Java spreadsheet that could be embedded. This could be exactly what you want if you need the full functionality of Excel in each node. One such online spreadsheet is &lt;a href=&quot;http://code.google.com/p/zkspreadsheet/&quot;&gt;ZK Spreadsheet&lt;/a&gt; which is written in Java, and would let you have full formula and charting support.&lt;/p&gt;
+&lt;p&gt;3. Embed a widget like the form below as a CCK field in a node. It would be a new CCK field type where the editing widget is the below spreadsheet-like table and the display widget might be the same thing, an uneditable table, or the raw JSON string representation. In the database, the actual value of the field would be JSON (unless you wanted to use PHP&#039;s serialize() which would require POSTing values first instead of just posting the json value). This means you wouldn&#039;t relate or compare this field to anything else, as with any serialized data in a database. You could come up with some other schema involving columns and rows to store the table&#039;s values for each field in a node but I&#039;m not sure it&#039;s worthwhile.&lt;/p&gt;
+&lt;p&gt;I created this demonstration but haven&#039;t turned it into a Drupal module. There is code to dump the edited values into a single JSON value to be stored in the database but the storage would be module-specific. &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.saigonist.com/sites/saigonist/files/spread.js&quot;&gt;Get the JavaScript&lt;/a&gt; - then combine it with &lt;a href=&quot;http://www.saigonist.com/sites/saigonist/files/spread.html&quot;&gt;html and CSS&lt;/a&gt;, which you also see below.&lt;/p&gt;
+&lt;!-- copy from here --&gt;&lt;!-- copy from here --&gt;&lt;style&gt;
+#saigonist-spread {
+width: 800px;
+background-color: white;
+border: 1px solid;
+z-index: 1000;
+position: relative;
+}
+
+#saigonist-spread input {
+border: 1px solid #ccc;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+
+.saigonist-spread-row-head &gt; div,
+.saigonist-spread-row &gt; div {
+float: left;
+width: 122px;
+}
+
+#saigonist-spread .saigonist-spread-col-0 {
+width: 20px;
+}
+
+.saigonist-spread-row {
+clear: both;
+}
+
+.saigonist-spread-plus {
+cursor: pointer;
+}
+
+&lt;/style&gt;&lt;script src=&quot;http://www.saigonist.com/sites/saigonist/files/spread.js&quot;&gt;
+&lt;/script&gt;&lt;div id=&quot;saigonist-spread&quot;&gt;
+&lt;div class=&quot;saigonist-spread-row-head&quot;&gt;
+&lt;div class=&quot;saigonist-spread-col-0&quot;&gt;&lt;span id=&quot;saigonist-spread-cell-0-0&quot;&gt;.&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-1&quot;&gt;&lt;span&gt;A&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-2&quot;&gt;&lt;span&gt;B&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-3&quot;&gt;&lt;span&gt;C&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-max saigonist-spread-plus&quot;&gt;&lt;span onclick=&quot;saigonist_spread_add_col()&quot;&gt;+&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-rows&quot;&gt;
+&lt;div id=&quot;saigonist-spread-row-1&quot; class=&quot;saigonist-spread-row&quot;&gt;
+&lt;div class=&quot;saigonist-spread-col-0&quot;&gt;1&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-1&quot;&gt;&lt;input type=&quot;text&quot; length=&quot;10&quot; name=&quot;saigonist-spread-cell-1-1&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-2&quot;&gt;&lt;input type=&quot;text&quot; length=&quot;10&quot; name=&quot;saigonist-spread-cell-1-2&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-3&quot;&gt;&lt;input type=&quot;text&quot; length=&quot;10&quot; name=&quot;saigonist-spread-cell-1-3&quot; /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;saigonist-spread-row-2&quot; class=&quot;saigonist-spread-row&quot;&gt;
+&lt;div class=&quot;saigonist-spread-col-0&quot;&gt;2&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-1&quot;&gt;&lt;input type=&quot;text&quot; length=&quot;10&quot; name=&quot;saigonist-spread-cell-2-1&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-2&quot;&gt;&lt;input type=&quot;text&quot; length=&quot;10&quot; name=&quot;saigonist-spread-cell-2-2&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-3&quot;&gt;&lt;input type=&quot;text&quot; length=&quot;10&quot; name=&quot;saigonist-spread-cell-2-3&quot; /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;saigonist-spread-row-3&quot; class=&quot;saigonist-spread-row&quot;&gt;
+&lt;div class=&quot;saigonist-spread-col-0&quot;&gt;3&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-1&quot;&gt;&lt;input type=&quot;text&quot; length=&quot;10&quot; name=&quot;saigonist-spread-cell-3-1&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-2&quot;&gt;&lt;input type=&quot;text&quot; length=&quot;10&quot; name=&quot;saigonist-spread-cell-3-2&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-3&quot;&gt;&lt;input type=&quot;text&quot; length=&quot;10&quot; name=&quot;saigonist-spread-cell-3-3&quot; /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-row&quot;&gt;
+&lt;div class=&quot;saigonist-spread-col-0 saigonist-spread-plus&quot;&gt;&lt;span onclick=&quot;saigonist_spread_add_row()&quot;&gt;+&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;JSON: &quot;&lt;br /&gt;
+&lt;div id=&quot;saigonist-spread-value-json&quot;&gt;&lt;/div&gt;
+&lt;p&gt;&quot;&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+</description>
+     <comments>http://www.saigonist.com/b/drupal-module-idea-embed-google-spreadsheet-cck-field#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/google">google</category>
+ <category domain="http://www.saigonist.com/category/tags/javascript">javascript</category>
+ <category domain="http://www.saigonist.com/category/tags/module">module</category>
+ <category domain="http://www.saigonist.com/category/tags/spreadsheet">spreadsheet</category>
+ <pubDate>Sun, 30 Sep 2012 15:28:46 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">228 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Importing and Exporting Drupal Taxonomy</title>
+    <link>http://www.saigonist.com/tech/drupal/importing-and-exporting-drupal-taxonomy</link>
+    <description>&lt;p&gt;There are multiple modules for importing and exporting Drupal taxonomies (Drupal switches between using the term &quot;taxonomy&quot; and &quot;vocabulary&quot; like a clinical schizophrenic).  Some use CSV format (http://drupal.org/project/taxonomy_csv), others XML (http://drupal.org/project/taxonomy_xml), and still others use a PHP array (http://drupal.org/project/taxonomy_export).&lt;/p&gt;
+&lt;p&gt;Some of these modules use the same paths for the export and import pages but they are different modules and aren&#039;t compatible. If you have both Taxonomy Export and Taxonomy XML installed at the same time they will conflict.&lt;/p&gt;
+&lt;p&gt;Except for CSV, the other import/export modules need you to create documents in a rather wordy XML or PHP code format, which can actually be more work than entering the terms in manually. Some people may use taxonomy import/export for only the taxonomy definition rather than terms. It&#039;s sometimes unclear what happens if you want to re-import duplicate term names later. &lt;/p&gt;
+&lt;p&gt;What worked best for me was using Taxonomy Manager which gives you an improved UI for organizing terms within a vocabulary. I wish it made editing the core fields of a taxonomy more ajax-y but what it does provide is an easy way to add multiple terms at once, a textarea for pasting in a list of terms, and a way to select where the new terms will go. So you can paste in all the top level terms, then paste in all the 2nd level children of the 1st term and select the 1st term to indicate they will all go under it. As long as you don&#039;t have too many different branches, then this can be done fairly easily.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/importing-and-exporting-drupal-taxonomy#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/module">module</category>
+ <category domain="http://www.saigonist.com/category/tags/taxonomy">taxonomy</category>
+ <category domain="http://www.saigonist.com/category/tags/vocabulary">vocabulary</category>
+ <pubDate>Tue, 30 Aug 2011 20:10:42 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">252 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

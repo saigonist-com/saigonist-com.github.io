@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/332/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>node edit</title>
+    <link>http://www.saigonist.com/taxonomy/term/332/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Multiple Simultaneous Node Editing Forms in Drupal</title>
+    <link>http://www.saigonist.com/tech/drupal/multiple-simultaneous-node-editing-forms-drupal</link>
+    <description>&lt;p&gt;Mass editing nodes in Drupal can be a chore. If you just want to edit some attribute and set it to a single value for many different nodes then Views Bulk Operations can help. But you may instead want to make some quick changes to the titles, bodies, and CCK fields of a bunch of nodes of a certain type. The default way would be to open each node in a browser tab, go to their edit forms, and then operate on each one individually. Can we come up with a better way?&lt;/p&gt;
+&lt;p&gt;Multi Node Edit is a module that sounds like it could help. It promises to give you a page with many node edit forms. Unfortunately, this is not the case. By itself, this module is not usable to users. If you write some code to use it like a library you might be able to create a page with many node edit forms on it. &lt;/p&gt;
+&lt;p&gt;Recommendation: This module isn&#039;t useful to most people. It might be useful if you&#039;re writing code for a custom page.&lt;/p&gt;
+&lt;p&gt;Editview (editview) is the easiest to use, you just build Views and select &#039;Style&#039; of &#039;Editview&#039; in one of your displays. It works on the whole display, so all fields become editable. Unfortunately, you can&#039;t control this. Some fields shouldn&#039;t be editable, and so sometimes they just don&#039;t appear at all. Other times you may want to view a field but not edit it. Unfortunately, this isn&#039;t possible, even when using Global fields. [This issue is tracked here: http://drupal.org/node/635076] &lt;/p&gt;
+&lt;p&gt;* In my case, I just wanted to get a link to edit the node. I accomplished this by adding a Node: Path field which shows the path/alias editing form.&lt;/p&gt;
+&lt;p&gt;Recommendation: Use Editview if you&#039;re comfortable with building Views. Then you can construct a view of the fields you want to edit, and make it easy to filter the nodes you want to edit. &lt;/p&gt;
+&lt;p&gt;Editable Fields (editablefields) - 6.2 doesn&#039;t integrate with Views, despite the README. 6.3 does integrate but not the way explained in the README.txt. There is no added View type to choose when creating views. The exported content types used for demonstration don&#039;t import either. Most fields aren&#039;t editable, but if they are there will be a new checkbox for editable with some options. However, the 6.3 version of the module is still quite buggy so it doesn&#039;t work at all. &lt;/p&gt;
+&lt;p&gt;Recommendation: Avoid Editablefields module for now unless you want to just edit fields in the node display.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/multiple-simultaneous-node-editing-forms-drupal#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/module">module</category>
+ <category domain="http://www.saigonist.com/category/tags/node-edit">node edit</category>
+ <category domain="http://www.saigonist.com/category/tags/views">views</category>
+ <pubDate>Thu, 11 Oct 2012 11:44:39 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">538 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

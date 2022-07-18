@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/175/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>chinese</title>
+    <link>http://www.saigonist.com/taxonomy/term/175/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Twitter Decoder Ring</title>
+    <link>http://www.saigonist.com/b/twitter-decoder-ring</link>
+    <description>&lt;p&gt;My latest Chrome extension is a quick wrapper around a &quot;service&quot; (hoping the provider see it that way :) to compress English text and get around the 140 character bound on Twitter.&lt;/p&gt;
+&lt;p&gt;Twitter Decoder Ring: https://chrome.google.com/webstore/detail/idcnolgflhcckjdfpfbcehjocggffdjk&lt;/p&gt;
+&lt;p&gt;&lt;img width=&quot;400px&quot; src=&quot;http://www.saigonist.com/sites/saigonist.com/files/decoderringsmall.png&quot; /&gt;&lt;br /&gt;
+Twitter has a 140 character limit on tweets.  This can be annoying when you are writing something and end up just slightly over (seeing negative character counts).  So a lot of third party solutions have sprung up to allow one to tweet longer tweets by basically linking to a blog post.  For example, TweetDeck does this.  There is a way to compress some 140 words into 140 characters by 1) using the set of Chinese characters to represent bits and 2) compressing the English text into as few bits as possible.  &lt;/p&gt;
+&lt;p&gt;For example, the entire paragraph above compresses into this non-sensical Chinese character string: 顜善嬔巖嗴允曏不t唈吷呈 呌噑庠嗱鲷凸亥丂仨丶乇儓乓(劗揦允圫s囸 严懦倡侭鹔丘柺槐嫢忒爠t唈堺倱t唈婐丕珹埼円七哢蠧呕囫 自t唈吷讴鏞弣恟帺呙冑咭巖嗴佽哻巖0簝噯呝丕1哼测樖匡螎諑歘丂2哼檂鎗俫抆哻与亩歘挍叜&lt;/p&gt;
+&lt;p&gt;I have always thought it a bit unfair that Chinese Twitter users get to say a lot more in 140 characters than we English-speakers do, because each Chinese character essentially represents an idea and often a complete word, rather than just a sound in an alphabet (like the Latin, Arabic, Hebrew, or even Vietnamese alphabets).  On the other hand, Chinese Twitter users aren&#039;t allowed to access Twitter so I guess it&#039;s a draw.&lt;/p&gt;
+&lt;p&gt;A description of the project to compress English words into Chinese characters is found at: http://thevirtuosi.blogspot.com/2011/08/tweet-is-worth-at-least-140-words.html and a web frontend for the Python script that does the compression can be found at http://pages.physics.cornell.edu/~aalemi/twitter/&lt;/p&gt;
+&lt;p&gt;It&#039;s important to note that although the characters are real Chinese characters, the string that is created most likely isn&#039;t correct or meaningful Chinese when read by a Chinese person.&lt;/p&gt;
+&lt;p&gt;This extension uses the backend from the above blog post and provides a quick and dirty wrapper to encode English text as compressed Chinese characters.&lt;/p&gt;
+&lt;div class=&quot;field field-type-filefield field-field-blogattachments&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Attachments:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file clear-block&quot;&gt;&lt;div class=&quot;filefield-icon field-icon-image-png&quot;&gt;&lt;img class=&quot;field-icon-image-png&quot;  alt=&quot;image/png icon&quot; src=&quot;http://www.saigonist.com/sites/all/modules/3rdparty/filefield/icons/protocons/16x16/mimetypes/image-x-generic.png&quot; /&gt;&lt;/div&gt;&lt;a href=&quot;http://www.saigonist.com/sites/saigonist.com/files/decoderringsmall.png&quot; type=&quot;image/png; length=110017&quot;&gt;decoderringsmall.png&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+     <comments>http://www.saigonist.com/b/twitter-decoder-ring#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/chinese">chinese</category>
+ <category domain="http://www.saigonist.com/category/tags/chrome">chrome</category>
+ <category domain="http://www.saigonist.com/category/tags/compression">compression</category>
+ <category domain="http://www.saigonist.com/category/tags/extension">extension</category>
+ <category domain="http://www.saigonist.com/category/tags/twitter">twitter</category>
+ <pubDate>Sun, 04 Sep 2011 20:17:36 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">254 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

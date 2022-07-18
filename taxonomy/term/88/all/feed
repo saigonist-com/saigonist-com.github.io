@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/88/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>excel</title>
+    <link>http://www.saigonist.com/taxonomy/term/88/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Import Nokia SMS and Contacts CSV Export to Google Excel Spreadsheet</title>
+    <link>http://www.saigonist.com/content/import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet</link>
+    <description>&lt;p&gt;Using Nokia&#039;s PC Suite, one can export SMS messages from one&#039;s phone (maybe only their smartphones with USB).  The format is CSV but the output is basically unreadable due to PC Suite bugs.  Only a phone number is exported per message, no contact name.  But more importantly, the CSV output is broken -- double quotes aren&#039;t properly escaped.&lt;/p&gt;
+&lt;p&gt;I think it&#039;s useful to be able to browse old messages online, say in a Google spreadsheet.  But to do that, we need to rewrite PC Suite&#039;s output a bit.&lt;/p&gt;
+&lt;p&gt;[I didn&#039;t know anything about scripting Excel (or Google&#039;s spreadsheet which is basically Excel) but I did want to look up some old messages because I couldn&#039;t remember somebody&#039;s birthday.  After importing messages from a year ago to Google docs, I could read messages between my friend and I around that day to find out exactly.]&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/content/import-nokia-sms-and-contacts-csv-export-google-excel-spreadsheet#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/csv">csv</category>
+ <category domain="http://www.saigonist.com/category/tags/excel">excel</category>
+ <category domain="http://www.saigonist.com/category/tags/nokia">nokia</category>
+ <category domain="http://www.saigonist.com/category/tags/pc-suite">pc suite</category>
+ <category domain="http://www.saigonist.com/category/tags/smartphone">smartphone</category>
+ <category domain="http://www.saigonist.com/category/tags/spreadsheet">spreadsheet</category>
+ <pubDate>Thu, 24 Mar 2011 22:03:49 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">59 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

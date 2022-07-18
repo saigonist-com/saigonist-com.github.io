@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/219/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>subtitles</title>
+    <link>http://www.saigonist.com/taxonomy/term/219/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Fixing Subtitles in VLC</title>
+    <link>http://www.saigonist.com/b/fixing-subtitles-vlc</link>
+    <description>&lt;p&gt;I don&#039;t want to forget this.&lt;/p&gt;
+&lt;p&gt;If you&#039;re ever watching a movie in VLC and you have downloaded a subtitle file which can be an .srt  (the file extension for SubRip subtitle files) or .ass (whoever came up with that file extension) and the timing is off, you can fix it!  One way is to modify the actual subtitle file which is plaintext. However, to fix timing offsets this way would require lots of changes since each subtitle line is an absolute offset from the beginning of the movie, rather than as an offset from the last line. This means you can&#039;t just fix the first line and have the changes cascaded.&lt;/p&gt;
+&lt;p&gt;There are some sites which purport to fix time offsets in subtitle files. They seem to all be down.  But this is only really necessary if you want to reuse the file or share it again. &lt;/p&gt;
+&lt;p&gt;If you just want to watch the movie and have the subtitles be in sync for the one time you watch the move, with VLC player, it&#039;s easy although it might not be documented well. By default, there should be hotkeys assigned to change the time difference between the video and subtitles. You can change the delay both ways by making it positive or negative. By default the hotkeys should be control-h and control-j which change the offset by 50 ms each time and you should see the total offset appear briefly.&lt;/p&gt;
+&lt;p&gt;If those hotkeys don&#039;t work and you also can&#039;t seem to modify the hotkeys (this affected me) then you can edit the VLC config file directly. On OSX, it&#039;s installed at ~/Library/Preferences/org.videolan.vlc/vlcrc.&lt;/p&gt;
+&lt;p&gt;Open up the file and look for:&lt;/p&gt;
+&lt;pre&gt;
+# Subtitle delay up (key)
+key-subdelay-up=j
+# Subtitle delay up (key)
+#global-key-subdelay-up=Unset
+# Subtitle delay down (key)
+key-subdelay-down=h
+# Subtitle delay down (key)
+#global-key-subdelay-down=Unset
+&lt;/pre&gt;&lt;p&gt;
+Set accordingly, save, and you&#039;re done.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/fixing-subtitles-vlc#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/subtitles">subtitles</category>
+ <category domain="http://www.saigonist.com/category/tags/vlc">vlc</category>
+ <pubDate>Wed, 02 May 2012 17:21:31 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">324 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

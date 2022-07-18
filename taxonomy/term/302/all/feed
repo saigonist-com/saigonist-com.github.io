@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/302/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>sniffing</title>
+    <link>http://www.saigonist.com/taxonomy/term/302/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Wifi Security at Home and at Cafes</title>
+    <link>http://www.saigonist.com/b/wifi-security-home-and-cafes</link>
+    <description>&lt;p&gt;Vietnam is blessed with free wifi at nearly any cafe even if it doesn&#039;t always work as advertised, like most things in Vietnam. Vietnam is also blessed with cafes on nearly every block. So finding a wireless access point to get online is pretty easy for anyone traveling or living in Vietnam.&lt;/p&gt;
+&lt;h2&gt;Hackers can see what websites you&#039;re visiting and then log into those websites as you&lt;/h2&gt;
+&lt;p&gt;The problem is security. Many times cafe owners will leave their wifi access points completely open without needing a password to get on. This makes it basically trivial for a hacker to sniff the airwaves and see everything on the network. If you are on such a network you should secure your connection with an SSH tunnel or a VPN. &lt;/p&gt;
+&lt;p&gt;If they do have a password, they may be using older security schemes like WEP or WPA, rather than WPA2. Without WPA2 or more secure systems that require the network owner setting up an authentication server (too much to ask for any cafe owner) it is also possible to break the encryption. &lt;/p&gt;
+&lt;h2&gt;Security setting: WPA2&lt;/h2&gt;
+&lt;p&gt;For now, insist on at least WPA2. If you&#039;re setting up wifi at your house and you don&#039;t want people to sniff your traffic, use WPA2 with a long random password and be sure to change the SSID from the default network name provided by the manufacturer. (The reason that using a default SSID is less secure is that rainbow tables exist for these, making password cracking potentially easy.)&lt;/p&gt;
+&lt;p&gt;Using WPA2 means that it&#039;s harder for crackers to guess your network&#039;s password and then either use your network connection or sniff your traffic. But if you give out your password, anyone with the password can do the same. With WPA2 it&#039;s harder for other people to sniff your traffic, but there are ways (ARP poisoning) around it. You should thus still create an encrypted connection (for normal people I would recommend using a VPN) to an outside server and tunnel your traffic over that connection.&lt;/p&gt;
+&lt;p&gt;Besides sniffing your traffic, a hacker who steals your cookies can then login to websites which you&#039;re currently logged in by pretending to be your computer. So they could post on Facebook as you, send emails as you from Gmail, or worse. &lt;/p&gt;
+&lt;h2&gt;MAC Address Filtering&lt;/h2&gt;
+&lt;p&gt;What else can you do on your home wifi network? Since you usually know what computers you want to allow to access the wifi router, you can set it so only known computers are allowed on the network by using MAC address filtering. The MAC address the hardware address built into your wireless card or in the wireless hardware of a laptop and it&#039;s very difficult to lie about what your MAC address is so this will help keep the riff raff out.&lt;/p&gt;
+&lt;p&gt;Advanced users can install DD-WRT or OpenWRT firmwares onto their wireless access point, thus enabling tons of extra features and the ability for finer grained security controls.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/wifi-security-home-and-cafes#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/cafe">cafe</category>
+ <category domain="http://www.saigonist.com/category/tags/encryption">encryption</category>
+ <category domain="http://www.saigonist.com/category/tags/hacking">hacking</category>
+ <category domain="http://www.saigonist.com/category/tags/security">security</category>
+ <category domain="http://www.saigonist.com/category/tags/sniffing">sniffing</category>
+ <category domain="http://www.saigonist.com/category/tags/wifi">wifi</category>
+ <pubDate>Mon, 08 Oct 2012 15:39:40 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">530 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

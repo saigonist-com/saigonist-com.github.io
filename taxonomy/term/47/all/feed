@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/47/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>colo</title>
+    <link>http://www.saigonist.com/taxonomy/term/47/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Server Colocation and VPS Hosting in Vietnam</title>
+    <link>http://www.saigonist.com/content/server-colocation-and-vps-hosting-vietnam</link>
+    <description>&lt;p&gt;I used to run a hosting company back in the states.  I wouldn&#039;t want to get into that business again as it&#039;s capital-intensive (for a tech company) and highly competitive.&lt;/p&gt;
+&lt;p&gt;Looking at the server colocation market in Vietnam it seems small and expensive for what you get, and maybe there is far more demand from Vietnam-based businesses to host in the US because that&#039;s where their customers are.  But companies that aim for the domestic market need to consider hosting locally since the Internet link to the US is relatively narrow and expensive with high latency.&lt;/p&gt;
+&lt;p&gt;When I searched for colocation servers in Vietnam, the #1 result, vn84.com, was down; webhosting.com.vn&#039;s account has been suspended;  aacecom.net is now a parked domain just showing ads.  Not very good results.&lt;/p&gt;
+&lt;p&gt;After distilling the first 100 or so results on Google:&lt;/p&gt;
+&lt;p&gt;&lt;iframe width=&#039;500&#039; height=&#039;200&#039; frameborder=&#039;0&#039; src=&#039;https://spreadsheets.google.com/pub?key=0AgvB-IYnTjzRdFBTSGk5Ry00QWw3V3ZQLXQ5NmtrZkE&amp;amp;hl=en&amp;amp;output=html&amp;amp;widget=true&#039;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;Conclusion: FPT is definitely a stable business, yet prices aren&#039;t out of line, with higher upload speeds.  It&#039;s always best to avoid anything priced in USD since the Vietnam dong is certainly going to weaken against the dollar soon.  But even the cheapest colo at 1.3 million VND is more than I can lease a dedicated server for in the US.&lt;/p&gt;
+&lt;p&gt;So how much are dedicated servers at these places?&lt;/p&gt;
+&lt;p&gt;&lt;iframe width=&#039;500&#039; height=&#039;200&#039; frameborder=&#039;0&#039; src=&#039;https://spreadsheets.google.com/pub?key=0AgvB-IYnTjzRdEhtdldjUU5vTm0yRWxqLVBfOTllZkE&amp;amp;hl=en&amp;amp;single=true&amp;amp;gid=0&amp;amp;output=html&amp;amp;widget=true&#039;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;Oddly, for pavietnam.com the price to lease a dedicated server is cheaper than to buy and colo your own!&lt;/p&gt;
+&lt;p&gt;Virtual Private Servers are another option.  Let&#039;s compare:&lt;/p&gt;
+&lt;p&gt;&lt;iframe width=&#039;500&#039; height=&#039;200&#039; frameborder=&#039;0&#039; src=&#039;https://spreadsheets.google.com/pub?key=0AgvB-IYnTjzRdHVNaVkwMkpGNnZQZDcxUlk1aXd3Q0E&amp;amp;hl=en&amp;amp;single=true&amp;amp;gid=0&amp;amp;output=html&amp;amp;widget=true&#039;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;They come out to roughly a third of the cost to colo.  You&#039;d be better off finding a friend to chip in and get pavietnam&#039;s dedicated server deal.&lt;/p&gt;
+&lt;p&gt;UPDATE April 3, 2012:&lt;br /&gt;
+There are a lot of small providers in Vietnam outside of the big ones listed above.  If you want to check some out, many even have free trials. Check out the forum at vn-zoom.com if you can read Vietnamese.&lt;/p&gt;
+&lt;p&gt;For colocation, Viettel&#039;s IDC &quot;Sóng Thần&quot; datacenter in Binh Duong is the largest in Vietnam, and possibly all of southeast Asia.&lt;/p&gt;
+&lt;p&gt;When considering Singapore as an alternative hosting center, be aware that generally prices for VPSs in Singapore are significantly higher than what you would pay in the US, while latency is still around an order of magnitude (10x) that of a Vietnam-based host, while still 1/2 to 1/3 of a North American host. YMMV.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/content/server-colocation-and-vps-hosting-vietnam#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/colo">colo</category>
+ <category domain="http://www.saigonist.com/category/tags/internet">internet</category>
+ <category domain="http://www.saigonist.com/category/tags/isp">isp</category>
+ <category domain="http://www.saigonist.com/category/tags/vps">vps</category>
+ <pubDate>Sun, 23 Jan 2011 11:30:41 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">32 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

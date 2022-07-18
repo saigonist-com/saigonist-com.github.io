@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/317/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>clean url</title>
+    <link>http://www.saigonist.com/taxonomy/term/317/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Automatically add 301 redirects from old aliases to new aliases in Drupal</title>
+    <link>http://www.saigonist.com/tech/drupal/automatically-add-301-redirects-old-aliases-new-aliases-drupal</link>
+    <description>&lt;p&gt;Drupal has many SEO features built in and available as contributed modules. One main one being Clean URLs. But it&#039;s often said that Drupal gives you &quot;just enough rope to hang yourself&quot;. &lt;/p&gt;
+&lt;p&gt;Drupal has a powerful module called Pathauto that lets you create powerful URL patterns based on Tokens. Any number of modules can provides tokens via the Token API for you to use to construct URLs and you can easily create your own tokens with a bit of PHP code. With Path Auto you can also easily change the URLs for all your nodes, users, and taxonomy terms at once. This is the rope.&lt;/p&gt;
+&lt;p&gt;A big part of SEO is the link building you do outside of your site to get other sites to link to your site and your inner pages within the site. The problem is when you&#039;ve done all this and have thousands of links to hundreds of your pages and then you decide to change all of your URLs. Suddenly, visitors to your pages are seeing 404 error pages and Google also no longer thinks you have any linked to pages.&lt;/p&gt;
+&lt;p&gt;So what can you do if you ever want to change the path of a node after you&#039;ve already created the node and saved the URL? What can you do once you rebuild your paths from a new pattern? What if your maximum URL length limit was too short and now you need to fix all the long node URLs.&lt;/p&gt;
+&lt;p&gt;Fortunately, new versions of Path Auto integrate with Path Redirect, which is a module for managing lists of 301 URL redirects. So by hand, you could manually create 301 redirects from the previous alias to a new alias, but luckily you can also do this automatically now.  A new option was added to Path Auto to &quot;Create a new alias. Redirect from old alias.&quot; Choose this instead of just deleting old aliases and your new node paths should have old paths pointing to them, managed by Path Redirect.&lt;/p&gt;
+&lt;p&gt;Just remember that bulk update from within Path Auto isn&#039;t the only way to update URLs. You can also bulk update selected nodes from the default content management page and also edit the URL from each node&#039;s edit page.&lt;/p&gt;
+&lt;p&gt;To use this, just install both Path Auth and Path Redirect.&lt;/p&gt;
+&lt;p&gt;Related Issues: http://drupal.org/project/issues/pathauto?text=redirect+from+old+alias&amp;amp;status=All&lt;/p&gt;
+&lt;p&gt;When manually changing titles and thus URLs make sure to check &quot;Automatically create redirects when URL aliases are changed.&quot; in Path Redirect&#039;s settings.&lt;/p&gt;
+&lt;p&gt;Regarding Path Redirect&#039;s fixes and Path Auto&#039;s fixes:&lt;/p&gt;
+&lt;p&gt;http://drupal.org/node/629742#comment-4336624&lt;/p&gt;
+&lt;p&gt;&lt;cite&gt;&lt;br /&gt;
+In short: the two work independently.&lt;/cite&gt;&lt;/p&gt;
+&lt;p&gt;The option &quot;Automatically create redirect&quot; (on the Path Redirect admin screen) only governs situations where you manually change a path setting. Whether pathauto is or isn&#039;t installed, does not change this behavior.&lt;/p&gt;
+&lt;p&gt;Detail: when saving a node from the edit screen, the Path Redirect code executes before Pathauto does. It has no knowledge of whether Pathauto will or will not change the path alias, later on.&lt;/p&gt;
+&lt;p&gt;If pathauto runs afterwards and decides that the path needs changing, it will look only at its own &quot;Update action&quot; to determine what to do. If that is &quot;Delete the old alias&quot;, it will indeed get deleted, and no redirect will be created (regardless of the &quot;Automatically create redirect&quot; option in the Path Redirect admin screen).&lt;br /&gt;
+&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/automatically-add-301-redirects-old-aliases-new-aliases-drupal#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/clean-url">clean url</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/path-redirect">path redirect</category>
+ <category domain="http://www.saigonist.com/category/tags/pathauto">pathauto</category>
+ <category domain="http://www.saigonist.com/category/tags/redirect">redirect</category>
+ <category domain="http://www.saigonist.com/category/tags/seo">seo</category>
+ <category domain="http://www.saigonist.com/category/tags/token">token</category>
+ <pubDate>Tue, 09 Oct 2012 17:51:31 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">533 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Increase Drupal Maximum URL Alias Length</title>
+    <link>http://www.saigonist.com/tech/drupal/increase-drupal-maximum-url-alias-length</link>
+    <description>&lt;p&gt;Drupal URLs can be pretty long. But practically, there&#039;s a limit in the database of 128 characters, even though browsers and web servers can support much longer URLs. With new versions of Path Auto, the schema is checked for alias column size. Then aliases longer than 128 characters are supported. This requires no hacking!&lt;/p&gt;
+&lt;p&gt;To change this, without just manually altering the length of the column in your database, you can use the following code in your own module:&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;php geshifilter-php&quot; style=&quot;font-family:monospace;&quot;&gt;&lt;span style=&quot;color: #009933; font-style: italic;&quot;&gt;/**
+* Implementation of hook_schema_alter().
+*/&lt;/span&gt;
+&lt;span style=&quot;color: #000000; font-weight: bold;&quot;&gt;function&lt;/span&gt; yourmodulename_schema_alter&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: #000088;&quot;&gt;$schema&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#123;&lt;/span&gt;
+  &lt;span style=&quot;color: #000088;&quot;&gt;$schema&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;&lt;span style=&quot;color: #0000ff;&quot;&gt;&#039;url_alias&#039;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;&lt;span style=&quot;color: #0000ff;&quot;&gt;&#039;fields&#039;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;&lt;span style=&quot;color: #0000ff;&quot;&gt;&#039;dst&#039;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;&lt;span style=&quot;color: #0000ff;&quot;&gt;&#039;length&#039;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt; &lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #cc66cc;&quot;&gt;255&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Long URLs aren&#039;t very human friendly but even the oldest browsers can support URLs more than 2048 characters in length. Browsers support long paths, web servers support them, proxies support them, and mail clients either support them or break around 80 characters anyways. This doesn&#039;t mean you should carelessly throw around long URLs, but if you&#039;re generating them automatically then you don&#039;t need to cut them at an artificially low limit anymore.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/increase-drupal-maximum-url-alias-length#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/clean-url">clean url</category>
+ <category domain="http://www.saigonist.com/category/tags/database">database</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/module">module</category>
+ <category domain="http://www.saigonist.com/category/tags/path-redirect">path redirect</category>
+ <category domain="http://www.saigonist.com/category/tags/pathauto">pathauto</category>
+ <category domain="http://www.saigonist.com/category/tags/seo">seo</category>
+ <pubDate>Tue, 09 Oct 2012 17:47:58 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">532 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

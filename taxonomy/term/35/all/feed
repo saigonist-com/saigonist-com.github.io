@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/35/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>lifehacks</title>
+    <link>http://www.saigonist.com/taxonomy/term/35/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>LifeHack: Abuse Tinyurl for Any Info</title>
+    <link>http://www.saigonist.com/content/lifehack-abuse-tinyurl-any-info</link>
+    <description>&lt;p&gt;Here&#039;s a trick for storing and compressing information in a pinch.&lt;/p&gt;
+&lt;p&gt;Let&#039;s say you have an address or a set of directions or maybe a shopping list.&lt;/p&gt;
+&lt;p&gt;Example: &quot;Calle de la Magdalena N8, 5D Floor,  Madrid, Spain 28012&quot;&lt;/p&gt;
+&lt;p&gt;Stick it into http://bit.ly but prepend &quot;http://&quot; to the text, to make it look like a URL: &quot;http://Calle de la Magdalena N8, 5D Floor,  Madrid, Spain 28012 &quot;&lt;/p&gt;
+&lt;p&gt;When we go to the resulting shortened URL http://bit.ly/dL9MXS we get an error, but Chrome displays back:&lt;br /&gt;
+&quot;Oops! Google Chrome could not find calle de la magdalena n8, 5d floor, madrid, spain 28012&quot; and voila! we have the text we wanted.  &lt;/p&gt;
+&lt;p&gt;All we have to write on our hands, remember, or pass around via text message is the string &quot;dL9MXS&quot;.  It takes less work than using a pastebin and the resulting URL is shorter anyways.&lt;/p&gt;
+&lt;p&gt;Any other practical uses for this trick?  Leave a comment!&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/content/lifehack-abuse-tinyurl-any-info#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/lifehacks">lifehacks</category>
+ <category domain="http://www.saigonist.com/category/tags/tinyurl">tinyurl</category>
+ <category domain="http://www.saigonist.com/category/tags/travel">travel</category>
+ <pubDate>Wed, 05 Jan 2011 14:08:05 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">24 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/365/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>mailing list</title>
+    <link>http://www.saigonist.com/taxonomy/term/365/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>MailChimp vs poMMo, Mailman, Phplist - Self-Host or Outsource Your Mailing List?</title>
+    <link>http://www.saigonist.com/b/mailchimp-vs-pommo-mailman-phplist-self-host-or-outsource-your-mailing-list</link>
+    <description>&lt;h2&gt;Use your own mail server or outsource it?&lt;/h2&gt;
+&lt;p&gt;Let&#039;s say you have a rather large mailing list of a few thousand email addresses and, well, sending it out with GMail is no longer cutting it. What are your options?&lt;/p&gt;
+&lt;p&gt;One recent option that&#039;s pretty cool for many reasons is outsourcing the sending to MailChimp. MailChimp is actually a pretty comprehensive solution for mailing lists. They will help you design your HTML email template by providing some base themes. And most importantly and perhaps underrated is that they will do their best to not get your emails flagged as spam and have your sending address blacklisted on a Real-time Blackhole List (RBL, or DNSBL). There are some 100 such RBLs which are constantly updated with the IP addresses of hosts on the Internet being used to send spam. Anything coming from those IP addresses will be flagged as spam. So you really do not want to end up on one of those lists. There are hundreds of public RBLs and you can search your mail server&#039;s IP address on them if you suspect that you&#039;re on a blacklist.&lt;/p&gt;
+&lt;p&gt;It&#039;s unlikely that MailChimp&#039;s servers will ever end up on a RBL since they would fight strongly to protect their reputation. But if you choose to run your own mail server (rather than offloading it to Google Apps for domains which is free for most small businesses and organizations) and also to use it to pump out large mailing lists then the onus is on you to set it up correctly. For example, don&#039;t let it be an open relay for anyone to send mail through. You&#039;ll also want to set up SPF records for your domain.&lt;/p&gt;
+&lt;p&gt;If you mess up and your mails look like spam to someone like Google or Yahoo or Hotmail (does anybody still use Hotmail to receive email rather than to send spam themselves?) then they will block mail from you to all of their users. Or they will get your mails but they will automatically go into their spam folders. Then you will be forced to thrust yourself into the Kafkaesque world of customer support at companies which don&#039;t have retail stores for you to visit, and which you aren&#039;t really a customer of to begin with.&lt;/p&gt;
+&lt;p&gt;First, are you sure your host allows you to send a lot of emails out? Is it your own server or VPS or a shared host? A shared host will probably rate-limit your email sending meaning it will take hours or days to send out a single email to your entire list.&lt;/p&gt;
+&lt;p&gt;Next, since you&#039;re not using MailChimp&#039;s cool interface (I really should get paid for plugging MailChimp so much even though I don&#039;t use it) you need to run some mailing list manager software. &lt;/p&gt;
+&lt;p&gt;First up is Mailman. Mailman is a GNU project. It&#039;s by hackers for hackers and thus requires perhaps more manual configuration inside config files than most non-technical people can handle. The interface is not easy to use either. Side note: There are several Drupal modules for connecting Drupal to Mailman. &lt;/p&gt;
+&lt;p&gt;An alternative to that is Phplist, &quot;the world&#039;s most popular open source mailing list manager&quot;. OK. It&#039;s PHP and web-based, and might integrate with your existing PHP website although there&#039;s not much reason to. It&#039;s popular.&lt;/p&gt;
+&lt;p&gt;Then there&#039;s poMMo. poMMo is a basic piece of software with a decent web interface, except when there are errors. Unfortunately, poMMo didn&#039;t get fully developed before being abandoned by its developers. But somebody else has created their own poMMo project on GitHub: https://github.com/soonick/poMMo&lt;/p&gt;
+&lt;p&gt;Neither poMMo nor Mailman do click through detection so you would need another solution like a URL link shortener to create links that you can keep track of clicks on.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/mailchimp-vs-pommo-mailman-phplist-self-host-or-outsource-your-mailing-list#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/gmail">gmail</category>
+ <category domain="http://www.saigonist.com/category/tags/hotmail">hotmail</category>
+ <category domain="http://www.saigonist.com/category/tags/mailchimp">mailchimp</category>
+ <category domain="http://www.saigonist.com/category/tags/mailing-list">mailing list</category>
+ <category domain="http://www.saigonist.com/category/tags/mailman">mailman</category>
+ <category domain="http://www.saigonist.com/category/tags/phplist">phplist</category>
+ <category domain="http://www.saigonist.com/category/tags/pommo">pommo</category>
+ <category domain="http://www.saigonist.com/category/tags/rbl">rbl</category>
+ <category domain="http://www.saigonist.com/category/tags/spam">spam</category>
+ <pubDate>Thu, 18 Oct 2012 17:53:39 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">549 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>poMMo proBLEMs</title>
+    <link>http://www.saigonist.com/b/pommo-problems</link>
+    <description>&lt;p&gt;poMMo is free open source mailing list management software. It&#039;s written in PHP and pretty basic but does give a decent management interface. However, it&#039;s no longer maintained. There is a GitHub repository from a guy who&#039;s trying to continue developing it sporadically so please contribute there if you can.&lt;/p&gt;
+&lt;p&gt;Some problems:&lt;/p&gt;
+&lt;p&gt;When installing, make sure /cache is writable.&lt;/p&gt;
+&lt;p&gt;After installation (assuming it was successful) test sending email by going to support/tests/mailing.test.php. You should see the message:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;geshifilter&quot;&gt;&lt;code class=&quot;javascript geshifilter-javascript&quot;&gt;Initial spawn success. &lt;span style=&quot;color: #660066;&quot;&gt;Respawn&lt;/span&gt; success. &lt;span style=&quot;color: #660066;&quot;&gt;Spawning&lt;/span&gt; Works&lt;span style=&quot;color: #339933;&quot;&gt;!&lt;/span&gt;&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;If instead you see:&lt;br /&gt;
+&lt;span class=&quot;geshifilter&quot;&gt;&lt;code class=&quot;javascript geshifilter-javascript&quot;&gt;Error message&lt;span style=&quot;color: #339933;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&amp;quot;Initial Spawn Failed! You must correct this before poMMo can send mailings.&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Then you have some problem with poMMo reaching your own web server. For example, if your web server is being password protected with basic auth, you&#039;ll need to hack the file inc/classes/mailctl.php and find:&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;php geshifilter-php&quot; style=&quot;font-family:monospace;&quot;&gt;&lt;span style=&quot;color: #666666; font-style: italic;&quot;&gt;// to allow for basic .htaccess http authentication,&lt;/span&gt;
+&lt;span style=&quot;color: #666666; font-style: italic;&quot;&gt;//   uncomment and fill in the following;&lt;/span&gt;
+&lt;span style=&quot;color: #666666; font-style: italic;&quot;&gt;// $out .= &amp;quot;Authorization: Basic &amp;quot; . base64_encode(&#039;username:password&#039;).&amp;quot;\r\n&amp;quot;;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;You need to set the username and password (replace username with an actual .htpasswd username and password with the password) then remove the &#039;//&#039; before each line.&lt;/p&gt;
+&lt;p&gt;If you see:&lt;br /&gt;
+&lt;span class=&quot;geshifilter&quot;&gt;&lt;code class=&quot;javascript geshifilter-javascript&quot;&gt;Initial Spawn Failed &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;test file not written&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;!&lt;/span&gt; You must correct &lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;this&lt;/span&gt; before poMMo can send mailings.&lt;/code&gt;&lt;/span&gt;&lt;br /&gt;
+then you have some problem with your cache directory. You can edit the file to see what path/file it&#039;s trying to write to.&lt;/p&gt;
+&lt;p&gt;If you see:&lt;br /&gt;
+&lt;span class=&quot;geshifilter&quot;&gt;&lt;code class=&quot;javascript geshifilter-javascript&quot;&gt;Spawning Failed. &lt;span style=&quot;color: #660066;&quot;&gt;Codes&lt;/span&gt; did not match.&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;then I feel sorry for you.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/pommo-problems#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/mailing-list">mailing list</category>
+ <category domain="http://www.saigonist.com/category/tags/php">php</category>
+ <pubDate>Mon, 15 Oct 2012 09:26:53 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">545 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

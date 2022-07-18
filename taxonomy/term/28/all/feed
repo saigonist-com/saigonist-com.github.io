@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/28/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>html5</title>
+    <link>http://www.saigonist.com/taxonomy/term/28/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Simple Way to Download YouTube HTML5 Videos</title>
+    <link>http://www.saigonist.com/content/simple-download-youtube-html5</link>
+    <description>&lt;p&gt;A lot of the existing YouTube video download scripts don&#039;t work today as YouTube have changed their &quot;API&quot; so those hacks no longer work.  Programs that simple detect whatever media files get downloaded should still work.&lt;/p&gt;
+&lt;p&gt;Here&#039;s a dead simple way to download HTML5 videos from YouTube.  Drag the following link to your bookmark bar.  In Chrome, you have to set &quot;Always show bookmark bar&quot; for this to make sense. &lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;javascript:void(open(document.getElementsByTagName(&#039;video&#039;)[0].getAttribute(&#039;src&#039;)))&quot;&gt;Tubelet&lt;/a&gt; &lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/content/simple-download-youtube-html5#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/html5">html5</category>
+ <category domain="http://www.saigonist.com/category/tags/javascript">javascript</category>
+ <category domain="http://www.saigonist.com/category/tags/video">video</category>
+ <category domain="http://www.saigonist.com/category/tags/youtube">youtube</category>
+ <pubDate>Tue, 23 Nov 2010 20:52:11 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">20 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

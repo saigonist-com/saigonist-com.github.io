@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/375/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>nginx</title>
+    <link>http://www.saigonist.com/taxonomy/term/375/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Bypass Basic Auth for Localhost on Nginx</title>
+    <link>http://www.saigonist.com/b/bypass-basic-auth-localhost-nginx</link>
+    <description>&lt;p&gt;During development sometimes I hide a server behind a shared password for http basic auth, based on an Apache configuration (if you still want to use .htpasswd but don&#039;t have Apache and htpasswd installed you can still generate the password entries using openssl). nginx can use the same format of .htpasswd files by using the  HttpAuthBasicModule. But sometimes I need a service to crawl pages on the server (for example Drupal&#039;s linkchecker module). And sometimes storing the basic auth login and password in a script isn&#039;t wanted or advisable. Instead we can configure nginx to skip authentication when connecting from localhost/127.0.0.1.&lt;/p&gt;
+&lt;p&gt;Open up your nginx configuration which already contains your auth_basic directives. Assuming you are running a PHP site and you have a &quot;location ~ \.php$&quot; block, make it look more like this:&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;javascript geshifilter-javascript&quot; style=&quot;font-family:monospace;&quot;&gt;location ~ \.&lt;span style=&quot;color: #660066;&quot;&gt;php&lt;/span&gt;$ &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#123;&lt;/span&gt;
+  satisfy any&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+  allow 127.0.0.1&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+  deny all&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+&amp;nbsp;
+  auth_basic            &lt;span style=&quot;color: #3366CC;&quot;&gt;&amp;quot;Restricted&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+  auth_basic_user_file  &lt;span style=&quot;color: #339933;&quot;&gt;/&lt;/span&gt;yoursite&lt;span style=&quot;color: #339933;&quot;&gt;/&lt;/span&gt;path&lt;span style=&quot;color: #339933;&quot;&gt;/&lt;/span&gt;.&lt;span style=&quot;color: #660066;&quot;&gt;htpasswd&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Remember that the order of the allow/deny directives matters. More on the  nginx_http_access_module module.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/bypass-basic-auth-localhost-nginx#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/basic-auth">basic auth</category>
+ <category domain="http://www.saigonist.com/category/tags/htaccess">htaccess</category>
+ <category domain="http://www.saigonist.com/category/tags/localhost">localhost</category>
+ <category domain="http://www.saigonist.com/category/tags/nginx">nginx</category>
+ <pubDate>Sun, 30 Sep 2012 17:45:39 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">548 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/487/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>bitcoin</title>
+    <link>http://www.saigonist.com/taxonomy/term/487/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>BarCamp Yangon</title>
+    <link>http://www.saigonist.com/tech/barcamp-yangon</link>
+    <description>&lt;p&gt;Skip to:&lt;br /&gt;
+&lt;a href=&quot;#session&quot;&gt;Sessions&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;#android&quot;&gt;Android vs iOS&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;#bitcoin&quot;&gt;Bitcoin &lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;#beercamp&quot;&gt;Beercamp&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;#summary&quot;&gt;Summary&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Size matters. Size doesn&#039;t matter.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span float=&quot;left&quot;&gt;Yangon, Myanmar holds the largest BarCamp in the world. Or so they say, but who&#039;s counting? I can confirm that it&#039;s a two day affair, like BarCamp Phnom Penh (where a few of my compatriots were from) and of similar size to Cambodia&#039;s main and largest BarCamp. Even our homely one-day BarCamp Saigon is roughly the same in crowd size according to my eyeball count. The number of sessions, at around 160 over two days, is also about the same per day as are the popularity and attendance in the classrooms in which they are held. There were even many sparsely attended talks (such as my own!) But size isn&#039;t everything.&lt;/span&gt;&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/barcamp-yangon#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/android">android</category>
+ <category domain="http://www.saigonist.com/category/tags/barcamp">barcamp</category>
+ <category domain="http://www.saigonist.com/category/tags/bitcoin">bitcoin</category>
+ <category domain="http://www.saigonist.com/category/tags/myanmar">myanmar</category>
+ <category domain="http://www.saigonist.com/category/tags/yangon">yangon</category>
+ <pubDate>Wed, 26 Feb 2014 05:12:22 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">5693 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

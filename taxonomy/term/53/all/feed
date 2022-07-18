@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/53/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>php</title>
+    <link>http://www.saigonist.com/taxonomy/term/53/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Running Drupal 8 and PHP 5.3.8+ on Mac OSX</title>
+    <link>http://www.saigonist.com/tech/drupal/running-drupal-8-and-php-538-mac-osx</link>
+    <description>&lt;p&gt;I develop on my MacBook Pro and when building Drupal 6 sites, I had to run PHP 5.2 because there were many conflicts in Drupal 6 core and contributed modules which meant running on PHP 5.3 either threw up errors or didn&#039;t run properly. Since I run XAMPP for Mac OS X, I also run phpswitch which lets me switch from XAMPP using PHP 5.2 to PHP 5.3 and back.&lt;/p&gt;
+&lt;p&gt;Unfortunately, Drupal 8 not only requires PHP 5.3 but PHP 5.3.5 or higher. Drupal 7 ran fine on PHP 5.2.5 or higher with  PHP 5.3 recommended.&lt;/p&gt;
+&lt;p&gt;1) XAMPP Mac OS X 1.7.3 comes with: Apache 2.2.14, MySQL 5.1.44, PHP 5.3.1.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/running-drupal-8-and-php-538-mac-osx#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/apache">apache</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal-8">drupal 8</category>
+ <category domain="http://www.saigonist.com/category/tags/lion">lion</category>
+ <category domain="http://www.saigonist.com/category/tags/osx">osx</category>
+ <category domain="http://www.saigonist.com/category/tags/php">php</category>
+ <category domain="http://www.saigonist.com/category/tags/snow-leopard">snow leopard</category>
+ <category domain="http://www.saigonist.com/category/tags/xampp">xampp</category>
+ <pubDate>Tue, 20 Nov 2012 01:41:59 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">567 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Controlling visibility of block content by CCK field value</title>
+    <link>http://www.saigonist.com/tech/drupal/controlling-visibility-block-content-cck-field-value</link>
+    <description>&lt;p&gt;Say you have a bunch of blocks and you want them to be displayed on certain nodes of varying content type based on some criteria like the content type and some CCK fields or taxonomy. You can&#039;t do this with the stock block visibility settings without writing custom PHP code. &lt;/p&gt;
+&lt;p&gt;But we can implement it using some existing basic Drupal building blocks: CCK and Views&lt;/p&gt;
+&lt;p&gt;1. Create a content type called Visibility Block. &lt;/p&gt;
+&lt;p&gt;You might have a field for content type where the possible values are returned from code which returns an array of the content types (using function node_get_types()).&lt;/p&gt;
+&lt;p&gt;2. Then for any fields you want to match, you&#039;ll have the same fields in this content type. For example, if one of your content types has a textfield and the possible values are 1, 2, 3, then do the same for Visibility Block. &lt;/p&gt;
+&lt;p&gt;When you create a Visibility Block, you&#039;ll have your block content in the body as normal (optionally you could use Block Reference and create blocks like usual and then link to them in the node instead, but I see no point in the extra effort and redirection), then select the conditions for the pseudo-block being visible.&lt;/p&gt;
+&lt;p&gt;3. Now create a view called Visibility Blocks Viewed. You&#039;ll create block displays, one for each content type that you have a Visibility Block set for which may only be one or two of your c-types. &lt;/p&gt;
+&lt;p&gt;Create an overridden argument each block display for the content type -field- in Visibility Block. You want to match the content type of the viewed node with the field in the Visibility Block, which are not the same type of thing. So you&#039;ll need to convert the argument in code.&lt;/p&gt;
+&lt;p&gt;You&#039;ll call menu_get_object() to get the $node because it&#039;s better than &quot;$node = node_load(arg(1));&quot;. For the chosen c-type for that block display you will check that the implied node&#039;s c-type is what ever type you want to show in this block display because you will also check any fields that are specific to this c-type. Use PHP to supply a value since no argument will be passed in, and have the code load the current node and return the type. Then use PHP for the Validator Options and if the c-type doesn&#039;t match then you will display empty text. If you have multiple c-types which share CCK fields then you can put them into a single block display. &lt;/p&gt;
+&lt;p&gt;4. For each content type, in the chosen block display you will create a new argument for each compared against CCK field. You will pick a field from V-block and then use PHP to return a default value of the currently viewed node&#039;s field&#039;s value. You won&#039;t need to do Validation on these arguments.&lt;/p&gt;
+&lt;p&gt;5. Finally, you may want to limit the number of nodes returned, maybe just one. Now give this block a title and save it and configure its region in the normal block admin.&lt;/p&gt;
+&lt;p&gt;--&lt;/p&gt;
+&lt;h2&gt;Why not the normal block visibility settings?&lt;/h2&gt;
+&lt;p&gt;Because there you can&#039;t even configure by content type (anymore in D6). You can configure by path glob and by PHP code which overrides the path glob field (including in the database).&lt;/p&gt;
+&lt;p&gt;So under &quot;Page specific visibility settings&quot;, set to &quot;Show if the following PHP code returns TRUE (PHP-mode, experts only).&quot;, the field is blocks.pages. Essentially, PHP code works by overriding the pages list.&lt;/p&gt;
+&lt;h2&gt;Why not use Block Page Visibility?&lt;/h2&gt;
+&lt;blockquote&gt;&lt;p&gt;
+Block Page Visibility (&lt;a href=&quot;http://drupal.org/project/bpv&quot; title=&quot;http://drupal.org/project/bpv&quot;&gt;http://drupal.org/project/bpv&lt;/a&gt;) enables site developers to centralize the display of blocks to a single PHP function. It is an alternative to controlling display via each block&#039;s configure form. The more &quot;sometimes on, sometimes off blocks&quot; that a site uses, the more useful this module becomes.
+&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;This takes over the visibility settings of all your blocks by calling:&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;javascript geshifilter-javascript&quot; style=&quot;font-family:monospace;&quot;&gt;$sql &lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;UPDATE blocks SET visibility = 2, pages = CONCAT(&amp;quot;&amp;lt;&amp;quot;, &amp;quot;?&amp;quot;, &amp;quot;php &amp;quot;, &amp;quot;return bpv_is_visible(&lt;span style=&quot;color: #000099; font-weight: bold;&quot;&gt;\&#039;&lt;/span&gt;&amp;quot;, module, &amp;quot;-&amp;quot;, delta, &amp;quot;&lt;span style=&quot;color: #000099; font-weight: bold;&quot;&gt;\&#039;&lt;/span&gt;); &amp;quot;, &amp;quot;?&amp;quot;, &amp;quot;&amp;gt;&amp;quot;) WHERE status=1 AND theme=&lt;span style=&quot;color: #000099; font-weight: bold;&quot;&gt;\&#039;&lt;/span&gt;%s&lt;span style=&quot;color: #000099; font-weight: bold;&quot;&gt;\&#039;&lt;/span&gt;&#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Sometimes it&#039;s easier to configure a block by just whether you&#039;re logged in, or whether you&#039;re on the front page. &lt;/p&gt;
+&lt;p&gt;This module doesn&#039;t give you any finer grained controls. And you have to configure every block in code. You also lose all your current block visibility settings once you install this module. To use this module you have to implement your own bpv_config or bpv_configuration (I think it&#039;s a bug that it&#039;s looking for bpv_configuration but actually uses bpv_config).&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/controlling-visibility-block-content-cck-field-value#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/block">block</category>
+ <category domain="http://www.saigonist.com/category/tags/cck">cck</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/module">module</category>
+ <category domain="http://www.saigonist.com/category/tags/php">php</category>
+ <category domain="http://www.saigonist.com/category/tags/views">views</category>
+ <pubDate>Tue, 30 Oct 2012 13:46:49 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">558 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>poMMo proBLEMs</title>
+    <link>http://www.saigonist.com/b/pommo-problems</link>
+    <description>&lt;p&gt;poMMo is free open source mailing list management software. It&#039;s written in PHP and pretty basic but does give a decent management interface. However, it&#039;s no longer maintained. There is a GitHub repository from a guy who&#039;s trying to continue developing it sporadically so please contribute there if you can.&lt;/p&gt;
+&lt;p&gt;Some problems:&lt;/p&gt;
+&lt;p&gt;When installing, make sure /cache is writable.&lt;/p&gt;
+&lt;p&gt;After installation (assuming it was successful) test sending email by going to support/tests/mailing.test.php. You should see the message:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;geshifilter&quot;&gt;&lt;code class=&quot;javascript geshifilter-javascript&quot;&gt;Initial spawn success. &lt;span style=&quot;color: #660066;&quot;&gt;Respawn&lt;/span&gt; success. &lt;span style=&quot;color: #660066;&quot;&gt;Spawning&lt;/span&gt; Works&lt;span style=&quot;color: #339933;&quot;&gt;!&lt;/span&gt;&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;If instead you see:&lt;br /&gt;
+&lt;span class=&quot;geshifilter&quot;&gt;&lt;code class=&quot;javascript geshifilter-javascript&quot;&gt;Error message&lt;span style=&quot;color: #339933;&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&amp;quot;Initial Spawn Failed! You must correct this before poMMo can send mailings.&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Then you have some problem with poMMo reaching your own web server. For example, if your web server is being password protected with basic auth, you&#039;ll need to hack the file inc/classes/mailctl.php and find:&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;php geshifilter-php&quot; style=&quot;font-family:monospace;&quot;&gt;&lt;span style=&quot;color: #666666; font-style: italic;&quot;&gt;// to allow for basic .htaccess http authentication,&lt;/span&gt;
+&lt;span style=&quot;color: #666666; font-style: italic;&quot;&gt;//   uncomment and fill in the following;&lt;/span&gt;
+&lt;span style=&quot;color: #666666; font-style: italic;&quot;&gt;// $out .= &amp;quot;Authorization: Basic &amp;quot; . base64_encode(&#039;username:password&#039;).&amp;quot;\r\n&amp;quot;;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;You need to set the username and password (replace username with an actual .htpasswd username and password with the password) then remove the &#039;//&#039; before each line.&lt;/p&gt;
+&lt;p&gt;If you see:&lt;br /&gt;
+&lt;span class=&quot;geshifilter&quot;&gt;&lt;code class=&quot;javascript geshifilter-javascript&quot;&gt;Initial Spawn Failed &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;test file not written&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;!&lt;/span&gt; You must correct &lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;this&lt;/span&gt; before poMMo can send mailings.&lt;/code&gt;&lt;/span&gt;&lt;br /&gt;
+then you have some problem with your cache directory. You can edit the file to see what path/file it&#039;s trying to write to.&lt;/p&gt;
+&lt;p&gt;If you see:&lt;br /&gt;
+&lt;span class=&quot;geshifilter&quot;&gt;&lt;code class=&quot;javascript geshifilter-javascript&quot;&gt;Spawning Failed. &lt;span style=&quot;color: #660066;&quot;&gt;Codes&lt;/span&gt; did not match.&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;then I feel sorry for you.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/pommo-problems#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/mailing-list">mailing list</category>
+ <category domain="http://www.saigonist.com/category/tags/php">php</category>
+ <pubDate>Mon, 15 Oct 2012 09:26:53 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">545 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Should you use Drupal or Wordpress?</title>
+    <link>http://www.saigonist.com/tech/drupal/should-you-use-drupal-or-wordpress</link>
+    <description>&lt;p&gt;Before I begin: &lt;strong&gt;I&#039;m a Drupal guy.&lt;/strong&gt; What I say could be construed as being biased. I&#039;ll try to be honest though.&lt;/p&gt;
+&lt;p&gt;When building a website you or your developers have some decisions to make: what language to use, whether to use a framework and which one (depending on language - Zend/CodeIgniter/Symfony/CakePHP for PHP, Ruby on Rails, Django for Python, etc.), whether to use a CMS (WordPress, Joomla, Drupal), whether to self-host or use a blogging service (WordPress.com, Drupal Gardens, Tumblr, Blogger). There is no single right answer.&lt;/p&gt;
+&lt;p&gt;First, go with the language that is most comfortable. Previously, I had several years experience with both PHP and Python with Python actually being more recent. But few people in Vietnam know Python where many know PHP. But Drupal being in PHP sealed the deal.&lt;/p&gt;
+&lt;p&gt;Next, is it mostly about managing news-like content? Then go with a blog. Does it need some popular features like user logins and full accounts, social media integration, voting, storing meta-information besides blog text, or otherwise some customization of what kind of content you are storing? Then it&#039;s no longer a blog and you should use Drupal. Is it purely ecommerce? Drupal Commerce or Ubercart can do the job, but Magento might be all you need if you are not a developer and as long as you can afford to buy the yearly license fee for it and your website only needs a store of physical items without any other content or custom design.&lt;/p&gt;
+&lt;p&gt;Do you need something that is more like a web app that&#039;s unlike any existing blog, news site, social media site, online store, or corporate website out there? Then maybe you should have a team of developers starting with a web framework (Drupal, as well as being a content management system, is also a content management framework) and start from more basic building blocks.&lt;/p&gt;
+&lt;h2&gt;Some specific use cases:&lt;/h2&gt;
+&lt;p&gt;1) An intranet website for managing some internal corporate data that is really custom to your company. WordPress would not be adequate none of its strong points would apply. Drupal&#039;s theming weak points would no longer hurt you here since you just need a professional-looking tool. Best of all Drupal easily gives you and novice users a way to manage your data.&lt;/p&gt;
+&lt;p&gt;2) &lt;strong&gt;Brochure website&lt;/strong&gt; - like a business card for a store or business with a dozen or so pages of information and some links and a contact form. If you don&#039;t already know Drupal then use WordPress. WordPress also has many available commercial themes which can be used. However, a Drupal expert can just as quickly and easily build brochure sites in Drupal.&lt;/p&gt;
+&lt;p&gt;3) Social network - There are open source packages that are like social-network-in-a-box solutions. But nowadays, social networking is a feature, not a sufficient product alone. In my experience, using these off the shelf packages ends up being too limiting because you will always want to do new things and come up against the limits of the software, even if its open source. This applies to social news software like Pligg, school software like OpenSIS, Open Source Q&amp;amp;A software, forums like vBulletin, etc. Those kinds of sites were once novel and rare but are now just features to be added to larger sites, but they can not reasonable be used to build those larger sites. &lt;/p&gt;
+&lt;h2&gt;WordPress&#039;s strong points:&lt;/h2&gt;
+&lt;p&gt;1) &lt;strong&gt;Being a blog.&lt;/strong&gt; It does one thing really well. I have run many WordPress blogs in the past. This blog is built with Drupal though because it&#039;s possible to blog with Drupal, and because I&#039;ve also extended it far beyond blogging with many experiments.&lt;/p&gt;
+&lt;p&gt;2) &lt;strong&gt;Availability of commercial themes&lt;/strong&gt;. There are a lot of companies making and selling themes for WordPress (this is also a point where Joomla wins over Drupal). There are also plenty of free themes. This is good for people who don&#039;t want to put money down on a fully custom design yet and are just happy to use something that looks professional.&lt;/p&gt;
+&lt;p&gt;3) Usability. Out of the box, WordPress is user friendly and makes it easy to get up and running. Drupal improves at this with every major version but is still something a developer more easily loves than an end user.&lt;/p&gt;
+&lt;h2&gt;Honorable mentions&lt;/h2&gt;
+&lt;p&gt;Mezzanine (http://mezzanine.jupo.org/) is a promising-looking CMS built with Django/Python. If you like Python (like I do) then consider giving it a shot, although it doesn&#039;t have nearly the depth and breadth of free modules that Drupal offers nor the size of community. &lt;/p&gt;
+&lt;p&gt;Cartridge (http://cartridge.jupo.org) is Mezzanine&#039;s ecommerce/shopping cart solution. Again, you won&#039;t get the community and support like you would with Ubercart but at least you would get to hack in Python!&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/should-you-use-drupal-or-wordpress#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/blog">blog</category>
+ <category domain="http://www.saigonist.com/category/tags/cms">cms</category>
+ <category domain="http://www.saigonist.com/category/tags/django">django</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/framework">framework</category>
+ <category domain="http://www.saigonist.com/category/tags/php">php</category>
+ <category domain="http://www.saigonist.com/category/tags/pligg">pligg</category>
+ <category domain="http://www.saigonist.com/category/tags/python">python</category>
+ <category domain="http://www.saigonist.com/category/tags/software">software</category>
+ <category domain="http://www.saigonist.com/category/tags/wordpress">wordpress</category>
+ <pubDate>Sat, 13 Oct 2012 16:35:22 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">541 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Drupal ImageCache Image Quality</title>
+    <link>http://www.saigonist.com/tech/drupal/drupal-imagecache-image-quality</link>
+    <description>&lt;p&gt;The problem is this. ImageCache is a great simple way to transform random images into useful dimensions, etc. But sometimes the uploaded image is already exactly the quality and even dimensions we want. But after imagecache module runs, the file size is actually larger than the original while the quality has gone down, despite JPG image quality being 100% (default is set to 75%). One workaround can be to re-sharpen the image (imagecache_sharpen) but this also loses some quality.&lt;/p&gt;
+&lt;p&gt;1. Check that the uploaded image (metadata saved as CCK field, file stored directly in sites/default/files) has not been degraded in quality.&lt;/p&gt;
+&lt;p&gt;2. Check that minimum/maximum resolution for the image fields (CCK) are set to 0 (no restriction) so that they aren&#039;t accidentally resized at the upload to CCK step.&lt;/p&gt;
+&lt;p&gt;3. Run &quot;drush imagecache-flush&quot; in case you have files left over from a recent imagecache configuration change.&lt;/p&gt;
+&lt;p&gt;4. Try replacing GD with ImageMagick. If you stick with GD, and try compiling a newer GD library. ImageMagick by default can output higher quality images than GD.&lt;/p&gt;
+&lt;p&gt;How does Drupal&#039;s image resizing and processing work?&lt;/p&gt;
+&lt;p&gt;ImageCache goes through imageapi which uses different image processing functions based on the library (by default GD and ImageMagick support are provided) used.&lt;/p&gt;
+&lt;p&gt;Any resizing operation will result in a change (loss) in quality. That is to be expected since upsizing creates new pixels from single original pixels without having new information (unlike the magical effects of zooming into images on CSI shows) and downsizing will generally cause information to be lost and many pixels will &quot;store&quot; the information from several surrounding pixels.&lt;/p&gt;
+&lt;p&gt;So only operations that keep the image the same dimensions or crop the image (in which case the cropped portion has the same dimensions in both old and new files) will retain the same quality and avoid any blurring.&lt;/p&gt;
+&lt;p&gt;When using PHP&#039;s GD, Drupal will make calls to imagecopyresampled which will affect image quality unless image width and height are kept the same or cropping is performed. This is partly due to imagecopyresampled and partly the way it is called. &quot;Fastimagecopyresampled&quot; is a possible replacement: (from http://us.php.net/manual/en/function.imagecopyresampled.php#77679) - this is a higher quality version of PHP&#039;s imagecopyresampled. It does result in higher quality but requires hacking Drupal code instead of overriding any hooks.&lt;/p&gt;
+&lt;p&gt;I&#039;ve found that it&#039;s better to use ImageMagick than GD. The only remaining problem is that for similar quality images, the file size is something like twice as big after ImageMagick processing. You could mess around with ImageMagick&#039;s quality settings by hacking Image API code or by copying imageapi_imagemagick.module into a custom module and configuring it for use instead. But you risk breaking quality for other images. I haven&#039;t found the reason why IMagick makes image file sizes larger.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/drupal-imagecache-image-quality#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/imageapi">imageapi</category>
+ <category domain="http://www.saigonist.com/category/tags/imagecache">imagecache</category>
+ <category domain="http://www.saigonist.com/category/tags/imagemagick">imagemagick</category>
+ <category domain="http://www.saigonist.com/category/tags/php">php</category>
+ <pubDate>Wed, 26 Sep 2012 04:04:52 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">488 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Showing file upload progress with PHP and Drupal</title>
+    <link>http://www.saigonist.com/tech/drupal/showing-file-upload-progress-php-and-drupal</link>
+    <description>&lt;p&gt;PHP 5.2 has support for showing the percentage uploaded for a file upload in progress.  If you&#039;re not running Apache as your web server,  &lt;/p&gt;
+&lt;p&gt;Drupal&#039;s FileField module automatically detects for and uses upload progress support on the server end.  This can either be APC (Alternative PHP Cache) with rfc1867 support or with the uploadprogress PECL extension.  In Drupal, the upload progress bar looks like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://drupal.org/files/PECL.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;You can check to see if you already have support by going to admin/reports/status.&lt;/p&gt;
+&lt;p&gt;If the report shows that your server has support yet FileField CCK fields aren&#039;t updating the upload progress bar then your server has a problem.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/showing-file-upload-progress-php-and-drupal#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/ajax">ajax</category>
+ <category domain="http://www.saigonist.com/category/tags/apache">apache</category>
+ <category domain="http://www.saigonist.com/category/tags/apc">apc</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/pecl">pecl</category>
+ <category domain="http://www.saigonist.com/category/tags/php">php</category>
+ <category domain="http://www.saigonist.com/category/tags/upload">upload</category>
+ <pubDate>Mon, 31 Jan 2011 12:01:23 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">34 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

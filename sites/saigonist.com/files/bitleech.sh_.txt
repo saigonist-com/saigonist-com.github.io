@@ -1,0 +1,18 @@
+#!/bin/sh
+
+if [[ $1 = '' ]]; then
+    echo "Usage: bitleech <referer> <url> <filename>"
+    echo "Example: bitleech http://bitshare.com/files/xyz/123.tar.html http://s10.bitshare.com/download.php?d=abcxyz 123.tar"
+    exit
+fi
+
+REFER=$1
+URL=$2
+FILE=$3
+if [[ $FILE = '' ]]; then
+    FILE=$(basename $REFER| sed -e 's/.html$//')
+fi
+BROWSER="Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2.8) Gecko/20100722 Firefox/3.6.8"
+
+wget -S --referer=$REFER -U "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2.8) Gecko/20100722 Firefox/3.6.8" --load-cookies cookies.txt -O $FILE $URL
+

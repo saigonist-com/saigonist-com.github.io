@@ -1,0 +1,546 @@
+--- mkshortcut.c.orig	2010-08-16 04:02:27.000000000 +0700
++++ mkshortcut.c	2010-09-02 22:13:58.999000000 +0700
+@@ -1,6 +1,7 @@
+ /* mkshortcut.c -- create a Windows shortcut
+  *
+  * Copyright (c) 2002 Joshua Daniel Franklin
++ * Copyright (c) 2010 Andy Koppe
+  *
+  * This program is free software; you can redistribute it and/or
+  * modify it under the terms of the GNU General Public License
+@@ -28,6 +29,8 @@
+  *
+  */
+ 
++#define UNICODE
++
+ #if HAVE_CONFIG_H
+ # include "config.h"
+ #endif
+@@ -35,19 +38,23 @@
+ 
+ #define NOCOMATTRIBUTE
+ 
++#include <sys/cygwin.h>
++#include <locale.h>
++#include <wchar.h>
+ #include <shlobj.h>
+ #include <olectlid.h>
+ /* moved to common.h */
+-/*
+ #include <stdio.h>
+ #include <popt.h>
+-*/
+ 
+ static const char versionID[] = PACKAGE_VERSION;
+ static const char revID[] =
+   "$Id: mkshortcut.c,v 1.12 2010/08/15 21:02:27 cwilson Exp $";
+ static const char copyrightID[] =
+-  "Copyright (c) 2002\nJoshua Daniel Franklin. All rights reserved.\nLicensed under GPL v2.0\n";
++  "Copyright (c) 2002 Joshua Daniel Franklin.\n"
++  "Copyright (c) 2010 Andy Koppe.\n"
++  "All rights reserved.\n"
++  "Licensed under GPL v2.0\n";
+ 
+ typedef struct optvals_s
+ {
+@@ -75,6 +82,8 @@
+ static void help (FILE * f, char *name);
+ static void version (FILE * f, char *name);
+ static void license (FILE * f, char *name);
++static void error (char *);
++static void *nullcheck (void *);
+ 
+ static char *program_name;
+ static poptContext optCon;
+@@ -136,6 +145,8 @@
+      "Help options", NULL},
+     {NULL, '\0', 0, NULL, 0, NULL, NULL}
+   };
++  
++  setlocale(LC_CTYPE, "");
+ 
+   tmp_str = strrchr (argv[0], '/');
+   if (tmp_str == NULL)
+@@ -150,11 +161,7 @@
+     {
+       tmp_str++;
+     }
+-  if ((program_name = strdup (tmp_str)) == NULL)
+-    {
+-      fprintf (stderr, "%s: memory allocation error\n", argv[0]);
+-      exit (2);
+-    }
++  nullcheck (program_name = strdup (tmp_str));
+ 
+   icon_offset_flag = 0;
+ 
+@@ -194,44 +201,18 @@
+           goto exit;
+         case 'd':
+           if (arg = poptGetOptArg (optCon))
+-            {
+-              if ((opts.desc_arg = strdup (arg)) == NULL)
+-                {
+-                  fprintf (stderr, "%s: memory allocation error\n",
+-                           program_name);
+-                  ec = 2;
+-                  goto exit;
+-                }
+-            }
++            nullcheck (opts.desc_arg = strdup (arg));
+           break;
+         case 'i':
+           opts.icon_flag = 1;
+           if (arg = poptGetOptArg (optCon))
+-            {
+-              cygwin_conv_to_full_win32_path (arg, icon_name);
+-              if ((opts.icon_name_arg = strdup (icon_name)) == NULL)
+-                {
+-                  fprintf (stderr, "%s: memory allocation error\n",
+-                           program_name);
+-                  ec = 2;
+-                  goto exit;
+-                }
+-            }
++            nullcheck (opts.desc_arg = strdup (arg));
+           break;
+         case 'j':
+           icon_offset_flag = 1;
+           break;
+         case 'n':
+-          if (arg = poptGetOptArg (optCon))
+-            {
+-              if ((opts.name_arg = strdup (arg)) == NULL)
+-                {
+-                  fprintf (stderr, "%s: memory allocation error\n",
+-                           program_name);
+-                  ec = 2;
+-                  goto exit;
+-                }
+-            }
++            nullcheck (opts.desc_arg = strdup (arg));
+           break;
+         case 's':
+           if (arg = poptGetOptArg (optCon))
+@@ -252,34 +233,17 @@
+                 {
+                   fprintf (stderr, "%s: %s not valid for show window\n",
+                            program_name, arg);
+-                  ec = 2;
+-                  goto exit;
++                  return 2;
+                 }
+             }
+           break;
+         case 'w':
+           if (arg = poptGetOptArg (optCon))
+-            {
+-              if ((opts.dir_name_arg = strdup (arg)) == NULL)
+-                {
+-                  fprintf (stderr, "%s: memory allocation error\n",
+-                           program_name);
+-                  ec = 2;
+-                  goto exit;
+-                }
+-            }
++            nullcheck (opts.dir_name_arg = strdup (arg));
+           break;
+         case 'a':
+           if (arg = poptGetOptArg (optCon))
+-            {
+-              if ((opts.argument_arg = strdup (arg)) == NULL)
+-                {
+-                  fprintf (stderr, "%s: memory allocation error\n",
+-                           program_name);
+-                  ec = 2;
+-                  goto exit;
+-                }
+-            }
++            nullcheck (opts.argument_arg = strdup (arg));
+           break;
+           // case 'A' 
+           // case 'D'
+@@ -379,94 +343,105 @@
+   return (ec);
+ }
+ 
++static wchar_t *
++conv_arg (char *arg, char *arg_name)
++{
++  wchar_t *ret;
++  int len = mbstowcs(0, arg, 0);
++  if (len < 0)
++    {
++      fprintf (stderr, "%s: invalid bytes in %s\n",
++               program_name, arg_name);
++      exit (1);
++    }
++  ret = nullcheck (malloc (++len * sizeof (wchar_t)));
++  mbstowcs(ret, arg, len);
++  return ret;
++}
++
++static wchar_t *
++conv_path (char *path, cygwin_conv_path_t flags)
++{
++  wchar_t *wpath;
++
++  if (strchr (path, ':') != NULL)
++    error ("all paths must be in POSIX format");
++
++  wpath = cygwin_create_path (CCP_POSIX_TO_WIN_W | flags, path);
++  if (!wpath)
++     {
++      fprintf (stderr,
++               "%s: could not convert path: $s\n",
++               program_name, path);
++      exit (1);
++     }
++
++  if (wcsncmp(wpath, L"\\\\?\\UNC\\", 8) == 0)
++    wpath += 6, *wpath = '\\'; /* Replace '\\?\UNC\' with \\ */
++  else if (wcsncmp(wpath, L"\\\\?\\", 4) == 0)
++    wpath += 4; /* Drop '\\?\' */
++  
++  return wpath;
++ }
++
++
+ int
+ mkshortcut (optvals opts)
+ {
+-  char link_name[MAX_PATH];
+-  char exe_name[MAX_PATH];
+-  char dir_name[MAX_PATH];
+-  char desc[MAX_PATH];
+-  char *buf_str, *tmp_str;
+-  int tmp;
++  wchar_t *link_name, *link_base;
++  wchar_t *exe_name;
++  wchar_t *dir_name;
++  wchar_t *icon_name;
++  wchar_t *desc;
++  wchar_t *args;
++  int len;
+ 
+   /* For OLE interface */
+-  LPITEMIDLIST id;
+   HRESULT hres;
+   IShellLink *shell_link;
+   IPersistFile *persist_file;
+-  WCHAR widepath[MAX_PATH];
+-
+-  buf_str = (char *) malloc (PATH_MAX);
+-  if (buf_str == NULL)
+-    {
+-      fprintf (stderr, "%s: out of memory\n", program_name);
+-      return (2);
+-    }
+ 
+   /*  If there's a colon in the TARGET, it should be a URL */
+   if (strchr (opts.target_arg, ':') != NULL)
+     {
+       /*  Nope, somebody's trying a W32 path  */
+       if (opts.target_arg[1] == ':')
+-        {
+-          free (buf_str);
+-          fprintf (stderr, "%s: all paths must be in POSIX format\n",
+-                   program_name);
+-          usage (stderr, program_name);
+-          return (1);
+-        }
+-      strcpy (exe_name, opts.target_arg);
+-      dir_name[0] = '\0';       /* No working dir for URL */
+-    }
++        error ("all paths must be in POSIX format");
++       
++      exe_name = conv_arg (opts.target_arg, "target URL");
++      dir_name = L"";       /* No working dir for URL */    }
+   /* Convert TARGET to win32 path */
+   else
+     {
+-      strcpy (buf_str, opts.target_arg);
+-      cygwin_conv_to_full_win32_path (buf_str, exe_name);
++      exe_name = conv_path (opts.target_arg, 0);
+ 
+       /*  Get a working dir from 'w' option */
+       if (opts.dir_name_arg != NULL)
+-        {
+-          if (strchr (opts.dir_name_arg, ':') != NULL)
+-            {
+-              free (buf_str);
+-              fprintf (stderr, "%s: all paths must be in POSIX format\n",
+-                       program_name);
+-              usage (stderr, program_name);
+-              return (1);
+-            }
+-          cygwin_conv_to_win32_path (opts.dir_name_arg, dir_name);
+-        }
++        dir_name = conv_path (opts.dir_name_arg, 0);
+       /*  Get a working dir from the exepath */
+       else
+         {
+-          tmp_str = strrchr (exe_name, '\\');
+-          tmp = strlen (exe_name) - strlen (tmp_str);
+-          strncpy (dir_name, exe_name, tmp);
+-          dir_name[tmp] = '\0';
++          wchar_t *last_slash = wcsrchr (exe_name, '\\');
++          if (last_slash) {
++            len = last_slash - exe_name;
++            dir_name = nullcheck (malloc ((len + 1) * sizeof(wchar_t)));
++            wmemcpy (dir_name, exe_name, len);
++            dir_name[len] = 0;
++          }
++          else
++            dir_name = L"";
+         }
+     }
+ 
+   /*  Generate a name for the link if not given */
+   if (opts.name_arg == NULL)
+     {
+-      /*  Strip trailing /'s if any */
+-      strcpy (buf_str, opts.target_arg);
+-      tmp_str = buf_str;
+-      tmp = strlen (buf_str) - 1;
+-      while (strrchr (buf_str, '/') == (buf_str + tmp))
+-        {
+-          buf_str[tmp] = '\0';
+-          tmp--;
+-        }
+-      /*  Get basename */
+-      while (*buf_str)
+-        {
+-          if (*buf_str == '/')
+-            tmp_str = buf_str + 1;
+-          buf_str++;
+-        }
+-      strcpy (link_name, tmp_str);
++      wchar_t *last_slash = wcsrchr (exe_name, '\\');
++      if (!last_slash)
++        last_slash = wcsrchr (exe_name, '/');
++      if (!last_slash)
++        error("need link name");
++      link_base = last_slash + 1;
+     }
+   /*  User specified a name, so check it and convert  */
+   else
+@@ -475,93 +450,66 @@
+         {
+           /*  Cannot have absolute path relative to Desktop/SM Programs */
+           if (opts.name_arg[0] == '/')
+-            {
+-              free (buf_str);
+-              fprintf (stderr,
+-                       "%s: absolute pathnames not allowed with -D/-P\n",
+-                       program_name);
+-              usage (stderr, program_name);
+-              return (1);
+-            }
++            error ("absolute pathnames not allowed with -D/-P");
+         }
+-      /*  Sigh. Another W32 path */
+-      if (strchr (opts.name_arg, ':') != NULL)
+-        {
+-          free (buf_str);
+-          fprintf (stderr, "%s: all paths must be in POSIX format\n",
+-                   program_name);
+-          usage (stderr, program_name);
+-          return (1);
+-        }
+-      cygwin_conv_to_win32_path (opts.name_arg, link_name);
++      link_base = conv_path (opts.name_arg, CCP_RELATIVE);
+     }
+ 
+-  /*  Add suffix to link name if necessary */
+-  if (strlen (link_name) > 4)
+-    {
+-      tmp = strlen (link_name) - 4;
+-      if (strncmp (link_name + tmp, ".lnk", 4) != 0)
+-        strcat (link_name, ".lnk");
+-    }
+-  else
+-    strcat (link_name, ".lnk");
+-
+-  /*  Prepend relative path if necessary  */
+-  if (opts.desktop_flag)
+-    {
+-      strcpy (buf_str, link_name);
+-      if (!opts.allusers_flag)
+-        SHGetSpecialFolderLocation (NULL, CSIDL_DESKTOPDIRECTORY, &id);
+-      else
+-        SHGetSpecialFolderLocation (NULL, CSIDL_COMMON_DESKTOPDIRECTORY, &id);
++  /* Make space for the full link path */
++  len = wcslen (link_base);
++  link_name = nullcheck (malloc((MAX_PATH + len + 8) * sizeof (wchar_t)));
++
++  /* Get special folder location if required */
++  if (opts.desktop_flag || opts.smprograms_flag)
++    {
++      int dir;
++      LPITEMIDLIST id;
++      if (opts.desktop_flag)
++        dir = opts.allusers_flag ? CSIDL_COMMON_DESKTOPDIRECTORY
++                                 : CSIDL_DESKTOPDIRECTORY;
++    else
++        dir = opts.allusers_flag ? CSIDL_COMMON_PROGRAMS
++                                 : CSIDL_PROGRAMS;      
++      SHGetSpecialFolderLocation (NULL, dir, &id);
+       SHGetPathFromIDList (id, link_name);
+-      /*  Make sure Win95 without "All Users" has output  */
+-      if (strlen (link_name) == 0)
+-        {
+-          SHGetSpecialFolderLocation (NULL, CSIDL_DESKTOPDIRECTORY, &id);
+-          SHGetPathFromIDList (id, link_name);
+-        }
+-      strcat (link_name, "\\");
+-      strcat (link_name, buf_str);
++      wcscat (link_name, L"\\");
+     }
+ 
+-  if (opts.smprograms_flag)
+-    {
+-      strcpy (buf_str, link_name);
+-      if (!opts.allusers_flag)
+-        SHGetSpecialFolderLocation (NULL, CSIDL_PROGRAMS, &id);
+-      else
+-        SHGetSpecialFolderLocation (NULL, CSIDL_COMMON_PROGRAMS, &id);
+-      SHGetPathFromIDList (id, link_name);
+-      /*  Make sure Win95 without "All Users" has output  */
+-      if (strlen (link_name) == 0)
+-        {
+-          SHGetSpecialFolderLocation (NULL, CSIDL_PROGRAMS, &id);
+-          SHGetPathFromIDList (id, link_name);
+-        }
+-      strcat (link_name, "\\");
+-      strcat (link_name, buf_str);
+-    }
+-
+-  /* Setup description text */
++  else
++    *link_name = 0;
++  
++  wcscat(link_name, link_base);
++
++  /* Append ".lnk" if necessary. */
++  if (len <= 4 || wcscmp (link_base + len - 4, L".lnk") != 0)
++    wcscat(link_name, L".lnk");
++  
++  /* Convert icon name */
++  if (opts.icon_name_arg != NULL)
++    icon_name = conv_path (opts.icon_name_arg, 0);
++  else
++    icon_name = NULL;
++  
++  /* Convert shortcut argument */
++  if (opts.argument_arg != NULL)
++    args = conv_arg (opts.argument_arg, "argument");
++  else
++    args = NULL;
++  
++  /* Convert description */
+   if (opts.desc_arg != NULL)
+-    {
+-      strncpy (desc, opts.desc_arg, MAX_PATH);
+-
+-      /* There won't be a null terminated if strlen(desc_arg)>MAX_PATH */
+-      desc[MAX_PATH - 1] = '\0';
+-    }
++    desc = conv_arg (opts.desc_arg, "description");
+   else
+     {
+       /* Put the POSIX path in the "Description", just to be nice */
+-      cygwin_conv_to_full_posix_path (exe_name, desc);
++      desc = conv_arg(cygwin_create_path(CCP_WIN_W_TO_POSIX, exe_name),
++                      "executable name");
+     }
+ 
+   /*  Beginning of Windows interface */
+   hres = OleInitialize (NULL);
+   if (hres != S_FALSE && hres != S_OK)
+     {
+-      free (buf_str);
+       fprintf (stderr, "%s: Could not initialize OLE interface\n",
+                program_name);
+       return (3);
+@@ -581,32 +529,19 @@
+           shell_link->lpVtbl->SetDescription (shell_link, desc);
+           shell_link->lpVtbl->SetWorkingDirectory (shell_link, dir_name);
+           if (opts.argument_arg)
+-            shell_link->lpVtbl->SetArguments (shell_link, opts.argument_arg);
++            shell_link->lpVtbl->SetArguments (shell_link, args);
+           if (opts.icon_flag)
+             shell_link->lpVtbl->SetIconLocation (shell_link,
+-                                                 opts.icon_name_arg,
++                                                 icon_name,
+                                                  opts.offset);
+           if (opts.show_flag != SW_SHOWNORMAL)
+             shell_link->lpVtbl->SetShowCmd (shell_link, opts.show_flag);
+ 
+-
+-          /*  Make link name Unicode-compliant  */
+-          hres =
+-            MultiByteToWideChar (CP_ACP, 0, link_name, -1, widepath,
+-                                 MAX_PATH);
+-          if (!SUCCEEDED (hres))
+-            {
+-              free (buf_str);
+-              fprintf (stderr, "%s: Unicode translation failed%d\n",
+-                       program_name, hres);
+-              return (3);
+-            }
+-          hres = persist_file->lpVtbl->Save (persist_file, widepath, TRUE);
++          hres = persist_file->lpVtbl->Save (persist_file, link_name, TRUE);
+           if (!SUCCEEDED (hres))
+             {
+-              free (buf_str);
+               fprintf (stderr,
+-                       "%s: Saving \"%s\" failed; does the target directory exist?\n",
++                       "%s: Saving \"%ls\" failed\n",
+                        program_name, link_name);
+               return (3);
+             }
+@@ -616,17 +551,17 @@
+         }
+       else
+         {
+-          free (buf_str);
+           fprintf (stderr, "%s: QueryInterface failed\n", program_name);
+           return (3);
+         }
+     }
+   else
+     {
+-      free (buf_str);
+       fprintf (stderr, "%s: CoCreateInstance failed\n", program_name);
+       return (3);
+     }
++  
++  return 0;
+ }
+ 
+ static const char *
+@@ -704,3 +639,22 @@
+   printTopDescription (f, name);
+   printLicense (f, name);
+ }
++
++static void
++error (char *msg)
++{
++  fprintf (stderr, "%s: %s\n", program_name, msg);
++  usage (stdout, program_name);
++  exit (1);
++}
++
++static void *
++nullcheck (void *p)
++{
++  if (p == NULL)
++    {
++      fprintf (stderr, "%s: memory allocation error\n", program_name);
++      exit (2);
++    }
++  return p;
++}

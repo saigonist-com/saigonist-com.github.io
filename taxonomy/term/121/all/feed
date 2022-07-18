@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/121/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>cck</title>
+    <link>http://www.saigonist.com/taxonomy/term/121/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Controlling visibility of block content by CCK field value</title>
+    <link>http://www.saigonist.com/tech/drupal/controlling-visibility-block-content-cck-field-value</link>
+    <description>&lt;p&gt;Say you have a bunch of blocks and you want them to be displayed on certain nodes of varying content type based on some criteria like the content type and some CCK fields or taxonomy. You can&#039;t do this with the stock block visibility settings without writing custom PHP code. &lt;/p&gt;
+&lt;p&gt;But we can implement it using some existing basic Drupal building blocks: CCK and Views&lt;/p&gt;
+&lt;p&gt;1. Create a content type called Visibility Block. &lt;/p&gt;
+&lt;p&gt;You might have a field for content type where the possible values are returned from code which returns an array of the content types (using function node_get_types()).&lt;/p&gt;
+&lt;p&gt;2. Then for any fields you want to match, you&#039;ll have the same fields in this content type. For example, if one of your content types has a textfield and the possible values are 1, 2, 3, then do the same for Visibility Block. &lt;/p&gt;
+&lt;p&gt;When you create a Visibility Block, you&#039;ll have your block content in the body as normal (optionally you could use Block Reference and create blocks like usual and then link to them in the node instead, but I see no point in the extra effort and redirection), then select the conditions for the pseudo-block being visible.&lt;/p&gt;
+&lt;p&gt;3. Now create a view called Visibility Blocks Viewed. You&#039;ll create block displays, one for each content type that you have a Visibility Block set for which may only be one or two of your c-types. &lt;/p&gt;
+&lt;p&gt;Create an overridden argument each block display for the content type -field- in Visibility Block. You want to match the content type of the viewed node with the field in the Visibility Block, which are not the same type of thing. So you&#039;ll need to convert the argument in code.&lt;/p&gt;
+&lt;p&gt;You&#039;ll call menu_get_object() to get the $node because it&#039;s better than &quot;$node = node_load(arg(1));&quot;. For the chosen c-type for that block display you will check that the implied node&#039;s c-type is what ever type you want to show in this block display because you will also check any fields that are specific to this c-type. Use PHP to supply a value since no argument will be passed in, and have the code load the current node and return the type. Then use PHP for the Validator Options and if the c-type doesn&#039;t match then you will display empty text. If you have multiple c-types which share CCK fields then you can put them into a single block display. &lt;/p&gt;
+&lt;p&gt;4. For each content type, in the chosen block display you will create a new argument for each compared against CCK field. You will pick a field from V-block and then use PHP to return a default value of the currently viewed node&#039;s field&#039;s value. You won&#039;t need to do Validation on these arguments.&lt;/p&gt;
+&lt;p&gt;5. Finally, you may want to limit the number of nodes returned, maybe just one. Now give this block a title and save it and configure its region in the normal block admin.&lt;/p&gt;
+&lt;p&gt;--&lt;/p&gt;
+&lt;h2&gt;Why not the normal block visibility settings?&lt;/h2&gt;
+&lt;p&gt;Because there you can&#039;t even configure by content type (anymore in D6). You can configure by path glob and by PHP code which overrides the path glob field (including in the database).&lt;/p&gt;
+&lt;p&gt;So under &quot;Page specific visibility settings&quot;, set to &quot;Show if the following PHP code returns TRUE (PHP-mode, experts only).&quot;, the field is blocks.pages. Essentially, PHP code works by overriding the pages list.&lt;/p&gt;
+&lt;h2&gt;Why not use Block Page Visibility?&lt;/h2&gt;
+&lt;blockquote&gt;&lt;p&gt;
+Block Page Visibility (&lt;a href=&quot;http://drupal.org/project/bpv&quot; title=&quot;http://drupal.org/project/bpv&quot;&gt;http://drupal.org/project/bpv&lt;/a&gt;) enables site developers to centralize the display of blocks to a single PHP function. It is an alternative to controlling display via each block&#039;s configure form. The more &quot;sometimes on, sometimes off blocks&quot; that a site uses, the more useful this module becomes.
+&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;This takes over the visibility settings of all your blocks by calling:&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;javascript geshifilter-javascript&quot; style=&quot;font-family:monospace;&quot;&gt;$sql &lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;UPDATE blocks SET visibility = 2, pages = CONCAT(&amp;quot;&amp;lt;&amp;quot;, &amp;quot;?&amp;quot;, &amp;quot;php &amp;quot;, &amp;quot;return bpv_is_visible(&lt;span style=&quot;color: #000099; font-weight: bold;&quot;&gt;\&#039;&lt;/span&gt;&amp;quot;, module, &amp;quot;-&amp;quot;, delta, &amp;quot;&lt;span style=&quot;color: #000099; font-weight: bold;&quot;&gt;\&#039;&lt;/span&gt;); &amp;quot;, &amp;quot;?&amp;quot;, &amp;quot;&amp;gt;&amp;quot;) WHERE status=1 AND theme=&lt;span style=&quot;color: #000099; font-weight: bold;&quot;&gt;\&#039;&lt;/span&gt;%s&lt;span style=&quot;color: #000099; font-weight: bold;&quot;&gt;\&#039;&lt;/span&gt;&#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Sometimes it&#039;s easier to configure a block by just whether you&#039;re logged in, or whether you&#039;re on the front page. &lt;/p&gt;
+&lt;p&gt;This module doesn&#039;t give you any finer grained controls. And you have to configure every block in code. You also lose all your current block visibility settings once you install this module. To use this module you have to implement your own bpv_config or bpv_configuration (I think it&#039;s a bug that it&#039;s looking for bpv_configuration but actually uses bpv_config).&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/controlling-visibility-block-content-cck-field-value#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/block">block</category>
+ <category domain="http://www.saigonist.com/category/tags/cck">cck</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/module">module</category>
+ <category domain="http://www.saigonist.com/category/tags/php">php</category>
+ <category domain="http://www.saigonist.com/category/tags/views">views</category>
+ <pubDate>Tue, 30 Oct 2012 13:46:49 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">558 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Attaching a table/matrix/array to a Drupal node</title>
+    <link>http://www.saigonist.com/tech/drupal/attaching-tablematrixarray-drupal-node</link>
+    <description>&lt;p&gt;[This blog post is a rewrite of just the main points due to my baby &lt;span data-scayt_word=&quot;Macbook&quot; data-scaytid=&quot;1&quot;&gt;Macbook&lt;/span&gt; Pro dying while I was distracted.]&lt;/p&gt;&lt;p&gt;Drupal content types with &lt;span data-scayt_word=&quot;CCK&quot; data-scaytid=&quot;2&quot;&gt;CCK&lt;/span&gt; make it quite easy to add any number of defined fields to an &amp;#39;object&amp;#39;, and with multiple/unlimited values for a field or with node references it&amp;#39;s possible to make a Drupal node &amp;#39;two-dimensional&amp;#39;.&lt;/p&gt;&lt;p&gt;Sometimes you need more. Sometimes you want tabular data, a table, to be part of a node. If the table always has the same dimensions, and at least the same columns for each node, then the above can work through node references and views.&lt;/p&gt;&lt;p&gt;What if you want to add a different two-dimensional table to nodes of a content type, but without knowing the number or labels for the columns and rows beforehand. &amp;nbsp;For example, you might want to attach a pricing table to a node, with multiple products and multiple ways to price each product. &amp;nbsp;An example of that might be 5 t-shirt designs, where shirts are priced based on size and quantity ordered.&lt;/p&gt;</description>
+     <comments>http://www.saigonist.com/tech/drupal/attaching-tablematrixarray-drupal-node#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/array">array</category>
+ <category domain="http://www.saigonist.com/category/tags/cck">cck</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/matrix">matrix</category>
+ <category domain="http://www.saigonist.com/category/tags/noderelationships">noderelationships</category>
+ <category domain="http://www.saigonist.com/category/tags/table">table</category>
+ <category domain="http://www.saigonist.com/category/tags/tablefield">tablefield</category>
+ <category domain="http://www.saigonist.com/category/tags/views">views</category>
+ <pubDate>Tue, 05 Jul 2011 12:48:48 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">211 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

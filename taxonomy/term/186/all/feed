@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/186/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>graph</title>
+    <link>http://www.saigonist.com/taxonomy/term/186/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Find Friends of a Friend on Facebook</title>
+    <link>http://www.saigonist.com/b/find-friends-friend-facebook</link>
+    <description>&lt;p&gt;Today I was playing around with Facebook&#039;s  where you can test out their API.&lt;/p&gt;
+&lt;p&gt;First, you may want to logout of Facebook using the button there and log back in in order to get the &quot;FB.login callback&quot; Log message on the sidebar.  Inside that, you&#039;ll see something like:&lt;/p&gt;
+&lt;pre&gt;
+{
+   &quot;authResponse&quot;: {
+      &quot;accessToken&quot;: &quot;AAAAAKvQdWksBAG8yLhVwqWyvgF2uu2eUahBQTZCPD5y2ilo2qZBbyjJ3DJRXDn4UONrVqAK28ZCSlouAtvdbxCc0ZAzQ0e8VbZBZCsdHmzUQZDZD&quot;,
+      &quot;userID&quot;: &quot;12463924&quot;,
+      &quot;expiresIn&quot;: 5200,
+      &quot;signedRequest&quot;: &quot;_ltfzUYHjPHyFZH6JnlbzVa-oejnPTud9aHK24eIWOc.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImNvZGUiOiJBUUR2WU4tcTk4cW04X2xwbkg0LVU4Rk9YMUoxYVBmOUNMQkJPeEhlSGowQUZ3a2V6akRNWDlPNGExbkhkREZxT2laQVhWZW50aDRfd19EUk5uWm95NFlDYXFqWktweDZ1MDA5U2Fkc2hSUjQtWUdfUi05S21zY3F5RXlPTC1zbGRaVHBqZkRZS0lvdzFxYnJ2SjJteWxXYkd1dWFhY1h6U1FUWW8tc1V2Rm1oTU5fLV9xZzNxOXRadHJTSi1WdFRpUWciLCJpc3N1ZWRfYXQiOjEzMjE1NDc2MDAsInVzZXJfaWQiOiIxMjQ2MzkyNCJ9&quot;
+   },
+   &quot;status&quot;: &quot;connected&quot;
+}
+&lt;/pre&gt;&lt;p&gt;
+You should copy the accessToken in order to do further testing which requires a token.  Most of the new API calls can be tested right in your browser.  For example:&lt;/p&gt;
+&lt;p&gt;https://graph.facebook.com/search?q=Tomo&amp;amp;type=user&amp;amp;access_token=AAAAAKvQdWksBAG8yLhVwqWyvgF2uu2eUahBQTZCPD5y2ilo2qZBbyjJ3DJRXDn4UONrVqAK28ZCSlouAtvdbxCc0ZAzQ0e8VbZBZCsdHmzUQZDZD&amp;amp;limit=10&amp;amp;offset=0&lt;/p&gt;
+&lt;p&gt;That searches my account for users with the name &#039;Tomo&#039;, while using my token to authenticate.  The token doesn&#039;t last very long and has definitely expired by the time you read this.&lt;/p&gt;
+&lt;p&gt;Now plug this code into the textarea.&lt;/p&gt;
+&lt;pre&gt;
+&amp;lt;div id=&amp;quot;profile_pics&amp;quot;&amp;gt;
+Profile pics here
+&amp;lt;/div&amp;gt;
+&amp;lt;script&amp;gt;
+
+// From an example
+
+var profilePicsDiv = document.getElementById(&#039;profile_pics&#039;);
+FB.getLoginStatus(function(response) {
+  if (response.status != &#039;connected&#039;) {
+    profilePicsDiv.innerHTML = &#039;&amp;lt;em&amp;gt;You are not connected&amp;lt;/em&amp;gt;&#039;;
+    return;
+  }
+
+
+
+// JSON output from https://graph.facebook.com/search?q=Tomo&amp;amp;type=user&amp;amp;access_token=AAAAAKvQdWksBAG8yLhVwqWyvgF2uu2eUahBQTZCPD5y2ilo2qZBbyjJ3DJRXDn4UONrVqAK28ZCSlouAtvdbxCc0ZAzQ0e8VbZBZCsdHmzUQZDZD&amp;amp;limit=10&amp;amp;offset=0
+var people = {
+   &amp;quot;data&amp;quot;: [
+      {
+         &amp;quot;name&amp;quot;: &amp;quot;Tomo Coffee&amp;quot;,
+         &amp;quot;id&amp;quot;: &amp;quot;100001851101897&amp;quot;
+      },
+      {
+         &amp;quot;name&amp;quot;: &amp;quot;Tomo Kiku&amp;quot;,
+         &amp;quot;id&amp;quot;: &amp;quot;626405318&amp;quot;
+      },
+      {
+         &amp;quot;name&amp;quot;: &amp;quot;Tomomi Shiho&amp;quot;,
+         &amp;quot;id&amp;quot;: &amp;quot;1755956208&amp;quot;
+      },
+      {
+         &amp;quot;name&amp;quot;: &amp;quot;Tomoman Bkk&amp;quot;,
+         &amp;quot;id&amp;quot;: &amp;quot;1674446551&amp;quot;
+      },
+      {
+         &amp;quot;name&amp;quot;: &amp;quot;Tomori Moore&amp;quot;,
+         &amp;quot;id&amp;quot;: &amp;quot;511540368&amp;quot;
+      },
+      {
+         &amp;quot;name&amp;quot;: &amp;quot;Tomomi Takihara&amp;quot;,
+         &amp;quot;id&amp;quot;: &amp;quot;100001600551550&amp;quot;
+      },
+      {
+         &amp;quot;name&amp;quot;: &amp;quot;Tomohiro Morinaga&amp;quot;,
+         &amp;quot;id&amp;quot;: &amp;quot;713242010&amp;quot;
+      },
+      {
+         &amp;quot;name&amp;quot;: &amp;quot;Onda Tomoyuki&amp;quot;,
+         &amp;quot;id&amp;quot;: &amp;quot;100001455563427&amp;quot;
+      },
+      {
+         &amp;quot;name&amp;quot;: &amp;quot;Tomoko Okawara&amp;quot;,
+         &amp;quot;id&amp;quot;: &amp;quot;100001514576923&amp;quot;
+      },
+      {
+         &amp;quot;name&amp;quot;: &amp;quot;Tomonari Kino&amp;quot;,
+         &amp;quot;id&amp;quot;: &amp;quot;804330331&amp;quot;
+      }
+   ],
+   &amp;quot;paging&amp;quot;: {
+      &amp;quot;next&amp;quot;: &amp;quot;https://graph.facebook.com/search?q=Tomo&amp;amp;type=user&amp;amp;access_token=AAAAAKvQdWksBAG8yLhVwqWyvgF2uu2eUahBQTZCPD5y2ilo2qZBbyjJ3DJRXDn4UONrVqAK28ZCSlouAtvdbxCc0ZAzQ0e8VbZBZCsdHmzUQZDZD&amp;amp;limit=10&amp;amp;offset=10&amp;quot;
+   }
+}
+
+
+var searchid = &#039;1218273364&#039;;
+var markup = &#039;&#039;;
+
+function genfn(i) {
+    var fn = function(result) {
+        //console.log(i); console.log(result); 
+        for (var j = 0; j &amp;lt; result.length; j++) {
+            if (result[j] == searchid) {
+                Log.info(&#039;foaf search match&#039;, people.data[i]);
+                markup = (
+                  &#039;&amp;lt;fb:profile-pic size=&amp;quot;square&amp;quot; &#039; +
+                          &#039;uid=&amp;quot;&#039; + people.data[i].id + &#039;&amp;quot; &#039; +
+                          &#039;facebook-logo=&amp;quot;true&amp;quot;&#039; +
+                          &#039;&amp;gt;&amp;lt;/fb:profile-pic&amp;gt;&#039;
+                );
+                var profilePicsDiv = document.getElementById(&#039;profile_pics&#039;);
+                profilePicsDiv.innerHTML += markup;
+                FB.XFBML.parse(profilePicsDiv);
+            }
+        }
+    };
+    return fn;
+}
+
+for (var i = 0; i &amp;lt; people.data.length; i++) {
+    person = people.data[i];
+    FB.api({method: &#039;friends.getMutualFriends&#039;, target_uid : person.id}, genfn(i));
+}
+
+});
+
+&amp;lt;/script&amp;gt;
+
+&lt;/pre&gt;&lt;p&gt;
+As you can see, I prefetched the results from searching &quot;Tomo&quot; and I set the id of a friend whose &quot;Tomo&quot; friends I wanted to find.  This searches the results and filters for people who have the mutual friend 1218273364.  &lt;/p&gt;
+&lt;p&gt;To go further, one should have controls for choosing the search term, automatically fetch search results and page through them to find more results, and have a control for choosing the mutual friend.  This will allow you to search for mutual friends even if you don&#039;t have permission to view a friend&#039;s friends.  Turning this into an app or Chrome extension is left as an exercise to the reader. :)&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/find-friends-friend-facebook#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/api">api</category>
+ <category domain="http://www.saigonist.com/category/tags/facebook">facebook</category>
+ <category domain="http://www.saigonist.com/category/tags/foaf">foaf</category>
+ <category domain="http://www.saigonist.com/category/tags/graph">graph</category>
+ <category domain="http://www.saigonist.com/category/tags/javascript">javascript</category>
+ <pubDate>Thu, 17 Nov 2011 18:08:39 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">270 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

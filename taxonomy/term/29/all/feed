@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/29/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>video</title>
+    <link>http://www.saigonist.com/taxonomy/term/29/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Drupal FlashVideo Streaming with PHP and JW Player</title>
+    <link>http://www.saigonist.com/tech/drupal/drupal-flashvideo-streaming-php-and-jw-player</link>
+    <description>&lt;p&gt;Getting Drupal to stream video using PHP and the FlashVideo module to manage video uploads is not easy.  It involves 5 distinct pieces of software, which means 5 places where things could go wrong with little error logging.&lt;/p&gt;
+&lt;p&gt;Here&#039;s what you need:&lt;br /&gt;
+1. FlashVideo http://drupal.org/project/flashvideo&lt;br /&gt;
+2. ffmpeg&lt;br /&gt;
+3. flvtool2&lt;br /&gt;
+4. xmoov-php&lt;br /&gt;
+5. JW Player&lt;/p&gt;
+&lt;div class=&quot;field field-type-filefield field-field-blogattachments&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Attachments:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file clear-block&quot;&gt;&lt;div class=&quot;filefield-icon field-icon-video-x-flv&quot;&gt;&lt;img class=&quot;field-icon-video-x-flv&quot;  alt=&quot;video/x-flv icon&quot; src=&quot;http://www.saigonist.com/sites/all/modules/3rdparty/filefield/icons/protocons/16x16/mimetypes/video-x-generic.png&quot; /&gt;&lt;/div&gt;&lt;a href=&quot;http://www.saigonist.com/sites/saigonist.com/files/656-2178-legoshay_656.flv&quot; type=&quot;video/x-flv; length=272847&quot;&gt;656-2178-legoshay_656.flv&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+              &lt;div class=&quot;field-item even&quot;&gt;
+                    &lt;div class=&quot;filefield-file clear-block&quot;&gt;&lt;div class=&quot;filefield-icon field-icon-text-plain&quot;&gt;&lt;img class=&quot;field-icon-text-plain&quot;  alt=&quot;text/plain icon&quot; src=&quot;http://www.saigonist.com/sites/all/modules/3rdparty/filefield/icons/protocons/16x16/mimetypes/text-plain.png&quot; /&gt;&lt;/div&gt;&lt;a href=&quot;http://www.saigonist.com/sites/saigonist.com/files/stream.php_.txt&quot; type=&quot;text/plain; length=0&quot;&gt;stream.php_.txt&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+              &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file clear-block&quot;&gt;&lt;div class=&quot;filefield-icon field-icon-text-x-diff&quot;&gt;&lt;img class=&quot;field-icon-text-x-diff&quot;  alt=&quot;text/x-diff icon&quot; src=&quot;http://www.saigonist.com/sites/all/modules/3rdparty/filefield/icons/protocons/16x16/mimetypes/text-x-generic.png&quot; /&gt;&lt;/div&gt;&lt;a href=&quot;http://www.saigonist.com/sites/saigonist.com/files/flashvideo_streaming.patch&quot; type=&quot;text/x-diff; length=1185&quot;&gt;flashvideo_streaming.patch&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/drupal-flashvideo-streaming-php-and-jw-player#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/flashvideo">flashvideo</category>
+ <category domain="http://www.saigonist.com/category/tags/streaming">streaming</category>
+ <category domain="http://www.saigonist.com/category/tags/video">video</category>
+ <pubDate>Mon, 24 Jan 2011 10:17:00 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">33 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Simple Way to Download YouTube HTML5 Videos</title>
+    <link>http://www.saigonist.com/content/simple-download-youtube-html5</link>
+    <description>&lt;p&gt;A lot of the existing YouTube video download scripts don&#039;t work today as YouTube have changed their &quot;API&quot; so those hacks no longer work.  Programs that simple detect whatever media files get downloaded should still work.&lt;/p&gt;
+&lt;p&gt;Here&#039;s a dead simple way to download HTML5 videos from YouTube.  Drag the following link to your bookmark bar.  In Chrome, you have to set &quot;Always show bookmark bar&quot; for this to make sense. &lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;javascript:void(open(document.getElementsByTagName(&#039;video&#039;)[0].getAttribute(&#039;src&#039;)))&quot;&gt;Tubelet&lt;/a&gt; &lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/content/simple-download-youtube-html5#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/html5">html5</category>
+ <category domain="http://www.saigonist.com/category/tags/javascript">javascript</category>
+ <category domain="http://www.saigonist.com/category/tags/video">video</category>
+ <category domain="http://www.saigonist.com/category/tags/youtube">youtube</category>
+ <pubDate>Tue, 23 Nov 2010 20:52:11 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">20 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/436/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>osx</title>
+    <link>http://www.saigonist.com/taxonomy/term/436/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Running Drupal 8 and PHP 5.3.8+ on Mac OSX</title>
+    <link>http://www.saigonist.com/tech/drupal/running-drupal-8-and-php-538-mac-osx</link>
+    <description>&lt;p&gt;I develop on my MacBook Pro and when building Drupal 6 sites, I had to run PHP 5.2 because there were many conflicts in Drupal 6 core and contributed modules which meant running on PHP 5.3 either threw up errors or didn&#039;t run properly. Since I run XAMPP for Mac OS X, I also run phpswitch which lets me switch from XAMPP using PHP 5.2 to PHP 5.3 and back.&lt;/p&gt;
+&lt;p&gt;Unfortunately, Drupal 8 not only requires PHP 5.3 but PHP 5.3.5 or higher. Drupal 7 ran fine on PHP 5.2.5 or higher with  PHP 5.3 recommended.&lt;/p&gt;
+&lt;p&gt;1) XAMPP Mac OS X 1.7.3 comes with: Apache 2.2.14, MySQL 5.1.44, PHP 5.3.1.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/running-drupal-8-and-php-538-mac-osx#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/apache">apache</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal-8">drupal 8</category>
+ <category domain="http://www.saigonist.com/category/tags/lion">lion</category>
+ <category domain="http://www.saigonist.com/category/tags/osx">osx</category>
+ <category domain="http://www.saigonist.com/category/tags/php">php</category>
+ <category domain="http://www.saigonist.com/category/tags/snow-leopard">snow leopard</category>
+ <category domain="http://www.saigonist.com/category/tags/xampp">xampp</category>
+ <pubDate>Tue, 20 Nov 2012 01:41:59 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">567 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

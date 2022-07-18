@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/348/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>django</title>
+    <link>http://www.saigonist.com/taxonomy/term/348/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Should you use Drupal or Wordpress?</title>
+    <link>http://www.saigonist.com/tech/drupal/should-you-use-drupal-or-wordpress</link>
+    <description>&lt;p&gt;Before I begin: &lt;strong&gt;I&#039;m a Drupal guy.&lt;/strong&gt; What I say could be construed as being biased. I&#039;ll try to be honest though.&lt;/p&gt;
+&lt;p&gt;When building a website you or your developers have some decisions to make: what language to use, whether to use a framework and which one (depending on language - Zend/CodeIgniter/Symfony/CakePHP for PHP, Ruby on Rails, Django for Python, etc.), whether to use a CMS (WordPress, Joomla, Drupal), whether to self-host or use a blogging service (WordPress.com, Drupal Gardens, Tumblr, Blogger). There is no single right answer.&lt;/p&gt;
+&lt;p&gt;First, go with the language that is most comfortable. Previously, I had several years experience with both PHP and Python with Python actually being more recent. But few people in Vietnam know Python where many know PHP. But Drupal being in PHP sealed the deal.&lt;/p&gt;
+&lt;p&gt;Next, is it mostly about managing news-like content? Then go with a blog. Does it need some popular features like user logins and full accounts, social media integration, voting, storing meta-information besides blog text, or otherwise some customization of what kind of content you are storing? Then it&#039;s no longer a blog and you should use Drupal. Is it purely ecommerce? Drupal Commerce or Ubercart can do the job, but Magento might be all you need if you are not a developer and as long as you can afford to buy the yearly license fee for it and your website only needs a store of physical items without any other content or custom design.&lt;/p&gt;
+&lt;p&gt;Do you need something that is more like a web app that&#039;s unlike any existing blog, news site, social media site, online store, or corporate website out there? Then maybe you should have a team of developers starting with a web framework (Drupal, as well as being a content management system, is also a content management framework) and start from more basic building blocks.&lt;/p&gt;
+&lt;h2&gt;Some specific use cases:&lt;/h2&gt;
+&lt;p&gt;1) An intranet website for managing some internal corporate data that is really custom to your company. WordPress would not be adequate none of its strong points would apply. Drupal&#039;s theming weak points would no longer hurt you here since you just need a professional-looking tool. Best of all Drupal easily gives you and novice users a way to manage your data.&lt;/p&gt;
+&lt;p&gt;2) &lt;strong&gt;Brochure website&lt;/strong&gt; - like a business card for a store or business with a dozen or so pages of information and some links and a contact form. If you don&#039;t already know Drupal then use WordPress. WordPress also has many available commercial themes which can be used. However, a Drupal expert can just as quickly and easily build brochure sites in Drupal.&lt;/p&gt;
+&lt;p&gt;3) Social network - There are open source packages that are like social-network-in-a-box solutions. But nowadays, social networking is a feature, not a sufficient product alone. In my experience, using these off the shelf packages ends up being too limiting because you will always want to do new things and come up against the limits of the software, even if its open source. This applies to social news software like Pligg, school software like OpenSIS, Open Source Q&amp;amp;A software, forums like vBulletin, etc. Those kinds of sites were once novel and rare but are now just features to be added to larger sites, but they can not reasonable be used to build those larger sites. &lt;/p&gt;
+&lt;h2&gt;WordPress&#039;s strong points:&lt;/h2&gt;
+&lt;p&gt;1) &lt;strong&gt;Being a blog.&lt;/strong&gt; It does one thing really well. I have run many WordPress blogs in the past. This blog is built with Drupal though because it&#039;s possible to blog with Drupal, and because I&#039;ve also extended it far beyond blogging with many experiments.&lt;/p&gt;
+&lt;p&gt;2) &lt;strong&gt;Availability of commercial themes&lt;/strong&gt;. There are a lot of companies making and selling themes for WordPress (this is also a point where Joomla wins over Drupal). There are also plenty of free themes. This is good for people who don&#039;t want to put money down on a fully custom design yet and are just happy to use something that looks professional.&lt;/p&gt;
+&lt;p&gt;3) Usability. Out of the box, WordPress is user friendly and makes it easy to get up and running. Drupal improves at this with every major version but is still something a developer more easily loves than an end user.&lt;/p&gt;
+&lt;h2&gt;Honorable mentions&lt;/h2&gt;
+&lt;p&gt;Mezzanine (http://mezzanine.jupo.org/) is a promising-looking CMS built with Django/Python. If you like Python (like I do) then consider giving it a shot, although it doesn&#039;t have nearly the depth and breadth of free modules that Drupal offers nor the size of community. &lt;/p&gt;
+&lt;p&gt;Cartridge (http://cartridge.jupo.org) is Mezzanine&#039;s ecommerce/shopping cart solution. Again, you won&#039;t get the community and support like you would with Ubercart but at least you would get to hack in Python!&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/should-you-use-drupal-or-wordpress#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/blog">blog</category>
+ <category domain="http://www.saigonist.com/category/tags/cms">cms</category>
+ <category domain="http://www.saigonist.com/category/tags/django">django</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/framework">framework</category>
+ <category domain="http://www.saigonist.com/category/tags/php">php</category>
+ <category domain="http://www.saigonist.com/category/tags/pligg">pligg</category>
+ <category domain="http://www.saigonist.com/category/tags/python">python</category>
+ <category domain="http://www.saigonist.com/category/tags/software">software</category>
+ <category domain="http://www.saigonist.com/category/tags/wordpress">wordpress</category>
+ <pubDate>Sat, 13 Oct 2012 16:35:22 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">541 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/31/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>admin_menu</title>
+    <link>http://www.saigonist.com/taxonomy/term/31/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Drupal Administration Menu Missing Links</title>
+    <link>http://www.saigonist.com/content/drupal-administration-menu-missing-links</link>
+    <description>&lt;p&gt;Working on a Drupal site that&#039;s already half-way started, I noticed that after installing the admin_menu module many links I expected were missing, such as the refresh cache links and several content types under the Content Types menu.&lt;/p&gt;
+&lt;p&gt;First, I tried clearing out all caches manually via the Performance page.&lt;/p&gt;
+&lt;p&gt;Next, I tried truncating all cache tables in case cache_menu or another table was corrupted.&lt;/p&gt;
+&lt;p&gt;Still no go, so I tried disabling, uninstalling, and reinstalling the admin_menu module which should rebuild the admin_menu links in the menu router.&lt;/p&gt;
+&lt;p&gt;In the end it turned out to be a Wampserver problem as it (as well as Xampp) use PHP 5.3, which Drupal has a lot of problems with.  PHP 5.3 has a change from earlier versions in that function declarations like:&lt;/p&gt;
+&lt;p&gt;function admin_menu_admin_menu(&amp;amp;$deleted)&lt;/p&gt;
+&lt;p&gt;no longer work.  Normally, you&#039;d see that in your error messages.&lt;/p&gt;
+&lt;p&gt;The solution is to remove the &amp;amp; before $deleted on line 107 in admin_menu.inc in the admin_menu module.  This will also make the related PHP warnings go away.&lt;/p&gt;
+&lt;p&gt;Running 5.2 and 5.3 on one computer using XAMPP (on OSX) is easy by following these instructions: https://gist.github.com/1012774&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/content/drupal-administration-menu-missing-links#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/adminmenu">admin_menu</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <pubDate>Tue, 07 Dec 2010 10:30:16 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">21 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

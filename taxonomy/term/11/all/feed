@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/11/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>motivation</title>
+    <link>http://www.saigonist.com/taxonomy/term/11/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>First post</title>
+    <link>http://www.saigonist.com/content/first-post</link>
+    <description>&lt;p&gt;I&#039;ve decided to start blogging to encourage myself to do things worth writing about.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/content/first-post#comments</comments>
+ <category domain="http://www.saigonist.com/category/tags/motivation">motivation</category>
+ <pubDate>Mon, 06 Sep 2010 16:10:39 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">1 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

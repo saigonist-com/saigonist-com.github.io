@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/352/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>search</title>
+    <link>http://www.saigonist.com/taxonomy/term/352/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Drupal 6 Related Content</title>
+    <link>http://www.saigonist.com/tech/drupal/drupal-6-related-content</link>
+    <description>&lt;p&gt;Similar Entries 2 (6.2) - http://drupal.org/project/similar - doesn&#039;t work. But version 1 works like a charm. Version 2 spits up an error on array_filter. Looking at the code, my guess is it&#039;s related to some new Views plugin code in version 2.&lt;/p&gt;
+&lt;p&gt;Related Block - http://drupal.org/project/related_block - would have been cool too. It&#039;s much like Similar Entries. Unfortunately, the search algorithm is way too narrow. At first, I couldn&#039;t tell if the module was even working. Then by weening the search terms down to 1 (which means it figures out a single relevant term and then searches for only that) I saw some results, but not on many nodes still.&lt;/p&gt;
+&lt;p&gt;Relevant Content - http://drupal.org/project/relevant_content - is nice in theory. Currently, it&#039;s broken. It&#039;s in the middle of a rewrite, but it&#039;s looking more and more unlikely that it will ever get rewritten.&lt;/p&gt;
+&lt;p&gt;Related links - http://drupal.org/project/relatedlinks - is not what it seems. It just finds any referenced links in the content and groups them together. Nothing external.&lt;/p&gt;
+&lt;p&gt;Other modules are term (taxonomy) based. But ideally, you don&#039;t need to specify all the relevant terms, and you don&#039;t need to explicitly say that two terms are related. There should be a more intelligent way.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/drupal-6-related-content#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/block">block</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal6">drupal6</category>
+ <category domain="http://www.saigonist.com/category/tags/module">module</category>
+ <category domain="http://www.saigonist.com/category/tags/search">search</category>
+ <category domain="http://www.saigonist.com/category/tags/taxonomy">taxonomy</category>
+ <pubDate>Thu, 24 Jan 2013 16:09:31 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">971 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Drupal Links in Content</title>
+    <link>http://www.saigonist.com/tech/drupal/drupal-links-content</link>
+    <description>&lt;p&gt;Problem: In your blog posts you have a lot of links to other pages on your site, then one day you decide to change the URL pattern for all nodes on your site, or you change the pattern and slowly update paths to nodes by editing and saving them. Unfortunately, you had hard-coded paths in your content bodies and now they are all leading to 404 pages. What to do?&lt;/p&gt;
+&lt;p&gt;1) Link checker (linkchecker) module will find the broken links. This is something you may need to use.&lt;/p&gt;
+&lt;p&gt;2) Path Finder is a module that turns your node links into permalinks with node id (slug) at the front of the URL so that any future change to title which results in a different URL still leads to the same node via the node id. Example: http://www.example.com/837/latest-news/my-descriptive-seo-friendly-url&lt;/p&gt;
+&lt;p&gt;Of course, this doesn&#039;t help you once you already have a bunch of nodes and content linking to them, but it&#039;s one strategy to start with. Then if you do change the titles or patterns of your nodes, as long as the node id / slug is still at the beginning of the url, then you won&#039;t get any 404 errors, although you&#039;ll then have multiple URLs pointing to the same content. So this isn&#039;t ideal.&lt;/p&gt;
+&lt;p&gt;3) Turn on Pathologic: &quot;Pathologic is an input filter which can correct paths in links and images in your Drupal content in situations which would otherwise cause them to “break;” for example, if the URL of the site changes, or the content was moved to a different server.  Pathologic is designed to be a simple, set-it-and-forget-it utility. You don&#039;t need to enter any special “tags,” path prefixes, or other non-content noise into your content to trigger Pathologic to work; it finds paths it can manage in your content automatically.&quot;&lt;/p&gt;
+&lt;p&gt;4) If you just need to remove a base path (like http://www.domain.com:8080) from all URLs, then URL Replace Filter (url_replace_filter) will suffice.&lt;/p&gt;
+&lt;p&gt;5) If you need to do more complicated search and replace on URLs, and want to use regular expressions, then use Search and Replace Scanner (scanner).&lt;/p&gt;
+&lt;p&gt;Finally, use Global Redirect to always have a single canonical path for each piece of content.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/drupal-links-content#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/404">404</category>
+ <category domain="http://www.saigonist.com/category/tags/broken-links">broken links</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/module">module</category>
+ <category domain="http://www.saigonist.com/category/tags/search">search</category>
+ <category domain="http://www.saigonist.com/category/tags/seo">seo</category>
+ <pubDate>Wed, 10 Oct 2012 20:01:15 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">536 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

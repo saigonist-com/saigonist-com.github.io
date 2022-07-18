@@ -1,0 +1,71 @@
+<style>
+#saigonist-spread {
+width: 800px;
+background-color: white;
+border: 1px solid;
+z-index: 1000;
+position: absolute;
+}
+
+#saigonist-spread input {
+border: 1px solid #ccc;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+
+.saigonist-spread-row-head > div,
+.saigonist-spread-row > div {
+float: left;
+width: 122px;
+}
+
+#saigonist-spread .saigonist-spread-col-0 {
+width: 20px;
+}
+
+.saigonist-spread-row {
+clear: both;
+}
+
+.saigonist-spread-plus {
+cursor: pointer;
+}
+
+</style>
+<script src="js/spread.html">
+</script>
+<div id="saigonist-spread">
+ <div class="saigonist-spread-row-head">
+   <div class="saigonist-spread-col-0"><span id="saigonist-spread-cell-0-0">.</span></div>
+   <div class="saigonist-spread-col-1"><span>A</span></div>
+   <div class="saigonist-spread-col-2"><span>B</span></div>
+   <div class="saigonist-spread-col-3"><span>C</span></div>
+   <div class="saigonist-spread-col-max saigonist-spread-plus"><span onclick="saigonist_spread_add_col()">+</span></div>
+ </div>
+ <div class="saigonist-spread-rows">
+   <div id="saigonist-spread-row-1" class="saigonist-spread-row">
+     <div class="saigonist-spread-col-0">1</div>
+     <div class="saigonist-spread-col-1"><input type="text" length="10" name="saigonist-spread-cell-1-1"></div>
+     <div class="saigonist-spread-col-2"><input type="text" length="10" name="saigonist-spread-cell-1-2"></div>
+     <div class="saigonist-spread-col-3"><input type="text" length="10" name="saigonist-spread-cell-1-3"></div>
+   </div>
+   <div id="saigonist-spread-row-2" class="saigonist-spread-row">
+     <div class="saigonist-spread-col-0">2</div>
+     <div class="saigonist-spread-col-1"><input type="text" length="10" name="saigonist-spread-cell-2-1"></div>
+     <div class="saigonist-spread-col-2"><input type="text" length="10" name="saigonist-spread-cell-2-2"></div>
+     <div class="saigonist-spread-col-3"><input type="text" length="10" name="saigonist-spread-cell-2-3"></div>
+   </div>
+   <div id="saigonist-spread-row-3" class="saigonist-spread-row">
+     <div class="saigonist-spread-col-0">3</div>
+     <div class="saigonist-spread-col-1"><input type="text" length="10" name="saigonist-spread-cell-3-1"></div>
+     <div class="saigonist-spread-col-2"><input type="text" length="10" name="saigonist-spread-cell-3-2"></div>
+     <div class="saigonist-spread-col-3"><input type="text" length="10" name="saigonist-spread-cell-3-3"></div>
+   </div>
+ </div>
+ <div class="saigonist-spread-row">
+   <div class="saigonist-spread-col-0 saigonist-spread-plus"><span onclick="saigonist_spread_add_row()">+</span></div>
+ </div>
+
+ <div>JSON: "<div id="saigonist-spread-value-json"></div>"</div>
+</div>

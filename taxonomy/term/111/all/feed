@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/111/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>block</title>
+    <link>http://www.saigonist.com/taxonomy/term/111/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Facebook block in Vietnam May 2016</title>
+    <link>http://www.saigonist.com/vietnam/facebook-block-vietnam-may-2016</link>
+    <description>&lt;p&gt;Is Facebook blocked in Vietnam right now? Over the past few years, the main ISPs and mobile operators in Vietnam either stopped blocking Facebook or only lightly blocked it (with easy workarounds). Earlier in the rise of Facebook maybe some officials thought it was feasible that the Facebook social network could be prevented from taking hold. Today it&#039;s quite clear that it already has.&lt;/p&gt;
+&lt;p&gt;The Facebook block happening in May 2016 also affects other Facebook properties/apps like Facebook Messenger and Instagram. This also breaks any websites which require Facebook to login.&lt;/p&gt;
+&lt;p&gt;I&#039;m not in Vietnam currently, but I&#039;ve had many friends there talk to me about the situation over the past few days. A lot of people on both Facebook and other social networks (like Zalo in Vietnam) are complaining about not being able to access Facebook but most of them are not talking about or questioning the reasons why it might be blocked now.&lt;/p&gt;
+&lt;p&gt;Since I&#039;m not able to test the network conditions of Vietnam myself, I&#039;ve heard from some friends in tech in Vietnam. At first, mobile operators VNPT and Viettel started blocking Facebook, but now other major ISPs such as FPT have joined the internet blockade. Whereas in the past a ban on Facebook simply meant that DNS requests for the facebook.com domain would fail, which could be easily circumvented using a non-broken DNS server such as Google&#039;s public DNS servers (8.8.8.8 and 8.8.4.4), this is no longer the case in Vietnam now.&lt;/p&gt;
+&lt;p&gt;Like in China, where not only Facebook but hundreds of American news and social media sites are blocked, the solution to a &quot;firewall&quot; blocking a particular website from your location is to use a VPN or a proxy server.&lt;/p&gt;
+&lt;p&gt;VPNs and proxies allow you to &quot;masqueride&quot; your originating IP address and to bounce around the firewall. You connect to the VPN or proxy server, which isn&#039;t banned (yet), and then from there you can freely connect to any other site as usual. The censors just think you&#039;re connecting to a normal website and let the traffic through.&lt;/p&gt;
+&lt;p&gt;Which VPN to use? Fortunately, there are a lot of VPN options, both free and paid. On your phone, you can find VPN apps listed in the app store or Google Play store. Some work on desktop as well, such as Betternet.co (google it).&lt;/p&gt;
+&lt;p&gt;The alternative to VPNs is web proxies (SOCKS or web). You can find lists of web proxies or use this one from HideMyAss. With these, you configure your browser&#039;s network settings to use a proxy and set the IP address and port which you found in a list.&lt;/p&gt;
+&lt;p&gt;You can also search the Chrome Web Store for proxy and VPN Chrome extensions which will simplify the process as well.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/vietnam/facebook-block-vietnam-may-2016#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/tags/block">block</category>
+ <category domain="http://www.saigonist.com/category/tags/facebook">facebook</category>
+ <category domain="http://www.saigonist.com/category/tags/proxy">proxy</category>
+ <category domain="http://www.saigonist.com/category/tags/vpn">vpn</category>
+ <pubDate>Sun, 15 May 2016 14:23:30 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">6489 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Drupal 6 Related Content</title>
+    <link>http://www.saigonist.com/tech/drupal/drupal-6-related-content</link>
+    <description>&lt;p&gt;Similar Entries 2 (6.2) - http://drupal.org/project/similar - doesn&#039;t work. But version 1 works like a charm. Version 2 spits up an error on array_filter. Looking at the code, my guess is it&#039;s related to some new Views plugin code in version 2.&lt;/p&gt;
+&lt;p&gt;Related Block - http://drupal.org/project/related_block - would have been cool too. It&#039;s much like Similar Entries. Unfortunately, the search algorithm is way too narrow. At first, I couldn&#039;t tell if the module was even working. Then by weening the search terms down to 1 (which means it figures out a single relevant term and then searches for only that) I saw some results, but not on many nodes still.&lt;/p&gt;
+&lt;p&gt;Relevant Content - http://drupal.org/project/relevant_content - is nice in theory. Currently, it&#039;s broken. It&#039;s in the middle of a rewrite, but it&#039;s looking more and more unlikely that it will ever get rewritten.&lt;/p&gt;
+&lt;p&gt;Related links - http://drupal.org/project/relatedlinks - is not what it seems. It just finds any referenced links in the content and groups them together. Nothing external.&lt;/p&gt;
+&lt;p&gt;Other modules are term (taxonomy) based. But ideally, you don&#039;t need to specify all the relevant terms, and you don&#039;t need to explicitly say that two terms are related. There should be a more intelligent way.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/drupal-6-related-content#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/block">block</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal6">drupal6</category>
+ <category domain="http://www.saigonist.com/category/tags/module">module</category>
+ <category domain="http://www.saigonist.com/category/tags/search">search</category>
+ <category domain="http://www.saigonist.com/category/tags/taxonomy">taxonomy</category>
+ <pubDate>Thu, 24 Jan 2013 16:09:31 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">971 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Controlling visibility of block content by CCK field value</title>
+    <link>http://www.saigonist.com/tech/drupal/controlling-visibility-block-content-cck-field-value</link>
+    <description>&lt;p&gt;Say you have a bunch of blocks and you want them to be displayed on certain nodes of varying content type based on some criteria like the content type and some CCK fields or taxonomy. You can&#039;t do this with the stock block visibility settings without writing custom PHP code. &lt;/p&gt;
+&lt;p&gt;But we can implement it using some existing basic Drupal building blocks: CCK and Views&lt;/p&gt;
+&lt;p&gt;1. Create a content type called Visibility Block. &lt;/p&gt;
+&lt;p&gt;You might have a field for content type where the possible values are returned from code which returns an array of the content types (using function node_get_types()).&lt;/p&gt;
+&lt;p&gt;2. Then for any fields you want to match, you&#039;ll have the same fields in this content type. For example, if one of your content types has a textfield and the possible values are 1, 2, 3, then do the same for Visibility Block. &lt;/p&gt;
+&lt;p&gt;When you create a Visibility Block, you&#039;ll have your block content in the body as normal (optionally you could use Block Reference and create blocks like usual and then link to them in the node instead, but I see no point in the extra effort and redirection), then select the conditions for the pseudo-block being visible.&lt;/p&gt;
+&lt;p&gt;3. Now create a view called Visibility Blocks Viewed. You&#039;ll create block displays, one for each content type that you have a Visibility Block set for which may only be one or two of your c-types. &lt;/p&gt;
+&lt;p&gt;Create an overridden argument each block display for the content type -field- in Visibility Block. You want to match the content type of the viewed node with the field in the Visibility Block, which are not the same type of thing. So you&#039;ll need to convert the argument in code.&lt;/p&gt;
+&lt;p&gt;You&#039;ll call menu_get_object() to get the $node because it&#039;s better than &quot;$node = node_load(arg(1));&quot;. For the chosen c-type for that block display you will check that the implied node&#039;s c-type is what ever type you want to show in this block display because you will also check any fields that are specific to this c-type. Use PHP to supply a value since no argument will be passed in, and have the code load the current node and return the type. Then use PHP for the Validator Options and if the c-type doesn&#039;t match then you will display empty text. If you have multiple c-types which share CCK fields then you can put them into a single block display. &lt;/p&gt;
+&lt;p&gt;4. For each content type, in the chosen block display you will create a new argument for each compared against CCK field. You will pick a field from V-block and then use PHP to return a default value of the currently viewed node&#039;s field&#039;s value. You won&#039;t need to do Validation on these arguments.&lt;/p&gt;
+&lt;p&gt;5. Finally, you may want to limit the number of nodes returned, maybe just one. Now give this block a title and save it and configure its region in the normal block admin.&lt;/p&gt;
+&lt;p&gt;--&lt;/p&gt;
+&lt;h2&gt;Why not the normal block visibility settings?&lt;/h2&gt;
+&lt;p&gt;Because there you can&#039;t even configure by content type (anymore in D6). You can configure by path glob and by PHP code which overrides the path glob field (including in the database).&lt;/p&gt;
+&lt;p&gt;So under &quot;Page specific visibility settings&quot;, set to &quot;Show if the following PHP code returns TRUE (PHP-mode, experts only).&quot;, the field is blocks.pages. Essentially, PHP code works by overriding the pages list.&lt;/p&gt;
+&lt;h2&gt;Why not use Block Page Visibility?&lt;/h2&gt;
+&lt;blockquote&gt;&lt;p&gt;
+Block Page Visibility (&lt;a href=&quot;http://drupal.org/project/bpv&quot; title=&quot;http://drupal.org/project/bpv&quot;&gt;http://drupal.org/project/bpv&lt;/a&gt;) enables site developers to centralize the display of blocks to a single PHP function. It is an alternative to controlling display via each block&#039;s configure form. The more &quot;sometimes on, sometimes off blocks&quot; that a site uses, the more useful this module becomes.
+&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;This takes over the visibility settings of all your blocks by calling:&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;javascript geshifilter-javascript&quot; style=&quot;font-family:monospace;&quot;&gt;$sql &lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;UPDATE blocks SET visibility = 2, pages = CONCAT(&amp;quot;&amp;lt;&amp;quot;, &amp;quot;?&amp;quot;, &amp;quot;php &amp;quot;, &amp;quot;return bpv_is_visible(&lt;span style=&quot;color: #000099; font-weight: bold;&quot;&gt;\&#039;&lt;/span&gt;&amp;quot;, module, &amp;quot;-&amp;quot;, delta, &amp;quot;&lt;span style=&quot;color: #000099; font-weight: bold;&quot;&gt;\&#039;&lt;/span&gt;); &amp;quot;, &amp;quot;?&amp;quot;, &amp;quot;&amp;gt;&amp;quot;) WHERE status=1 AND theme=&lt;span style=&quot;color: #000099; font-weight: bold;&quot;&gt;\&#039;&lt;/span&gt;%s&lt;span style=&quot;color: #000099; font-weight: bold;&quot;&gt;\&#039;&lt;/span&gt;&#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Sometimes it&#039;s easier to configure a block by just whether you&#039;re logged in, or whether you&#039;re on the front page. &lt;/p&gt;
+&lt;p&gt;This module doesn&#039;t give you any finer grained controls. And you have to configure every block in code. You also lose all your current block visibility settings once you install this module. To use this module you have to implement your own bpv_config or bpv_configuration (I think it&#039;s a bug that it&#039;s looking for bpv_configuration but actually uses bpv_config).&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/controlling-visibility-block-content-cck-field-value#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/block">block</category>
+ <category domain="http://www.saigonist.com/category/tags/cck">cck</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/module">module</category>
+ <category domain="http://www.saigonist.com/category/tags/php">php</category>
+ <category domain="http://www.saigonist.com/category/tags/views">views</category>
+ <pubDate>Tue, 30 Oct 2012 13:46:49 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">558 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Internet Censorship in Southeast Asian Countries (Myanmar, China, Malaysia, Thailand, Cambodia, Vietnam)</title>
+    <link>http://www.saigonist.com/b/internet-censorship-southeast-asian-countries-myanmar-china-malaysia-thailand-cambodia-vietnam</link>
+    <description>&lt;p&gt;Vietnam has been labeled an &quot;enemy of the Internet&quot; by Reporters Without Borders. There have been a lot of cases of bloggers being targeted, harrassed, and arrested. But RSF (Reporters Sans Frontieres - French for Reporters Without Borders) are possibly speculating heavily on many of their other arguments such as banning Internet (gaming) cafes near schools, the real origins of DDoS attacks, Considering Internet penetration in this rather populous country, with Internet usage continuing to rise rapidly each year, and an explosion of Vietnamese businesses operating on the web, it might be a bit of hyperbole to say that Vietnam and the Internet are enemies, just like people mistakenly still think that Vietnam and America are still enemies. But censorship of websites is an issue here in Vietnam. It&#039;s an issue in all of Vietnam&#039;s neighbors in Southeast Asia.&lt;/p&gt;
+&lt;p&gt;First, to the north of Vietnam lies the vast Middle Kingdom of China (China isn&#039;t properly part of Southeast Asia but it does border many Southeast Asian countries). China has been labeled #1 Enemy of the Internet for implementing a technologically advanced firewall (the Great Firewall of China). In China, hundreds of popular American websites are blocked including Google, YouTube, Facebok and Twitter. Search queries are also monitored for keywords and then stopped if a person is searching about a sensitive topic like the Tiananmen Square massacre. Chinese are forced to use local versions of social media (like Sino Weibo) which are more easily controlled by the Chinese government. You could try to draw parallels to Facebook versus Zing Me and other social networks in Vietnam but the huge difference is that Facebook is still accessible and the one and only social media platform in Vietnam. TOR (The Onion Router, used for anonymously browsing the Internet and TOR .onion sites) is also blocked in China.&lt;/p&gt;
+&lt;p&gt;Malaysia isn&#039;t your typical enemy of the Internet. Its government (like Vietnam) encourages a digital (&quot;multimedia&quot;, a term from the 1990s) economy with various initiatives like Cyberjaya and the Multimedia Super Corridor and when those initiatives started, just as the Internet was blowing up around the world, the government declared that the Internet was to remain free and uncensored. But Convervative Muslims in charge do want to limit certain cultural shortcomings by censoring scenes in movies with nudity or even just cleavage and sex or even just kissing. &lt;/p&gt;
+&lt;p&gt;Singapore - the country where chewing gum is banned and could get you caned. It&#039;s also a country with a rather long blacklist of blocked websites, mostly porn sites like YouPorn or Pussy.com. In Vietnam, pornography is illegal and you won&#039;t find Playboy or other girly mags being sold at magazine stands. But online, while ostensibly the Internet censorship laws are for blocking online porn, no porn sites are actually blocked (I&#039;ve checked some of them - for research purposes). In Singapore, to a lesser extent, bloggers have been shut down and so has a random website about traveling while infected with HIV due to unfavorable portrayal of Singapore&#039;s policies towards HIV carriers. But no reports of bloggers being jailed unless they were also jaywalking, chewing gum, dancing in public places without a proper permit, bringing durian onto busses, or being a graffiti artist.&lt;/p&gt;
+&lt;p&gt;Thailand demonstrates a tactic that has been used in Vietnam, Cambodia, and probably many countries. Websites are not strictly speaking made illegal by the government. Rather, the government makes secret requests to ISPs to make certain websites unavailable. ISPs can decide to comply or ignore the request but ignoring the request comes at a high cost and so ISPs will generally block any website upon request. This means now over 100,000 websites are blocked in Thailand, putting it in the same league as China! Out of the rest of the countries in the region Thailand and Cambodia are the only kingdoms. Thailand has lese majeste laws making it illegal to insult the monarchy. This has led to arrests of people saying potentially offensive things about the king on social media sites like Facebook or even for liking or retweeting such statements.&lt;/p&gt;
+&lt;p&gt;Cambodia follows Thailand and Vietnam&#039;s leads when it comes to Internet censorship (Cambodia also gets their Internet connection from those two countries). When the government &quot;requests&quot; that certain websites are blocked the ISPs generally comply making it unnecessary to outright criminalize the websites in Cambodia. At the same time, governments deny censoring any websites and ISPs also release confusing messages regarding any block or whether it&#039;s an official block or just &quot;technical difficulties&quot;. Like in Vietnam, certain blogs hosted by massive blogging platforms like Blogger and Bloghost have caused both entire platforms to be blocked by ISPs, not just the offending blogs. A certain controversial artists has had his website blocked, as has the NGO Global Witness, who fights againgst natural resource exploitation, corruption, and human rights abuses, probably for writing stuff like Cambodia should not stand for UN Security Council until land grabs and repression stop. Strangely, the prime minister of Cambodia briefly banned smartphones and 3G due to the potential of being able to view sexy streaming videos on one&#039;s mobile phone.&lt;/p&gt;
+&lt;p&gt;In Burma, the problem isn&#039;t just that some websites are blocked. Rather, all websites are slow and access can be unbearably limited to the point where they are functionally blocked. In general, Internet access is hard to subscribe to and then expensive to use, unaffordable for most Burmese.  They also apparently have the same networking gear used for censorship as in China. With recent changes in attitudes towards the West and to media, with promises of no longer censoring newspapers, this is one country to watch in the future from any angle.&lt;/p&gt;
+&lt;p&gt;Laos, on the other hand, appears to not censor anything on the Internet.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/internet-censorship-southeast-asian-countries-myanmar-china-malaysia-thailand-cambodia-vietnam#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/block">block</category>
+ <category domain="http://www.saigonist.com/category/tags/burma">burma</category>
+ <category domain="http://www.saigonist.com/category/tags/cambodia">cambodia</category>
+ <category domain="http://www.saigonist.com/category/tags/censorship">censorship</category>
+ <category domain="http://www.saigonist.com/category/tags/china">china</category>
+ <category domain="http://www.saigonist.com/category/tags/internet">internet</category>
+ <category domain="http://www.saigonist.com/category/tags/laos">laos</category>
+ <category domain="http://www.saigonist.com/category/tags/malaysia">malaysia</category>
+ <category domain="http://www.saigonist.com/category/tags/myanmar">myanmar</category>
+ <category domain="http://www.saigonist.com/category/tags/singapore">singapore</category>
+ <category domain="http://www.saigonist.com/category/tags/thailand">thailand</category>
+ <pubDate>Fri, 19 Oct 2012 12:17:06 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">551 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Build your own FAQ in Drupal</title>
+    <link>http://www.saigonist.com/tech/drupal/build-your-own-faq-drupal</link>
+    <description>&lt;p&gt;Websites, including Drupal sites, often need Frequently Asked Questions and answers to them. Drupal, as a content management system, should manage your question and answer content intelligently. With all the great modules contributed to Drupal&#039;s community you might think there are some good FAQ modules. In my experience, the Drupal FAQ module is too rigid, and therefore unusable for most of my sites. But we can build a FAQ system using basic Drupal building blocks.&lt;/p&gt;
+&lt;p&gt;What we need: taxonomy, blocks, views, a few lines of PHP (that can be stored in the database - no custom module required)&lt;/p&gt;
+&lt;p&gt;1. Content type: Create a new content type. CCK is optional here, as you can just use Title as Question and Body as Answer.&lt;/p&gt;
+&lt;p&gt;2. Vocabulary: Create a new vocabulary called FAQ. Add a few terms if only for testing.&lt;/p&gt;
+&lt;p&gt;3. Devel Generate: Optional - requires Devel module&#039;s devel_generate to generate some test nodes with test questions, answers, and topics. devel_generate can be run from the command line too if you have drush installed - just run &quot;drush genc&quot;. Anyways, generate a few dozen nodes, as many nodes as questions you have. It&#039;ll be easier to mass edit the questions once the nodes have already been generated.&lt;/p&gt;
+&lt;p&gt;4. Views: You&#039;ll need two views although they can also be two displays of a single view, so let&#039;s do that.&lt;/p&gt;
+&lt;p&gt;a. Create a view, filtered by your FAQ content type (and published or published/admin). &lt;/p&gt;
+&lt;p&gt;You will add three node fields:&lt;br /&gt;
+Node: Nid (Nid) [make this field hidden, but its value is used in the rewritten Question field below]&lt;br /&gt;
+Node: Title (Question)&lt;br /&gt;
+Node: Body (Answer)&lt;/p&gt;
+&lt;p&gt;For the Question, rewrite the output to:&lt;br /&gt;
+&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;javascript geshifilter-javascript&quot; style=&quot;font-family:monospace;&quot;&gt;&lt;span style=&quot;color: #339933;&quot;&gt;&amp;lt;&lt;/span&gt;a name&lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #3366CC;&quot;&gt;&amp;quot;q-[nid]&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;a&lt;span style=&quot;color: #339933;&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;title&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;You&#039;ll have on argument, which is the Term (FAQ vocabulary topic) in the URL.&lt;/p&gt;
+&lt;p&gt;- Configure Argument Taxonomy: Term&lt;br /&gt;
+-- Provide default argument&lt;br /&gt;
+--- Default argument type: Taxonomy Term ID from URL&lt;br /&gt;
+-- Validator: (Choose your FAQ vocabulary)&lt;br /&gt;
+-- Argument type: Term name or synonym&lt;br /&gt;
+-- (Optional) Transform spaces to dashes in URL&lt;/p&gt;
+&lt;p&gt;Now turn this default view into a page that&#039;s not overridden in any way. Set the URL to be something that&#039;s NOT your vocabulary name because your URL will conflict with the default taxonomy paths (&quot;taxonomy/term/%&quot; - which Taxonomy sets up path aliases for from each vocabulary with each term - but that page may also be being overridden by a view included by Views by default). So if you want your URLs to be like &quot;/faq/return-policy&quot; then name your Vocabulary like &quot;FAQ Terms&quot; instead of &quot;FAQ&quot;.&lt;/p&gt;
+&lt;p&gt;At this point you should save your new view and be able to go to &quot;/faq/troubleshooting&quot; or whatever. It will give you a list of questions with answers. But usually a FAQ section will also list out all questions at the top with links to answers below. How can we accomplish that?&lt;/p&gt;
+&lt;p&gt;b. Let&#039;s create a new Display that&#039;s a Block. Now override the fields and remove the Answer field. Override the display of the Question to:&lt;br /&gt;
+&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;javascript geshifilter-javascript&quot; style=&quot;font-family:monospace;&quot;&gt;&lt;span style=&quot;color: #339933;&quot;&gt;&amp;lt;&lt;/span&gt;a href&lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #3366CC;&quot;&gt;&amp;quot;#q-[nid]&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;title&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;&amp;lt;/&lt;/span&gt;a&lt;span style=&quot;color: #339933;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Optionally, set a blank title for this field. Then we will have a block that is just a list of questions. But the argument won&#039;t work anymore since it&#039;s a block. So you need to override the argument &quot;Taxonomy: Term&quot;. &lt;/p&gt;
+&lt;p&gt;- Default argument type:&lt;br /&gt;
+-- PHP Code&lt;br /&gt;
+--- &lt;span class=&quot;geshifilter&quot;&gt;&lt;code class=&quot;javascript geshifilter-javascript&quot;&gt;&lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;return&lt;/span&gt; arg&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #CC0000;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;- Validator: Basic validation + Transform dashes in URL to spaces in term name arguments&lt;/p&gt;
+&lt;p&gt;This will find the term &quot;charity&quot; in the path &quot;/faq/charity&quot; and pass it on. &lt;/p&gt;
+&lt;p&gt;5. Now that the block is created, you need to make it display. We want to display it on the top of our first view!&lt;/p&gt;
+&lt;p&gt;This is assuming you have a region in your theme for blocks at the top of content in pages. You could choose another location but it should really appear as the first content you see. But you want this block to appear ONLY on this page! So in block admin, configure the block you just created, and under:&lt;/p&gt;
+&lt;p&gt;Page specific visibility settings&lt;br /&gt;
+- Show block on specific pages:&lt;br /&gt;
+-- [check] Show on only the listed pages.&lt;br /&gt;
+Pages:&lt;br /&gt;
+- Type in &quot;faq/*&quot;&lt;/p&gt;
+&lt;p&gt;Save the block. Now your question list with links to answers further down the page should be appearing at the top of your FAQ pages!&lt;/p&gt;
+&lt;p&gt;7. Next, you need a list of your categories. Sadly, there&#039;s no easy way for Drupal to do this. Views has a view type for taxonomies which is unfortunately not very powerful and so we can&#039;t use it to get links to &quot;/faq/[term]&quot; as it doesn&#039;t allow us to rewrite our own links. It allows you to link to term pages but those pages are rendered by either the Taxonomy module or that default view I mentioned earlier. Trying to override those paths with our own view is a mess, probably due to weighting.&lt;/p&gt;
+&lt;p&gt;Anyways, we can easily create a list of topics with links with a tiny bit of PHP. Create a new block using the Block admin page. In the block body:&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;javascript geshifilter-javascript&quot; style=&quot;font-family:monospace;&quot;&gt;&lt;span style=&quot;color: #339933;&quot;&gt;&amp;lt;?&lt;/span&gt;php
+$tree &lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; taxonomy_get_tree&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;$vocabulary_id&lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt;YOUR_FAQ_VOCABULARY_ID_HERE&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+$html &lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;&amp;lt;ul&amp;gt;&#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+&lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;if&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;$tree&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#123;&lt;/span&gt;
+    foreach &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;$tree as $term&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt; 
+        $html .&lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;&amp;lt;li&amp;gt;&#039;&lt;/span&gt; . &lt;span style=&quot;color: #660066;&quot;&gt;l&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;$term&lt;span style=&quot;color: #339933;&quot;&gt;-&amp;gt;&lt;/span&gt;name&lt;span style=&quot;color: #339933;&quot;&gt;,&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;faq/&#039;&lt;/span&gt; . &lt;span style=&quot;color: #660066;&quot;&gt;str_replace&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #3366CC;&quot;&gt;&#039; &#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;,&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;-&#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;,&lt;/span&gt; mb_strtolower&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;$term&lt;span style=&quot;color: #339933;&quot;&gt;-&amp;gt;&lt;/span&gt;name&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt; . &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;&amp;lt;/li&amp;gt;&#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#125;&lt;/span&gt;
+$html .&lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;&amp;lt;/ul&amp;gt;&#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+&lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;return&lt;/span&gt; $html&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+&lt;span style=&quot;color: #339933;&quot;&gt;?&amp;gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Again, set this block to only appear on &quot;faq/*&quot; pages. Then configure its location into a sidebar or somewhere and you will be displaying links to each of your FAQ topics and you&#039;re done!&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/build-your-own-faq-drupal#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/block">block</category>
+ <category domain="http://www.saigonist.com/category/tags/code">code</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/faq">faq</category>
+ <category domain="http://www.saigonist.com/category/tags/module">module</category>
+ <category domain="http://www.saigonist.com/category/tags/taxonomy">taxonomy</category>
+ <category domain="http://www.saigonist.com/category/tags/views">views</category>
+ <pubDate>Sat, 13 Oct 2012 05:15:20 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">540 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Facebook in Vietnam 2012</title>
+    <link>http://www.saigonist.com/b/facebook-vietnam-2012</link>
+    <description>&lt;p&gt;Happy 2012!&lt;/p&gt;
+&lt;p&gt;Despite one of FPT&#039;s divisions signing a contract with Facebook to be a Facebook developer partner in Vietnam, unlike what many folks here in Vietnam had hoped, it did not mean that FPT would keep access to Facebook flowing freely.  Facebook isn&#039;t actually banned in Vietnam, it just suffers from &quot;technical difficulties&quot; from time to time that nobody seems to bother to investigate for the millions of users in Vietnam.  So businesses still advertise and do business using Facebook as a platform.  Even the State uses Facebook, with the Vietnam Administration of Tourism stating they will campaign on Facebook.  I suppose they don&#039;t mind if only people outside of Vietnam can see the ads, even if most tourists in Vietnam come from Vietnam.&lt;/p&gt;
+&lt;p&gt;There are a number of theories as to why it&#039;s sometimes difficult to access Facebook in Vietnam.  In China, it&#039;s outright banned. In Cambodia, it&#039;s just really slow, but otherwise doesn&#039;t suffer the same &quot;technical difficulties&quot; despite using the same Internet service providers as Vietnam (as Vietnamese telecoms serve as uplinks to Cambodian ISPs).  Some of the conspiracy theories include pressure from rival social networks like Zing Me or the government&#039;s own Go.vn, or that Facebook is blocked due to not paying taxes.&lt;/p&gt;
+&lt;p&gt;As of right now, FPT has started making it &quot;technically difficult&quot; to access Facebook, whereas Viettel seems to be okay, and VNPT is hit or miss (currently it is working on this VNPT connection), Mobifone is a no go. The &lt;a href=&quot;http://www.saigonist.com/content/easy-access-facebook-vietnam-part-deux&quot;&gt;usual method of changing your /etc/hosts file or your DNS&lt;/a&gt; will no longer work.  Using apps like &lt;a href=&quot;http://www.saigonist.com/content/bypass-vietnams-block-facebook-or-chinas-block-youtube&quot;&gt;HotSpot Shield, VPNs, proxies, and SSH tunnels&lt;/a&gt; will always work.  You can also use various apps including &lt;a href=&quot;http://www.saigonist.com/b/routing-around-vietnams-facebook-block-apps&quot;&gt;Seesmic or Hootsuite&lt;/a&gt; to access both Facebook and Twitter at the same time.&lt;/p&gt;
+&lt;p&gt;So if you don&#039;t want to play musical chairs with your ISPs as each one opens/closes access to Facebook, be sure to have one of the above in your arsenal of freedom.&lt;/p&gt;
+&lt;p&gt;If your ISP is blocking Facebook then you must use a general workaround such as Hotspot Shield (spammy) or a VPN like &lt;a href=&quot;http://goo.gl/tHMwZ&quot;&gt;StrongVPN&lt;/a&gt;.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/facebook-vietnam-2012#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/block">block</category>
+ <category domain="http://www.saigonist.com/category/tags/censorship">censorship</category>
+ <category domain="http://www.saigonist.com/category/tags/facebook">facebook</category>
+ <pubDate>Mon, 09 Jan 2012 09:03:59 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">284 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Routing Around Vietnam&#039;s Facebook Block Via Apps</title>
+    <link>http://www.saigonist.com/b/routing-around-vietnams-facebook-block-apps</link>
+    <description>&lt;p&gt;[This is the third post about &lt;a href=&quot;http://www.saigonist.com/content/easy-access-facebook-vietnam-part-deux&quot;&gt;Accessing Facebook in Vietnam&lt;/a&gt;]&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Lately, ISPs in Vietnam has begun randomly blocking Facebook again after a period of openness. &amp;nbsp;When it&#039;s blocked, even accessing Facebook via their Lisp4 server (or using the Saigonist DNS server) doesn&#039;t work.&lt;/p&gt;
+&lt;p&gt;But there are a number of apps, both web-based and desktop apps, which integrate with Facebook to different extents. &amp;nbsp;These apps, once you login to them with your Facebook account, can basically get your Facebook updates for you without requiring access to Facebook.&lt;/p&gt;
+&lt;p&gt;One such app is Seesmic, which has both a web and a desktop client. &amp;nbsp;Seesmic connects to a numer of social networks and I use it for reading my Twitter feed, with a custom hack to fix a serious problem with disappearing Tweets. &amp;nbsp;But once you login to Seesmic and connect it to your Facebook account, you can see your Facebook feed as well as messages. &amp;nbsp;That&#039;s enough for most people, most of the time.&lt;/p&gt;
+&lt;p&gt;Other desktop apps that can connect to Facebook are &lt;a href=&quot;http://www.bubbleshq.com/extensions/?page=86&quot;&gt;Bubbles&lt;/a&gt;&amp;nbsp;and Hootsuite, but I wasn&#039;t able to get Hootsuite to connect to my Facebook account.&lt;/p&gt;
+&lt;p&gt;Another less convenient way is to use Opera&#039;s online demo of their &lt;a href=&quot;http://www.opera.com/mobile/demo/&quot;&gt;Opera Mini&lt;/a&gt; browser. &amp;nbsp;It&#039;s a Java app and you use it like you&#039;re using a phone, but it will connect to Facebook for you (unless your browser doesn&#039;t let Java make network connections).&lt;/p&gt;
+&lt;p&gt;When I saw that Diesel released a desktop app called &lt;a href=&quot;http://www.bestupidatwork.com/&quot;&gt;Excellbook&lt;/a&gt; as part of a marketing campaign called Be Stupid At Work, I was hoping it would also work in bypassing the Facebook block. &amp;nbsp;It&#039;s an Adobe AIR app, which requires installing Adobe AIR, and is generally a piece of crap. &amp;nbsp;Even if you can get it to connect, it will require a connection to Facebook still and so it&#039;s not so useful. &amp;nbsp;Nice idea, terrible execution and yet another example of a bad Adobe AIR app.&lt;/p&gt;</description>
+     <comments>http://www.saigonist.com/b/routing-around-vietnams-facebook-block-apps#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/block">block</category>
+ <category domain="http://www.saigonist.com/category/tags/censorship">censorship</category>
+ <category domain="http://www.saigonist.com/category/tags/diesel">diesel</category>
+ <category domain="http://www.saigonist.com/category/tags/excelbook">excelbook</category>
+ <category domain="http://www.saigonist.com/category/tags/facebook">facebook</category>
+ <category domain="http://www.saigonist.com/category/tags/opera">opera</category>
+ <category domain="http://www.saigonist.com/category/tags/seesmic">seesmic</category>
+ <pubDate>Fri, 24 Jun 2011 05:04:43 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">195 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

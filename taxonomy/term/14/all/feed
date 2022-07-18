@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/14/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>facebook</title>
+    <link>http://www.saigonist.com/taxonomy/term/14/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Facebook block in Vietnam May 2016</title>
+    <link>http://www.saigonist.com/vietnam/facebook-block-vietnam-may-2016</link>
+    <description>&lt;p&gt;Is Facebook blocked in Vietnam right now? Over the past few years, the main ISPs and mobile operators in Vietnam either stopped blocking Facebook or only lightly blocked it (with easy workarounds). Earlier in the rise of Facebook maybe some officials thought it was feasible that the Facebook social network could be prevented from taking hold. Today it&#039;s quite clear that it already has.&lt;/p&gt;
+&lt;p&gt;The Facebook block happening in May 2016 also affects other Facebook properties/apps like Facebook Messenger and Instagram. This also breaks any websites which require Facebook to login.&lt;/p&gt;
+&lt;p&gt;I&#039;m not in Vietnam currently, but I&#039;ve had many friends there talk to me about the situation over the past few days. A lot of people on both Facebook and other social networks (like Zalo in Vietnam) are complaining about not being able to access Facebook but most of them are not talking about or questioning the reasons why it might be blocked now.&lt;/p&gt;
+&lt;p&gt;Since I&#039;m not able to test the network conditions of Vietnam myself, I&#039;ve heard from some friends in tech in Vietnam. At first, mobile operators VNPT and Viettel started blocking Facebook, but now other major ISPs such as FPT have joined the internet blockade. Whereas in the past a ban on Facebook simply meant that DNS requests for the facebook.com domain would fail, which could be easily circumvented using a non-broken DNS server such as Google&#039;s public DNS servers (8.8.8.8 and 8.8.4.4), this is no longer the case in Vietnam now.&lt;/p&gt;
+&lt;p&gt;Like in China, where not only Facebook but hundreds of American news and social media sites are blocked, the solution to a &quot;firewall&quot; blocking a particular website from your location is to use a VPN or a proxy server.&lt;/p&gt;
+&lt;p&gt;VPNs and proxies allow you to &quot;masqueride&quot; your originating IP address and to bounce around the firewall. You connect to the VPN or proxy server, which isn&#039;t banned (yet), and then from there you can freely connect to any other site as usual. The censors just think you&#039;re connecting to a normal website and let the traffic through.&lt;/p&gt;
+&lt;p&gt;Which VPN to use? Fortunately, there are a lot of VPN options, both free and paid. On your phone, you can find VPN apps listed in the app store or Google Play store. Some work on desktop as well, such as Betternet.co (google it).&lt;/p&gt;
+&lt;p&gt;The alternative to VPNs is web proxies (SOCKS or web). You can find lists of web proxies or use this one from HideMyAss. With these, you configure your browser&#039;s network settings to use a proxy and set the IP address and port which you found in a list.&lt;/p&gt;
+&lt;p&gt;You can also search the Chrome Web Store for proxy and VPN Chrome extensions which will simplify the process as well.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/vietnam/facebook-block-vietnam-may-2016#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/tags/block">block</category>
+ <category domain="http://www.saigonist.com/category/tags/facebook">facebook</category>
+ <category domain="http://www.saigonist.com/category/tags/proxy">proxy</category>
+ <category domain="http://www.saigonist.com/category/tags/vpn">vpn</category>
+ <pubDate>Sun, 15 May 2016 14:23:30 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">6489 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Facebook via SMS in Vietnam - Viettel</title>
+    <link>http://www.saigonist.com/vietnam/facebook-sms-vietnam-viettel</link>
+    <description>&lt;p&gt;Viettel, Vietnam&#039;s military-owned telecom, has opened up direct Facebook integration via sms to Viettel mobile phone subscribers. This is an officially supported way for Vietnamese people to access Facebook on the go without a computer or smartphone. This is targeting Vietnamese people who mainly access the internet at internet cafes and so using this they won&#039;t need to hang around at cafes where they&#039;re charged hourly while they wait for someone to comment or like their status updates. This applies to a lot of Vietnamese folks and could lead to even faster adoption of Vietnam&#039;s #1 social network. What does that imply about any official government ban on Facebook?&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/vietnam/facebook-sms-vietnam-viettel#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/tags/facebook">facebook</category>
+ <category domain="http://www.saigonist.com/category/tags/sms">sms</category>
+ <category domain="http://www.saigonist.com/category/tags/social-network">social network</category>
+ <category domain="http://www.saigonist.com/category/tags/telecom">telecom</category>
+ <category domain="http://www.saigonist.com/category/tags/viettel">viettel</category>
+ <category domain="http://www.saigonist.com/category/tags/zing">zing</category>
+ <pubDate>Sat, 08 Dec 2012 01:51:16 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">576 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>About Saigonist Mutual Friends Facebook App</title>
+    <link>http://www.saigonist.com/b/about-saigonist-mutual-friends-facebook-app</link>
+    <description>&lt;p&gt;My friend Grover and I have a lot of mutual friends as I noticed on Facebook one day. And I know that I have a lot of friends with whom I share a large number of friends. I got curious and asked myself: &quot;Who do I have the most shared friends with?&quot; This question turned into a Facebook FQL query which gave me the data. Then I decided to turn it into a &quot;product&quot; and ended up learning stuff about Facebook&#039;s PHP and JavaScript SDKs.&lt;/p&gt;
+&lt;p&gt;The final result is this Facebook App:  Saigonist Mutual Friends. &lt;/p&gt;
+&lt;p&gt;Just enable the app and you&#039;ll see a list of your top 10 friends with mutual friends. I got my answer: my friend Jodie and I share 158 friends.&lt;/p&gt;
+&lt;p&gt;--&lt;/p&gt;
+&lt;p&gt;Next steps? I&#039;d like to visualize what cliques or subnetworks exist within my Facebook network...&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/about-saigonist-mutual-friends-facebook-app#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/app">app</category>
+ <category domain="http://www.saigonist.com/category/tags/facebook">facebook</category>
+ <category domain="http://www.saigonist.com/category/tags/friends">friends</category>
+ <category domain="http://www.saigonist.com/category/tags/javascript">javascript</category>
+ <pubDate>Mon, 20 Aug 2012 02:22:07 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">466 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Fix Facebook links and browse privately at the same time</title>
+    <link>http://www.saigonist.com/b/fix-facebook-links-and-browse-privately-same-time</link>
+    <description>&lt;p&gt;Did you know that Facebook was tracking all the links you clicked? If you&#039;ve ever tried to copy a link from Facebook to another site then you&#039;d see that the link always started with &lt;a href=&quot;http://www.facebook.com&quot; title=&quot;www.facebook.com&quot;&gt;www.facebook.com&lt;/a&gt; which is how they track what pages you&#039;re visiting.  &lt;/p&gt;
+&lt;p&gt;In Vietnam, this is more than just a privacy problem.  Because Facebook access intermittently requires &lt;a href=&quot;http://www.saigonist.com/content/easy-access-facebook-vietnam-part-deux&quot;&gt;workarounds&lt;/a&gt; to connect, those links can be useless even if we can see the actual website URL right there. This is because, by showing you the real website URL, Facebook makes you think they aren&#039;t doing anything tricky by adding a tracking ID to the URL and forcing you to go through Facebook to browse to the site.&lt;/p&gt;
+&lt;p&gt;So what can you do to make your life easier as well as private?&lt;/p&gt;
+&lt;p&gt;Install the &lt;a href=&quot;https://chrome.google.com/webstore/detail/omkknlonjipnallbpmboackchhnocedb&quot;&gt;Facebook Link Tracking Disabler&lt;/a&gt; free from the Chrome Web Store.&lt;/p&gt;
+&lt;p&gt;--&lt;/p&gt;
+&lt;p&gt;Bonus: Are you tired of people using Facebook apps to post news stories which then require you to install the app to actually read the article?  If you haven&#039;t already filtered all of those out of your feed then you should at least install the &lt;a href=&quot;https://chrome.google.com/webstore/detail/ofblfbpdngokklccponchjpfcakgllih&quot;&gt;Facebook Article Grabber&lt;/a&gt; extension to convert those stories into real URLs.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/fix-facebook-links-and-browse-privately-same-time#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/chrome">chrome</category>
+ <category domain="http://www.saigonist.com/category/tags/extension">extension</category>
+ <category domain="http://www.saigonist.com/category/tags/facebook">facebook</category>
+ <category domain="http://www.saigonist.com/category/tags/privacy">privacy</category>
+ <pubDate>Mon, 27 Feb 2012 07:32:53 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">297 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Facebook in Vietnam 2012</title>
+    <link>http://www.saigonist.com/b/facebook-vietnam-2012</link>
+    <description>&lt;p&gt;Happy 2012!&lt;/p&gt;
+&lt;p&gt;Despite one of FPT&#039;s divisions signing a contract with Facebook to be a Facebook developer partner in Vietnam, unlike what many folks here in Vietnam had hoped, it did not mean that FPT would keep access to Facebook flowing freely.  Facebook isn&#039;t actually banned in Vietnam, it just suffers from &quot;technical difficulties&quot; from time to time that nobody seems to bother to investigate for the millions of users in Vietnam.  So businesses still advertise and do business using Facebook as a platform.  Even the State uses Facebook, with the Vietnam Administration of Tourism stating they will campaign on Facebook.  I suppose they don&#039;t mind if only people outside of Vietnam can see the ads, even if most tourists in Vietnam come from Vietnam.&lt;/p&gt;
+&lt;p&gt;There are a number of theories as to why it&#039;s sometimes difficult to access Facebook in Vietnam.  In China, it&#039;s outright banned. In Cambodia, it&#039;s just really slow, but otherwise doesn&#039;t suffer the same &quot;technical difficulties&quot; despite using the same Internet service providers as Vietnam (as Vietnamese telecoms serve as uplinks to Cambodian ISPs).  Some of the conspiracy theories include pressure from rival social networks like Zing Me or the government&#039;s own Go.vn, or that Facebook is blocked due to not paying taxes.&lt;/p&gt;
+&lt;p&gt;As of right now, FPT has started making it &quot;technically difficult&quot; to access Facebook, whereas Viettel seems to be okay, and VNPT is hit or miss (currently it is working on this VNPT connection), Mobifone is a no go. The &lt;a href=&quot;http://www.saigonist.com/content/easy-access-facebook-vietnam-part-deux&quot;&gt;usual method of changing your /etc/hosts file or your DNS&lt;/a&gt; will no longer work.  Using apps like &lt;a href=&quot;http://www.saigonist.com/content/bypass-vietnams-block-facebook-or-chinas-block-youtube&quot;&gt;HotSpot Shield, VPNs, proxies, and SSH tunnels&lt;/a&gt; will always work.  You can also use various apps including &lt;a href=&quot;http://www.saigonist.com/b/routing-around-vietnams-facebook-block-apps&quot;&gt;Seesmic or Hootsuite&lt;/a&gt; to access both Facebook and Twitter at the same time.&lt;/p&gt;
+&lt;p&gt;So if you don&#039;t want to play musical chairs with your ISPs as each one opens/closes access to Facebook, be sure to have one of the above in your arsenal of freedom.&lt;/p&gt;
+&lt;p&gt;If your ISP is blocking Facebook then you must use a general workaround such as Hotspot Shield (spammy) or a VPN like &lt;a href=&quot;http://goo.gl/tHMwZ&quot;&gt;StrongVPN&lt;/a&gt;.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/facebook-vietnam-2012#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/block">block</category>
+ <category domain="http://www.saigonist.com/category/tags/censorship">censorship</category>
+ <category domain="http://www.saigonist.com/category/tags/facebook">facebook</category>
+ <pubDate>Mon, 09 Jan 2012 09:03:59 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">284 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Find Friends of a Friend on Facebook</title>
+    <link>http://www.saigonist.com/b/find-friends-friend-facebook</link>
+    <description>&lt;p&gt;Today I was playing around with Facebook&#039;s  where you can test out their API.&lt;/p&gt;
+&lt;p&gt;First, you may want to logout of Facebook using the button there and log back in in order to get the &quot;FB.login callback&quot; Log message on the sidebar.  Inside that, you&#039;ll see something like:&lt;/p&gt;
+&lt;pre&gt;
+{
+   &quot;authResponse&quot;: {
+      &quot;accessToken&quot;: &quot;AAAAAKvQdWksBAG8yLhVwqWyvgF2uu2eUahBQTZCPD5y2ilo2qZBbyjJ3DJRXDn4UONrVqAK28ZCSlouAtvdbxCc0ZAzQ0e8VbZBZCsdHmzUQZDZD&quot;,
+      &quot;userID&quot;: &quot;12463924&quot;,
+      &quot;expiresIn&quot;: 5200,
+      &quot;signedRequest&quot;: &quot;_ltfzUYHjPHyFZH6JnlbzVa-oejnPTud9aHK24eIWOc.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImNvZGUiOiJBUUR2WU4tcTk4cW04X2xwbkg0LVU4Rk9YMUoxYVBmOUNMQkJPeEhlSGowQUZ3a2V6akRNWDlPNGExbkhkREZxT2laQVhWZW50aDRfd19EUk5uWm95NFlDYXFqWktweDZ1MDA5U2Fkc2hSUjQtWUdfUi05S21zY3F5RXlPTC1zbGRaVHBqZkRZS0lvdzFxYnJ2SjJteWxXYkd1dWFhY1h6U1FUWW8tc1V2Rm1oTU5fLV9xZzNxOXRadHJTSi1WdFRpUWciLCJpc3N1ZWRfYXQiOjEzMjE1NDc2MDAsInVzZXJfaWQiOiIxMjQ2MzkyNCJ9&quot;
+   },
+   &quot;status&quot;: &quot;connected&quot;
+}
+&lt;/pre&gt;&lt;p&gt;
+You should copy the accessToken in order to do further testing which requires a token.  Most of the new API calls can be tested right in your browser.  For example:&lt;/p&gt;
+&lt;p&gt;https://graph.facebook.com/search?q=Tomo&amp;amp;type=user&amp;amp;access_token=AAAAAKvQdWksBAG8yLhVwqWyvgF2uu2eUahBQTZCPD5y2ilo2qZBbyjJ3DJRXDn4UONrVqAK28ZCSlouAtvdbxCc0ZAzQ0e8VbZBZCsdHmzUQZDZD&amp;amp;limit=10&amp;amp;offset=0&lt;/p&gt;
+&lt;p&gt;That searches my account for users with the name &#039;Tomo&#039;, while using my token to authenticate.  The token doesn&#039;t last very long and has definitely expired by the time you read this.&lt;/p&gt;
+&lt;p&gt;Now plug this code into the textarea.&lt;/p&gt;
+&lt;pre&gt;
+&amp;lt;div id=&amp;quot;profile_pics&amp;quot;&amp;gt;
+Profile pics here
+&amp;lt;/div&amp;gt;
+&amp;lt;script&amp;gt;
+
+// From an example
+
+var profilePicsDiv = document.getElementById(&#039;profile_pics&#039;);
+FB.getLoginStatus(function(response) {
+  if (response.status != &#039;connected&#039;) {
+    profilePicsDiv.innerHTML = &#039;&amp;lt;em&amp;gt;You are not connected&amp;lt;/em&amp;gt;&#039;;
+    return;
+  }
+
+
+
+// JSON output from https://graph.facebook.com/search?q=Tomo&amp;amp;type=user&amp;amp;access_token=AAAAAKvQdWksBAG8yLhVwqWyvgF2uu2eUahBQTZCPD5y2ilo2qZBbyjJ3DJRXDn4UONrVqAK28ZCSlouAtvdbxCc0ZAzQ0e8VbZBZCsdHmzUQZDZD&amp;amp;limit=10&amp;amp;offset=0
+var people = {
+   &amp;quot;data&amp;quot;: [
+      {
+         &amp;quot;name&amp;quot;: &amp;quot;Tomo Coffee&amp;quot;,
+         &amp;quot;id&amp;quot;: &amp;quot;100001851101897&amp;quot;
+      },
+      {
+         &amp;quot;name&amp;quot;: &amp;quot;Tomo Kiku&amp;quot;,
+         &amp;quot;id&amp;quot;: &amp;quot;626405318&amp;quot;
+      },
+      {
+         &amp;quot;name&amp;quot;: &amp;quot;Tomomi Shiho&amp;quot;,
+         &amp;quot;id&amp;quot;: &amp;quot;1755956208&amp;quot;
+      },
+      {
+         &amp;quot;name&amp;quot;: &amp;quot;Tomoman Bkk&amp;quot;,
+         &amp;quot;id&amp;quot;: &amp;quot;1674446551&amp;quot;
+      },
+      {
+         &amp;quot;name&amp;quot;: &amp;quot;Tomori Moore&amp;quot;,
+         &amp;quot;id&amp;quot;: &amp;quot;511540368&amp;quot;
+      },
+      {
+         &amp;quot;name&amp;quot;: &amp;quot;Tomomi Takihara&amp;quot;,
+         &amp;quot;id&amp;quot;: &amp;quot;100001600551550&amp;quot;
+      },
+      {
+         &amp;quot;name&amp;quot;: &amp;quot;Tomohiro Morinaga&amp;quot;,
+         &amp;quot;id&amp;quot;: &amp;quot;713242010&amp;quot;
+      },
+      {
+         &amp;quot;name&amp;quot;: &amp;quot;Onda Tomoyuki&amp;quot;,
+         &amp;quot;id&amp;quot;: &amp;quot;100001455563427&amp;quot;
+      },
+      {
+         &amp;quot;name&amp;quot;: &amp;quot;Tomoko Okawara&amp;quot;,
+         &amp;quot;id&amp;quot;: &amp;quot;100001514576923&amp;quot;
+      },
+      {
+         &amp;quot;name&amp;quot;: &amp;quot;Tomonari Kino&amp;quot;,
+         &amp;quot;id&amp;quot;: &amp;quot;804330331&amp;quot;
+      }
+   ],
+   &amp;quot;paging&amp;quot;: {
+      &amp;quot;next&amp;quot;: &amp;quot;https://graph.facebook.com/search?q=Tomo&amp;amp;type=user&amp;amp;access_token=AAAAAKvQdWksBAG8yLhVwqWyvgF2uu2eUahBQTZCPD5y2ilo2qZBbyjJ3DJRXDn4UONrVqAK28ZCSlouAtvdbxCc0ZAzQ0e8VbZBZCsdHmzUQZDZD&amp;amp;limit=10&amp;amp;offset=10&amp;quot;
+   }
+}
+
+
+var searchid = &#039;1218273364&#039;;
+var markup = &#039;&#039;;
+
+function genfn(i) {
+    var fn = function(result) {
+        //console.log(i); console.log(result); 
+        for (var j = 0; j &amp;lt; result.length; j++) {
+            if (result[j] == searchid) {
+                Log.info(&#039;foaf search match&#039;, people.data[i]);
+                markup = (
+                  &#039;&amp;lt;fb:profile-pic size=&amp;quot;square&amp;quot; &#039; +
+                          &#039;uid=&amp;quot;&#039; + people.data[i].id + &#039;&amp;quot; &#039; +
+                          &#039;facebook-logo=&amp;quot;true&amp;quot;&#039; +
+                          &#039;&amp;gt;&amp;lt;/fb:profile-pic&amp;gt;&#039;
+                );
+                var profilePicsDiv = document.getElementById(&#039;profile_pics&#039;);
+                profilePicsDiv.innerHTML += markup;
+                FB.XFBML.parse(profilePicsDiv);
+            }
+        }
+    };
+    return fn;
+}
+
+for (var i = 0; i &amp;lt; people.data.length; i++) {
+    person = people.data[i];
+    FB.api({method: &#039;friends.getMutualFriends&#039;, target_uid : person.id}, genfn(i));
+}
+
+});
+
+&amp;lt;/script&amp;gt;
+
+&lt;/pre&gt;&lt;p&gt;
+As you can see, I prefetched the results from searching &quot;Tomo&quot; and I set the id of a friend whose &quot;Tomo&quot; friends I wanted to find.  This searches the results and filters for people who have the mutual friend 1218273364.  &lt;/p&gt;
+&lt;p&gt;To go further, one should have controls for choosing the search term, automatically fetch search results and page through them to find more results, and have a control for choosing the mutual friend.  This will allow you to search for mutual friends even if you don&#039;t have permission to view a friend&#039;s friends.  Turning this into an app or Chrome extension is left as an exercise to the reader. :)&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/find-friends-friend-facebook#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/api">api</category>
+ <category domain="http://www.saigonist.com/category/tags/facebook">facebook</category>
+ <category domain="http://www.saigonist.com/category/tags/foaf">foaf</category>
+ <category domain="http://www.saigonist.com/category/tags/graph">graph</category>
+ <category domain="http://www.saigonist.com/category/tags/javascript">javascript</category>
+ <pubDate>Thu, 17 Nov 2011 18:08:39 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">270 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Routing Around Vietnam&#039;s Facebook Block Via Apps</title>
+    <link>http://www.saigonist.com/b/routing-around-vietnams-facebook-block-apps</link>
+    <description>&lt;p&gt;[This is the third post about &lt;a href=&quot;http://www.saigonist.com/content/easy-access-facebook-vietnam-part-deux&quot;&gt;Accessing Facebook in Vietnam&lt;/a&gt;]&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Lately, ISPs in Vietnam has begun randomly blocking Facebook again after a period of openness. &amp;nbsp;When it&#039;s blocked, even accessing Facebook via their Lisp4 server (or using the Saigonist DNS server) doesn&#039;t work.&lt;/p&gt;
+&lt;p&gt;But there are a number of apps, both web-based and desktop apps, which integrate with Facebook to different extents. &amp;nbsp;These apps, once you login to them with your Facebook account, can basically get your Facebook updates for you without requiring access to Facebook.&lt;/p&gt;
+&lt;p&gt;One such app is Seesmic, which has both a web and a desktop client. &amp;nbsp;Seesmic connects to a numer of social networks and I use it for reading my Twitter feed, with a custom hack to fix a serious problem with disappearing Tweets. &amp;nbsp;But once you login to Seesmic and connect it to your Facebook account, you can see your Facebook feed as well as messages. &amp;nbsp;That&#039;s enough for most people, most of the time.&lt;/p&gt;
+&lt;p&gt;Other desktop apps that can connect to Facebook are &lt;a href=&quot;http://www.bubbleshq.com/extensions/?page=86&quot;&gt;Bubbles&lt;/a&gt;&amp;nbsp;and Hootsuite, but I wasn&#039;t able to get Hootsuite to connect to my Facebook account.&lt;/p&gt;
+&lt;p&gt;Another less convenient way is to use Opera&#039;s online demo of their &lt;a href=&quot;http://www.opera.com/mobile/demo/&quot;&gt;Opera Mini&lt;/a&gt; browser. &amp;nbsp;It&#039;s a Java app and you use it like you&#039;re using a phone, but it will connect to Facebook for you (unless your browser doesn&#039;t let Java make network connections).&lt;/p&gt;
+&lt;p&gt;When I saw that Diesel released a desktop app called &lt;a href=&quot;http://www.bestupidatwork.com/&quot;&gt;Excellbook&lt;/a&gt; as part of a marketing campaign called Be Stupid At Work, I was hoping it would also work in bypassing the Facebook block. &amp;nbsp;It&#039;s an Adobe AIR app, which requires installing Adobe AIR, and is generally a piece of crap. &amp;nbsp;Even if you can get it to connect, it will require a connection to Facebook still and so it&#039;s not so useful. &amp;nbsp;Nice idea, terrible execution and yet another example of a bad Adobe AIR app.&lt;/p&gt;</description>
+     <comments>http://www.saigonist.com/b/routing-around-vietnams-facebook-block-apps#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/block">block</category>
+ <category domain="http://www.saigonist.com/category/tags/censorship">censorship</category>
+ <category domain="http://www.saigonist.com/category/tags/diesel">diesel</category>
+ <category domain="http://www.saigonist.com/category/tags/excelbook">excelbook</category>
+ <category domain="http://www.saigonist.com/category/tags/facebook">facebook</category>
+ <category domain="http://www.saigonist.com/category/tags/opera">opera</category>
+ <category domain="http://www.saigonist.com/category/tags/seesmic">seesmic</category>
+ <pubDate>Fri, 24 Jun 2011 05:04:43 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">195 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Vietnam ISPs</title>
+    <link>http://www.saigonist.com/content/vietnam-isps</link>
+    <description>&lt;p&gt;With the recent instability in Facebook access and some people reporting it blocked on one ISP or area of Vietnam while others can access it just fine... Is it time for you to rethink your choice in internet service provider?&lt;/p&gt;
+&lt;p&gt;There are a dozen or so ISPs in Vietnam but I&#039;ve only looked at the biggest: Viettel, VNPT, FPT, SPT, and Netnam.  They also all provide fiber internet (FTTH - fiber to the home) and not just ADSL.  Here are their prices for selected packages:&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/content/vietnam-isps#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/tags/facebook">facebook</category>
+ <category domain="http://www.saigonist.com/category/tags/isp">isp</category>
+ <pubDate>Wed, 16 Feb 2011 09:19:58 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">37 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Easy Access to Facebook in Vietnam, Part Deux</title>
+    <link>http://www.saigonist.com/content/easy-access-facebook-vietnam-part-deux</link>
+    <description>&lt;p&gt;Here&#039;s an easier way to access Facebook again in Vietnam, as a follow-up to my earlier post Bypass Vietnam&#039;s Block on FaceBook - or China&#039;s Block on YouTube.&lt;/p&gt;
+&lt;p&gt;Just change your DNS settings to use 65.111.171.175 as your DNS server like before.  I&#039;ve set up a DNS server which returns different IP addresses for facebook (facebook.com and fbcdn.net).  You can also do this on your computer by setting entries for all subdomains of facebook.com to 153.16.15.71 and for fbcdn.net to 60.254.175.11.&lt;/p&gt;
+&lt;p&gt;For detailed instructions on changing your computer&#039;s DNS settings refer to http://code.google.com/speed/public-dns/docs/using.html but remember to use the address 65.111.171.175 instead of Google&#039;s 8.8.8.8 and 8.8.8.4.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/content/easy-access-facebook-vietnam-part-deux#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/blocked">blocked</category>
+ <category domain="http://www.saigonist.com/category/tags/dns">dns</category>
+ <category domain="http://www.saigonist.com/category/tags/facebook">facebook</category>
+ <category domain="http://www.saigonist.com/category/tags/vietnam">vietnam</category>
+ <pubDate>Fri, 14 Jan 2011 07:58:51 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">28 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Bypass Vietnam&#039;s Block on FaceBook - or China&#039;s Block on YouTube</title>
+    <link>http://www.saigonist.com/content/bypass-vietnams-block-facebook-or-chinas-block-youtube</link>
+    <description>&lt;p&gt;For some time now, ISPs in Vietnam have been blocking a small number of websites, particularly Facebook.  Fortunately, the number of blocked sites was really small (in China hundreds of sites are blocked) and the method of blocking traffic to Facebook was very weak.  The Vietnamese ISPs simply stopped returning DNS queries for the Facebook domain.  So everyone soon figured out they could simply change their computer&#039;s DNS settings to use a non-blocking DNS server, such as Google&#039;s (8.8.8.8).&lt;/p&gt;
+&lt;p&gt;I&#039;m hearing rumors now, while I&#039;m traveling in Europe, that Vietnamese ISPs have really cracked down on access to Facebook and that the DNS trick no longer works.&lt;/p&gt;
+&lt;p&gt;So here are some more foolproof ways to get around the Facebook block in Vietnam which will also work for any website that is blocked in any country.  For example, the Great Firewall of China blocks access to an ever-changing list of sites by more than just DNS.  But these methods should work there too.&lt;/p&gt;
+&lt;p&gt;An added advantage is that you may also be able to access US sites that block all non-US computers like Hulu and certain YouTube videos.&lt;/p&gt;
+&lt;p&gt;1. Pay for VPN access outside of Vietnam.  This is essentially what I do by renting a server in the US, but I only tunnel my web traffic over an ssh connection.  If anyone wants a shell on my server for tunneling purposes (and not downloading porn) contact me.&lt;/p&gt;
+&lt;p&gt;Setting up SSH is a bit quirky so most people are better off with a true VPN solution.&lt;/p&gt;
+&lt;p&gt;One that comes recommended is &lt;strong&gt;StrongVPN&lt;/strong&gt;.  By going with them you&#039;ll get full support and they show you how to set it all up.  &lt;/p&gt;
+&lt;p&gt;2. Install free but ad-supported Hotspot Shield&lt;/p&gt;
+&lt;p&gt;From their site:&lt;br /&gt;
+&lt;cite&gt;&lt;br /&gt;
+Secure your web session, data, online shopping, and personal information online with HTTPS encryption.&lt;br /&gt;
+Protect yourself from identity theft online.&lt;br /&gt;
+Hide your IP address for your privacy online.&lt;br /&gt;
+Access all content privately without censorship; bypass firewalls.&lt;br /&gt;
+Protect yourself from snoopers at Wi-Fi hotspots, hotels, airports, corporate offices.&lt;br /&gt;
+&lt;/cite&gt;&lt;/p&gt;
+&lt;p&gt;You may want to install ad blockers if you go this route.  They will also track information about you to sell to advertisers.&lt;/p&gt;
+&lt;p&gt;3. Proxy servers.&lt;/p&gt;
+&lt;p&gt;Pick a proxy server from http://www.xroxy.com/ and set your browser to use it without needing to buy or install anything.  You don&#039;t need to use a proxy server in Vietnam, in fact it&#039;s probably better not to.&lt;/p&gt;
+&lt;p&gt;In a pinch you can browse through a &quot;CGI proxy&quot; like http://12345proxy.com/ without having to set up anything.&lt;/p&gt;
+&lt;p&gt;Using a proxy server could slow down access to some websites, especially ones in Vietnam.  You can install some browser add-ons so that you only go through a proxy for the sites that are blocked, like Facebook.&lt;/p&gt;
+&lt;p&gt;For Google Chrome:&lt;br /&gt;
+Proxy Switchy: https://chrome.google.com/extensions/detail/caehdcpeofiiigpdhbabniblemipncjj&lt;/p&gt;
+&lt;p&gt;For FireFox:&lt;br /&gt;
+FoxyProxy: https://addons.mozilla.org/en-US/firefox/addon/2464/&lt;/p&gt;
+&lt;p&gt;4. Just for watching videos on sites like Hulu, Amazon Video on Demand, Pandora, or YouTube, you can try http://www.usvideo.ca/ although it costs $5.25/month.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/content/bypass-vietnams-block-facebook-or-chinas-block-youtube#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/censorship">censorship</category>
+ <category domain="http://www.saigonist.com/category/tags/facebook">facebook</category>
+ <category domain="http://www.saigonist.com/category/tags/vpn">vpn</category>
+ <category domain="http://www.saigonist.com/category/tags/youtube">youtube</category>
+ <pubDate>Tue, 04 Jan 2011 12:54:28 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">23 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Future For Foursquare</title>
+    <link>http://www.saigonist.com/content/future-foursquare</link>
+    <description>&lt;p&gt;Foursquare is a way for people to advertise to advertisers, Twitter &quot;friends&quot;, and everyone else the fact that you&#039;re willing to be advertised to.  That is, you spam to be spammed.  It&#039;s basically awesome for marketers.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/content/future-foursquare#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/4sq">4sq</category>
+ <category domain="http://www.saigonist.com/category/tags/facebook">facebook</category>
+ <category domain="http://www.saigonist.com/category/tags/foursquare">foursquare</category>
+ <category domain="http://www.saigonist.com/category/tags/geolocation">geolocation</category>
+ <pubDate>Sun, 14 Nov 2010 06:26:26 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">17 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Mafia Wars tournament in Las Vegas: Uh oh!</title>
+    <link>http://www.saigonist.com/content/mafia-wars-tournament-las-vegas-uh-oh</link>
+    <description>&lt;p&gt;Zynga&#039;s Mafia Wars Facebook text-based game is experiencing all kinds of performance issues right  now.  And to top if off, if you try to fight in a tournament in Las Vegas you&#039;ll see the message:&lt;/p&gt;
+&lt;p&gt;&quot;Uh oh. We were unable to retrieve a tournament bracket for you. Please try again later&quot;&lt;/p&gt;
+&lt;p&gt;But only after they deduct your stamina and coins!  This happens every 4 hours so it&#039;s better to avoid playing in the tournament for now!&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/content/mafia-wars-tournament-las-vegas-uh-oh#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/facebook">facebook</category>
+ <category domain="http://www.saigonist.com/category/tags/game">game</category>
+ <category domain="http://www.saigonist.com/category/tags/zynga">zynga</category>
+ <pubDate>Tue, 07 Sep 2010 06:38:47 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">6 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

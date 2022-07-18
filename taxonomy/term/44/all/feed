@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/44/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>google</title>
+    <link>http://www.saigonist.com/taxonomy/term/44/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Start your startup in Kansas City, or Vietnam</title>
+    <link>http://www.saigonist.com/vietnam/hcmc/start-your-startup-kansas-city-or-vietnam</link>
+    <description>&lt;p&gt;Boulder&#039;s big VC investor dude Brad Feld has a house in Kansas City now. He doesn&#039;t live there, even for just part of the year, but he owns it. He&#039;s letting YOU live there. For free. FREE!!!  But should you live in Kansas City (a mid-sized town in the American southwest midwestern state of Missouri) to bootstrap your startup? If the rent is free?&lt;/p&gt;
+&lt;p&gt;Awhile back I talked about bootstrapping your startup in Ho Chi Minh City on the cheap. And what&#039;s better than cheap besides free?&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/vietnam/hcmc/start-your-startup-kansas-city-or-vietnam#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam/hcmc">HCMC</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/bootstrap">bootstrap</category>
+ <category domain="http://www.saigonist.com/category/tags/entrepreneur">entrepreneur</category>
+ <category domain="http://www.saigonist.com/category/tags/fiberhood">fiberhood</category>
+ <category domain="http://www.saigonist.com/category/tags/google">google</category>
+ <category domain="http://www.saigonist.com/category/tags/kansas-city">kansas city</category>
+ <category domain="http://www.saigonist.com/category/tags/startup">startup</category>
+ <pubDate>Fri, 15 Feb 2013 06:02:38 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">992 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Calling the US for free from foreign countries</title>
+    <link>http://www.saigonist.com/b/calling-us-free-foreign-countries</link>
+    <description>&lt;p&gt;Calling US numbers from the US is pretty trivial and nearly free. But calling from another country means either:&lt;br /&gt;
+- paying for long distance from your telephone company&lt;br /&gt;
+- using a phone card to call the US&lt;br /&gt;
+- calling via Skype out (like 2 cents per minute)&lt;br /&gt;
+- call out via Google Voice - FREE!&lt;/p&gt;
+&lt;p&gt;Yes, for the time being Google Voice lets users call US phone numbers for free from their phone. However, to do that you need to be in the US or make Google think your computer is on an American network. You can easily do this by logging into Gmail while connected to a VPN (like StrongVPN) which will make Google think you&#039;re in the States (due to using your VPN&#039;s IP address) and then give you the option to dial out from within Gmail.&lt;/p&gt;
+&lt;p&gt;So Google Voice is obviously the preferable way to make calls if you don&#039;t want to give Skype (and Microsoft) money. But what if you want to receive calls too? &lt;/p&gt;
+&lt;p&gt;Of course you can pay a monthly subscription fee to Skype to get a Skype in phone number which will ring your Skype account or forward to a phone. You could also set up your own VoIP service, buy a DID (direct inward dialing) number from someone and have Asterisk set up on a Linux server somewhere.&lt;/p&gt;
+&lt;p&gt;You can also have Google Voice receive calls with a personal Google number. However, it needs to actually forward to another phone number - if you&#039;re a real American living in the US then you should have a cell phone or home phone line to forward to.&lt;/p&gt;
+&lt;p&gt;The problem is when you&#039;re an expat living in Vietnam. You can&#039;t set up Google Voice to forward to your local number. But what you can do is set up a free New York state-based DID incoming phone number (your free number there is limited to being a NY number but you will just be forwarding your Google number to it anyways so it shouldn&#039;t matter - you can choose Google Voice phone numbers from any area code) at CallCentric or somewhere else. This will also be your phone number, but you can use it only for the free unlimited incoming calls. You&#039;ll forward your Google Voice number to this DID number but then use Google Voice (you need to install a plugin to be able to call out from Gmail) to call out for free, at least until the end of the year. To answer your DID number (from CallCentric) you&#039;ll need to be running sip phone software and be online. The best thing is you can set up your smartphone (and Symbian Nokia phones) to be your sip phone so anytime your phone is online you can receive calls when people call your Google Voice number!&lt;/p&gt;
+&lt;p&gt;If you don&#039;t receive calls with your Google Voice number you can still receive voice messages which are then transcribed and emailed to you.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/calling-us-free-foreign-countries#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/google">google</category>
+ <category domain="http://www.saigonist.com/category/tags/lifehack">lifehack</category>
+ <category domain="http://www.saigonist.com/category/tags/phone">phone</category>
+ <category domain="http://www.saigonist.com/category/tags/skype">skype</category>
+ <pubDate>Sat, 13 Oct 2012 17:01:08 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">542 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Using Google AdSense in Drupal</title>
+    <link>http://www.saigonist.com/tech/drupal/using-google-adsense-drupal</link>
+    <description>&lt;p&gt;Recently I attended a BarCamp where there was a session about &lt;strong&gt;monetizing blogs&lt;/strong&gt; for a very modest monthly income, although an amount that amounts to a lot for a local blogger. With Drupal, setting up Google AdSense content is easy. &lt;/p&gt;
+&lt;p&gt;First, just copy the code generated from Adsense into a new block using the block admin interface. Be sure to save the node with the PHP Input Filter (you may need to give yourself permission in admin/permissions to use this powerful filter). Full HTML filter is &lt;strong&gt;not sufficient&lt;/strong&gt; for AdSense code as it will break the finicky JavaScript, so use PHP which performs no filtering or transformations or &lt;strong&gt;create a new input filter&lt;/strong&gt; that does no filtering.&lt;/p&gt;
+&lt;p&gt;You may want to create a special &lt;strong&gt;region&lt;/strong&gt; (by editing the .info file for your theme and adding a new line, then refreshing cache to see it in the dropdown in blocks admin) for your ads otherwise use an existing region to place the block. If you already have regions like a sidebar that has space for content in the same dimensions (especially width) as your chosen AdSense ad then you won&#039;t need to do anything. If you want to optimize your ads though it&#039;s recommended, even by Google themselves, to choose larger ad sizes - especially &lt;strong&gt;large square ads&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;For placing the node somewhere within the node&#039;s content, it&#039;s trickier as you can&#039;t place it use the block admin interface which only deals with regions that are defined in .info and made available via preprocess functions to your page.tpl.php. You can still use blocks to contain the code though. So create a new block, then look for the number in the URL which is the block id. Then you can manually place that block&#039;s content anywhere with this code:&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;javascript geshifilter-javascript&quot; style=&quot;font-family:monospace;&quot;&gt;$block &lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; module_invoke&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;block&#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;,&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;block&#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;,&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;view&#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;,&lt;/span&gt; &lt;span style=&quot;color: #339933;&quot;&gt;&amp;lt;&lt;/span&gt;BLOCK_ID_HERE&lt;span style=&quot;color: #339933;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+print $block&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;&lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;content&#039;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;When publishing your ad blocks, if they don&#039;t appear at first and you see &lt;strong&gt;&quot;Bad Request 400&quot;&lt;/strong&gt; in Chrome&#039;s Developer JavaScript Console, you can try waiting and may magically go away after awhile. That&#039;s what happened to me.&lt;/p&gt;
+&lt;p&gt;There&#039;s also an AdSense module (http://drupal.org/project/adsense) which makes this all a bit easier, but as you can see it&#039;s not hard at all to do manually, which means one less module on your system to complicate things.&lt;/p&gt;
+&lt;p&gt;But here are some other things the Drupal AdSense module can do:&lt;/p&gt;
+&lt;p&gt;&lt;cite&gt;&lt;br /&gt;
+The module provides easy-to-use ad blocks.&lt;br /&gt;
+You can easily disable the ads for certain roles.&lt;br /&gt;
+Provides simple controls for troubleshooting the ads before going live with the site.&lt;br /&gt;
+If Google changes some minor details in the script in , your script can be updated site-wide just by upgrading the module.&lt;br /&gt;
+If you want to do ad revenue sharing, there&#039;s really no other option&lt;br /&gt;
+&lt;/cite&gt;&lt;/p&gt;
+&lt;p&gt;This technique can be used for other online advertising networks besides Google AdSense. It could just as easily be used for Amazon.com&#039;s affiliate program. If you&#039;re in Vietnam you might consider one of the burgeoning number of Vietnamese online ad networks, although they won&#039;t have anything like the inventory of Google.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/using-google-adsense-drupal#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/adsense">adsense</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/google">google</category>
+ <category domain="http://www.saigonist.com/category/tags/money">money</category>
+ <pubDate>Mon, 08 Oct 2012 15:11:54 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">491 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Vietnam Online Ad Networks</title>
+    <link>http://www.saigonist.com/vietnam/vietnam-online-ad-networks</link>
+    <description>&lt;h2&gt;What to do if you&#039;re a content provider in Vietnam?&lt;/h2&gt;
+&lt;p&gt; If you&#039;re fairly established as a Party-affiliated Vietnamese newspaper then you have probably been selling banner ads for years on your online properties. Maybe you have enough online properties that they constitute a small ad hoc online ad network which you can sell to advertisers. If you&#039;re smaller than that then you should be concentrating on producing content rather than developing the ad selling product. So you&#039;d need to find some service to take care of selling your available ad space inventory.&lt;/p&gt;
+&lt;h2&gt;How online ads are sold outside of Vietnam&lt;/h2&gt;
+&lt;p&gt;The first online ad marketplace that should come to anyone&#039;s mind is Google with its AdWords and AdSense products (which complement each other as supply and demand). I&#039;ve played around with Google AdSense (the advertising product for publishers) on this site but it may not be appropriate for Vietnamese publishers. As an American it&#039;s easy for me to connect to the US financial system. Vietnamese people would have trouble opening up a US bank and the Vietnamese banking system is barely connected to itself (making homegrown PayPal clones even more difficult to pull off) much less to the US or international banking system. It&#039;s hard to move money into and out of Vietnam, although regulations make inflows of cash much easier than outflows. And due to the large amount of fraud originating from Vietnam it&#039;s hard to get outsiders to allow normal Vietnamese people to receive money, since once it enters Vietnam it&#039;s hard to get it back out if there are any problems, outside of the remittance networks. Until very recently it wasn&#039;t possible to use PayPal as a Vietnamese person here and it&#039;s still extremely rare.&lt;/p&gt;
+&lt;p&gt;If you&#039;re one of Vietnam&#039;s major publishers then you don&#039;t care too much about homegrown ad networks since they only reduce your monopoly on ad space, while pushing down prices and encouraging transparency which could force you to be more honest about your product and push prices down even further.&lt;/p&gt;
+&lt;h2&gt;Vietnamese ad networks for Vietnamese content websites!&lt;/h2&gt;
+&lt;p&gt;But having more available ad networks to Vietnamese content producers helps develop a strong web ecosystem for and by Vietnamese people, giving them ways to earn money both domestically and from foreign companies wanting to market to Vietnam. Blogs and other content websites could potentially give Vietnam&#039;s economy a tiny push in the right direction although currently it&#039;s risky to plan a business around content websites in Vietnam for a number of reasons and monetization is just one of them. (Just recently, Zing, a large content network with news, a social network, and lots of downloadable but unlicensed (pirated) music got dropped by major advertisers like Samsung, Coca Cola, Canon, Yamaha, Intel, etc. precisely because of the latter - they didn&#039;t want to associate themselves with an illegal music downloading site, but without the mp3s it would be hard for Zing to get traffic.)&lt;/p&gt;
+&lt;p&gt;So without further ado here are the online ad networks in and targeting Vietnam:&lt;/p&gt;
+&lt;p&gt;- ComScore put Innity in first place (of only two measured competitors?) for ad network size in Vietnam in February of 2011 with 900,000 average daily visitors. I really can&#039;t say whether Innity, from Malaysia and serving all of Southeast Asia, is the biggest ad network running in Vietnam.&lt;/p&gt;
+&lt;p&gt;- VietAd, part of IDG Vietnam&#039;s portfolio, running since May of 2007. According to them:&lt;br /&gt;
+  &quot;VietAd Ad-Network is an intermediate system connecting sellers and buyers of online advertising. In other words, VietAd operates as an trading platform helping website owners to sell advertising, individuals and enterprises to advertises; both of them can save time and cost while they still have effective advertising campaigns.&quot;&lt;/p&gt;
+&lt;p&gt;  &quot;After more than two years on the market, VietAd attracted nearly 1,000 quality media, news, commentary and entertainment websites in Vietnam, served more than 3 billion Ad views and reached 400 million website hits per month.&quot;&lt;/p&gt;
+&lt;p&gt;- AdMarket, a product from AdMicro which is part of BarCamp Saigon sponsor VC Corp. (not to be confused with MicroAd which just entered Vietnam from Japan). Online advertising from 900đ/click and reaching up to 25 million people.&lt;/p&gt;
+&lt;p&gt;- AdNet.vn from PeaceSoft (NganLuong, eBay.vn, ChoDienTu)&lt;/p&gt;
+&lt;p&gt;- Ambient Digital Network (minimum payout payment of 300,000 VND) based in Ho Chi Minh City.&lt;/p&gt;
+&lt;p&gt;- VietBUZZad&lt;/p&gt;
+&lt;p&gt;- AdMax Network in South East Asia, based in Singapore&lt;/p&gt;
+&lt;p&gt;- AdBay, partner of PeaceSoft and VietBUZZad.&lt;/p&gt;
+&lt;p&gt;- AdBay.vn in Hanoi&lt;/p&gt;
+&lt;p&gt;- CleverAds, a local Google AdWords partner who helps companies set up their AdWords campaigns, also claim to have their own AdNetwork.&lt;/p&gt;
+&lt;p&gt;- Some hints of an ad network (Fmob) coming from Joomlart. Will have to ask him about that soon.&lt;/p&gt;
+&lt;p&gt;- New from FPT, eClick.vn&lt;/p&gt;
+&lt;p&gt;As mentioned, large news sites have their own ad networks. I skipped some really pathetically small ad networks. If you have anything to share about the ad networks listed above -please- post a comment. :) &lt;/p&gt;
+&lt;p&gt;One question I have and I welcome any theories:&lt;br /&gt;
+How long before MJ Group (NhomMua, DiaDiem) or Rocket Internet, both big consumers of online ad space in Vietnam, decide to roll their own ad networks?&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/vietnam/vietnam-online-ad-networks#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/adsense">adsense</category>
+ <category domain="http://www.saigonist.com/category/tags/advertising">advertising</category>
+ <category domain="http://www.saigonist.com/category/tags/adwords">adwords</category>
+ <category domain="http://www.saigonist.com/category/tags/google">google</category>
+ <category domain="http://www.saigonist.com/category/tags/iab">iab</category>
+ <category domain="http://www.saigonist.com/category/tags/marketing">marketing</category>
+ <pubDate>Mon, 08 Oct 2012 15:10:55 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">490 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Drupal module idea: embed Google spreadsheet CCK field</title>
+    <link>http://www.saigonist.com/b/drupal-module-idea-embed-google-spreadsheet-cck-field</link>
+    <description>&lt;p&gt;How can we store tables or spreadsheets in Drupal content nodes?&lt;/p&gt;
+&lt;p&gt;Drupal is a Content Management System as well as a &lt;strong&gt;Content Management Framework&lt;/strong&gt;. It&#039;s meant for facilitating the creation and editing of content, where content doesn&#039;t just mean simple text. CCK allows Drupal site managers to easily enable complex data types for their content. But sometimes it&#039;s not so easy to manage lots of simple data in the way that a spreadsheet (meaning Excel or Google Spreadsheet) easily manages many rows and columns of related data.&lt;/p&gt;
+&lt;p&gt;Sometimes you really want &lt;strong&gt;tabular data&lt;/strong&gt; and you may not know for sure how many rows or columns you&#039;ll want beforehand, which is never a problem for Excel or Google Spreadsheet (which is also why sometimes people abuse Excel as a general purpose database). Maybe you are importing spreadsheets or are using spreadsheets with many rows and columns, and only want to use a section of the spreadsheet. Maybe you need to use spreadsheets because you are using formulas and want to do some graphing based on some numbers too. In fact, Excel can do much more. Rather than hoping all of those use cases will make it into a Drupal module anytime soon, wouldn&#039;t it be nice if you could just &lt;strong&gt;embed a spreadsheet in a node&lt;/strong&gt;?&lt;/p&gt;
+&lt;p&gt;There are some &lt;a href=&quot;http://www.saigonist.com/b/attaching-tablematrixarray-drupal-node&quot;&gt;modules for attaching tables or tabular data to nodes&lt;/a&gt;  but in the end the interface can be a bit unwieldy.  I discussed building something like a spreadsheet to quickly edit many values and below I present a &lt;strong&gt;demonstration&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;What is already available that we could use to attach spreadsheets or something similar to nodes?&lt;/p&gt;
+&lt;p&gt;1. You could: Configure a Google spreadsheet that&#039;s either public or somehow accessed via a Google api, perhaps using OAuth2 or just assuming the viewer also has edit access to the spreadsheet. Google already lets you embed spreadsheets including the editable spreadsheet but they don&#039;t let you limit the view of the spreadsheet (limiting the view still lets everyone access the whole spreadsheet by changing the URL). &lt;/p&gt;
+&lt;p&gt;We would also need new nodes to automatically create sheets in the spreadsheet or new spreadsheets altogether and embed them in node edit. This would need to use their APIs since the embeddable Google Spreadsheets require an existing spreadsheet, otherwise this step needs to be done manually for each node - a new Google spreadsheet created per node.&lt;/p&gt;
+&lt;p&gt;This &lt;a href=&quot;https://github.com/evolvingweb/redmine_google_docs&quot;&gt;Redmine Google Docs plugin&lt;/a&gt; takes a similar approach and shows how the resulting data could be embedded.&lt;/p&gt;
+&lt;p&gt;(This &lt;a href=&quot;http://www.mediawikiwidgets.org/Google_Spreadsheet&quot;MediaWiki Google Spreadsheet widget&lt;/a&gt; might be worth investigating as well.)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2. Another approach would be to take an existing JavaScript or Java spreadsheet that could be embedded. This could be exactly what you want if you need the full functionality of Excel in each node. One such online spreadsheet is &lt;a href=&quot;http://code.google.com/p/zkspreadsheet/&quot;&gt;ZK Spreadsheet&lt;/a&gt; which is written in Java, and would let you have full formula and charting support.&lt;/p&gt;
+&lt;p&gt;3. Embed a widget like the form below as a CCK field in a node. It would be a new CCK field type where the editing widget is the below spreadsheet-like table and the display widget might be the same thing, an uneditable table, or the raw JSON string representation. In the database, the actual value of the field would be JSON (unless you wanted to use PHP&#039;s serialize() which would require POSTing values first instead of just posting the json value). This means you wouldn&#039;t relate or compare this field to anything else, as with any serialized data in a database. You could come up with some other schema involving columns and rows to store the table&#039;s values for each field in a node but I&#039;m not sure it&#039;s worthwhile.&lt;/p&gt;
+&lt;p&gt;I created this demonstration but haven&#039;t turned it into a Drupal module. There is code to dump the edited values into a single JSON value to be stored in the database but the storage would be module-specific. &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.saigonist.com/sites/saigonist/files/spread.js&quot;&gt;Get the JavaScript&lt;/a&gt; - then combine it with &lt;a href=&quot;http://www.saigonist.com/sites/saigonist/files/spread.html&quot;&gt;html and CSS&lt;/a&gt;, which you also see below.&lt;/p&gt;
+&lt;!-- copy from here --&gt;&lt;!-- copy from here --&gt;&lt;style&gt;
+#saigonist-spread {
+width: 800px;
+background-color: white;
+border: 1px solid;
+z-index: 1000;
+position: relative;
+}
+
+#saigonist-spread input {
+border: 1px solid #ccc;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+
+.saigonist-spread-row-head &gt; div,
+.saigonist-spread-row &gt; div {
+float: left;
+width: 122px;
+}
+
+#saigonist-spread .saigonist-spread-col-0 {
+width: 20px;
+}
+
+.saigonist-spread-row {
+clear: both;
+}
+
+.saigonist-spread-plus {
+cursor: pointer;
+}
+
+&lt;/style&gt;&lt;script src=&quot;http://www.saigonist.com/sites/saigonist/files/spread.js&quot;&gt;
+&lt;/script&gt;&lt;div id=&quot;saigonist-spread&quot;&gt;
+&lt;div class=&quot;saigonist-spread-row-head&quot;&gt;
+&lt;div class=&quot;saigonist-spread-col-0&quot;&gt;&lt;span id=&quot;saigonist-spread-cell-0-0&quot;&gt;.&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-1&quot;&gt;&lt;span&gt;A&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-2&quot;&gt;&lt;span&gt;B&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-3&quot;&gt;&lt;span&gt;C&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-max saigonist-spread-plus&quot;&gt;&lt;span onclick=&quot;saigonist_spread_add_col()&quot;&gt;+&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-rows&quot;&gt;
+&lt;div id=&quot;saigonist-spread-row-1&quot; class=&quot;saigonist-spread-row&quot;&gt;
+&lt;div class=&quot;saigonist-spread-col-0&quot;&gt;1&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-1&quot;&gt;&lt;input type=&quot;text&quot; length=&quot;10&quot; name=&quot;saigonist-spread-cell-1-1&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-2&quot;&gt;&lt;input type=&quot;text&quot; length=&quot;10&quot; name=&quot;saigonist-spread-cell-1-2&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-3&quot;&gt;&lt;input type=&quot;text&quot; length=&quot;10&quot; name=&quot;saigonist-spread-cell-1-3&quot; /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;saigonist-spread-row-2&quot; class=&quot;saigonist-spread-row&quot;&gt;
+&lt;div class=&quot;saigonist-spread-col-0&quot;&gt;2&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-1&quot;&gt;&lt;input type=&quot;text&quot; length=&quot;10&quot; name=&quot;saigonist-spread-cell-2-1&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-2&quot;&gt;&lt;input type=&quot;text&quot; length=&quot;10&quot; name=&quot;saigonist-spread-cell-2-2&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-3&quot;&gt;&lt;input type=&quot;text&quot; length=&quot;10&quot; name=&quot;saigonist-spread-cell-2-3&quot; /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;saigonist-spread-row-3&quot; class=&quot;saigonist-spread-row&quot;&gt;
+&lt;div class=&quot;saigonist-spread-col-0&quot;&gt;3&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-1&quot;&gt;&lt;input type=&quot;text&quot; length=&quot;10&quot; name=&quot;saigonist-spread-cell-3-1&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-2&quot;&gt;&lt;input type=&quot;text&quot; length=&quot;10&quot; name=&quot;saigonist-spread-cell-3-2&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-col-3&quot;&gt;&lt;input type=&quot;text&quot; length=&quot;10&quot; name=&quot;saigonist-spread-cell-3-3&quot; /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;saigonist-spread-row&quot;&gt;
+&lt;div class=&quot;saigonist-spread-col-0 saigonist-spread-plus&quot;&gt;&lt;span onclick=&quot;saigonist_spread_add_row()&quot;&gt;+&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;JSON: &quot;&lt;br /&gt;
+&lt;div id=&quot;saigonist-spread-value-json&quot;&gt;&lt;/div&gt;
+&lt;p&gt;&quot;&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+</description>
+     <comments>http://www.saigonist.com/b/drupal-module-idea-embed-google-spreadsheet-cck-field#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/google">google</category>
+ <category domain="http://www.saigonist.com/category/tags/javascript">javascript</category>
+ <category domain="http://www.saigonist.com/category/tags/module">module</category>
+ <category domain="http://www.saigonist.com/category/tags/spreadsheet">spreadsheet</category>
+ <pubDate>Sun, 30 Sep 2012 15:28:46 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">228 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Improved Google Spam Filter?</title>
+    <link>http://www.saigonist.com/content/improved-google-spam-filter</link>
+    <description>&lt;p&gt;Google, in response to the flood of recent concern about spam/content farms showing up in their results, have just announced a big change in their system of algorithms which calculate page rankings.  They had previously published a Chrome plugin that lets you manually block results, and Google says the new algorithm blocks some 84% of the same sites that people were blocking with the plugin.  I guess some people were controversially blocking non-spammy sites, rather than guess that Google&#039;s algorithm isn&#039;t good enough.  Or isn&#039;t it?&lt;/p&gt;
+&lt;p&gt;Matt Cutts, the main anti-spam guy at Google, says the new algorithm change affects 11.8% of queries.  Since the change is only effective in the US right now and I can browse from both Vietnam and the US, we can compare results and some one in eight queries should be improved.&lt;/p&gt;
+&lt;p&gt;So I tested &quot;dog shampoo&quot; out of the blue.  I have never had a dog because I think they smell.&lt;/p&gt;
+&lt;p&gt;In Vietnam, high ranking results included drnaturalvet.com which had a low quality page of filler about dog shampoo and dogshampoo.info which is clearly a made-for-adsense site.  In the US, the drnaturalvet link is much lower, but dogshampoo.info maintains the same high position.  A link to content farm ehow.com is also lower now. And a link to dogshampoo.co.uk, a made-for-adsense site with nothing about dog shampoo at the time of indexing (see cache) is now gone too.&lt;/p&gt;
+&lt;p&gt;A search for winrar came up with fairly similar results in either country, and both maintained links to spam sites like software.informer.com.&lt;/p&gt;
+&lt;p&gt;A search for &quot;tightvnc server authentication successful closed connection&quot; punished duplicate content site pinoytech.org slightly but another duplicate/copy site efreedom.com maintained its position in the top 20.  Both copy the StackExchange site SuperUser.com.&lt;/p&gt;
+&lt;p&gt;So it seems that the new algorithm change is an improvement, but I don&#039;t think it goes far enough to filter spammy results.  While it may be a slight setback for those guys, they are still in the running and will be emboldened to try to rank higher.&lt;/p&gt;
+&lt;p&gt;There may still be a need for users to crowdsource a database of filtered spam sites until further algorithm improvements.&lt;/p&gt;
+&lt;p&gt;Note: The Atlantic did a similar test from India on &quot;is botox safe&quot; and &quot;drywall dust&quot; and found their results to be much improved.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/content/improved-google-spam-filter#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/vietnam">Vietnam</category>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/content-farm">content farm</category>
+ <category domain="http://www.saigonist.com/category/tags/google">google</category>
+ <category domain="http://www.saigonist.com/category/tags/serp">serp</category>
+ <category domain="http://www.saigonist.com/category/tags/spam">spam</category>
+ <pubDate>Sat, 26 Feb 2011 15:08:42 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">39 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Google Spam / Content Farm Filter</title>
+    <link>http://www.saigonist.com/content/google-spam-content-farm-filter</link>
+    <description>&lt;p&gt;There&#039;s been a lot of talk about the decrease in quality of Google search results over the years due to spammers / content farms with strong SEO skills.  I&#039;m glad I&#039;m not the one who&#039;s been annoyed by this.&lt;/p&gt;
+&lt;p&gt;Google should know which sites are spam, content farms, or duplicated content.  That they aren&#039;t properly filtering or demoting them could be due to a conflict of interest - they make money from the ads on those crap sites.&lt;/p&gt;
+&lt;p&gt;But we, as individuals, can easily distinguish the spam results from the quality ones and we do so everyday.  If only there were a way to stop duplicating this effort.&lt;/p&gt;
+&lt;p&gt;If Google won&#039;t do this for us, then we can do this ourselves.&lt;/p&gt;
+&lt;p&gt;Here&#039;s what I want:&lt;br /&gt;
+1. When I&#039;ve been tricked into opening an ad-filled page without meaningful content, I want to go back to Google and mark that link as &quot;spam&quot;, have that noted somewhere in the cloud so I can access it from any computer, and have future search queries filter out that link.&lt;/p&gt;
+&lt;p&gt;2. I probably don&#039;t want to see any pages from that domain show up on any other queries.&lt;/p&gt;
+&lt;p&gt;3. I probably don&#039;t want to see any pages that my friends have also marked as spam.&lt;/p&gt;
+&lt;p&gt;4. I probably don&#039;t want to see any pages that friends of my friends have also marked as spam.&lt;/p&gt;
+&lt;p&gt;5. I may even want to befriend / &quot;follow&quot; strangers just because they&#039;re good at marking spam.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/content/google-spam-content-farm-filter#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/chrome">chrome</category>
+ <category domain="http://www.saigonist.com/category/tags/content-farm">content farm</category>
+ <category domain="http://www.saigonist.com/category/tags/google">google</category>
+ <category domain="http://www.saigonist.com/category/tags/spam">spam</category>
+ <pubDate>Fri, 21 Jan 2011 08:06:22 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">30 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

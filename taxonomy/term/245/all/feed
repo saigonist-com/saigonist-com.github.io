@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/245/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>app</title>
+    <link>http://www.saigonist.com/taxonomy/term/245/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>About Saigonist Mutual Friends Facebook App</title>
+    <link>http://www.saigonist.com/b/about-saigonist-mutual-friends-facebook-app</link>
+    <description>&lt;p&gt;My friend Grover and I have a lot of mutual friends as I noticed on Facebook one day. And I know that I have a lot of friends with whom I share a large number of friends. I got curious and asked myself: &quot;Who do I have the most shared friends with?&quot; This question turned into a Facebook FQL query which gave me the data. Then I decided to turn it into a &quot;product&quot; and ended up learning stuff about Facebook&#039;s PHP and JavaScript SDKs.&lt;/p&gt;
+&lt;p&gt;The final result is this Facebook App:  Saigonist Mutual Friends. &lt;/p&gt;
+&lt;p&gt;Just enable the app and you&#039;ll see a list of your top 10 friends with mutual friends. I got my answer: my friend Jodie and I share 158 friends.&lt;/p&gt;
+&lt;p&gt;--&lt;/p&gt;
+&lt;p&gt;Next steps? I&#039;d like to visualize what cliques or subnetworks exist within my Facebook network...&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/about-saigonist-mutual-friends-facebook-app#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/app">app</category>
+ <category domain="http://www.saigonist.com/category/tags/facebook">facebook</category>
+ <category domain="http://www.saigonist.com/category/tags/friends">friends</category>
+ <category domain="http://www.saigonist.com/category/tags/javascript">javascript</category>
+ <pubDate>Mon, 20 Aug 2012 02:22:07 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">466 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

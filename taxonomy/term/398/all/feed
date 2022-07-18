@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/398/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>localization</title>
+    <link>http://www.saigonist.com/taxonomy/term/398/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Multi-lingual / Localized / Translated Taxonomy in Drupal </title>
+    <link>http://www.saigonist.com/tech/drupal/multi-lingual-localized-translated-taxonomy-drupal</link>
+    <description>&lt;p&gt;Taxonomy is normally pretty simple by default except that it&#039;s also called vocabulary (but never terminology although the tags are called terms) and that it can be attached to nodes as fields (using Content Taxonomy Fields to make CCK fields which gives you a bit more control) or not, or both. &lt;/p&gt;
+&lt;p&gt;Adding language makes it complicated though. Drupal can be said to support languages other than English, multiple-language sites, internationalization and translation. But it&#039;s not always user friendly or clear even to developers. Such is the case with taxonomies.&lt;/p&gt;
+&lt;p&gt;Let&#039;s say you have a site that&#039;s in two languages, English and Vietnamese. You have translated the interface of the site as well as nodes so that URLs are consistent. To switch language you just add the language code to the front of the URL. So you have a taxonomy with terms in your site&#039;s primary or default language. But you want to use the same terms by ID rather than a different set of terms.&lt;/p&gt;
+&lt;p&gt;1) Edit the vocabulary. Set &quot;Localize&quot;. This doesn&#039;t set a language to any terms or anything, they are just assumed to be in the default language already. &lt;/p&gt;
+&lt;p&gt;[Look in term_data and confirm the language column is still empty.]&lt;/p&gt;
+&lt;p&gt;2) Refresh strings in Translate Interface. Now if you search taxonomy for a term it should appear.&lt;/p&gt;
+&lt;p&gt;[Look in locales_source for location = &quot;term:$termid:name&quot; where $termid is the tid of a term in your vocabulary. This means it&#039;s ready to be translated. After translating, it should be in localtes_target with the same lid. But the translation column is a blob so you won&#039;t be able to see the translation directly depending on your mysql client.]&lt;/p&gt;
+&lt;p&gt;3) I recommend installing the Translation Table module instead of searching for each new term in the regular translate interface. Translation table shows up as a new tab in the translate interface and you can select a vocabulary to see all of its terms in one place.&lt;/p&gt;
+&lt;p&gt;4) If you use terms in arguments in URLs you&#039;ll need something further. Otherwise, all URLs will use the term in the site&#039;s default language.&lt;/p&gt;
+&lt;p&gt;5) One last thing: Don&#039;t use t() to translate a term. Use i18ntaxonomy_translate_term_name on a term object (like if you get a vocabulary object from taxonomy_get_tree).&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/tech/drupal/multi-lingual-localized-translated-taxonomy-drupal#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech/drupal">Drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/drupal">drupal</category>
+ <category domain="http://www.saigonist.com/category/tags/language">language</category>
+ <category domain="http://www.saigonist.com/category/tags/localization">localization</category>
+ <category domain="http://www.saigonist.com/category/tags/taxonomy">taxonomy</category>
+ <category domain="http://www.saigonist.com/category/tags/translation">translation</category>
+ <pubDate>Fri, 19 Oct 2012 13:08:28 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">552 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

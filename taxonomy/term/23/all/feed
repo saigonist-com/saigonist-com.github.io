@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/23/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>twitter</title>
+    <link>http://www.saigonist.com/taxonomy/term/23/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Archiving Twitter to Blog Post</title>
+    <link>http://www.saigonist.com/b/archiving-twitter-blog-post</link>
+    <description>&lt;p&gt;Step 1: Install t (Ruby Twitter command line client). Run the following (substitute your own Twitter ID):&lt;br /&gt;
+&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;javascript geshifilter-javascript&quot; style=&quot;font-family:monospace;&quot;&gt;t timeline &lt;span style=&quot;color: #339933;&quot;&gt;@&lt;/span&gt;tomosaigon &lt;span style=&quot;color: #339933;&quot;&gt;--&lt;/span&gt;csv &lt;span style=&quot;color: #339933;&quot;&gt;--&lt;/span&gt;number &lt;span style=&quot;color: #CC0000;&quot;&gt;3000&lt;/span&gt; &lt;span style=&quot;color: #339933;&quot;&gt;&amp;gt;&lt;/span&gt; tweets.&lt;span style=&quot;color: #660066;&quot;&gt;csv&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Step 2: Convert CSV to JSON using &lt;a href=&quot;http://www.cparker15.com/wp-content/uploads/csv-to-json/csv-to-json.html&quot; title=&quot;http://www.cparker15.com/wp-content/uploads/csv-to-json/csv-to-json.html&quot;&gt;http://www.cparker15.com/wp-content/uploads/csv-to-json/csv-to-json.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe style=&quot;width: 100%; height: 500px&quot; src=&quot;http://www.cparker15.com/wp-content/uploads/csv-to-json/csv-to-json.html&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;Step pre-3:&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;javascript geshifilter-javascript&quot; style=&quot;font-family:monospace;&quot;&gt;cached&lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt;$&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;/&lt;/span&gt;usr&lt;span style=&quot;color: #339933;&quot;&gt;/&lt;/span&gt;bin&lt;span style=&quot;color: #339933;&quot;&gt;/&lt;/span&gt;grep $1 $CACHE&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;
+&lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;if&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt; $cached &lt;span style=&quot;color: #339933;&quot;&gt;!=&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt; then
+        echo $cached&lt;span style=&quot;color: #339933;&quot;&gt;|/&lt;/span&gt;usr&lt;span style=&quot;color: #339933;&quot;&gt;/&lt;/span&gt;bin&lt;span style=&quot;color: #339933;&quot;&gt;/&lt;/span&gt;cut &lt;span style=&quot;color: #339933;&quot;&gt;-&lt;/span&gt;d&lt;span style=&quot;color: #3366CC;&quot;&gt;&#039; &#039;&lt;/span&gt; &lt;span style=&quot;color: #339933;&quot;&gt;-&lt;/span&gt;f2 &lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt; 
+        exit
+fi
+&amp;nbsp;
+url&lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt;$&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;/&lt;/span&gt;usr&lt;span style=&quot;color: #339933;&quot;&gt;/&lt;/span&gt;local&lt;span style=&quot;color: #339933;&quot;&gt;/&lt;/span&gt;bin&lt;span style=&quot;color: #339933;&quot;&gt;/&lt;/span&gt;curl &lt;span style=&quot;color: #339933;&quot;&gt;-&lt;/span&gt;v $1 &lt;span style=&quot;color: #CC0000;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;&amp;gt;&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: #CC0000;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;|/&lt;/span&gt;usr&lt;span style=&quot;color: #339933;&quot;&gt;/&lt;/span&gt;bin&lt;span style=&quot;color: #339933;&quot;&gt;/&lt;/span&gt;grep &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;^&amp;lt; Location: &#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;|/&lt;/span&gt;usr&lt;span style=&quot;color: #339933;&quot;&gt;/&lt;/span&gt;bin&lt;span style=&quot;color: #339933;&quot;&gt;/&lt;/span&gt;sed &lt;span style=&quot;color: #339933;&quot;&gt;-&lt;/span&gt;e &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;s/&amp;lt; Location: //&#039;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;
+echo $1 $url &lt;span style=&quot;color: #339933;&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; $CACHE
+echo $url&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Step 3: Open Chrome Developer Tools and in the command line type &quot;var a = &quot; then paste the copied JSON. Hit enter.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;geshifilter&quot;&gt;&lt;pre class=&quot;javascript geshifilter-javascript&quot; style=&quot;font-family:monospace;&quot;&gt;&lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;var&lt;/span&gt; out &lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;&#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+&lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;for&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;var&lt;/span&gt; i &lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #CC0000;&quot;&gt;0&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt; i &lt;span style=&quot;color: #339933;&quot;&gt;&amp;lt;&lt;/span&gt; a.&lt;span style=&quot;color: #660066;&quot;&gt;length&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt; i&lt;span style=&quot;color: #339933;&quot;&gt;++&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#123;&lt;/span&gt;
+    &lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;var&lt;/span&gt; t &lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; a&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;i&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt; 
+    &lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;var&lt;/span&gt; d &lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;&quot;&gt;Date&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;t&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;&lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;Posted at&#039;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt; 
+    &lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;if&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;d &lt;span style=&quot;color: #339933;&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;&quot;&gt;Date&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;2012-09-01 00:00&#039;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt; &lt;span style=&quot;color: #339933;&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; d &lt;span style=&quot;color: #339933;&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;new&lt;/span&gt; &lt;span style=&quot;&quot;&gt;Date&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;2012-10-01 00:00&#039;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#123;&lt;/span&gt;
+        &lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;var&lt;/span&gt; tweet &lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; t&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;&lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;Text&#039;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+        &lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;var&lt;/span&gt; tcos &lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; tweet.&lt;span style=&quot;color: #660066;&quot;&gt;match&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #009966; font-style: italic;&quot;&gt;/http:\/\/t.co\/\w+/g&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+        &lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;if&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;tcos&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#123;&lt;/span&gt;
+            &lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;for&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;var&lt;/span&gt; m &lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #CC0000;&quot;&gt;0&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt; m &lt;span style=&quot;color: #339933;&quot;&gt;&amp;lt;&lt;/span&gt; tcos.&lt;span style=&quot;color: #660066;&quot;&gt;length&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt; m&lt;span style=&quot;color: #339933;&quot;&gt;++&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#123;&lt;/span&gt;
+                tco &lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; tcos&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;m&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt;.&lt;span style=&quot;color: #660066;&quot;&gt;replace&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #009966; font-style: italic;&quot;&gt;/\//g&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;,&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;%252F&#039;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+                $.&lt;span style=&quot;color: #660066;&quot;&gt;ajax&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#123;&lt;/span&gt;url&lt;span style=&quot;color: #339933;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;http://www.saigonist.com/saigonist/untco/&#039;&lt;/span&gt; &lt;span style=&quot;color: #339933;&quot;&gt;+&lt;/span&gt; tco&lt;span style=&quot;color: #339933;&quot;&gt;,&lt;/span&gt; async&lt;span style=&quot;color: #339933;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #003366; font-weight: bold;&quot;&gt;false&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;,&lt;/span&gt; success&lt;span style=&quot;color: #339933;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #000066; font-weight: bold;&quot;&gt;function&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;data&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#123;&lt;/span&gt;
+                    tweet &lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; tweet.&lt;span style=&quot;color: #660066;&quot;&gt;replace&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;tcos&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;m&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;,&lt;/span&gt; data.&lt;span style=&quot;color: #660066;&quot;&gt;trim&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+                &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#125;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#125;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+            &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#125;&lt;/span&gt;
+        &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#125;&lt;/span&gt;
+&amp;nbsp;
+        tweet &lt;span style=&quot;color: #339933;&quot;&gt;=&lt;/span&gt; tweet.&lt;span style=&quot;color: #660066;&quot;&gt;replace&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #009966; font-style: italic;&quot;&gt;/(&amp;quot;&amp;quot;)/g&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;,&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;&amp;quot;&#039;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;.&lt;span style=&quot;color: #660066;&quot;&gt;replace&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #009966; font-style: italic;&quot;&gt;/(^|\s)@(\w+)/g&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;,&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;&lt;span style=&quot;color: #000099; font-weight: bold;&quot;&gt;\$&lt;/span&gt;1&amp;lt;a href=&amp;quot;https://twitter.com/&lt;span style=&quot;color: #000099; font-weight: bold;&quot;&gt;\$&lt;/span&gt;2&amp;quot; rel=&amp;quot;nofollow&amp;quot;&amp;gt;@&lt;span style=&quot;color: #000099; font-weight: bold;&quot;&gt;\$&lt;/span&gt;2&amp;lt;/a&amp;gt;&#039;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;.&lt;span style=&quot;color: #660066;&quot;&gt;replace&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #009966; font-style: italic;&quot;&gt;/(^|\s)#(\w+)/g&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;,&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;&lt;span style=&quot;color: #000099; font-weight: bold;&quot;&gt;\$&lt;/span&gt;1&amp;lt;a href=&amp;quot;https://twitter.com/#!/search/%23&lt;span style=&quot;color: #000099; font-weight: bold;&quot;&gt;\$&lt;/span&gt;2&amp;quot; rel=&amp;quot;nofollow&amp;quot;&amp;gt;&lt;span style=&quot;color: #000099; font-weight: bold;&quot;&gt;\$&lt;/span&gt;2&amp;lt;/a&amp;gt;&#039;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;
+        out &lt;span style=&quot;color: #339933;&quot;&gt;+=&lt;/span&gt; &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;d.&lt;span style=&quot;color: #660066;&quot;&gt;getMonth&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt; &lt;span style=&quot;color: #339933;&quot;&gt;+&lt;/span&gt; &lt;span style=&quot;color: #CC0000;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt; &lt;span style=&quot;color: #339933;&quot;&gt;+&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;/&#039;&lt;/span&gt; &lt;span style=&quot;color: #339933;&quot;&gt;+&lt;/span&gt; d.&lt;span style=&quot;color: #660066;&quot;&gt;getDate&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt; &lt;span style=&quot;color: #339933;&quot;&gt;+&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039; &#039;&lt;/span&gt; &lt;span style=&quot;color: #339933;&quot;&gt;+&lt;/span&gt; d.&lt;span style=&quot;color: #660066;&quot;&gt;getHours&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt; &lt;span style=&quot;color: #339933;&quot;&gt;+&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;:&#039;&lt;/span&gt; &lt;span style=&quot;color: #339933;&quot;&gt;+&lt;/span&gt; d.&lt;span style=&quot;color: #660066;&quot;&gt;getMinutes&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#40;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt; &lt;span style=&quot;color: #339933;&quot;&gt;+&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039; &#039;&lt;/span&gt; &lt;span style=&quot;color: #339933;&quot;&gt;+&lt;/span&gt; tweet &lt;span style=&quot;color: #339933;&quot;&gt;+&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039; &#039;&lt;/span&gt; &lt;span style=&quot;color: #339933;&quot;&gt;+&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;&amp;lt;a href=&amp;quot;http://twitter.com/&#039;&lt;/span&gt; &lt;span style=&quot;color: #339933;&quot;&gt;+&lt;/span&gt; t&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;&lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;Screen name&#039;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt; &lt;span style=&quot;color: #339933;&quot;&gt;+&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;/statuses/&#039;&lt;/span&gt; &lt;span style=&quot;color: #339933;&quot;&gt;+&lt;/span&gt; t&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#91;&lt;/span&gt;&lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;ID&#039;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#93;&lt;/span&gt; &lt;span style=&quot;color: #339933;&quot;&gt;+&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;&amp;quot; rel=&amp;quot;nofollow&amp;quot;&amp;gt;#&amp;lt;/a&amp;gt;&#039;&lt;/span&gt;&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#41;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+        out &lt;span style=&quot;color: #339933;&quot;&gt;+=&lt;/span&gt; &lt;span style=&quot;color: #3366CC;&quot;&gt;&#039;&lt;span style=&quot;color: #000099; font-weight: bold;&quot;&gt;\n&lt;/span&gt;&#039;&lt;/span&gt;&lt;span style=&quot;color: #339933;&quot;&gt;;&lt;/span&gt;
+    &lt;span style=&quot;color: #009900;&quot;&gt;&amp;#125;&lt;/span&gt;
+&lt;span style=&quot;color: #009900;&quot;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/archiving-twitter-blog-post#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/javascript">javascript</category>
+ <category domain="http://www.saigonist.com/category/tags/twitter">twitter</category>
+ <pubDate>Fri, 05 Oct 2012 03:30:38 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">495 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Twitter Decoder Ring</title>
+    <link>http://www.saigonist.com/b/twitter-decoder-ring</link>
+    <description>&lt;p&gt;My latest Chrome extension is a quick wrapper around a &quot;service&quot; (hoping the provider see it that way :) to compress English text and get around the 140 character bound on Twitter.&lt;/p&gt;
+&lt;p&gt;Twitter Decoder Ring: https://chrome.google.com/webstore/detail/idcnolgflhcckjdfpfbcehjocggffdjk&lt;/p&gt;
+&lt;p&gt;&lt;img width=&quot;400px&quot; src=&quot;http://www.saigonist.com/sites/saigonist.com/files/decoderringsmall.png&quot; /&gt;&lt;br /&gt;
+Twitter has a 140 character limit on tweets.  This can be annoying when you are writing something and end up just slightly over (seeing negative character counts).  So a lot of third party solutions have sprung up to allow one to tweet longer tweets by basically linking to a blog post.  For example, TweetDeck does this.  There is a way to compress some 140 words into 140 characters by 1) using the set of Chinese characters to represent bits and 2) compressing the English text into as few bits as possible.  &lt;/p&gt;
+&lt;p&gt;For example, the entire paragraph above compresses into this non-sensical Chinese character string: 顜善嬔巖嗴允曏不t唈吷呈 呌噑庠嗱鲷凸亥丂仨丶乇儓乓(劗揦允圫s囸 严懦倡侭鹔丘柺槐嫢忒爠t唈堺倱t唈婐丕珹埼円七哢蠧呕囫 自t唈吷讴鏞弣恟帺呙冑咭巖嗴佽哻巖0簝噯呝丕1哼测樖匡螎諑歘丂2哼檂鎗俫抆哻与亩歘挍叜&lt;/p&gt;
+&lt;p&gt;I have always thought it a bit unfair that Chinese Twitter users get to say a lot more in 140 characters than we English-speakers do, because each Chinese character essentially represents an idea and often a complete word, rather than just a sound in an alphabet (like the Latin, Arabic, Hebrew, or even Vietnamese alphabets).  On the other hand, Chinese Twitter users aren&#039;t allowed to access Twitter so I guess it&#039;s a draw.&lt;/p&gt;
+&lt;p&gt;A description of the project to compress English words into Chinese characters is found at: http://thevirtuosi.blogspot.com/2011/08/tweet-is-worth-at-least-140-words.html and a web frontend for the Python script that does the compression can be found at http://pages.physics.cornell.edu/~aalemi/twitter/&lt;/p&gt;
+&lt;p&gt;It&#039;s important to note that although the characters are real Chinese characters, the string that is created most likely isn&#039;t correct or meaningful Chinese when read by a Chinese person.&lt;/p&gt;
+&lt;p&gt;This extension uses the backend from the above blog post and provides a quick and dirty wrapper to encode English text as compressed Chinese characters.&lt;/p&gt;
+&lt;div class=&quot;field field-type-filefield field-field-blogattachments&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Attachments:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;div class=&quot;filefield-file clear-block&quot;&gt;&lt;div class=&quot;filefield-icon field-icon-image-png&quot;&gt;&lt;img class=&quot;field-icon-image-png&quot;  alt=&quot;image/png icon&quot; src=&quot;http://www.saigonist.com/sites/all/modules/3rdparty/filefield/icons/protocons/16x16/mimetypes/image-x-generic.png&quot; /&gt;&lt;/div&gt;&lt;a href=&quot;http://www.saigonist.com/sites/saigonist.com/files/decoderringsmall.png&quot; type=&quot;image/png; length=110017&quot;&gt;decoderringsmall.png&lt;/a&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+     <comments>http://www.saigonist.com/b/twitter-decoder-ring#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/chinese">chinese</category>
+ <category domain="http://www.saigonist.com/category/tags/chrome">chrome</category>
+ <category domain="http://www.saigonist.com/category/tags/compression">compression</category>
+ <category domain="http://www.saigonist.com/category/tags/extension">extension</category>
+ <category domain="http://www.saigonist.com/category/tags/twitter">twitter</category>
+ <pubDate>Sun, 04 Sep 2011 20:17:36 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">254 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Fix Seesmic Web Zombie Tweets</title>
+    <link>http://www.saigonist.com/b/fix-seesmic-web-zombie-tweets</link>
+    <description>&lt;p&gt;Seesmic Web has had a problem for as long as I&#039;ve used it.  I was hoping they would fix it on their own but as of the last update (which broke Seesmic Web for awhile) would take care of it.  The problem is that tweets or other posts just up and disappear while you&#039;re in the middle of reading them.  I use Seesmic to scan a days worth of tweets because of its compactness and automatic relatively responsive infinite scroll.  But you know there&#039;s a problem when all of your timeline from &quot;2 hours ago&quot; to &quot;14 hours ago&quot; is missing.&lt;/p&gt;
+&lt;p&gt;There. I fixed it.&lt;/p&gt;
+&lt;p&gt;Install Seesmic Zombie Fix for Chrome (and maybe other browsers)&lt;/p&gt;
+&lt;p&gt;The problem seems to be that Seesmic periodically culls tweets that it thinks shouldn&#039;t be shown, maybe because they&#039;re too old and there&#039;s not enough space (who knows?).  This Chrome-based userscript (it should work with FireFox using greasemonkey, and also natively in Opera) watches for the tweet-snatcher to do its reaping and then saves the zombie tweets before they end up in tweet-purgatory.  The &quot;saved&quot; tweets will then show up at the top of your timeline with a pink background on the &quot;ago&quot; time.&lt;/p&gt;
+&lt;p&gt;Caveats: the &quot;ago&quot; time will no longer be updated automatically, and other javascript-y actions on the tweets will no longer be linked up.  So the expand-contract on click no longer works.  I worked around this by expanding all undead tweets. But at least you will be able to read tweets from hours ago without having them &quot;rapture&quot; on you.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/b/fix-seesmic-web-zombie-tweets#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/chrome">chrome</category>
+ <category domain="http://www.saigonist.com/category/tags/seesmic">seesmic</category>
+ <category domain="http://www.saigonist.com/category/tags/tweet">tweet</category>
+ <category domain="http://www.saigonist.com/category/tags/twitter">twitter</category>
+ <category domain="http://www.saigonist.com/category/tags/userscripts">userscripts</category>
+ <pubDate>Sat, 27 Aug 2011 22:00:43 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">249 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Hatesquare for Seesmic and Hootsuite, Hootsuite Ad Blocker</title>
+    <link>http://www.saigonist.com/b/hatesquare-seesmic-and-hootsuite-hootsuite-ad-blocker</link>
+    <description>&lt;p&gt;Since I mostly use Hootsuite and Seesmic for reading my Twitter timeline (the other big reader, TweetDeck, won&#039;t connect to both Twitter and Facebook in either it&#039;s Chrome app or desktop versions), I&#039;ve updated &lt;a href=&quot;http://www.saigonist.com/h8sq&quot;&gt;h8sq: the 4sq killer&lt;/a&gt; to work on those clients.&lt;/p&gt;
+&lt;p&gt;This also includes performance enhancements for the Twitter.com version.&lt;/p&gt;
+&lt;p&gt;Furthermore, if you open your Chrome Developer JavaScript console, you will see log messages for each hated on FourSquare tweet like so:&lt;/p&gt;
+&lt;p&gt;&quot;hated on tomosaigon&quot;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;:)&lt;/p&gt;
+&lt;p&gt;Do you find Hootsuite&#039;s &quot;Promoted Tweets&quot; distracting? &amp;nbsp;I&#039;ve also hacked together an ad blocker for Hootsuite. &amp;nbsp;Rather, it should be called an ad blacker, as it blacks out the ad but still makes it clear who is spamming you, and you can still read the full ad by mousing over it.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.saigonist.com/sites/saigonist.com/files/h8sq.user.js&quot;&gt;Install h8sq for Chrome&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.saigonist.com/sites/saigonist.com/files/hootfree.user.js&quot;&gt;Install hootfree hootsuite ad blacker for Chrome&lt;/a&gt;&lt;/p&gt;</description>
+     <comments>http://www.saigonist.com/b/hatesquare-seesmic-and-hootsuite-hootsuite-ad-blocker#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/4sq">4sq</category>
+ <category domain="http://www.saigonist.com/category/tags/filter">filter</category>
+ <category domain="http://www.saigonist.com/category/tags/foursquare">foursquare</category>
+ <category domain="http://www.saigonist.com/category/tags/h8sq">h8sq</category>
+ <category domain="http://www.saigonist.com/category/tags/hootsuite">hootsuite</category>
+ <category domain="http://www.saigonist.com/category/tags/seesmic">seesmic</category>
+ <category domain="http://www.saigonist.com/category/tags/tweet">tweet</category>
+ <category domain="http://www.saigonist.com/category/tags/twitter">twitter</category>
+ <pubDate>Wed, 11 May 2011 05:21:26 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">102 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>h8sq: The 4sq Killer for Twitter</title>
+    <link>http://www.saigonist.com/h8sq</link>
+    <description>&lt;p&gt;Tired of Foursquare, Inc. spamming your Twitter?  Could you care less that someone goes somewhere so often they become its &quot;mayor&quot;?&lt;/p&gt;
+&lt;p&gt;Take back your Twitter feed with h8sq, a plugin/extension for the Google Chrome&lt;br /&gt;
+browser which will:&lt;/p&gt;
+&lt;p&gt;Remove annoying tweets like &quot;I&#039;m at McDonalds. http://4sq.com/stupid&lt;br /&gt;
+Remove annoying tweets like &quot;I just became the mayor of McDonalds! http://4sq.com/stupid&quot;&lt;br /&gt;
+Remove annoying tweets like &quot;I just unlocked the Douche badge! http://4sq.com/stupid&quot;&lt;br /&gt;
+Remove annoying tweets like &quot;I just ousted So-and-so ...&quot; (new)&lt;/p&gt;
+&lt;p&gt;It will leave alone tweets that have been personalized or merely mention 4sq.&lt;/p&gt;
+&lt;p&gt;If you run chrome just install the attached script, which should also work with Opera and with Firefox via Greasemonkey.&lt;/p&gt;
+&lt;p&gt;Install h8sq for Chrome (and maybe other browsers)&lt;/p&gt;
+&lt;p&gt;UPDATE: Now works on Twitter.com, Seesmic.com, and Hootsuite.com!&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/h8sq#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/4sq">4sq</category>
+ <category domain="http://www.saigonist.com/category/tags/chrome">chrome</category>
+ <category domain="http://www.saigonist.com/category/tags/foursquare">foursquare</category>
+ <category domain="http://www.saigonist.com/category/tags/twitter">twitter</category>
+ <category domain="http://www.saigonist.com/category/tags/userscripts">userscripts</category>
+ <pubDate>Sun, 10 Oct 2010 15:22:35 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">15 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

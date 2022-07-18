@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/26/all" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>geolocation</title>
+    <link>http://www.saigonist.com/taxonomy/term/26/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>4stalk: A Beneficial Location-Based Service</title>
+    <link>http://www.saigonist.com/4stalk</link>
+    <description>&lt;p&gt;Location-based services, FourSquare and its clones are everywhere.  China (where I guess 4sq is blocked anyways) has already produced a number of 4sq clones.  I know of at least two 4sq clones or location-based services operating in Vietnam (shout out to friends at go100).  And earlier this year Koprol, an Indonesian FourSquare-ish LBS was acquired by Yahoo.&lt;/p&gt;
+&lt;p&gt;But the number of stores and restaurants offering actual benefits to users repeatedly checking in... is less than the number of competing websites where you can check-in to them.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/4stalk#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/4sq">4sq</category>
+ <category domain="http://www.saigonist.com/category/tags/geolocation">geolocation</category>
+ <pubDate>Sat, 20 Nov 2010 08:05:49 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">19 at http://www.saigonist.com</guid>
+  </item>
+  <item>
+    <title>Future For Foursquare</title>
+    <link>http://www.saigonist.com/content/future-foursquare</link>
+    <description>&lt;p&gt;Foursquare is a way for people to advertise to advertisers, Twitter &quot;friends&quot;, and everyone else the fact that you&#039;re willing to be advertised to.  That is, you spam to be spammed.  It&#039;s basically awesome for marketers.&lt;/p&gt;
+</description>
+     <comments>http://www.saigonist.com/content/future-foursquare#comments</comments>
+ <category domain="http://www.saigonist.com/category/type/tech">Tech</category>
+ <category domain="http://www.saigonist.com/category/tags/4sq">4sq</category>
+ <category domain="http://www.saigonist.com/category/tags/facebook">facebook</category>
+ <category domain="http://www.saigonist.com/category/tags/foursquare">foursquare</category>
+ <category domain="http://www.saigonist.com/category/tags/geolocation">geolocation</category>
+ <pubDate>Sun, 14 Nov 2010 06:26:26 +0000</pubDate>
+ <dc:creator>tomo</dc:creator>
+ <guid isPermaLink="false">17 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>

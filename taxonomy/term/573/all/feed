@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.saigonist.com/taxonomy/term/573/all" xmlns:georss="http://www.georss.org/georss" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>An phu</title>
+    <link>http://www.saigonist.com/taxonomy/term/573/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>An Phu Swimming club</title>
+    <link>http://www.saigonist.com/directory/swimming-pool/phu-swimming-club</link>
+    <description>  &lt;h3 class=&quot;location-locations-header&quot;&gt;Location&lt;/h3&gt;
+  &lt;div class=&quot;location-locations-wrapper&quot;&gt;
+          &lt;div class=&quot;location vcard&quot;&gt;
+  &lt;div class=&quot;adr&quot;&gt;
+              &lt;div class=&quot;street-address&quot;&gt;
+                          &lt;span class=&quot;additional&quot;&gt;
+             345B Thao Dien Ward - District 2           &lt;/span&gt;
+              &lt;/div&gt;
+                          &lt;div class=&quot;country-name&quot;&gt;Vietnam&lt;/div&gt;
+                                      &lt;/div&gt;
+  &lt;/div&gt;
+      &lt;/div&gt;
+</description>
+     <comments>http://www.saigonist.com/directory/swimming-pool/phu-swimming-club#comments</comments>
+ <category domain="http://www.saigonist.com/category/location-tag/phu">An phu</category>
+ <category domain="http://www.saigonist.com/category/location-tag/district-2">District 2</category>
+ <category domain="http://www.saigonist.com/category/location-tag/swimming-pool">Swimming pool</category>
+ <category domain="http://www.saigonist.com/taxonomy/term/484">Swimming Pools</category>
+ <georss:point>10.803364 106.756053</georss:point>
+ <pubDate>Mon, 24 Mar 2014 07:13:27 +0000</pubDate>
+ <dc:creator>HạnhHoaT</dc:creator>
+ <guid isPermaLink="false">6035 at http://www.saigonist.com</guid>
+  </item>
+  </channel>
+</rss>
